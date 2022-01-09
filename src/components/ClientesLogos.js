@@ -1,0 +1,32 @@
+import React from 'react';
+
+import PictureWebp from './PictureWebp';
+
+
+import PageData from '../data/clientes-logos-data';
+
+const ClientesLogos = ({className}) => (
+<section className={`bg-indigo-200 bg-opacity-25 ${ className } `}>
+  <div className="container mx-auto sm:flex ">
+    <div className=" w-full sm:flex-1 ">
+      <h2 className=" pl-5 mx-auto text-3xl font-bold text-primary text-center sm:text-left mb-0 p-px pt-10 ">
+        Empresas líderes en cada industria confían en nosotros
+      </h2>
+   </div>
+    <div className="w-full sm:flex-1 ">
+     <div className="grid grid-cols-4 gap-4 pt-10 pb-10 pl-10 pr-10">
+          {PageData.map(logo => (
+           <div key={logo.filename} className=" flex flex-grow flex-shrink justify-center ">
+              <PictureWebp filename={logo.filename} description={logo.description} className=""/>
+            </div>
+
+
+          ))}
+         </div>
+
+    </div>
+  </div>
+</section>
+);
+
+export default ClientesLogos;
