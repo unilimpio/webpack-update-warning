@@ -106,7 +106,7 @@ export default function Named ({location}) {
           </p>
           </div>
             <div className="text-right sm:col-span-2">
-              <button type="submit" className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-primary hover:bg-primary-lighter focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+              <button type="submit" className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-primary-lighter hover:bg-primary-lighter focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
                 Enviar
               </button>
             </div>
@@ -272,7 +272,7 @@ export default function Named ({location}) {
         <h2 className="text-2xl font-extrabold text-primary sm:text-3xl">
           Distribuidores Zonales Autorizados
         </h2>
-        <h3>Ampliamos nuestra cobertura y flexibilidad gracias a nuestra extensa red de Distribuidores Autorizados de productos de limpieza en Quito, Guayaquil, Cuenca y a nivel nacional.</h3>
+        <h3 className="text-gray-600">Ampliamos nuestra cobertura y flexibilidad gracias a nuestra extensa red de Distribuidores Autorizados de productos de limpieza en Quito, Guayaquil, Cuenca y a nivel nacional.</h3>
 
         <div className="mt-8 grid grid-cols-1 gap-12 sm:grid-cols-2 sm:gap-x-8 sm:gap-y-12 lg:mt-0 lg:col-span-2">
           <div className="sm:col-span-2">
@@ -286,7 +286,7 @@ export default function Named ({location}) {
               <h3 className="text-lg leading-6 font-medium text-gray-900">
               {dz.zona}
               </h3>
-              <h4>{dz.name}</h4>
+              <h4 className="mt-2 text-base text-primary-default">{dz.name}</h4>
               <div className="mt-2 text-base text-gray-700">
                 <p>
                   {dz.contacto}
