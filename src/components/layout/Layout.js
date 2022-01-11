@@ -19,7 +19,7 @@ const Layout = ({location, crumbLabel, title, desc, banner, pathname, article, a
       <Header title={title} desc={desc} banner={banner} pathname={pathname} article={article} articleDate={articleDate} product={product} category={category} categorySlug={categorySlug} productSku={productSku} productGtin13={productGtin13} offerPrice={offerPrice} brandName={brandName} brandLogo={brandLogo} />
         <main>
         <Breadcrumb location={location} crumbLabel={crumbLabel} crumbSeparator=">" />
-        <WhastappBubble contactNum="593999381059" />
+        <WhastappBubble contactNum="593997345385" />
         <Scroll showPoint={800} />
           {children}
         </main>

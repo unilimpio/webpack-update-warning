@@ -33,11 +33,11 @@ h4{
 @tailwind components;
 
 .breadcrumb {
-    
+
   }
 
 .breadcrumb__list {
-    @apply flex flex-wrap items-start ml-4;
+    @apply flex flex-wrap items-start ml-4 list-none;
 }
 .breadcrumb__list__item {
 

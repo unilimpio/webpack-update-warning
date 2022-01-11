@@ -14,6 +14,7 @@ module.exports = {
         // crumbLabel: required label for the default crumb
         crumbLabel: "Inicio",
         // all other properties optional
+        crumbSeparator: ">",
 
       },
     },

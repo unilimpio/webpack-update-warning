@@ -19,7 +19,7 @@ const NavItem = styled(Link)`
     left: 0;
     right: 0;
     width: 0%;
-    content: ".";
+    content: "";
     color: transparent;
     background: #075985;
     height: 1px;
