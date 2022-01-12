@@ -62,10 +62,17 @@ module.exports = {
         // purgeOnly : ['components/', '/main.css', 'bootstrap/'], // Purge only these files/folders
         purgeCSSOptions: {
           // https://purgecss.com/configuration.html#options
-        safelist: ['breadcrumb','breadcrumb__list','breadcrumb__list__item','breadcrumb__link','breadcrumb__separator'], // Don't remove this selector
+          safelist: [
+            'breadcrumb',
+            'breadcrumb__list',
+            'breadcrumb__list__item',
+            'breadcrumb__link',
+            'breadcrumb__separator',
+            'ol',
+          ], // Don't remove this selector
         },
-      }
-    },
+       }
+     },
 
     {
       resolve: `gatsby-plugin-sitemap`,

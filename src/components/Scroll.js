@@ -44,7 +44,7 @@ const toggleVisibility = () => {
         {isVisible &&
           <div role="button" tabIndex="0" onClick={handleClick} onKeyPress={handleKeyPress}
                   className=
-    "w-auto rounded-full shadow-md hover:bg-zinc-300 hover:text-blue-500 bg-primary-default text-white py-2 px-2 cursor-pointer"
+    "w-auto rounded-full shadow-md text-white py-2 px-2 cursor-pointer bg-gradient-to-br from-primary-lighter to-primary-darker hover:bg-gradient-to-tl"
 
                   aria-label="to top">
 

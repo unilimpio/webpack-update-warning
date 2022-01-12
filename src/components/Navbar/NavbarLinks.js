@@ -53,7 +53,7 @@ const NavbarLinks = () => {
       <NavItem to="/blog" className="hover:no-underline">Blog</NavItem>
 
       <Link to="/contact#leadform">
-        <Button className="animate-pulse text-white rounded-md transition duration-300 ease-in-out bg-primary-lighter shadow-md hover:bg-primary-xlighter hover:shadow-lg transform hover:-translate-y-1 hover:scale-105 focus:outline-none" size="sm" >Comuníquese con un asesor</Button>
+        <Button className="text-white rounded-md transition duration-300 ease-in-out bg-primary-lighter shadow-md hover:bg-primary-xlighter hover:shadow-lg transform hover:-translate-y-1 hover:scale-105 focus:outline-none" size="sm" >Comuníquese con un asesor</Button>
       </Link>
 
     </>
