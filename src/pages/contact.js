@@ -153,7 +153,7 @@ export default function Named ({location}) {
         </h3>
         <div className="mt-3">
           <p className="text-lg text-gray-700 mb-10">
-          Si necesita asistencia por favor visite nuestro <Link to="/centro-de-ayuda">Centro de Ayuda</Link>.
+          Si necesita asistencia por favor visite nuestro <Link to="/centro-de-ayuda" className="text-green-400 hover:underline">Centro de Ayuda</Link>.
           </p>
         </div>
         <div className="mt-9">
