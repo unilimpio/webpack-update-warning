@@ -53,11 +53,11 @@ ol.breadcrumb__list {
 }
 
 .breadcrumb__link {
-  @apply text-xs md:text-sm font-light text-gray-400 hover:text-gray-300;
+  @apply text-xs md:text-sm font-light text-gray-700 hover:text-gray-500;
 }
 
 .breadcrumb__separator {
-  @apply shrink-0 h-4 w-4 text-sm font-light text-gray-300 pl-2;
+  @apply shrink-0 h-4 w-4 text-sm font-light text-gray-700 pl-2;
 }
 
 @tailwind utilities;
