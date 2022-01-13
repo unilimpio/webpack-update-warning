@@ -1,5 +1,5 @@
 ---
-path: "/productos/quimicos/alcohol-antiseptico"
+path: "/productos/quimicos/alcohol-multipropositos"
 category: "Químicos"
 categorySlug: "quimicos"
 title:  "Alcohol Multipropósitos Ozz"
