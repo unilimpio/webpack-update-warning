@@ -1,5 +1,5 @@
 ---
-path: "/productos/quimicos/amonio-cuaternario"
+path: "/productos/quimicos/amonio-cuaternario-de-quinta-generacion-ozz"
 category: "Químicos"
 categorySlug: "quimicos"
 title:  "OZZ Desinfectante y sanitizante de superficies profesional"

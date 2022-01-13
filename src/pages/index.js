@@ -33,17 +33,19 @@ const IndexPage = ({ location }) => (
           <div className="">
 
             <div className="bg-white bg-opacity-50 text-center pt-12 p-8 md:text-left md:w-2/5 md:pr-12">
-              <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
+              <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none text-center">
               Mucho más en higiene Institucional
               </h1>
-              <p className="text-lg lg:text-xl mt-6 font-normal text-gray-500">
+              <p className="text-lg lg:text-xl mt-6 font-normal text-justify text-gray-500">
                 Somos su aliado en higiene institucional, con nosotros podrá mejorar la satisfacción de sus usuarios, clientes y colaboradores a través de soluciones adecuadas de higiene.
               </p>
-              <p className="mt-8 md:mt-12 mb-20">
+              <div className="flex flex-wrap mx-auto justify-center mt-8 md:mt-12 mb-20">
+              
               <Link to="/soluciones">
-                <Button className="bg-primary-default text-white hover:bg-primary-lighter rounded-lg focus:outline-none" size="lg">Soluciones para su negocio</Button>
+                <Button className=" bg-primary-default text-white hover:bg-primary-lighter rounded-lg active:bg-primary-darker focus:outline-none" size="lg">Soluciones para su negocio</Button>
               </Link>
-              </p>
+              </div>
+             
               <p className="mt-4 text-gray-600"></p>
             </div>
           </div>
@@ -51,7 +53,7 @@ const IndexPage = ({ location }) => (
       </div>
 </section>
 
-<section id="features" className="py-10 md:py-20 bg-gradient-to-br from-neutral-300 via-white to-neutral-300">
+<section id="features" className="py-10 md:py-20 bg-gradient-to-br from-gray-200 via-white to-gray-200 ">
       <div className="container mx-auto">
         <div className="w-full bg-fill bg-no-repeat bg-products">
           <h2 className="text-4xl font-semibold text-center text-primary-normal">Nuestra propuesta de valor</h2>
@@ -74,7 +76,7 @@ const IndexPage = ({ location }) => (
       </div>
 </section>
 
-<section id="productos" className="pt-20">
+<section id="productos" className="pt-20 mb-20  ">
   <div className="container mx-auto bg-white bg-opacity-50">
     <h2 className="text-center sm:text-3xl text-2xl font-medium title-font mt-3 mb-10 pr-8 pl-8">Un portafolio completo y especializado de productos de limpieza</h2>
     <SplitSection
@@ -84,46 +86,67 @@ const IndexPage = ({ location }) => (
           Fabricamos y comercializamos productos líderes del mercado, reconocidos por su calidad, innovación, y excelente costo en uso.
           Adaptamos nuestra oferta de productos a las necesidades específicas de cada cliente, a través de un asesoramiento profesional, seguimiento y entrenamiento permanentes.
           </p>
-          <Link to="/productos" className="mt-4 text-blue-500 inline-flex items-center pl-10 ">Conocer más
-          <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-            <path d="M5 12h14M12 5l7 7-7 7"></path>
-          </svg>
-        </Link>
+          <Link to="/productos">
+        <Button className="flex mx-auto mt-16 text-white bg-primary-lighter border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">Descubra nuestros productos  </Button>
+      </Link>
   </div>
+  
 
         }
         secondarySlot={
           <PictureWebp className="float-right" path="" filename="productos" description="Productos de limpieza"/>
         }/>
 
-    <div className="w-full mx-auto mb-20">
-      <Link to="/productos">
-        <Button className="flex mx-auto mt-16 text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">Descubra nuestros productos  </Button>
-      </Link>
-    </div>
   </div>
 </section>
 
+
+<SplitSection id="rse"
+      reverseOrder className="bg-gradient-to-br from-primary-default via-white to-primary-default  py-4 my-20"
+      primarySlot={
+        <div className="pl-8 pr-6 pt-8 pb-6 bg-white bg-opacity-50 rounded-lg ">
+          <h2 className="mt-2  text-3xl  sm:text-4xl  text-center text-2xl font-semibold leading-tight ">
+           Marca Blanca 
+          </h2>
+          <p className="mt-3 text-lg text-gray-700 text-center">
+          Fabricamos productos de la más alta calidad con su marca. 
+          </p>
+          <div className="flex flex-wrap mx-auto justify-center">  
+           <Link to="/contactenos" className="mt-4 text-primary-lighter inline-flex items-center text-lg">Más información
+            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </Link>
+      </div>
+        </div>
+      }
+      secondarySlot={<PictureWebp className="" filename="marca-blanca" description="realizamos linea blanca"/>}
+/>
+
+
+
 <SplitSection id="services"
-       className="bg-gradient-to-br from-gray-300 via-white to-blue-300 mb-10"
+       className="bg-gradient-to-br from-blue-200 via-white to-blue-200 mb-0 py-4 my-20 "
       primarySlot={
         <div className="bg-white bg-opacity-50 rounded-lg   px-6 pt-8 pb-6 ml-25">
           <h3 className="text-3xl font-semibold leading-tight mb-10 text-center">Servicios de limpieza y desinfección Especializados</h3>
           <p className="mt-8 text-xl font-light leading-relaxed text-justify">
             Brindamos servicios especializados para ayudarle a resolver hasta sus necesidades más complejas en higiene institucional, todo esto con un solo proveedor.
           </p>
-          <Link to="/servicios" className="mt-4 text-blue-500 inline-flex items-center">Conocer más
+          <div className="flex flex-wrap mx-auto justify-center">
+          <Link to="/servicios" className="mt-4 text-primary-lighter inline-flex items-center text-lg">Conocer más
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </Link>
+        </div>
         </div>
       }
       secondarySlot={<PictureWebp className="" filename="servicio-cazabacterias" description="Técnicos cazabacterias realizando una desinfección profunda de lugares con aglomeración de personas y poca ventilación natural y exposición a la luz solar, como medida de prevención de la transmisión indirecta del COVID-19."/>}
 />
 
 <SplitSection id="rse"
-      reverseOrder className="bg-gradient-to-r from-green-300 via-white to-gray-200"
+      reverseOrder className="bg-gradient-to-r from-green-200 via-white to-green-100 py-4 my-20 mt-4"
       primarySlot={
         <div className="pl-8 pr-6 pt-8 pb-6 bg-white bg-opacity-50 rounded-lg">
           <h3 className="text-3xl font-semibold leading-tight text-center">
@@ -132,19 +155,21 @@ const IndexPage = ({ location }) => (
           <p className="mt-8 text-xl font-light leading-relaxed text-justify">
           Somos una empresa responsable, transparente y solidaria. Nuestra empresa ha sido reconocida a nivel local por su gestión en responsabilidad social empresarial. Formamos parte del UN Global Compact y nos adherimos al Global Reporting Initiative.
           </p>
-          <Link to="/responsabilidad-social" className="mt-4 text-blue-500 inline-flex items-center">Conocer más
+          <div className="flex flex-wrap mx-auto justify-center">
+          <Link to="/responsabilidad-social" className="mt-4 text-primary-lighter inline-flex items-center text-lg">Conocer más
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </Link>
         </div>
+        </div>
       }
       secondarySlot={<PictureWebp className="" filename="responsabilidad-social-banner" description="Unilimpio es una empresa con responsabilidad social empresarial"/>}
 />
 
-<LogoDump className="mt-20"/>
+<LogoDump className="mt-20 "/>
 
-<Testimonials className="mt-20 mb-20"/>
+<Testimonials className="mt-20 mb-20 "/>
 
 
 <LeadForm/>

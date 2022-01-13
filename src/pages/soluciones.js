@@ -25,7 +25,7 @@ const Soluciones = ({location}) => (
 
 
 
-  <Layout location={location} crumbLabel="Soluciones"
+  <Layout location={location} crumbLabel="Soluciones por Sector"
   title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
 
     <PictureWebp className="object-contain" filename="segmentos" description="soluciones por industria"/>
@@ -49,12 +49,17 @@ const Soluciones = ({location}) => (
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
         </svg>
         <div className="ml-3">
-          <dt className="text-2xl leading-6 font-medium  text-center text-blue-500 mb-6">
+          <dt className="text-2xl leading-6 font-medium  text-center text-primary-lighter mb-6">
             Alto Tráfico
           </dt>
           <dd className="mt-2 text-base text-gray-700 text-justify">
           Soluciones óptimas para mantener espacios de uso público totalmente desinfectados y sanitizados. Nuestros productos son altamente concentrados, lo que genera un gran rendimiento y un bajo costo en uso.  Por último, entrenamos y capacitamos al personal de limpieza en el manejo adecuado de soluciones químicas para evitar el desperdicio.
           </dd>
+          <Link to="/soluciones/alto-trafico" className="mt-4 text-primary-lighter inline-flex items-center pl-10 ">Conocer más
+          <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </Link>
         </div>
       </div>
 
@@ -64,12 +69,17 @@ const Soluciones = ({location}) => (
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
         </svg>
         <div className="ml-3">
-          <dt className="text-2xl leading-6 font-medium text-blue-500 text-center mb-6">
+          <dt className="text-2xl leading-6 font-medium text-primary-lighter text-center mb-6">
             Industria Alimenticia
           </dt>
           <dd className="mt-2 text-base text-gray-700 text-justify">
             Productos con certificación, cuentan con notificación/registro sanitario, y cumplen con especificaciones nacionales e internacionales. Nuestros productos químicos son altamente concentrados, lo que genera un gran rendimiento y un bajo costo en uso. Usados con dosificadores, se garantiza y controla el rendimiento de nuestras soluciones químicas. Capacitamos al personal de limpieza para evitar el desperdicio de producto.
           </dd>
+          <Link to="/soluciones/industria-alimenticia" className="mt-4 text-primary-lighter inline-flex items-center pl-10 ">Conocer más
+          <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </Link>
         </div>
       </div>
 
@@ -79,13 +89,17 @@ const Soluciones = ({location}) => (
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
         </svg>
         <div className="ml-3">
-          <dt className="text-2xl leading-6 font-medium text-blue-500 text-center mb-6">
+          <dt className="text-2xl leading-6 font-medium text-primary-lighter text-center mb-6">
             Educación
           </dt>
           <dd className="mt-2 text-base text-gray-700 text-justify">
           Las más altas medidas de seguridad para el estudiante y el cuerpo docente con espacios educativos libres de virus y bacterias. Contamos con un amplio portafolio de productos de limpieza e higiene de manos para satisfacer sus necesidades.
-
           </dd>
+          <Link to="/soluciones/educacion" className="mt-4 text-primary-lighter inline-flex items-center pl-10 ">Conocer más
+          <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </Link>
         </div>
       </div>
 
@@ -95,12 +109,17 @@ const Soluciones = ({location}) => (
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7" />
         </svg>
         <div className="ml-3">
-          <dt className="text-2xl leading-6 font-medium text-blue-500 text-center mb-6">
+          <dt className="text-2xl leading-6 font-medium text-primary-lighter text-center mb-6">
             Servicios de Limpieza
           </dt>
           <dd className="mt-2 text-base text-gray-700 text-justify">
           Todos nuestros productos cumplen con los requisitos de calidad y seguridad. Son productos concentrados desarrollados con un enfoque de máximo rendimiento para la reducción de costo y mayor durabilidad. Son productos biodegradables.
           </dd>
+          <Link to="/soluciones/servicios-de-limpieza" className="mt-4 text-primary-lighter inline-flex items-center pl-10 ">Conocer más
+          <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </Link>
         </div>
       </div>
     </dl>
@@ -111,7 +130,7 @@ const Soluciones = ({location}) => (
 
 <div className="w-full mx-auto mb-10 mt-8">
       <Link to="/productos">
-        <Button className="flex mx-auto mt-16 text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">Descubra nuestros productos  </Button>
+        <Button className="flex mx-auto mt-16 text-white bg-primary-lighter border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">Descubra nuestros productos  </Button>
       </Link>
     </div>
 

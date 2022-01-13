@@ -10,16 +10,16 @@ slug:  "jabon-sistema-cerrado"
 
 
 ---
-Jabón Líquido Antibacterial Dr. Clean® remueve suavemente la suciedad de las manos. Enriquecido con glicerina que protege las manos de la resequedad por el lavado frecuente. Su ingrediente antimicrobiano de última generación elimina el 99,9% de gérmenes causantes de enfermedades en 30 seg. Expertos médicos a nivel mundial recomiendan el lavado frecuente de las manos como el método más efectivo para prevenir el contagio de enfermedades causadas por microrganismos patógenos, incluyendo virus envueltos como el SARS-CoV2.
+Jabón Líquido Antibacterial en sachet para dispensador Dr. Clean® remueve suavemente la suciedad de las manos. Enriquecido con glicerina que protege las manos de la resequedad por el lavado frecuente. Su ingrediente antimicrobiano de última generación elimina el 99,9% de gérmenes causantes de enfermedades en 30 seg. Expertos médicos a nivel mundial recomiendan el lavado frecuente de las manos como el método más efectivo para prevenir el contagio de enfermedades causadas por microrganismos patógenos, incluyendo virus envueltos como el SARS-CoV2.
 
 <br>
 <table class="min-w-full md:min-w-0 divide-y-0 divide-gray-200">
           <thead class=" bg-white">
             <tr>
-              <th scope="col" class="px-6 text-center text-xs font-medium text-blue-500 uppercase tracking-wider">
+              <th scope="col" class="px-6 text-center text-xs font-medium text-primary-lighter uppercase tracking-wider">
                 Presentación
               </th>
-              <th scope="col" class="px-6 py-3 text-center text-xs font-medium text-blue-500 uppercase tracking-wider">
+              <th scope="col" class="px-6 py-3 text-center text-xs font-medium text-primary-lighter uppercase tracking-wider">
                 Códigos
               </th>
             </tr>

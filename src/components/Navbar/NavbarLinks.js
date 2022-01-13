@@ -49,10 +49,10 @@ const NavbarLinks = () => {
       </Link>
       <NavItem to="/soluciones" className="hover:no-underline">Soluciones</NavItem>
       <NavItem to="/servicios" className="hover:no-underline">Servicios</NavItem>
-      <NavItem to="/contact" className="hover:no-underline">Contáctenos</NavItem>
+      <NavItem to="/contactenos" className="hover:no-underline">Contáctenos</NavItem>
       <NavItem to="/blog" className="hover:no-underline">Blog</NavItem>
 
-      <Link to="/contact#leadform">
+      <Link to="/contactenos#leadform">
         <Button className="text-white rounded-md transition duration-300 ease-in-out bg-primary-lighter shadow-md hover:bg-primary-xlighter hover:shadow-lg transform hover:-translate-y-1 hover:scale-105 focus:outline-none" size="sm" >Comuníquese con un asesor</Button>
       </Link>
 

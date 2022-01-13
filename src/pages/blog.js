@@ -32,7 +32,7 @@ export default function Blog ({location, data}) {
             <h1 className="text-6xl text-center font-semibold mb-0">
               Blog
             </h1>
-            <p className=" font-normal text-lg text-gray-900 text-md text-center px-6 py-4 ">¡Bienvenid@ a nuestro Blog! <br/>  Actualmente contamos con <span className="text-primary-lighter font-medium  text-md text-xl">{data.allMarkdownRemark.totalCount}</span> publicaciones. Subimos consejos y tips relacionados al tema <br/> de la limpieza, y noticias importantes sobre la gestión de Unilimpio.  </p> <p className=" font-medium text-lg text-primary text-md text-center px-4 py-2 pb-16 mb-10 ">¡VISÍTANOS CONSTANTEMENTE!
+            <p className=" font-normal text-lg text-gray-900 text-md text-center px-6 py-4 ">¡Bienvenid@ a nuestro Blog! <br/>  Actualmente contamos con <span className="text-primary-lighter font-medium  text-md text-xl">{data.allMarkdownRemark.totalCount}</span> publicaciones. Subimos consejos y tips relacionados al tema <br/> de la limpieza, y noticias importantes sobre la gestión de Unilimpio.  </p> <p className=" font-medium text-lg text-primary-default text-md text-center px-4 py-2 pb-16 mb-10 ">¡VISÍTANOS CONSTANTEMENTE!
             </p>
           </div>
         </div>

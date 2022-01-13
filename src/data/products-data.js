@@ -32,6 +32,16 @@ const databits = [
     path: '/productos/higiene-de-manos'
   },
   {
+    title: 'Lavandería',
+    content:
+      'Detergentes y suavizantes desarrollados con fórmulas biodegradables y sin fosfato ideal para el lavado y cuidado textil de uso doméstico, institucional e industrial. 	',
+     
+    productName: 'detergente líquido, detergente en polvo, suavizante de ropa',
+   
+    productImage: '',
+    path: '/productos/lavanderia'
+  },
+  {
     title: 'Dispensadores',
     content:
       'Equipos para dispensar papel higiénico, jabón, toallas de manos resistentes y elegantes. Ideales para establecimientos de alto tráfico.  ',
@@ -43,15 +53,15 @@ const databits = [
   }, 
   
   {
-    title: 'Lavandería',
+    title: 'Secadores de Manos',
     content:
-      'Detergentes y suavizantes desarrollados con fórmulas biodegradables y sin fosfato ideal para el lavado y cuidado textil de uso doméstico, institucional e industrial. 	',
+      'Secadores rápidos de manos para evitar el contacto con otras superficies entre el lavado y secado, logrando así una adecuada higiene de manos. Ideales para establecimientos de alto tráfico.  ',
      
-    productName: 'detergente líquido, detergente en polvo, suavizante de ropa',
-   
+      productName: 'secadores de manos',
+    
     productImage: '',
-    path: '/productos/lavanderia'
-  },
+    path: '/productos/secadores-de-manos'
+  }, 
   {
     title: 'Línea Profesional',
     content:
