@@ -44,7 +44,7 @@ const Footer = () => (
         <h4 className="font-bold tracking-widest text-sm mb-3">SERVICIO AL CLIENTE</h4>
         <nav className="list-none mb-10">
           <li>
-            <Link to="/contact#distaut" className="text-white hover:text-gray-400">Distribuidores autorizados</Link>
+            <Link to="/contactenos#distribuidores" className="text-white hover:text-gray-400">Distribuidores autorizados</Link>
           </li>
           <li>
             <a href="https://unilimpio.app/ecommerce" target="_blank"  rel="noreferrer" className="text-white hover:text-gray-400">Portal B2B</a>
@@ -72,19 +72,31 @@ const Footer = () => (
               <Link to="/productos/quimicos" className="text-white hover:text-gray-400">Productos Químicos</Link>
             </li>
             <li>
-              <Link to="/productos/quimicos/amonio-cuaternario" className="text-white hover:text-gray-400"> Amonio cuaternario</Link>
+              <Link to="/productos/quimicos/alcohol-multipropositos" className="text-white hover:text-gray-400"> Alcohol Multipropósitos</Link>
             </li>
             <li>
-            <Link to="/productos/higiene-de-manos" className="text-white hover:text-gray-400">Jabón Líquido de manos</Link>
+              <Link to="/productos/quimicos/amonio-cuaternario-de-quinta-generacion-ozz" className="text-white hover:text-gray-400"> Amonio cuaternario</Link>
             </li>
             <li>
-            <Link to="/productos/higiene-de-manos" className="text-white hover:text-gray-400">Gel Antibacterial</Link>
+            <Link to="/productos/higiene-de-manos/jabon-liquido-para-relleno" className="text-white hover:text-gray-400">Jabón Líquido de manos</Link>
             </li>
             <li>
-              <Link to="/productos/quimicos/cloro-liquido-ozz" className="text-white hover:text-gray-400">Cloro</Link>
+            <Link to="/productos/higiene-de-manos/gel-antibacterial-con-valvula" className="text-white hover:text-gray-400">Gel Antibacterial</Link>
+            </li>
+            <li>
+            <Link to="/productos/higiene-de-manos/gel-antibacterial-para-relleno" className="text-white hover:text-gray-400">Alcohol en gel para Manos</Link>
+            </li>
+            <li>
+            <Link to="/productos/higiene-de-manos/alcohol-antimicrobiano" className="text-white hover:text-gray-400">Alcohol Antimicrobiano</Link>
+            </li>
+            <li>
+              <Link to="/productos/lavanderia/detergente-liquido-enzimatico" className="text-white hover:text-gray-400">Detergente Enzimático</Link>
             </li>
             <li>
             <Link to="/productos/dispensadores" className="text-white hover:text-gray-400">Dispensadores</Link>
+            </li>
+            <li>
+            <Link to="/productos/absorbentes/toalla-z-interfoliada-bio" className="text-white hover:text-gray-400">Toalla de manos en Z</Link>
             </li>
           </nav>
 
@@ -128,7 +140,7 @@ const Footer = () => (
 
 
       </p>
-      <span className="flex pl-4 text-gray-500 text-sm text-center sm:text-left">
+      <span className="flex pl-4 text-gray-100 text-sm text-center sm:text-left">
         <Link className="flex-col sm:flex-row" to="/legal/terminos-y-condiciones">Términos y condiciones de uso</Link>
           &nbsp;&nbsp;|&nbsp;&nbsp;
         <Link className="flex-col sm:flex-row" to="/legal/privacy-policy">Política de privacidad</Link>

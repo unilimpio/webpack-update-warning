@@ -10,11 +10,18 @@ import NewsletterSub from '../components/NewsletterSub';
 import WhatsappIcon from '../svg/WhatsappIcon';
 
 
+const seo={
+  title: "Centro de Ayuda",
+  desc:  "Si usted es cliente de Unilimpio y necesita ayuda por favor contacte nuestro call center, nuestros asesores estarán gustosos de brindarle asistencia. También le invitamos a consultar la sección de Preguntas Frecuentes debajo, puede que la respuesta que necesita se encuentre ahí.",
+  image: "",
+  pathname: "/centro-de-ayuda", 
+}
 
 export default function Named  ({location}) {
 
   return(
-    <Layout location={location} crumbLabel="Centro de Ayuda">
+    <Layout location={location} crumbLabel="Centro de Ayuda"
+      title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
 
 
 
@@ -39,7 +46,7 @@ export default function Named  ({location}) {
 
       <div id="call-center" className="py-16 px-8 lg:grid lg:grid-cols-3 lg:gap-8">
         <span>
-        <h2 className="text-2xl font-extrabold text-primary sm:text-3xl">
+        <h2 className="text-2xl font-extrabold text-primary-default sm:text-3xl">
           Call Center
         </h2>
         <p className="">

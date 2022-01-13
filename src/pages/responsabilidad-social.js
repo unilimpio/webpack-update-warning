@@ -14,7 +14,8 @@ import NewsletterSub from '../components/NewsletterSub';
 import InformeGri2018 from "../files/informe-gri-unilimpio-2018.pdf";
 import InformeCOP2018 from "../files/informe-cop-unilimpio-2018.pdf";
 import InformeCOP2019 from "../files/informe-cop-unilimpio-2019.pdf";
-
+import InformeCOP2020 from "../files/informe-cop-unilimpio-2020.pdf";
+import InformeCOP2021 from "../files/informe-cop-unilimpio-2021.pdf";
 
 const seo={
   title: "Responsabilidad Social ",
@@ -59,7 +60,7 @@ const seo={
       reverseOrder className="bg-gradient-to-r from-green-100 via-white to-green-200 mt-12 "
       primarySlot={
         <div className="bg-white bg-opacity-50 rounded-lg   px-6 pt-8 pb-6 ml-25">
-          <h2 className="text-3xl text-center font-semibold leading-tight text-blue-500  ml-30">
+          <h2 className="text-3xl text-center font-semibold leading-tight text-primary-lighter  ml-30">
           La Sustentabilidad como factor de éxito
           </h2>
           <p className="mt-8 text-base font-normal text-justify leading-relaxed ">
@@ -76,7 +77,7 @@ const seo={
 
       primarySlot={
         <div className="bg-white bg-opacity-50 rounded-lg   px-6 pt-8 pb-6 ml-25 ">
-          <h2 className="text-3xl text-center font-semibold leading-tight text-blue-500  ml-30">Compromiso de lucha contra la corrupción</h2>
+          <h2 className="text-3xl text-center font-semibold leading-tight text-primary-lighter  ml-30">Compromiso de lucha contra la corrupción</h2>
           <p className="mt-8 text-base font-normal text-justify leading-relaxed ">
           Unilimpio ha declarado y formalizado su compromiso de luchar contra la corrupción en cada uno de los encadenamientos productivos a los que pertenecemos. Contribuimos con la sociedad y el desarrollo económico haciendo negocios de forma ética y transparente, sin ceder ante solicitud de coimas para ganar licitaciones o contratos. Así mismo pertenecemos a una alianza de empresas, tanto de Ecuador como de la región, entre las cuales compartimos el mismo llamado a la acción y el mismo código moral.
           </p>
@@ -94,7 +95,7 @@ const seo={
       reverseOrder className="bg-gradient-to-r from-green-100 via-white to-green-200 mt-12"
       primarySlot={
         <div className="bg-white bg-opacity-50 rounded-lg px-6 pt-8 pb-6 ml-25 mb-4">
-          <h2 className="text-3xl text-center font-semibold leading-tight text-blue-500  ml-30">
+          <h2 className="text-3xl text-center font-semibold leading-tight text-primary-lighter  ml-30">
             Transparencia
           </h2>
           <p className="mt-8 text-base font-normal text-justify leading-relaxed  ">
@@ -102,7 +103,7 @@ const seo={
           </p>
           <div className="w-full mx-auto mb-20">
       <a href={ InformeGri2018 } target="_blank" rel="noreferrer">
-        <Button className="flex mx-auto mt-10 mb-4  text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">Informe GRI 2018 </Button>
+        <Button className="flex mx-auto mt-10 mb-4  text-white bg-primary-lighter border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">Informe GRI 2018 </Button>
       </a>
     </div>
         </div>
@@ -116,20 +117,30 @@ const seo={
 
       primarySlot={
         <div className="bg-white bg-opacity-50 rounded-lg   px-6 pt-8 pb-6 ml-25 ">
-          <h2 className="text-3xl text-center font-semibold leading-tight text-blue-500  ml-30">Adheridos al Pacto Global</h2>
+          <h2 className="text-3xl text-center font-semibold leading-tight text-primary-lighter  ml-30">Adheridos al Pacto Global</h2>
           <p className="mt-8 text-base font-normal text-justify leading-relaxed ">
           Desde 2018, Unilimpio forma parte del Pacto Global iniciativa global que cuenta con el auspicio de las Naciones Unidas y que busca que las organizaciones privadas a nivel mundial se involucren activamente en la consecución de los Objetivos de Desarrollo Sustentable (ODS) para el 2030.
           </p>
           <div className="w-full mx-auto mb-20">
       <a href={ InformeCOP2018 } target="_blank" rel="noreferrer">
-        <Button className="flex mx-auto mt-10 text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">Informe COP 2018 </Button>
+        <Button className="flex mx-auto mt-10 text-white bg-primary-lighter border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">Informe COP 2018 </Button>
       </a>
     </div>
     <div className="w-full mx-auto mb-20">
       <a href={ InformeCOP2019 } target="_blank" rel="noreferrer">
-        <Button className="flex mx-auto mt-16 text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">Informe COP 2019</Button>
+        <Button className="flex mx-auto mt-16 text-white bg-primary-lighter border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">Informe COP 2019</Button>
       </a>
     </div>
+    <div className="w-full mx-auto mb-0">
+      <a href={ InformeCOP2020 } target="_blank"  rel="noreferrer">
+        <Button className="flex mx-auto mt-16 text-white bg-primary-lighter border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">Informe COP 2020</Button>
+      </a>
+    </div> 
+    <div className="w-full mx-auto mb-0">
+      <a href={ InformeCOP2021 } target="_blank"  rel="noreferrer">
+        <Button className="flex mx-auto mt-16 text-white bg-primary-lighter border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">Informe COP 2021</Button>
+      </a>
+    </div> 
 
         </div>
       }

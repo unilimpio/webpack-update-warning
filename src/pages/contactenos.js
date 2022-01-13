@@ -20,13 +20,13 @@ const seo={
   title: "Contáctenos",
   desc:  "Canales de contacto. Estamos listos para atendelro directamente o a través nuestra extensa red de Distribuidores de productos de limpieza en QUito, Guayaquil y Cuenca y a nivel nacional.",
   image: "productos.jpg",
-  pathname: "/contact",
+  pathname: "/contactenos",
 }
 
-export default function Named ({location}) {
+const Contactenos = ({location}) => (
 
 
-  return(
+  
 
   <Layout location={location} crumbLabel="Contáctenos"
   title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
@@ -38,7 +38,7 @@ export default function Named ({location}) {
       <div className="pr-8">
         <div className="">
           <h1>Contáctenos</h1>
-          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mt-6 text-primary text-center">
+          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mt-6 text-primary-default text-center">
             Permítanos ser su aliado en higiene institucional
           </h2>
           <p className="my-4 text-lg text-gray-700">
@@ -106,7 +106,7 @@ export default function Named ({location}) {
           </p>
           </div>
             <div className="text-right sm:col-span-2">
-              <button type="submit" className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-primary-lighter hover:bg-primary-lighter focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+              <button type="submit" className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-primary-default hover:bg-primary-lighter focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
                 Enviar
               </button>
             </div>
@@ -143,7 +143,7 @@ export default function Named ({location}) {
         </div>
         <div className="mt-9">
           <div className="flex">
-            <a href="https://unilimpio.app/ecommerce" target="_blank" rel="noreferrer"><Button className="flex mx-auto mt-10 mb-4  text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">Acceder al Portal B2B</Button></a>
+            <a href="https://unilimpio.app/ecommerce" target="_blank" rel="noreferrer"><Button className="flex mx-auto mt-10 mb-4  text-white bg-primary-lighter border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">Acceder al Portal B2B</Button></a>
           </div>
         </div>
       </div>
@@ -153,7 +153,7 @@ export default function Named ({location}) {
         </h3>
         <div className="mt-3">
           <p className="text-lg text-gray-700 mb-10">
-          Si necesita asistencia por favor visite nuestro <Link to="/centro-de-ayuda" className="text-primary-lighter underline hover:no-underline">Centro de Ayuda</Link>.
+          Si necesita asistencia por favor visite nuestro <Link to="/centro-de-ayuda">Centro de Ayuda</Link>.
           </p>
         </div>
         <div className="mt-9">
@@ -268,11 +268,11 @@ export default function Named ({location}) {
 
         </div>
       </div>
-      <div id="distaut" className="mt-16 pt-16 lg:grid lg:grid-cols-3 lg:gap-8">
+      <div id="distribuidores" className="mt-16 pt-16 lg:grid lg:grid-cols-3 lg:gap-8">
         <h2 className="text-2xl font-extrabold text-primary sm:text-3xl">
           Distribuidores Zonales Autorizados
         </h2>
-        <h3 className="text-gray-600">Ampliamos nuestra cobertura y flexibilidad gracias a nuestra extensa red de Distribuidores Autorizados de productos de limpieza en Quito, Guayaquil, Cuenca y a nivel nacional.</h3>
+        <h3>Ampliamos nuestra cobertura y flexibilidad gracias a nuestra extensa red de Distribuidores Autorizados de productos de limpieza en Quito, Guayaquil, Cuenca y a nivel nacional.</h3>
 
         <div className="mt-8 grid grid-cols-1 gap-12 sm:grid-cols-2 sm:gap-x-8 sm:gap-y-12 lg:mt-0 lg:col-span-2">
           <div className="sm:col-span-2">
@@ -286,7 +286,7 @@ export default function Named ({location}) {
               <h3 className="text-lg leading-6 font-medium text-gray-900">
               {dz.zona}
               </h3>
-              <h4 className="mt-2 text-base text-primary-default">{dz.name}</h4>
+              <h4>{dz.name}</h4>
               <div className="mt-2 text-base text-gray-700">
                 <p>
                   {dz.contacto}
@@ -461,4 +461,6 @@ export default function Named ({location}) {
 
     </Layout>
 
-  )}
+  );
+
+  export default Contactenos;

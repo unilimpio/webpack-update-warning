@@ -1,10 +1,11 @@
 import React from 'react';
-
+import { Link } from 'gatsby';
 
 import Layout from '../components/layout/Layout';
 
 
 import PictureWebp from "../components/PictureWebp";
+
 
 
 import SplitSection from '../components/SplitSection';
@@ -55,7 +56,7 @@ const QuienesSomos = ({ location }) => (
 <section id="historia" class="bg-gradient-to-r from-blue-400 via-white to-blue-100 mt-20">
   <div class="max-w-7xl mx-10 py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
     <div class="max-w-3xl mx-auto text-center">
-      <h2 class="text-3xl font-bold text-blue-500 text-center ">NUESTRA HISTORIA</h2>
+      <h2 class="text-3xl font-bold text-primary-lighter text-center ">NUESTRA HISTORIA</h2>
       <p class="mt-4 text-lg text-gray-700 mb-20 font-normal text-justify">Unilimpio S.A es una empresa Ecuatoriana que nació en 1986. Nos dedicamos a proveer sistemas de limpieza para la industria, las instituciones y el hogar. Nuestro propósito es proveer bienestar a las personas a través de soluciones de higiene.
           <br/> <br/>
 Tras 34 años, nos hemos convertido en un grupo empresarial constituido por empresas especializadas en diferentes campos de la higiene, con operaciones en Colombia y Ecuador; y exportaciones a Perú.
@@ -68,16 +69,61 @@ Nos diferenciamos de la competencia por tener el más amplio portafolio de produ
     </div>
 </section>
 
-<section class="bg-gray-50 pt-12 sm:pt-16">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<section id="grupo empresarial Unilimpio" class="bg-white">
+  <div class="max-w-7xl mx-10 py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
+    <div class="max-w-3xl mx-auto text-center">
+      <h1 class="text-3xl font-bold mt-0 text-center text-primary-lighter  underline ">GRUPO EMPRESARIAL UNILIMPIO</h1>
+      <p class="mt-4 text-xl text-gray-700 ">Tras 34 años en el mercado, nos hemos convertido en un Grupo Empresarial constituido por empresas especializadas en diferentes campos de la higiene: 
+  </p>
+    </div>
+    </div>
+</section>
+
+<section class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 mx-20 mb-24  ">
+  <li class="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
+    <div class="flex-1 flex flex-col p-8">
+    <PictureWebp className="object-contain " filename="grupo-empresarial-unilimpio" description="Unilimpio, higiene institucional"/>
+      <h3 class="mt-6 text-white  text-lg font-bold bg-primary-default ">UNILIMPIO</h3>
+      <dl class="mt-1 flex-grow flex flex-col justify-between ">
+        <dt class="sr-only">Title</dt>
+        <dd class="text-gray-700 text-base text-center  ">Empresa con las mejores y más rentables soluciones de higiene institucional para su negocio.</dd>
+        <dt class="sr-only">Role</dt>
+        <dd class="mt-3">
+          
+        </dd>
+      </dl>
+    </div>
+  </li>
+ 
+  <li class="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
+    <div class="flex-1 flex flex-col p-8">
+    <PictureWebp className="object-contain" filename="grupo-empresarial-tecnoclean" description="Empresa de lavado profesional Tecno clean"/>
+      <h3 class="mt-6 text-white bg-primary-default  text-lg font-bold">TECNO CLEAN</h3>
+      <dl class="mt-1 flex-grow flex flex-col justify-between">
+        <dt class="sr-only">Title</dt>
+        <dd class="text-gray-700 text-base text-center">Empresa que ofrece productos especializados de limpieza e higiene textil.</dd>
+        <dt class="sr-only">Role</dt>
+        <dd class="mt-3">
+          
+        </dd>
+      </dl>
+    </div>
+   
+  </li> 
+</section>
+
+
+
+<section class="bg-gray-200 pt-12 sm:pt-16 mb-20">
+  <div class="max-w-7xl  mx-auto px-4 sm:px-6 lg:px-8">
     <div class="max-w-4xl mx-auto text-center">
-      <h2 class="text-3xl font-bold mt-0 text-center text-blue-500 mb-12">
+      <h2 class="text-3xl font-bold mt-0 text-center text-primary-lighter mb-12 underline ">
         MEJORA CONSTANTE
       </h2>
     </div>
   </div>
-  <div class="py-px pb-12 bg-gray-100  sm:pb-16">
-    <div class="relative">
+  <div class="bg-gray-200 py-px pb-12 sm:pb-16">
+    <div class="relative ">
       <div class="absolute inset-0 h-1/2 bg-gray-50"></div>
       <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="max-w-4xl mx-auto">
@@ -86,7 +132,7 @@ Nos diferenciamos de la competencia por tener el más amplio portafolio de produ
               <dt class="order-2 mt-2 text-lg leading-6 font-normal text-gray-700">
               Certificación ISO 9001
               </dt>
-              <dd class="order-1 text-4xl font-semibold text-secondary">
+              <dd class="order-1 text-4xl font-semibold text-secondary-lighter ">
                 2001
               </dd>
             </div>
@@ -94,7 +140,7 @@ Nos diferenciamos de la competencia por tener el más amplio portafolio de produ
               <dt class="order-2 mt-2 text-lg leading-6 font-normal text-gray-700">
               Miembro de la Internacional Sanitary Supply Association ISSA
               </dt>
-              <dd class="order-1 text-4xl font-semibold text-secondary">
+              <dd class="order-1 text-4xl font-semibold text-secondary-lighter">
                 2009
               </dd>
             </div>
@@ -102,7 +148,7 @@ Nos diferenciamos de la competencia por tener el más amplio portafolio de produ
               <dt class="order-2 mt-2 text-lg leading-6 font-normal text-gray-700">
               Certificación ISO 4500 e ISO 14000
               </dt>
-              <dd class="order-1 text-4xl font-semibold text-secondary">
+              <dd class="order-1 text-4xl font-semibold text-secondary-lighter">
                 2012
               </dd>
             </div>
@@ -110,7 +156,7 @@ Nos diferenciamos de la competencia por tener el más amplio portafolio de produ
               <dt class="order-2 mt-2 text-lg leading-6 font-normal text-gray-700">
               Responsabilidad Social con el marco de conducta de ISO 26000
               </dt>
-              <dd class="order-1 text-4xl font-semibold text-secondary">
+              <dd class="order-1 text-4xl font-semibold text-secondary-lighter">
                 2016
               </dd>
             </div>
@@ -118,7 +164,7 @@ Nos diferenciamos de la competencia por tener el más amplio portafolio de produ
               <dt class="order-2 mt-2 text-lg leading-6 font-normal text-gray-700">
               Miembro del Pacto Global de Naciones Unidas
               </dt>
-              <dd class="order-1 text-4xl font-semibold text-secondary">
+              <dd class="order-1 text-4xl font-semibold text-secondary-lighter">
                 2018
               </dd>
             </div>
@@ -126,7 +172,7 @@ Nos diferenciamos de la competencia por tener el más amplio portafolio de produ
               <dt class="order-2 mt-2 text-lg leading-6 font-normal text-gray-700">
               Certificación en Buenas Prácticas de Manufactura
               </dt>
-              <dd class="order-1 text-4xl font-semibold text-secondary">
+              <dd class="order-1 text-4xl font-semibold text-secondary-lighter">
                 2019
               </dd>
             </div>
@@ -137,16 +183,23 @@ Nos diferenciamos de la competencia por tener el más amplio portafolio de produ
   </div>
 </section>
 
+<section id="grupo empresarial Unilimpio" class="bg-white">
+  <div class="max-w-7xl mx-10 py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
+    <div class="max-w-3xl mx-auto text-center">
+      <h1 class="text-3xl font-bold mt-0 text-center text-primary-lighter  underline ">NUESTRA FILOSOFÍA</h1>
+    </div>
+    </div>
+</section>
 
-<section class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 mx-20">
-<h2 className="text-3xl font-bold mt-12 text-center text-blue-500 mb-12">NUESTRA FILOSOFÍA </h2>
+
+<section class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 mx-20">
   <li class="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
     <div class="flex-1 flex flex-col p-8">
     <PictureWebp className="object-contain" filename="niña-con-gel" description="responsabilidad social unilimpio"/>
-      <h3 class="mt-6 text-secondary  text-lg font-bold ">Nuestra Pasión</h3>
+      <h3 class="mt-6 text-secondary  text-lg font-bold ">Nuestro Propósito</h3> 
       <dl class="mt-1 flex-grow flex flex-col justify-between">
         <dt class="sr-only">Title</dt>
-        <dd class="text-gray-700 text-base text-center">El bienestar de las personas a través de soluciones de higiene.</dd>
+        <dd class="text-gray-700 text-base text-center">El bienestar de las personas a través de la higiene.</dd>
         <dt class="sr-only">Role</dt>
         <dd class="mt-3">
 
@@ -161,7 +214,7 @@ Nos diferenciamos de la competencia por tener el más amplio portafolio de produ
       <h3 class="mt-6 text-secondary  text-lg font-bold">Nuestro Futuro</h3>
       <dl class="mt-1 flex-grow flex flex-col justify-between">
         <dt class="sr-only">Title</dt>
-        <dd class="text-gray-700 text-base text-center">Ser la primera opción de higiene institucional reconocida por su oferta de valor y su Responsabilidad Social.</dd>
+        <dd class="text-gray-700 text-base text-center">Ser la primera opción de higiene institucional reconocida por su oferta de valor y su Responsabilidad Social. </dd>
         <dt class="sr-only">Role</dt>
         <dd class="mt-3">
 
@@ -173,46 +226,26 @@ Nos diferenciamos de la competencia por tener el más amplio portafolio de produ
 
   <li class="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
     <div class="flex-1 flex flex-col p-8">
-    <PictureWebp className="object-contain" filename="valores" description="responsabilidad social unilimpio"/>
-      <h3 class="mt-6 text-secondary  text-lg font-bold">Nuestros Valores</h3>
+    <PictureWebp className="object-contain " filename="nuestro-valores-corporativos" description="responsabilidad social unilimpio"/>
+      <h3 class="mt-6 text-secondary  text-lg font-bold">Nuestros Valores Corporativos</h3>
       <dl class="mt-1 flex-grow flex flex-col justify-between">
         <dt class="sr-only">Title</dt>
-        <dd class="text-gray-700 text-base text-center">Fe<br/>Compromiso<br/>Honestidad <br/> Solidaridad <br/> Respeto <br/> Excelencia</dd>
+        <dd class="text-gray-700 text-base text-center">Enfoque en el cliente<br/>Mejora permanente e innovación<br/>trabajo en equipo para conseguir resultados <br/> Transparencia, honestidad, coraje y fé<br/> Sustentables (Pacto Global y ODS) </dd>
         <dt class="sr-only">Role</dt>
         <dd class="mt-3">
-
         </dd>
       </dl>
     </div>
-
   </li>
-
-  <li class="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
-    <div class="flex-1 flex flex-col p-8">
-    <PictureWebp className="object-contain" filename="factores-de-exito" description="responsabilidad social unilimpio"/>
-      <h3 class="mt-6 text-secondary  text-lg font-bold">Factores de éxito</h3>
-      <dl class="mt-1 flex-grow flex flex-col justify-between">
-        <dt class="sr-only">Title</dt>
-        <dd class="text-gray-700 text-base text-center">Enfoque al Cliente <br/> Trabajo en equipo<br/>Mejora Continua e Innovación<br/>Comunicación <br/> Profesionalismo<br/> Empoderamiento <br/> Excelencia</dd>
-        <dt class="sr-only">Role</dt>
-        <dd class="mt-3">
-
-        </dd>
-      </dl>
-    </div>
-
-  </li>
-
-
 </section>
 
 
 
-<section class="  bg-gray-200 mt-10">
+<section class="  bg-gradient-to-r from-gray-200 via-white to-gray-300 mt-10">
   <div class="max-w-7xl mx-auto py-12 px-4 text-center sm:px-6 lg:px-8 lg:py-24">
     <div class="space-y-12">
       <div class="space-y-5 sm:mx-auto sm:max-w-xl sm:space-y-4 lg:max-w-5xl">
-        <h2 class="text-4xl font-bold mt-10 text-center text-blue-500">NUESTRAS MARCAS</h2>
+        <h2 class="text-4xl font-bold mt-10 text-center text-primary-lighter">NUESTRAS MARCAS</h2>
 
       </div>
       <ul class="mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:grid-cols-3 lg:max-w-5xl">
@@ -336,6 +369,30 @@ Nos diferenciamos de la competencia por tener el más amplio portafolio de produ
     </div>
   </div>
 </section>
+
+<SplitSection id="rse"
+      reverseOrder className="bg-gradient-to-br from-primary-default via-white to-primary-default  py-4 my-20"
+      primarySlot={
+        <div className="pl-8 pr-6 pt-8 pb-6 bg-white bg-opacity-50 rounded-lg ">
+          <h2 className="mt-2  text-3xl  sm:text-4xl  text-center text-2xl font-semibold leading-tight ">
+           Marca Blanca 
+          </h2>
+          <p className="mt-3 text-lg text-gray-700 text-center">
+          Fabricamos productos de la más alta calidad con su marca. 
+          </p>
+          <div className="flex flex-wrap mx-auto justify-center">  
+      <Link to="/contactenos" className="mt-4 text-primary-lighter inline-flex items-center text-lg">Más información
+            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </Link>
+      </div>
+        </div>
+      }
+      secondarySlot={<PictureWebp className="" filename="marca-blanca" description="realizamos linea blanca"/>}
+/>
+
+
 <NewsletterSub/>
 
 </Layout>
