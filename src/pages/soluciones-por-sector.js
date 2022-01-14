@@ -30,12 +30,6 @@ const Soluciones = ({location}) => (
 
     <PictureWebp className="object-contain" filename="segmentos" description="soluciones por industria"/>
 
-
-
-
-
-
-
 <section className="bg-white">
   <div className="max-w-7xl mx-10 py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
     <div className="max-w-3xl mx-auto text-center">
