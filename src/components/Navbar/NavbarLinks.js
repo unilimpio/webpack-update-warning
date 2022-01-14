@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import { Link } from "gatsby"
-
+import HomeIcon from "../../svg/HomeIcon"
 import Button from "../Button"
 
 const NavItem = styled(Link)`
@@ -35,25 +35,32 @@ const NavItem = styled(Link)`
 
   @media (max-width: 768px) {
     padding: 15px 0;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    :after {
+      position: absolute;
+      bottom: 15%;
+      left: 0;
+      right: 0;
+
+    }
 
   }
 `
 const NavbarLinks = () => {
   return (
     <>
-      <NavItem to="/" className="hover:no-underline">Inicio</NavItem>
-      <NavItem to="/productos" className="hover:no-underline">Productos</NavItem>
+      <NavItem to="/" className="hover:no-underline"><HomeIcon className="h-8 w-8"/></NavItem>
+      <NavItem to="/productos" className="hover:no-underline">Productos de Limpieza</NavItem>
       <Link to="https://shop.unilimpio.com/">
-        <Button className="rounded-md px-4 text-white transition duration-300 ease-in-out bg-secondary-default shadow-md hover:bg-secondary-lighter hover:shadow-lg transform hover:-translate-y-1 hover:scale-105 focus:outline-none" size="sm" >Tienda Hogar</Button>
+        <Button className="rounded-md px-4 text-white transition duration-300 ease-in-out bg-secondary-default shadow-md hover:bg-secondary-lighter hover:shadow-lg transform hover:-translate-y-1 hover:scale-105 focus:outline-none" size="sm" >Ecommerce</Button>
       </Link>
       <NavItem to="/soluciones" className="hover:no-underline">Soluciones</NavItem>
       <NavItem to="/servicios" className="hover:no-underline">Servicios</NavItem>
-      <NavItem to="/contactenos" className="hover:no-underline">Contáctenos</NavItem>
+      <NavItem to="/quienes-somos" className="hover:no-underline">Acerca de</NavItem>
       <NavItem to="/blog" className="hover:no-underline">Blog</NavItem>
 
-      <Link to="/contactenos#leadform">
-        <Button className="text-white rounded-md transition duration-300 ease-in-out bg-primary-lighter shadow-md hover:bg-primary-xlighter hover:shadow-lg transform hover:-translate-y-1 hover:scale-105 focus:outline-none" size="sm" >Comuníquese con un asesor</Button>
+      <Link to="/contactenos">
+        <Button className="text-white rounded-md transition duration-300 ease-in-out bg-primary-lighter shadow-md hover:bg-primary-xlighter hover:shadow-lg transform hover:-translate-y-1 hover:scale-105 focus:outline-none" size="sm" >Contáctenos</Button>
       </Link>
 
     </>

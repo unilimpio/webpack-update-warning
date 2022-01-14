@@ -3,6 +3,7 @@ import styled from "styled-components"
 import NavbarLinks from "./NavbarLinks"
 import Logo from "./Logo"
 
+
 const Navigation = styled.nav`
   height: 12vh;
   display: flex;
@@ -10,11 +11,11 @@ const Navigation = styled.nav`
   position: relative;
   justify-content: space-between;
   text-transform: uppercase;
-  font-size: 1.1em;
+  font-size: 0.8em;
   font-weight: lighter;
   border-bottom: 2px solid #33333320;
   margin: 0 auto;
-  padding: 0 5vw;
+  padding: 0 1vw;
   z-index: 2;
   align-self: center;
 
