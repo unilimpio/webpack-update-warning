@@ -1,15 +1,16 @@
 ---
-path: "/productos/dispensadores/jabon-espuma"
+path: "/productos/dispensadores/gel-antibacterial-automatico"
 category: "Dispensadores"
 categorySlug: "dispensadores"
-title:  "Dispensador de Jabón Espuma "
+title:  "Dispensador de Gel Antibacterial Automático "
 subtitle: "Elegante y resistente"
 date: "2020-04-02"
-slug:  "dispensador-jabon-espuma"
+slug:  "dispensador-gel-antibacterial-automatico"
 
 
 ---
-Dispensador de jabón espuma ideal para todo tipo de decoraciones en el sector de salud, hoteles, restaurantes y planteles educativos, gracias a su sistema de dosificación, cada push arroja un ml del producto. Elaborado con polipropileno impermeable contra el moho.
+Nuestro dispensador de gel antibacterial automático cuenta con detección automático de las manos por sensor infrarrojo para evitar contacto con las manos. Le permite ahorrar el producto  gracias a su sistema de dosificación, proporciona una dosis de 3 ml cada 3 segundos. Viene con botella incluida de 1100ml para relleno. Ideal para todo tipo de decoraciones en el sector de salud, hoteles, restaurantes y planteles educativos. Desconexión automática al abrir la tapa. Se debe colocar 4 pilas (AA) para su funcionamiento. Incluye llaves de seguridad. 
+
 
 
 <br>
@@ -30,18 +31,9 @@ Dispensador de jabón espuma ideal para todo tipo de decoraciones en el sector d
               Blanco 
               </td>
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
-               DIS0105
+               DIS0377
               </td>
             </tr> 
-            <tr class="bg-gray-200">
-              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
-              Gris
-              </td>
-              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
-              DIS0150
-              </td>
-            </tr> 
-          </tbody>
         </table>
 
 

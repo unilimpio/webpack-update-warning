@@ -54,7 +54,7 @@ const NavbarLinks = () => {
       <Link to="https://shop.unilimpio.com/">
         <Button className="rounded-md px-4 text-white transition duration-300 ease-in-out bg-secondary-default shadow-md hover:bg-secondary-lighter hover:shadow-lg transform hover:-translate-y-1 hover:scale-105 focus:outline-none" size="sm" >Ecommerce</Button>
       </Link>
-      <NavItem to="/soluciones" className="hover:no-underline">Soluciones</NavItem>
+      <NavItem to="/soluciones-por-sector" className="hover:no-underline">Soluciones por Sector</NavItem>
       <NavItem to="/servicios" className="hover:no-underline">Servicios</NavItem>
       <NavItem to="/quienes-somos" className="hover:no-underline">Acerca de</NavItem>
       <NavItem to="/blog" className="hover:no-underline">Blog</NavItem>

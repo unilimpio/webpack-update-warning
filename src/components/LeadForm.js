@@ -12,7 +12,7 @@ const LeadForm = ({className}) => (
        Nuestros asesores están gustosos de ponerse en contacto con usted para brindarle mayor información y agendar una cita.
       </p>
       <div className="flex flex-wrap mx-auto justify-center">
-         <Link to="/contact#leadform">
+         <Link to="/contactenos#leadform">
           <Button className="animate-pulse text-white mt-4 mb-4 rounded-xl transition duration-200 ease-in-out bg-secondary-default shadow-md hover:bg-secondary-lighter hover:shadow-lg transform hover:-translate-y-1 hover:scale-105 focus:outline-none" size="lg" type="submit">Deseo ser contactado por un asesor</Button>
         </Link>
       </div>

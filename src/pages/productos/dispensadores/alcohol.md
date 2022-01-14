@@ -1,15 +1,15 @@
 ---
-path: "/productos/dispensadores/jabon-espuma"
+path: "/productos/dispensadores/alcohol"
 category: "Dispensadores"
 categorySlug: "dispensadores"
-title:  "Dispensador de Jabón Espuma "
+title:  "Dispensador de Alcohol Spray "
 subtitle: "Elegante y resistente"
 date: "2020-04-02"
-slug:  "dispensador-jabon-espuma"
+slug:  "dispensador-de-alcohol"
 
 
 ---
-Dispensador de jabón espuma ideal para todo tipo de decoraciones en el sector de salud, hoteles, restaurantes y planteles educativos, gracias a su sistema de dosificación, cada push arroja un ml del producto. Elaborado con polipropileno impermeable contra el moho.
+Dispensador de alcohol spray  le permite ahorrar el producto  gracias a su sistema de dosificación, cada push arroja un ml del producto. Rellene el dispensador con un  sachet de alcohol spray de 800 ml. Ideal para todo tipo de decoraciones en el sector de salud, hoteles, restaurantes y planteles educativos. Elaborado con polipropileno impermeable contra el moho. Posee un visor de consumo, cuatro tacos, cuatro tornillos, y una llave de seguridad. 
 
 
 <br>
@@ -30,17 +30,9 @@ Dispensador de jabón espuma ideal para todo tipo de decoraciones en el sector d
               Blanco 
               </td>
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
-               DIS0105
+               DIS0376
               </td>
-            </tr> 
-            <tr class="bg-gray-200">
-              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
-              Gris
-              </td>
-              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
-              DIS0150
-              </td>
-            </tr> 
+            </tr>  
           </tbody>
         </table>
 

@@ -33,7 +33,7 @@ export default function Named ({location}) {
     <SplitSection className=""
         primarySlot={
           <div className="bg-white bg-opacity-50 rounded-xl p-8">
-            <h2 className="text-xl text-blue-500 mb-5">Implementos profesionales de limpieza para asegurar entornos limpios y seguros.</h2>
+            <h2 className="text-xl text-primary-lighter mb-5">Implementos profesionales de limpieza para asegurar entornos limpios y seguros.</h2>
             <p className="md:w-full text-left leading-relaxed text-base text-gray-700 text-justify">
             Accesorios para la limpieza de pisos, vidrios, paredes en grandes superficies para eliminar el polvo y la suciedad provocada por el tránsito continuo de gente.
 
@@ -50,19 +50,19 @@ export default function Named ({location}) {
           <h3 className="text-lg sm:text-xl font-medium title-font mb-2 text-center">
             Mopas de Limpieza
           </h3>
-          <Link   to="/productos/linea-profesional/mopa-polvo-acrilica" className="text-blue-500 inline-flex items-center">
+          <Link   to="/productos/linea-profesional/mopa-polvo-acrilica" className="text-primary-lighter inline-flex items-center">
           Mopa Polvo Acrílica
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </Link><br/>
-          <Link   to="/productos/linea-profesional/mopa-humeda-microfibra-velcro" className="text-blue-500 inline-flex items-center">
+          <Link   to="/productos/linea-profesional/mopa-humeda-microfibra-velcro" className="text-primary-lighter inline-flex items-center">
           Mopa Húmeda Microfibra Velcro
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </Link><br/>
-          <Link   to="/productos/linea-profesional/mopa-vertical-secado" className="text-blue-500 inline-flex items-center">
+          <Link   to="/productos/linea-profesional/mopa-vertical-secado" className="text-primary-lighter inline-flex items-center">
           Mopa Vertical Secado
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -73,7 +73,7 @@ export default function Named ({location}) {
           <h3 className="text-lg sm:text-xl font-medium title-font mb-2 text-center">
             Coche de Limpieza
           </h3>
-          <Link  to="/productos/linea-profesional/coche-exprimidor" className="text-blue-500 inline-flex items-center">
+          <Link  to="/productos/linea-profesional/coche-exprimidor" className="text-primary-lighter inline-flex items-center">
               Coche Exprimidor
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -84,7 +84,7 @@ export default function Named ({location}) {
           <h3 className="text-lg sm:text-xl font-medium title-font mb-2 text-center">
             Paños de Limpieza
           </h3>
-          <Link   to="/productos/linea-profesional/paños-microfibra" className="text-blue-500 inline-flex items-center">
+          <Link   to="/productos/linea-profesional/panos-microfibra" className="text-primary-lighter inline-flex items-center">
               Paños Microfibra
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -95,13 +95,13 @@ export default function Named ({location}) {
           <h3 className="text-lg sm:text-xl font-medium title-font mb-2 text-center">
             Escurridores
           </h3>
-          <Link   to="/productos/linea-profesional/escurridor-para-vidrio" className="text-blue-500 inline-flex items-center">
+          <Link   to="/productos/linea-profesional/escurridor-para-vidrio" className="text-primary-lighter inline-flex items-center">
               Escurridor para Vidrio
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </Link><br/>
-          <Link   to="/productos/linea-profesional/escurridor-de-piso" className="text-blue-500 inline-flex items-center">
+          <Link   to="/productos/linea-profesional/escurridor-de-piso" className="text-primary-lighter inline-flex items-center">
               Escurridor de Piso
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>

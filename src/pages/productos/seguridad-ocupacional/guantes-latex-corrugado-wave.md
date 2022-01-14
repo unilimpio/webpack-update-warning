@@ -9,16 +9,16 @@ slug:  "guantes-latex-corrugado-wave"
 
 
 ---
-Los guantes latex recubierto corrugado Wave son recubiertos de Nitrilo 45% y Poliéster 55%. Palma texturizada. Ideal para usar en construcción, metal mecánico, ensamblaje, manipulación, transporte, limpieza, mantenimiento, procesos industriales que necesiten manipulación de objetos medianos y grandes.
+Los guantes latex recubierto corrugado Wave son recubiertos de Nitrilo 45% y de Poliéster 55%. Su palma es texturizada. Ideal para usar en construcción, metal mecánico, ensamblaje, manipulación, transporte, limpieza, mantenimiento, procesos industriales que necesiten manipulación de objetos medianos y grandes. Le brindan productividad y seguridad. Cumple con la normativa EN388 (4121).
 
 <br> <br>
 <table class="min-w-full md:min-w-0 divide-y-0 divide-gray-200">
           <thead class=" bg-white">
             <tr>
-              <th scope="col" class="px-6 text-center text-xs font-medium text-blue-500 uppercase tracking-wider">
+              <th scope="col" class="px-6 text-center text-xs font-medium text-primary-lighter uppercase tracking-wider">
                 Talla
               </th>
-              <th scope="col" class="px-6 py-3 text-center text-xs font-medium text-blue-500 uppercase tracking-wider">
+              <th scope="col" class="px-6 py-3 text-center text-xs font-medium text-primary-lighter uppercase tracking-wider">
                 Código
               </th>
             </tr>

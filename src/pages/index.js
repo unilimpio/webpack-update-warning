@@ -41,7 +41,7 @@ const IndexPage = ({ location }) => (
               </p>
               <div className="flex flex-wrap mx-auto justify-center mt-8 md:mt-12 mb-20">
               
-              <Link to="/soluciones">
+              <Link to="/soluciones-por-sector">
                 <Button className=" bg-primary-default text-white hover:bg-primary-lighter rounded-lg active:bg-primary-darker focus:outline-none" size="lg">Soluciones para su negocio</Button>
               </Link>
               </div>
@@ -87,7 +87,7 @@ const IndexPage = ({ location }) => (
           Adaptamos nuestra oferta de productos a las necesidades específicas de cada cliente, a través de un asesoramiento profesional, seguimiento y entrenamiento permanentes.
           </p>
           <Link to="/productos">
-        <Button className="flex mx-auto mt-16 text-white bg-primary-lighter border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">Descubra nuestros productos  </Button>
+        <Button className="flex mx-auto mt-16 text-white  border-0 py-2 px-8 bg-primary-lighter shadow-md hover:bg-primary-xlighter rounded text-lg">Descubra nuestros productos  </Button>
       </Link>
   </div>
   

@@ -6,10 +6,10 @@ import PictureWebp from './PictureWebp';
 import PageData from '../data/clientes-logos-data';
 
 const ClientesLogos = ({className}) => (
-<section className={`bg-indigo-200 bg-opacity-25 ${ className } `}>
+<section className={`bg-primary-default ${ className } `}>
   <div className="container mx-auto sm:flex ">
     <div className=" w-full sm:flex-1 ">
-      <h2 className=" pl-5 mx-auto text-3xl font-bold text-primary text-center sm:text-left mb-0 p-px pt-10 ">
+      <h2 className=" pl-5 mx-auto text-3xl font-bold text-white text-center sm:text-left mb-0 p-px pt-10 ">
         Empresas líderes en cada industria confían en nosotros
       </h2>
    </div>

@@ -1,9 +1,9 @@
 ---
-path: "/productos/quimicos/amonio-cuaternario-de-quinta-generacion-ozz"
+path: "/productos/quimicos/sanitizante-de-superficies-bacterac-ozz"
 category: "Químicos"
 categorySlug: "quimicos"
-title:  "OZZ Desinfectante y sanitizante de superficies profesional"
-subtitle: "con Amonio cuaternario de 5ta generación"
+title:  "Sanitizante de Superficies Bacterac Ozz"
+subtitle: "de grado alimenticio"
 date: "2020-04-02"
 slug:  "amonio-cuaternario"
 sku: "QUI0102"
@@ -15,27 +15,27 @@ brandLogo: "ozz.jpg"
 
 
 ---
-Desinfectante de superficies Bacterac Ozz® es un sanitizante y desinfectante neutro de superficies duras no-porosas, altamente concentrado, formulado a partir de amonios cuaternarios de quinta generación como ingrediente activo, mismos que brindan un amplio espectro de acción biocida contra bacterias gram +, gram -, hongos y virus. Usado correctamente presenta una disminución de la carga microbiana* de 5 log (99.999%) en 5 minutos de contacto con la superficie, incluyendo virus envueltos como el SARSCoV2 causante del Covid-19+.
+Sanitizante de superficies Bacterac Ozz® de grado alimenticio es un sanitizante y desinfectante neutro de superficies duras no-porosas, altamente concentrado, formulado a partir de amonios cuaternarios de quinta generación como ingrediente activo, mismos que brindan un amplio espectro de acción biocida contra bacterias gram +, gram -, hongos y virus. Usado correctamente presenta una disminución de la carga microbiana* de 5 log (99.999%) en 5 minutos de contacto con la superficie, incluyendo virus envueltos como el SARSCoV2 causante del Covid-19+.
 
 <br>
 <table class="min-w-full md:min-w-0 divide-y-0 divide-gray-200">
           <thead class=" bg-white">
             <tr>
               <th scope="col" class="px-6 text-center text-xs font-semibold text-blue-500 uppercase tracking-wider">
-                Presentación
+                Códigos
               </th>
               <th scope="col" class="px-6 py-3 text-center text-xs font-semibold  text-blue-500 uppercase tracking-wider">
-                Códigos
+                Presentación
               </th>
             </tr>
           </thead>
           <tbody>
             <tr class="bg-gray-500">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
-              3785 ml
+              QUI0102
               </td>
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
-              QUI0102
+              3785 ml
               </td>
             </tr> 
           </tbody>

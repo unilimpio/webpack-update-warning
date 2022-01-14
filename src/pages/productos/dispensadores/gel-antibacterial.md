@@ -1,44 +1,44 @@
 ---
-path: "/productos/linea-profesional/mopa-polvo-acrilica"
-category: "Línea Profesional"
-categorySlug: "linea-profesional"
-title:  "Mopa Polvo Acrílica"
-subtitle: "máximo absorción de polvo"
+path: "/productos/dispensadores/gel-antibacterial"
+category: "Dispensadores"
+categorySlug: "dispensadores"
+title:  "Dispensador de Gel Antibacterial "
+subtitle: "Elegante y resistente"
 date: "2020-04-02"
-slug:  "mopa-polvo-acrilica"
+slug:  "dispensador-jabon"
 
 
 ---
-Nuestra mopa de polvo acrílica es ideal para la limpieza en los hogares y todo recinto de trabajo u oficinas. Por su tamaño permite reducir el tiempo de limpieza y el costo de mano de obra. La aplicación regular de una mopa barrido tratada correctamente, reducirá la necesidad de fregar el piso y evitará que el polvo se acumule o se fije en el piso. Está compuesto de 100% de tela poliéster y fibras electroestáticas.
+Dispensador de gel antibacterial  le permite ahorrar el producto  gracias a su sistema de dosificación, cada push arroja un ml del producto. Puede usarse con botella para rellenar o con gel antibacterial en sachet de hasta 800 ml. Ideal para todo tipo de decoraciones en el sector de salud, hoteles, restaurantes y planteles educativos. Elaborado con polipropileno impermeable contra el moho. Posee un visor de consumo, cuatro tacos, cuatro tornillos, y una llave de seguridad. 
 
 
-<br> <br>
+<br>
 <table class="min-w-full md:min-w-0 divide-y-0 divide-gray-200">
           <thead class=" bg-white">
             <tr>
               <th scope="col" class="px-6 text-center text-xs font-medium text-primary-lighter uppercase tracking-wider">
-                Presentación
+                Color
               </th>
               <th scope="col" class="px-6 py-3 text-center text-xs font-medium text-primary-lighter uppercase tracking-wider">
-                Códigos
+                Código
               </th>
             </tr>
           </thead>
           <tbody>
             <tr class="bg-gray-400">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
-              40 cm 
+              Blanco 
               </td>
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
-              TTS0001
+               DIS0036
               </td>
             </tr> 
             <tr class="bg-gray-200">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
-              6o cm
+              Gris
               </td>
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
-              TTS0002
+              DIS0149
               </td>
             </tr> 
           </tbody>

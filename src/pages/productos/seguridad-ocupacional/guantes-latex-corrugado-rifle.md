@@ -9,17 +9,17 @@ slug:  "guantes-latex-corrugado-rifle"
 
 
 ---
-Los guantes latex recubierto corrugado Rifle son recubiertos de Poliéster 30% Látex 55% Algodón 15%. Ofrece un magnífico agarre y un excelente comportamiento frente al desgaste, corte, rasgado, punción. No tener contacto con hidrocarburos. Ideal para el uso en construcción, almacenamiento, vidrio, metalmecánica, ambientes fríos.
+Los guantes latex recubierto corrugado Rifle son recubiertos de Poliéster 30%, de látex 55% y de algodón 15%. Ofrece un magnífico agarre y un excelente comportamiento frente al desgaste, corte, rasgado y punción. Guantes para usar en condiciones secas y no tener contacto con hidrocarburos. Ideal para el uso en construcción, almacenamiento, vidrio, metalmecánica, ambientes fríos. Cumple con la normativa EN 388 (3243).
 
 
 <br> <br>
 <table class="min-w-full md:min-w-0 divide-y-0 divide-gray-200">
           <thead class=" bg-white">
             <tr>
-              <th scope="col" class="px-6 text-center text-xs font-medium text-blue-500 uppercase tracking-wider">
+              <th scope="col" class="px-6 text-center text-xs font-medium text-primary-lighter uppercase tracking-wider">
                 Talla
               </th>
-              <th scope="col" class="px-6 py-3 text-center text-xs font-medium text-blue-500 uppercase tracking-wider">
+              <th scope="col" class="px-6 py-3 text-center text-xs font-medium text-primary-lighter uppercase tracking-wider">
                 Código
               </th>
             </tr>

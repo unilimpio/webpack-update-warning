@@ -31,7 +31,7 @@ export default function Named  ({location})  {
     <SplitSection className=""
         primarySlot={
           <div className="bg-white bg-opacity-50 rounded-xl p-8 text-justify px-10">
-            <h2 className="text-xl text-blue-500 mb-5">Productos químicos seguros y amigables con el medio ambiente.</h2>
+            <h2 className="text-xl text-primary-lighter mb-5">Productos químicos seguros y amigables con el medio ambiente.</h2>
             <p className="md:w-full text-left leading-relaxed text-base text-gray-700 text-justify">
               Nuestros productos químicos han sido desarrollados utilizando tecnología alemana de última generación, cuyo enfoque en seguridad del usuario y minimización del impacto ambiental la hacen líder en el mundo en el ámbito de la química fina.<br/>
               Nuestras fórmulas químicas son:
@@ -48,112 +48,147 @@ export default function Named  ({location})  {
           <PictureWebp className="float-right" path="" filename="productos-quimicos" description="Productos quimicos Unilimpio"/>
         }/>
     <div className="w-full">
-      <h2 className="font-medium title-font text-center my-10 text-decoration: underline text-3xl">Categorías</h2>
+      <h2 className="font-medium title-font text-center my-10 text-decoration: underline text-3xl text-primary-default">Categorías</h2>
       <div className="flex flex-wrap">
         <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
           <h3 className="text-lg sm:text-xl font-medium title-font mb-2 text-center">
             Desinfección de superficies
           </h3>
-          <Link to="/productos/quimicos/amonio-cuaternario" className="text-blue-500 inline-flex items-center">
-              Amonio Cuaternario 5ta Generación al 10%
+          <Link to="/productos/quimicos/amonio-cuaternario-de-quinta-generacion-ozz" className="text-primary-lighter inline-flex items-center">
+              Amonio Cuaternario de Quinta Generación al 10% Ozz
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </Link><br/>
-          <Link to="/productos/quimicos/desinfectante-de-superficies-con-amonio-cuaternario" className="text-blue-500 inline-flex items-center">
-              Desinfectante de Superficies Ozz con Amonio Cuaternario
+          <Link to="/productos/quimicos/desinfectante-con-amonio-cuaternario" className="text-primary-lighter inline-flex items-center">
+              Desinfectante con Amonio Cuaternario Ozz
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </Link><br/>
-          <Link  to="/productos/quimicos/alcohol-antiseptico" className="text-blue-500 inline-flex items-center">
+          <Link  to="/productos/quimicos/alcohol-multipropositos" className="text-primary-lighter inline-flex items-center">
               Alcohol al 72%
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </Link><br/>
-          <Link  to="/productos/quimicos/cloro-liquido-ozz" className="text-blue-500 inline-flex items-center">
-              Cloro líquido al 5.5%
+          <Link  to="/productos/quimicos/cloro-liquido-ozz" className="text-primary-lighter inline-flex items-center">
+              Cloro Líquido al 5.5%
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </Link><br/>
-          <Link  to="/productos/quimicos/desinfectante-liquido" className="text-blue-500 inline-flex items-center">
-              Desinfectante líquido concentrado
+          <Link  to="/productos/quimicos/desinfectante-liquido" className="text-primary-lighter inline-flex items-center">
+              Desinfectante Líquido Concentrado
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </Link><br/>
-          <Link  to="/productos/quimicos/sanitizante-peracetico" className="text-blue-500 inline-flex items-center">
-              Sanitizante peracético al 15%
-            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg>
-          </Link><br/>
-
         </div>
+
+        <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+          <h3 className="text-lg sm:text-xl font-medium title-font mb-2 text-center">
+            Línea Alimenticia
+          </h3>
+          <Link  to="/productos/quimicos/digrizz-ozz" className="text-primary-lighter inline-flex items-center text">
+              Detergente Concentrado Multiusos Digrizz Ozz
+            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </Link><br/>
+          <Link   to="/productos/quimicos/lavavajilla-neutro" className="text-primary-lighter inline-flex items-center">
+              Lavavajilla Neutro Ozz
+            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </Link><br/>
+          <Link   to="/productos/quimicos/limpiador-de-areas-frias" className="text-primary-lighter inline-flex items-center">
+              Limpiador de Áreas Frías 
+            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </Link><br/>
+          <Link   to="/productos/quimicos/limpiador-de-hornos-y-parrillas-en-caliente" className="text-primary-lighter inline-flex items-center">
+              Limpiador de Hornos y Parrillas en Caliente 
+            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </Link><br/>
+          <Link   to="/productos/quimicos/limpiador-desincrustante-acido-ozz" className="text-primary-lighter inline-flex items-center">
+              Limpiador Desincrustante Ácido Ozz 
+            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </Link><br/>
+          <Link   to="/productos/quimicos/limpiador-removedor-caustico" className="text-primary-lighter inline-flex items-center">
+              Limpiador Removedor Cáutico
+            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </Link><br/>
+          <Link   to="/productos/quimicos/sanitizante-de-superficies-bacterac-ozz" className="text-primary-lighter inline-flex items-center">
+              Sanitizante de Superficies Duras Bacterac de Grado Alimenticio 
+            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </Link><br/>
+          <Link   to="/productos/quimicos/sanitizante-peracetico" className="text-primary-lighter inline-flex items-center">
+              Sanitizante Peracético al 15%
+            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </Link><br/>
+          <Link   to="/productos/quimicos/sanitizante-y-desinfectante-organic-100" className="text-primary-lighter inline-flex items-center">
+              Sanitizante y Desinfectante Organic 100
+            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </Link><br/>
+          </div>
 
 
         <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
           <h3 className="text-lg sm:text-xl font-medium title-font mb-2 text-center">
             Desengrasantes
           </h3>
-          <Link  to="/productos/quimicos/digrizz-ozz" className="text-blue-500 inline-flex items-center text">
-              Detergente concentrado Digrizz
-            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg>
-          </Link><br/>
-          <Link   to="/productos/quimicos/arrasagrasa-multiusos" className="text-blue-500 inline-flex items-center ">
+          <Link   to="/productos/quimicos/arrasagrasa-multiusos" className="text-primary-lighter inline-flex items-center ">
               Arrasagrasa multiusos
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </Link><br/>
+          <Link   to="/productos/quimicos/arrasagrasa-ecolimpio" className="text-primary-lighter inline-flex items-center ">
+              Arrasagrasa Ecolimpio
+            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </Link><br/>
 
-          <Link  to="/productos/quimicos/desengrasante-tornado" className="text-blue-500 inline-flex items-center text-center">
+          <Link  to="/productos/quimicos/desengrasante-tornado" className="text-primary-lighter inline-flex items-center text-center">
               Desengrasante Tornado
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
-
           </Link><br/>
           </div>
-        <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-          <h3 className="text-lg sm:text-xl font-medium title-font mb-2 text-center">
-            Línea Alimenticia
-          </h3>
-          <Link   to="/productos/quimicos/lavavajilla-neutro" className="text-blue-500 inline-flex items-center">
-              Lavavajilla Neutro Ozz
-            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg>
-          </Link><br/>
-          <Link   to="/productos/quimicos/organic-100" className="text-blue-500 inline-flex items-center">
-              Organic 100
-            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
-              <path d="M5 12h14M12 5l7 7-7 7"></path>
-            </svg>
-          </Link><br/>
 
-          </div>
         <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
           <h3 className="text-lg sm:text-xl font-medium title-font mb-2 text-center">
             Cuidado de Superficies
           </h3>
-          <Link   to="/productos/quimicos/cera-liquida" className="text-blue-500 inline-flex items-center">
+          <Link   to="/productos/quimicos/cera-liquida" className="text-primary-lighter inline-flex items-center">
               Cera Autobrillante Ozz
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </Link><br/>
-          <Link   to="/productos/quimicos/brilla-muebles" className="text-blue-500 inline-flex items-center">
+          <Link   to="/productos/quimicos/brilla-muebles" className="text-primary-lighter inline-flex items-center">
               Limpia Muebles Ozz
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </Link><br/>
-          <Link  to="/productos/quimicos/limpiador-pisos-flotantes" className="text-blue-500 inline-flex items-center">
+          <Link  to="/productos/quimicos/limpiador-pisos-flotantes" className="text-primary-lighter inline-flex items-center">
               Limpiador de Piso Flotante Ozz
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>

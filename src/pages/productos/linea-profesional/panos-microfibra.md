@@ -1,5 +1,5 @@
 ---
-path: "/productos/linea-profesional/paños-microfibra"
+path: "/productos/linea-profesional/panos-microfibra"
 category: "Línea Profesional"
 categorySlug: "linea-profesional"
 title:  "Paños Microfibra"

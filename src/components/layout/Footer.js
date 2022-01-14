@@ -115,6 +115,9 @@ const Footer = () => (
            <Link to="/responsabilidad-social" className="text-white hover:text-gray-400"> Responsabilidad Social</Link>
           </li>
           <li>
+            <Link to="/denuncias-actos-de-corrupcion#complaintform" className="text-white hover:text-gray-400">Denuncia actos de corrupción</Link>
+          </li>
+          <li>
            <Link to="/trabaja-con-nosotros" className="text-white hover:text-gray-400"> Trabaja con nosotros</Link>
           </li>
           <li>

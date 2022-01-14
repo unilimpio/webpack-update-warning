@@ -38,6 +38,27 @@ const databits = [
     filename: 'logo-ts',
     description:
       'Logo Tesalia Spring',
-  }
+  },
+  {
+    filename: 'logo-multicines',
+    description:
+      'Logo Multicines',
+  },
+  {
+    filename: 'logo-scala',
+    description:
+      'Logo Scala Shopping',
+  },
+  {
+    filename: 'logo-papallacta',
+    description:
+      'Logo Termas de Papallacta',
+  },
+  {
+    filename: 'logo-vozandes',
+    description:
+      'Logo Hospital Vozandes',
+  },
+
 ];
 export default databits;

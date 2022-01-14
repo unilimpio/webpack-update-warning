@@ -17,7 +17,7 @@ const seo={
   title: "Secadores de Manos",
   desc:  "Secadores de manos para un adecuado higiene de manos.",
   image: "secadores-de-manos.jpg",
-  pathname: "/secadores-de-mano",
+  pathname: "/secadores-de-manos",
 }
 
 export default function Named  ({location})  {

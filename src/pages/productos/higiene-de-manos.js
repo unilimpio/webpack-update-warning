@@ -34,7 +34,7 @@ export default function Named  ({location})  {
     <SplitSection className=""
         primarySlot={
           <div className="bg-white bg-opacity-50 rounded-xl p-8">
-            <h2 className="text-xl text-blue-500 mb-5">Productos de alta calidad para el lavado y desinfección de manos para uso doméstico e institucional.</h2>
+            <h2 className="text-xl text-primary-lighter mb-5">Productos de alta calidad para el lavado y desinfección de manos para uso doméstico e institucional.</h2>
             <p className="md:w-full text-left leading-relaxed text-base text-gray-700 text-justify">
             Nuestros productos para la higiene y desinfección de manos son desarrollados con formulas con un poderoso efecto bactericida y viricida. Sus ingredientes antimicrobianos de última generación eliminan el 99,9% de gérmenes causantes de enfermedades en 30 segundos. Expertos médicos a nivel mundial recomiendan el lavado y desinfección de manos constantes para prevenir el contagio de enfermedades causadas por microrganismos patógenos, incluyendo virus envueltos como el SARS-CoV2, causante de la enfermedad Covid-19.<br/>
 
@@ -52,19 +52,19 @@ export default function Named  ({location})  {
           <h3 className="text-lg sm:text-xl font-medium title-font mb-2 text-center">
             Jabón Líquido Antibacterial Dr.Clean
           </h3>
-          <Link  to="/productos/higiene-de-manos/jabon-liquido-autodispensado" className=" text-blue-500  inline-flex items-center">
-              Jabón Líquido Antibacterial Autodispensado
+          <Link  to="/productos/higiene-de-manos/jabon-liquido-con-valvula" className=" text-primary-lighter  inline-flex items-center">
+              Jabón Líquido Antibacterial con Válvula
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </Link><br/>
-          <Link to="/productos/higiene-de-manos/jabon-liquido-para-relleno" className="text-blue-500  inline-flex items-center">
+          <Link to="/productos/higiene-de-manos/jabon-liquido-para-relleno" className="text-primary-lighter inline-flex items-center">
               Jabón Líquido Antibacterial para Relleno
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </Link><br/>
-          <Link   to="/productos/higiene-de-manos/jabon-liquido-en-sachet" className="text-blue-500  inline-flex items-center">
+          <Link   to="/productos/higiene-de-manos/jabon-liquido-en-sachet" className="text-primary-lighter  inline-flex items-center">
               Jabón Líquido Antibacterial en Sachet para Dispensador
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -76,36 +76,37 @@ export default function Named  ({location})  {
           <h3 className="text-lg sm:text-xl font-medium title-font mb-2 text-center">
             Gel Antibacterial Dr.Clean
           </h3>
-          <Link  to="/productos/higiene-de-manos/gel-antibacterial-autodispensado" className="text-blue-500 inline-flex items-center text-left">
-              Gel Antibacterial Autodispensado
+          <Link  to="/productos/higiene-de-manos/gel-antibacterial-con-valvula" className="text-primary-lighter inline-flex items-center text-left">
+              Gel Antibacterial con Válvula 
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </Link><br/>
-          <Link  to="/productos/higiene-de-manos/gel-antibacterial-para-relleno" className="text-blue-500 inline-flex items-center text-left">
+          <Link  to="/productos/higiene-de-manos/gel-antibacterial-para-relleno" className="text-primary-lighter inline-flex items-center text-left">
              Gel Antibacterial para Relleno
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </Link><br/>
-          <Link  to="/productos/higiene-de-manos/gel-antibacterial-en-sachet" className="text-blue-500 inline-flex items-center text-left">
+          <Link  to="/productos/higiene-de-manos/gel-antibacterial-en-sachet" className="text-primary-lighter inline-flex items-center text-left">
               Gel Antibacterial en Sachet para Dispensador
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </Link><br/>
-          <Link  to="/productos/higiene-de-manos/alcohol-para-manos" className="text-blue-500 inline-flex items-center">
-              Alcohol para Manos
+        </div>
+
+        <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+          <h3 className="text-lg sm:text-xl font-medium title-font mb-2 text-center">
+            Alcohol Antimicrobiano
+          </h3>
+          <Link  to="/productos/higiene-de-manos/alcohol-antimicrobiano" className="text-primary-lighter inline-flex items-center text-left">
+              Alcohol Antimicrobiano 
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </Link><br/>
-
-
-
-        </div>
-
-
+          </div>
 
 
       </div>

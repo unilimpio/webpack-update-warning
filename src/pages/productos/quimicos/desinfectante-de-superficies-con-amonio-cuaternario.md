@@ -1,5 +1,5 @@
 ---
-path: "/productos/quimicos/desinfectante-de-superficies-con-amonio-cuaternario"
+path: "/productos/quimicos/desinfectante-con-amonio-cuaternario"
 category: "Químicos"
 categorySlug: "quimicos"
 title:  "Desinfectante de Superficies Ozz con Amonio Cuaternario de 5ta Generación"

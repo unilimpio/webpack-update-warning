@@ -9,17 +9,17 @@ slug:  "traje-de-seguridad"
 
 
 ---
-El traje de seguridad permite una excelente protección frente a particulas sólidas y sapicaduras de químicos o solventes. El material se ajusta a su cuerpo para una mayor seguridad y libertad de movimientos. Fabricado con material de gran resistencia y duración, libre de pelusas.
+El traje de seguridad permite una excelente protección frente a particulas sólidas y sapicaduras de químicos o solventes. El material se ajusta a su cuerpo para una mayor seguridad y libertad de movimientos. Fabricado con material de gran resistencia y duración, libre de pelusas. Cuenta con capucha por lo que recibe protección de pies a cabeza. Ideal para utilizar como protección en el trabajo. 
 
 
 <br> <br>
 <table class="min-w-full md:min-w-0 divide-y-0 divide-gray-200">
           <thead class=" bg-white">
             <tr>
-              <th scope="col" class="px-6 text-center text-xs font-medium text-blue-500 uppercase tracking-wider">
+              <th scope="col" class="px-6 text-center text-xs font-medium text-primary-lighter uppercase tracking-wider">
                 Talla
               </th>
-              <th scope="col" class="px-6 py-3 text-center text-xs font-medium text-blue-500 uppercase tracking-wider">
+              <th scope="col" class="px-6 py-3 text-center text-xs font-medium text-primary-lighter uppercase tracking-wider">
                 Código
               </th>
             </tr>

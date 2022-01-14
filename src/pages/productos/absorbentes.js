@@ -36,7 +36,7 @@ export default function Named ({location}) {
     <SplitSection className=""
         primarySlot={
           <div className="bg-white bg-opacity-50 rounded-xl p-10">
-            <h2 className="text-xl text-blue-500 mb-5">Desarrollados con materia prima de la mejor calidad y amigables con el ambiente.</h2>
+            <h2 className="text-xl text-primary-lighter mb-5">Desarrollados con materia prima de la mejor calidad y amigables con el ambiente.</h2>
             <p className="md:w-full text-left leading-relaxed text-base text-gray-700 text-justify ">
             Nuestra línea de absorbentes ha sido creada para tener un máximo poder de absorción y retención de líquidos. Elaborada con soluciones ecológicas de higiene en suavidad y textura para mayor bienestar en cuidado personal. Procesos socialmente responsables.<br/>
 
@@ -54,25 +54,25 @@ export default function Named ({location}) {
           <h3 className="text-lg sm:text-xl font-medium title-font mb-2 text-center">
             Toallas de Manos
           </h3>
-          <Link to="/productos/absorbentes/toalla-z-interfoliada-bio" className="text-blue-500 inline-flex items-center">
+          <Link to="/productos/absorbentes/toalla-z-interfoliada-bio" className="text-primary-lighter inline-flex items-center">
               Toalla Z Bio Interfoliada
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </Link><br/>
-          <Link  to="/productos/absorbentes/toalla-de-manos-bio" className="text-blue-500 inline-flex items-center">
-             Toalla de Manos Bio x2 unidades
+          <Link  to="/productos/absorbentes/toalla-de-manos-bio" className="text-primary-lighter inline-flex items-center">
+             Toalla de Manos Bio 
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </Link><br/>
-          <Link  to="/productos/absorbentes/toalla-de-manos-center-pull" className="text-blue-500 inline-flex items-center">
+          <Link  to="/productos/absorbentes/toalla-de-manos-center-pull" className="text-primary-lighter inline-flex items-center">
             Toalla de Manos Center Pull
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </Link><br/>
-          <Link  to="/productos/absorbentes/limpion-industrial" className="text-blue-500 inline-flex items-center">
+          <Link  to="/productos/absorbentes/limpion-industrial" className="text-primary-lighter inline-flex items-center">
             Limpión Industrial
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -84,7 +84,7 @@ export default function Named ({location}) {
           <h3 className="text-lg sm:text-xl font-medium title-font mb-3 text-center">
             Papel Higiénico
           </h3>
-          <Link   to="/productos/absorbentes/papel-higienico-jumbo-bio" className="text-blue-500 inline-flex items-center">
+          <Link   to="/productos/absorbentes/papel-higienico-jumbo-bio" className="text-primary-lighter inline-flex items-center">
               Papel Higiénico Jumbo Bio
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -98,13 +98,13 @@ export default function Named ({location}) {
           <h3 className="text-lg sm:text-xl font-medium title-font mb-3 text-center">
             Servilletas
           </h3>
-          <Link   to="/productos/absorbentes/servilleta-bio" className="text-blue-500 inline-flex items-center">
+          <Link   to="/productos/absorbentes/servilleta-bio" className="text-primary-lighter inline-flex items-center">
              Servilleta Bio
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </Link><br/>
-          <Link   to="/productos/absorbentes/servilleta-dispensada" className="text-blue-500 inline-flex items-center">
+          <Link   to="/productos/absorbentes/servilleta-dispensada" className="text-primary-lighter inline-flex items-center">
              Servilleta en Z Dispensada
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
