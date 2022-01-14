@@ -9,14 +9,14 @@ slug:  "escurridor-para-vidrio"
 
 
 ---
-Permite al operador limpiar perfectamente la superficie con una sola pasada por frotamiento gracias a la suavidad del caucho. La escobilla de goma es para ser utilizado con los movimientos de “S “ de la parte superior. Dispone de una rosca para la inserción de tubos telescópicos extensibles para la limpieza de grandes ventanas de cristal sin el uso de escaleras.
+Escurridor de vidrio que l permite al operador limpiar perfectamente la superficie con una sola pasada por frotamiento gracias a la suavidad del caucho. La escobilla de goma es para ser utilizado con los movimientos de “S “ de la parte superior. Dispone de una rosca para la inserción de tubos telescópicos extensibles para la limpieza de grandes ventanas de cristal sin el uso de escaleras.
 
 
 <br> <br>
 <table class="min-w-full md:min-w-0 divide-y-0 divide-gray-200">
           <thead class=" bg-white">
             <tr>
-              <th scope="col" class="px-6 text-center text-xs font-medium text-blue-500 uppercase tracking-wider">
+              <th scope="col" class="px-6 text-center text-xs font-medium text-primary-lighter uppercase tracking-wider">
                 Código
               </th>
             </tr>

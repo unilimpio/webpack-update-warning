@@ -1,16 +1,16 @@
 ---
-path: "/productos/quimicos/sanitizante-y-desinfectante-organic-100"
+path: "/productos/quimicos/sanitizante-peracetico"
 category: "Químicos"
 categorySlug: "quimicos"
-title:  "Organic 100"
-subtitle: "Sanitizante y desinfectante a base de ácidos órganicos"
+title:  "Sanitizante Peracético Ozz"
+subtitle: "Sanitizante y desinfectante de superficies"
 date: "2020-04-02"
-slug:  "organic-100"
+slug:  "sanitizante-peracetico"
 
 
 
 ---
-ORGANIC 100 Ozz® sanitizante y desinfectante bactericida, fungicida y viricida formulado para la aplicación en frutas, verduras y en superficies que pueden estar en contacto con alimentos. No es tóxico debido a su formulación con ingredientes de grado alimenticio por lo cual permite su uso seguro en frutas y verduras, permite una reducción de 5 log (99,999%) de microorganismos* incluyendo virus envueltos como el SARS-CoV2 causante del Covid-19**.
+Sanitizante Peracético Ozz® es un producto de excelente efectividad, disminuye la carga microbiana en hasta 5 log (99.999%). Efectivo contra microorganismos*, producto de amplio espectro, trabaja a temperaturas desde 4 – 40 °C. Su ingrediente activo está aprobado por la FDA como un “aditivo indirecto para alimentos y como desinfectante de superficies en la industria alimenticia”. No corrosivo para aceros inoxidables.
 
 <br>
 <table class="min-w-full md:min-w-0 divide-y-0 divide-gray-200">
@@ -30,15 +30,15 @@ ORGANIC 100 Ozz® sanitizante y desinfectante bactericida, fungicida y viricida 
               3785 ml
               </td>
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
-              QUI0568
+              QUI0359
               </td>
             </tr> 
           </tbody>
         </table>
         <br>
 
- <a href="../../../files/FT-organic-100.pdf" target="_blank" rel="noopener">Ficha Técnica</a> | 
- <a href="../../../files/MSDS-organic-100.pdf" target="_blank" rel="noopener">Hoja de Seguridad</a>
+ <a href="../../../files/FT-sanitizante-peracetico.pdf" target="_blank" rel="noopener">Ficha Técnica</a> | 
+ <a href="../../../files/MSDS-sanitizante-peracetico.pdf" target="_blank" rel="noopener">Hoja de Seguridad</a>
 
 
 

@@ -9,14 +9,15 @@ slug:  "dispensador-ph-premium"
 
 
 ---
-El elegante dispensador de papel higiénico puede almacenar fácilmente un mini rollo de papel de jumbo. Ideal para baños pequeños. Sus componentes garantizan una larga duración y fácil de cambiar. Dispensa papel perforado y no perforado. La unidad tiene dos ventanas de visualización para verificar el nivel de stock.
+Elegante dispensador de papel higiénico jumbo premium permite almacenar fácilmente un mini rollo de papel higiénico jumbo. Ideal para el uso en baños con espacios pequeños. Sus componentes garantizan una larga duración y facilidad para cambiar el producto. Puede dispensar papel higiénico jumbo perforado y no perforado. La unidad tiene dos ventanas de visualización para verificar el nivel de stock y no quedarse sin producto.
+
 
 
 <br>
 <table class="min-w-full md:min-w-0 divide-y-0 divide-gray-200">
           <thead class=" bg-white">
             <tr>
-              <th scope="col" class="px-6 py-3 text-center text-xs font-medium text-blue-500 uppercase tracking-wider">
+              <th scope="col" class="px-6 py-3 text-center text-xs font-medium text-primary-lighter uppercase tracking-wider">
                 Código
               </th>
             </tr>

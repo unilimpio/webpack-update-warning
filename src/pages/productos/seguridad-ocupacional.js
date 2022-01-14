@@ -31,7 +31,7 @@ export default function Named  ({location})  {
     <SplitSection className=""
         primarySlot={
           <div className="bg-white bg-opacity-50 rounded-xl p-8">
-            <h2 className="text-xl text-blue-500 mb-5">Equipos de protección física para sus colaboradores</h2>
+            <h2 className="text-xl text-primary-lighter mb-5">Equipos de protección física para sus colaboradores</h2>
             <p className="md:w-full text-left leading-relaxed text-base text-gray-700 text-justify">
             Equipos de protección individual para garantizar la total seguridad en todos los puestos de trabajo. Equipos de uso obligatorio que se encargan de evitar o minimizar los riesgos para así garantizar la seguridad y la salud del trabajador ante todos los riesgos que se encuentre expuesto.
 
@@ -49,7 +49,7 @@ export default function Named  ({location})  {
           <h3 className="text-lg sm:text-xl font-medium title-font mb-2 text-center">
             Mascarillas
           </h3>
-          <Link  to="/productos/seguridad-ocupacional/mascarilla-KN95" className="text-blue-500 inline-flex items-center">
+          <Link  to="/productos/seguridad-ocupacional/mascarilla-KN95" className="text-primary-lighter inline-flex items-center">
           Mascarrilla KN95
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -62,37 +62,37 @@ export default function Named  ({location})  {
           <h3 className="text-lg sm:text-xl font-medium title-font mb-2 text-center">
             Guantes
           </h3>
-          <Link   to="/productos/seguridad-ocupacional/guantes-de-nitrilo" className="text-blue-500 inline-flex items-center">
+          <Link   to="/productos/seguridad-ocupacional/guantes-de-nitrilo" className="text-primary-lighter inline-flex items-center">
               Guantes de Nitrilo
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </Link><br/>
-          <Link   to="/productos/seguridad-ocupacional/guantes-latex-corrugado-shadow" className="text-blue-500 inline-flex items-center">
+          <Link   to="/productos/seguridad-ocupacional/guantes-latex-corrugado-shadow" className="text-primary-lighter inline-flex items-center">
           Guante Latex Recubierto Corrugado Shadow
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </Link><br/>
-          <Link   to="/productos/seguridad-ocupacional/guantes-latex-corrugado-cloud" className="text-blue-500 inline-flex items-center">
+          <Link   to="/productos/seguridad-ocupacional/guantes-latex-corrugado-cloud" className="text-primary-lighter inline-flex items-center">
           Guante Latex Recubierto Corrugado Cloud
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </Link><br/>
-          <Link   to="/productos/seguridad-ocupacional/guantes-latex-corrugado-rifle" className="text-blue-500 inline-flex items-center">
+          <Link   to="/productos/seguridad-ocupacional/guantes-latex-corrugado-rifle" className="text-primary-lighter inline-flex items-center">
           Guante Latex Recubierto Corrugado Rifle
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </Link><br/>
-          <Link   to="/productos/seguridad-ocupacional/guantes-latex-corrugado-wave" className="text-blue-500 inline-flex items-center">
+          <Link   to="/productos/seguridad-ocupacional/guantes-latex-corrugado-wave" className="text-primary-lighter inline-flex items-center">
           Guante Latex Recubierto Corrugado Wave
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </Link><br/>
-          <Link   to="/productos/seguridad-ocupacional/guantes-latex-corrugado-blue-sky" className="text-blue-500 inline-flex items-center">
+          <Link   to="/productos/seguridad-ocupacional/guantes-latex-corrugado-blue-sky" className="text-primary-lighter inline-flex items-center">
           Guante Latex Recubierto Corrugado Blue Sky
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -104,7 +104,7 @@ export default function Named  ({location})  {
           <h3 className="text-lg sm:text-xl font-medium title-font mb-2 text-center">
             Trajes de Seguridad
           </h3>
-          <Link   to="/productos/seguridad-ocupacional/traje-de-seguridad" className="text-blue-500 inline-flex items-center">
+          <Link   to="/productos/seguridad-ocupacional/traje-de-seguridad" className="text-primary-lighter inline-flex items-center">
           Traje de Seguridad Completo
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -115,13 +115,13 @@ export default function Named  ({location})  {
           <h3 className="text-lg sm:text-xl font-medium title-font mb-2 text-center">
             Botas de Seguridad
           </h3>
-          <Link  to="/productos/seguridad-ocupacional/bota-industrial-pvc" className="text-blue-500 inline-flex items-center">
+          <Link  to="/productos/seguridad-ocupacional/bota-industrial-pvc" className="text-primary-lighter inline-flex items-center">
           Bota Industrial de PVC  Punta de Acero
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </Link><br/>
-          <Link  to="/productos/seguridad-ocupacional/botin-contratista-dielectrico" className="text-blue-500 inline-flex items-center">
+          <Link  to="/productos/seguridad-ocupacional/botin-contratista-dielectrico" className="text-primary-lighter inline-flex items-center">
           Botín Contratista Dieléctrico Punta de Acero
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>

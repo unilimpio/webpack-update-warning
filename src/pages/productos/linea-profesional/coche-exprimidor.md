@@ -9,14 +9,15 @@ slug:  "coche-exprimidor"
 
 
 ---
-Coche sencillo donde facilita al operador exprimir el trapeador sin necesidad de toparlo ya que cuenta con un escurridor universal completamente de plástico, mismo que se adapta a trapeadores verticales y trapeadores de sistema húmedo. Es equipada con un gancho de seguridad manteniendo el escurridor bien fijado a la estructura de soporte. Elaborado completamente de plástico propileno.
+Coche exprimidor sencillo donde facilita al operador exprimir el trapeador sin necesidad de toparlo ya que cuenta con un escurridor universal completamente de plástico, mismo que se adapta a trapeadores verticales y trapeadores de sistema húmedo. Es equipado con un gancho de seguridad manteniendo el escurridor bien fijado a la estructura de soporte. Fabricado de plástico resistente, de uso semiprofesional, se emplea para trapear 
+cómoda y eficientemente pisos grandes, optimizando el tiempo del operario. Viene provisto de un escurridor con palanca para trapeadores y mopas. Elaborado completamente de plástico propileno.
 
 
 <br> <br>
 <table class="min-w-full md:min-w-0 divide-y-0 divide-gray-200">
           <thead class=" bg-white">
             <tr>
-              <th scope="col" class="px-6 text-center text-xs font-medium text-blue-500 uppercase tracking-wider">
+              <th scope="col" class="px-6 text-center text-xs font-medium text-primary-lighter uppercase tracking-wider">
                 Código
               </th>
             </tr>

@@ -39,7 +39,7 @@ export default function Named ({location}) {
     <SplitSection className=""
         primarySlot={
           <div className="bg-white bg-opacity-50 rounded-xl p-8 text-justify">
-            <h2 className="text-xl text-blue-500 mb-5">Una amplia línea de dispensadores para sus diferentes necesidades.</h2>
+            <h2 className="text-xl text-primary-lighter mb-5">Una amplia línea de dispensadores para sus diferentes necesidades.</h2>
             <p className="md:w-full text-left leading-relaxed text-base text-gray-700 text-justify">
               Contamos con una gran variedad de dispensadores modernos y elegantes diseños que se adaptan facilmente a sus necesidades de uso. Ideal para dosificar y economizar el producto.<br/>
 
@@ -55,45 +55,80 @@ export default function Named ({location}) {
       <div className="flex flex-wrap">
         <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
           <h3 className="text-lg sm:text-xl font-medium title-font mb-2 text-center">
-           Dispensador de Jabón o Gel
+           Dispensador de Jabón 
           </h3>
-          <Link  to="/productos/dispensadores/jabon-o-gel" className="text-blue-500 inline-flex items-center">
-            Jabón Líquido o Gel
+          <Link  to="/productos/dispensadores/jabon-liquido" className="text-primary-lighter inline-flex items-center">
+            Jabón Líquido
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </Link><br/>
-          <Link  to="/productos/dispensadores/jabon-espuma" className="text-blue-500 inline-flex items-center">
+          <Link  to="/productos/dispensadores/jabon-espuma" className="text-primary-lighter inline-flex items-center">
             Jabón Espuma
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </Link><br/>
-          <Link  to="/productos/dispensadores/jabon-gel-para-nios" className="text-blue-500 inline-flex items-center">
-            Jabón Líquido o Gel para Niños
+          <Link  to="/productos/dispensadores/jabon-liquido-automatico" className="text-primary-lighter inline-flex items-center">
+            Jabón Líquido Automático
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </Link><br/>
+          <Link  to="/productos/dispensadores/jabon-espuma-automatico" className="text-primary-lighter inline-flex items-center">
+            Jabón Espuma Automático
+            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </Link><br/>
+        </div>
 
+        <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+          <h3 className="text-lg sm:text-xl font-medium title-font mb-2 text-center">
+           Dispensador de Gel Antibacterial 
+          </h3>
+          <Link  to="/productos/dispensadores/gel-antibacterial" className="text-primary-lighter inline-flex items-center">
+            Gel Antibacterial 
+            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </Link><br/>
+          <Link  to="/productos/dispensadores/gel-antibacterial-automatico" className="text-primary-lighter inline-flex items-center">
+            Gel Antibacterial Automático
+            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </Link><br/>
+        </div>
+
+        <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
+          <h3 className="text-lg sm:text-xl font-medium title-font mb-2 text-center">
+           Dispensador de Alcohol
+          </h3>
+          <Link  to="/productos/dispensadores/alcohol" className="text-primary-lighter inline-flex items-center">
+           Alcohol Spray
+            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </Link><br/>
         </div>
         <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
           <h3 className="text-lg sm:text-xl font-medium title-font mb-2 text-center">
             Dispensador de Papel Higiénico
           </h3>
-          <Link  to="/productos/dispensadores/papel-higienico-jumbo-unilimpio" className="text-blue-500 inline-flex items-center">
+          <Link  to="/productos/dispensadores/papel-higienico-jumbo-unilimpio" className="text-primary-lighter inline-flex items-center">
               Papel Higiénico Jumbo Unilimpio
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </Link><br/>
-          <Link  to="/productos/dispensadores/papel-higienico-jumbo-de-lujo" className="text-blue-500 inline-flex items-center">
+          <Link  to="/productos/dispensadores/papel-higienico-jumbo-de-lujo" className="text-primary-lighter inline-flex items-center">
               Papel Higiénico Jumbo de Lujo
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </Link><br/>
-          <Link  to="/productos/dispensadores/papel-higienico-jumbo-premium" className="text-blue-500 inline-flex items-center">
+          <Link  to="/productos/dispensadores/papel-higienico-jumbo-premium" className="text-primary-lighter inline-flex items-center">
                Papel Higiénico Jumbo Premium
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -105,19 +140,19 @@ export default function Named ({location}) {
             Dispensador de Toallas
           </h3>
 
-          <Link to="/productos/dispensadores/toalla-z-unilimpio" className="text-blue-500 inline-flex items-center">
+          <Link to="/productos/dispensadores/toalla-z-unilimpio" className="text-primary-lighter inline-flex items-center">
               Toalla Z Unilimpio
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </Link><br/>
-          <Link  to="/productos/dispensadores/toalla-z-de-lujo" className="text-blue-500 inline-flex items-center">
+          <Link  to="/productos/dispensadores/toalla-z-de-lujo" className="text-primary-lighter inline-flex items-center">
               Toalla Z de Lujo
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </Link><br/>
-          <Link to="/productos/dispensadores/toalla-center-pull" className="text-blue-500 inline-flex items-center">
+          <Link to="/productos/dispensadores/toalla-center-pull" className="text-primary-lighter inline-flex items-center">
               Toalla Center pull de Lujo
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>

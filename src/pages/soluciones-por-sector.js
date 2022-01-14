@@ -18,7 +18,7 @@ const seo={
   title: "Soluciones por industria",
   desc:  "En Unilimpio estamos listos para atender cualquier necesidad que requiera su industria, contamos con asesores profesionales especializados en cada sector y con el más amplio portafolio de productos de limpieza para brindarle la solución más adecuada.",
   image: "segmentos.jpg",
-  pathname: "/soluciones",
+  pathname: "/soluciones-por-sector",
 }
 
 const Soluciones = ({location}) => (
@@ -55,7 +55,7 @@ const Soluciones = ({location}) => (
           <dd className="mt-2 text-base text-gray-700 text-justify">
           Soluciones óptimas para mantener espacios de uso público totalmente desinfectados y sanitizados. Nuestros productos son altamente concentrados, lo que genera un gran rendimiento y un bajo costo en uso.  Por último, entrenamos y capacitamos al personal de limpieza en el manejo adecuado de soluciones químicas para evitar el desperdicio.
           </dd>
-          <Link to="/soluciones/alto-trafico" className="mt-4 text-primary-lighter inline-flex items-center pl-10 ">Conocer más
+          <Link to="/soluciones-por-sector/alto-trafico" className="mt-4 text-primary-lighter inline-flex items-center pl-10 ">Conocer más
           <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
             <path d="M5 12h14M12 5l7 7-7 7"></path>
           </svg>
@@ -75,7 +75,7 @@ const Soluciones = ({location}) => (
           <dd className="mt-2 text-base text-gray-700 text-justify">
             Productos con certificación, cuentan con notificación/registro sanitario, y cumplen con especificaciones nacionales e internacionales. Nuestros productos químicos son altamente concentrados, lo que genera un gran rendimiento y un bajo costo en uso. Usados con dosificadores, se garantiza y controla el rendimiento de nuestras soluciones químicas. Capacitamos al personal de limpieza para evitar el desperdicio de producto.
           </dd>
-          <Link to="/soluciones/industria-alimenticia" className="mt-4 text-primary-lighter inline-flex items-center pl-10 ">Conocer más
+          <Link to="/soluciones-por-sector/industria-alimenticia" className="mt-4 text-primary-lighter inline-flex items-center pl-10 ">Conocer más
           <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
             <path d="M5 12h14M12 5l7 7-7 7"></path>
           </svg>
@@ -95,7 +95,7 @@ const Soluciones = ({location}) => (
           <dd className="mt-2 text-base text-gray-700 text-justify">
           Las más altas medidas de seguridad para el estudiante y el cuerpo docente con espacios educativos libres de virus y bacterias. Contamos con un amplio portafolio de productos de limpieza e higiene de manos para satisfacer sus necesidades.
           </dd>
-          <Link to="/soluciones/educacion" className="mt-4 text-primary-lighter inline-flex items-center pl-10 ">Conocer más
+          <Link to="/soluciones-por-sector/educacion" className="mt-4 text-primary-lighter inline-flex items-center pl-10 ">Conocer más
           <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
             <path d="M5 12h14M12 5l7 7-7 7"></path>
           </svg>
@@ -115,7 +115,7 @@ const Soluciones = ({location}) => (
           <dd className="mt-2 text-base text-gray-700 text-justify">
           Todos nuestros productos cumplen con los requisitos de calidad y seguridad. Son productos concentrados desarrollados con un enfoque de máximo rendimiento para la reducción de costo y mayor durabilidad. Son productos biodegradables.
           </dd>
-          <Link to="/soluciones/servicios-de-limpieza" className="mt-4 text-primary-lighter inline-flex items-center pl-10 ">Conocer más
+          <Link to="/soluciones-por-sector/servicios-de-limpieza" className="mt-4 text-primary-lighter inline-flex items-center pl-10 ">Conocer más
           <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
             <path d="M5 12h14M12 5l7 7-7 7"></path>
           </svg>

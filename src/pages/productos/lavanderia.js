@@ -34,7 +34,7 @@ export default function Named  ({location})  {
     <SplitSection className=""
         primarySlot={
           <div className="bg-white bg-opacity-50 rounded-xl p-8">
-            <h2 className="text-xl text-blue-500 mb-5">Productos químicos para el lavado de prendas seguros y amigables con el medio ambiente.</h2>
+            <h2 className="text-xl text-primary-lighter mb-5">Productos químicos para el lavado de prendas seguros y amigables con el medio ambiente.</h2>
             <p className="md:w-full text-left leading-relaxed text-base text-gray-700 text-justify">
             Suavizante de ropa y detergentes líquidos y en polvo para el lavado textil. Ideal para la limpieza de telas manchadas con grasa de alimentos, sudor y residuos. Sus componentes activos son productos naturales biodegradables, que no son agresivos con las manos ni con el medio ambiente. Para uso doméstico, institucional e industrial. <br/>
 
@@ -51,19 +51,19 @@ export default function Named  ({location})  {
           <h3 className="text-lg sm:text-xl font-medium title-font mb-2 text-center">
             Detergentes
           </h3>
-          <Link   to="/productos/lavanderia/detergente-liquido-enzimatico" className="text-blue-500 inline-flex items-center">
+          <Link   to="/productos/lavanderia/detergente-liquido-enzimatico" className="text-primary-lighter inline-flex items-center">
               Detergente Líquido Enzimático
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </Link><br/>
-          <Link  to="/productos/lavanderia/detergente-liquido-biosolutions" className="text-blue-500 inline-flex items-center">
+          <Link  to="/productos/lavanderia/detergente-liquido-biosolutions" className="text-primary-lighter inline-flex items-center">
               Detergente Líquido Biosolutions
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </Link><br/>
-          <Link   to="/productos/lavanderia/detergente-en-polvo" className="text-blue-500 inline-flex items-center">
+          <Link   to="/productos/lavanderia/detergente-en-polvo" className="text-primary-lighter inline-flex items-center">
               Detergente en Polvo Unilimpio
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -75,7 +75,7 @@ export default function Named  ({location})  {
           <h3 className="text-lg sm:text-xl font-medium title-font mb-2 text-center">
             Suavizantes
           </h3>
-          <Link  to="/productos/lavanderia/suavizante-de-ropa" className="text-blue-500 inline-flex items-center">
+          <Link  to="/productos/lavanderia/suavizante-de-ropa" className="text-primary-lighter inline-flex items-center">
               Suavizante Líquido
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>

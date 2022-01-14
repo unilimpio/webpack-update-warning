@@ -9,17 +9,17 @@ slug:  "escurridor-de-piso"
 
 
 ---
-Escurridor de piso que sirve para empujar el agua sobre los pisos, ayudando a su secado rápido. Viene en varios colores para identificar zonas de uso. Su plástico e sumamente resistente.
+Escurridor de piso que sirve para empujar el agua sobre los pisos, ayudando a su secado rápido. Viene en varios colores para identificar zonas de uso. Su plástico es sumamente resistente para la limpieza de pisos. Con haragán en polipropileno y doble lámina negra de espuma de neopreno. Deja sus pisos relucientes y sin manchas de agua. La limpieza de la herramienta es bastante fácil y rápida. Compatible con cualquier mango con agujero con diámetro de 18 a 23 mm. 
 
 
 <br> <br>
 <table class="min-w-full md:min-w-0 divide-y-0 divide-gray-200">
           <thead class=" bg-white">
             <tr>
-            <th scope="col" class="px-6 text-center text-xs font-medium text-blue-500 uppercase tracking-wider">
+            <th scope="col" class="px-6 text-center text-xs font-medium text-primary-lighter uppercase tracking-wider">
                 Color
               </th>
-              <th scope="col" class="px-6 text-center text-xs font-medium text-blue-500 uppercase tracking-wider">
+              <th scope="col" class="px-6 text-center text-xs font-medium text-primary-lighter uppercase tracking-wider">
                 Código
               </th>
             </tr>
