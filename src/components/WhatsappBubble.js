@@ -11,7 +11,7 @@ const WhatsappBubble =({contactNum}) => {
 
     var now = new Date();
 
-    if(now.getDay() <= 5 && now.getHours() >= 0 && now.getHours() < 17){
+    if(now.getDay() <= 5 && now.getHours() >= 9 && now.getHours() < 17){
       setLive(true);
     } else {
       setLive(false);

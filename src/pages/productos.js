@@ -2,14 +2,14 @@
 
 import React from 'react';
 import { Link } from 'gatsby';
+import { StaticImage } from "gatsby-plugin-image"
 import Button from '../components/Button';
 
 import ProductCard from '../components/ProductCard';
 import Layout from '../components/layout/Layout';
 
 
-import productsData from '../data/products-data';
-import PictureWebp from "../components/PictureWebp";
+import ProductsData from '../data/products-data';
 import LeadForm from "../components/LeadForm";
 import SplitSectionB2b from '../components/SplitSectionB2b';
 import SplitSection from '../components/SplitSection';
@@ -32,7 +32,7 @@ const Productos = ({location}) => (
           <Layout location={location} crumbLabel="Productos" title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
 
             <section id="productos" className="pt-6">
-              <div className="container mx-auto bg-white bg-opacity-50">
+              <div className="">
                 <h1 className="text-5xl font-semibold text-center mb-6">Productos de Limpieza</h1>
                 <SplitSection
                     primarySlot={
@@ -45,13 +45,19 @@ const Productos = ({location}) => (
                       </div>
                     }
                     secondarySlot={
-                      <PictureWebp className="float-right" path="" filename="productos-categorias" description="Productos de limpieza"/>
+                      <StaticImage src="../images/productos-categorias.jpg"
+                                  className=""
+                                  alt="Productos de limpieza"
+                                  placeholder="blurred"
+                                  layout="constrained"
+                                   />
+
                     }/>
                 <div className="w-full">
                   <h2 className="text-primary-lighter font-medium title-font text-center my-10 text-decoration: underline text-3xl ">Portafolio de Productos de Limpieza</h2>
                   <div className="flex flex-wrap">
 
-                    {productsData.map((product, index) => (
+                    {ProductsData.map((product, index) => (
 
                           <ProductCard product={ product } key={ index } />
 
