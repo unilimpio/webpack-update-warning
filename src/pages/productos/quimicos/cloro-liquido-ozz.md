@@ -6,6 +6,7 @@ title:  "Cloro al 5.5% Ozz"
 subtitle: "Líquido altamente concentrado"
 date: "2020-04-02"
 slug:  "cloro-ozz"
+featuredImage: "../../../images/cloro-ozz.jpg"
 sku: "QUI0084"
 gtin13: "7861051501167"
 price: "3.60"
@@ -36,7 +37,7 @@ Ozz® Cloro Concentrado (5.5%) formulado a base de hipoclorito de sodio concentr
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI00084
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-200">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               1000 ml
@@ -44,15 +45,10 @@ Ozz® Cloro Concentrado (5.5%) formulado a base de hipoclorito de sodio concentr
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI00173
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
         <br>
 
- <a href="../../../files/FT-cloro-ozz.pdf" target="_blank" rel="noopener">Ficha Técnica</a> | 
+ <a href="../../../files/FT-cloro-ozz.pdf" target="_blank" rel="noopener">Ficha Técnica</a> |
  <a href="../../../files/MSDS-cloro-ozz.pdf" target="_blank" rel="noopener">Hoja de Seguridad</a>
-
-
-
-        
-

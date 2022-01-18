@@ -6,6 +6,7 @@ title:  "Detergente en Polvo Unilimpio"
 subtitle: "100% libre de fosfatos"
 date: "2020-04-02"
 slug:  "detergente-en-polvo"
+featuredImage:  "../../../images/detergente-en-polvo.png"
 
 
 ---
@@ -31,7 +32,7 @@ Detergente en polvo Unilimpio es un detergente de última generación. Brinda un
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               DET0023
               </td>
-            </tr> 
+            </tr>
              <tr class="bg-gray-200">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               5 Kg
@@ -39,7 +40,7 @@ Detergente en polvo Unilimpio es un detergente de última generación. Brinda un
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               DET0024
               </td>
-            </tr> 
+            </tr>
              <tr class="bg-gray-400">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               15 Kg
@@ -47,9 +48,6 @@ Detergente en polvo Unilimpio es un detergente de última generación. Brinda un
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               DET0021
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
-
-
-

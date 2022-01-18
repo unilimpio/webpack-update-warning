@@ -6,7 +6,7 @@ title:  "Gel Antibacterial para Relleno Dr.Clean"
 subtitle: "Con etanol concentrado al 69.9%"
 date: "2020-04-02"
 slug:  "gel-para-relleno"
-
+featuredImage:  "../../../images/gel-para-relleno.png"
 
 
 ---
@@ -32,7 +32,7 @@ Gel Antibacterial Dr. Clean® es un sanitizante de manos de uso externo enriquec
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0872
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-200">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Neutro 3785 ml
@@ -40,15 +40,10 @@ Gel Antibacterial Dr. Clean® es un sanitizante de manos de uso externo enriquec
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0089
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
         <br>
 
- <a href="../../../files/FT-gel-antibacterial.pdf" target="_blank" rel="noopener">Ficha Técnica</a> | 
+ <a href="../../../files/FT-gel-antibacterial.pdf" target="_blank" rel="noopener">Ficha Técnica</a> |
  <a href="../../../files/MSDS-gel-antibacterial.pdf" target="_blank" rel="noopener">Hoja de Seguridad</a>
-
-
-
-        
-

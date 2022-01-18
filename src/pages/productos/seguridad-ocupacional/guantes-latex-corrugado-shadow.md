@@ -5,7 +5,8 @@ categorySlug: "seguridad-ocupacional"
 title:  "Guantes Latex Recubierto Corrugado Shadow"
 subtitle: "cumple con la normativa EN388 (4121)"
 date: "2020-04-02"
-slug:  "guantes-latex-corrugado-shadow"
+slug: "guantes-latex-corrugado-shadow"
+featuredImage:  "../../../images/guantes-latex-corrugado-shadow.jpg"
 
 
 ---
@@ -27,12 +28,12 @@ Los guantes latex recubierto corrugado Shadow son recubierto de nitrilo foam 55%
           <tbody>
             <tr class="bg-gray-400">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
-              Small 
+              Small
               </td>
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               SAF0001
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-200">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Medium
@@ -40,7 +41,7 @@ Los guantes latex recubierto corrugado Shadow son recubierto de nitrilo foam 55%
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               SAF0002
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-400">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Large
@@ -48,9 +49,6 @@ Los guantes latex recubierto corrugado Shadow son recubierto de nitrilo foam 55%
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               SAF0003
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
-
-
-

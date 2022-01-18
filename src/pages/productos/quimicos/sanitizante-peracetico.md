@@ -6,6 +6,7 @@ title:  "Sanitizante Peracético Ozz"
 subtitle: "Sanitizante y desinfectante de superficies"
 date: "2020-04-02"
 slug:  "sanitizante-peracetico"
+featuredImage:  "../../../images/sanitizante-peracetico.png"
 
 
 
@@ -32,15 +33,10 @@ Sanitizante Peracético Ozz® es un producto de excelente efectividad, disminuye
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0359
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
         <br>
 
- <a href="../../../files/FT-sanitizante-peracetico.pdf" target="_blank" rel="noopener">Ficha Técnica</a> | 
+ <a href="../../../files/FT-sanitizante-peracetico.pdf" target="_blank" rel="noopener">Ficha Técnica</a> |
  <a href="../../../files/MSDS-sanitizante-peracetico.pdf" target="_blank" rel="noopener">Hoja de Seguridad</a>
-
-
-
-        
-

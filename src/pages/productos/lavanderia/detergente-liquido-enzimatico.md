@@ -6,6 +6,7 @@ title:  "Detergente Enzimático Ozz"
 subtitle: "detergente líquido concentrado"
 date: "2020-04-02"
 slug:  "detergente-enzimatico-liquido"
+featuredImage: "../../../images/detergente-enzimatico-liquido.jpg"
 
 
 ---
@@ -31,9 +32,6 @@ Detergente Enzimático Ozz es un detergente altamente biodegradable. Cuenta con 
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0098
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
-
-
-

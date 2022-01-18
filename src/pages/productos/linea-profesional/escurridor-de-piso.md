@@ -6,10 +6,11 @@ title:  "Escurridor de Piso"
 subtitle: "de plástico y sin bastón"
 date: "2020-04-02"
 slug:  "escurridor-de-piso"
+featuredImage:  "../../../images/escurridor-de-piso.jpg"
 
 
 ---
-Escurridor de piso que sirve para empujar el agua sobre los pisos, ayudando a su secado rápido. Viene en varios colores para identificar zonas de uso. Su plástico es sumamente resistente para la limpieza de pisos. Con haragán en polipropileno y doble lámina negra de espuma de neopreno. Deja sus pisos relucientes y sin manchas de agua. La limpieza de la herramienta es bastante fácil y rápida. Compatible con cualquier mango con agujero con diámetro de 18 a 23 mm. 
+Escurridor de piso que sirve para empujar el agua sobre los pisos, ayudando a su secado rápido. Viene en varios colores para identificar zonas de uso. Su plástico es sumamente resistente para la limpieza de pisos. Con haragán en polipropileno y doble lámina negra de espuma de neopreno. Deja sus pisos relucientes y sin manchas de agua. La limpieza de la herramienta es bastante fácil y rápida. Compatible con cualquier mango con agujero con diámetro de 18 a 23 mm.
 
 
 <br> <br>
@@ -32,7 +33,7 @@ Escurridor de piso que sirve para empujar el agua sobre los pisos, ayudando a su
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               TTS0117
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-200">
              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Rojo
@@ -40,7 +41,7 @@ Escurridor de piso que sirve para empujar el agua sobre los pisos, ayudando a su
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               TTS0119
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-400">
              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Azul
@@ -48,7 +49,7 @@ Escurridor de piso que sirve para empujar el agua sobre los pisos, ayudando a su
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               TTS0121
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-200">
              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Amarillo
@@ -56,9 +57,6 @@ Escurridor de piso que sirve para empujar el agua sobre los pisos, ayudando a su
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               TTS0122
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
-
-
-

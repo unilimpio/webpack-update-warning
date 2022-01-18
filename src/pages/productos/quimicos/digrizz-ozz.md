@@ -6,6 +6,7 @@ title:  "Digrizz Ozz"
 subtitle: "Desengrasante limpiador multiuso concentrado"
 date: "2020-04-02"
 slug:  "digrizz-ozz"
+featuredImage:  "../../../images/digrizz-ozz.jpg"
 sku: "QUI0103"
 gtin13: "7861051508838"
 price: "21.71"
@@ -35,15 +36,10 @@ Digrizz Ozz® es un desengrasante que puede ser diluido en diversas proporciones
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0103
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
         <br>
 
- <a href="../../../files/FT-digrizz.pdf" target="_blank" rel="noopener">Ficha Técnica</a> | 
+ <a href="../../../files/FT-digrizz.pdf" target="_blank" rel="noopener">Ficha Técnica</a> |
  <a href="../../../files/MSDS-digrizz.pdf" target="_blank" rel="noopener">Hoja de Seguridad</a>
-
-
-
-        
-

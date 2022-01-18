@@ -6,6 +6,7 @@ title:  "Limpiador Desincrustante Ácido Ozz"
 subtitle: "Limpia y desincrusta en un solo paso"
 date: "2020-04-02"
 slug:  "limpiador-desincrustante-acido"
+featuredImage:  "../../../images/limpiador-desincrustante-acido.jpg"
 sku: "QUI0080"
 gtin13: "7861051509507"
 price: ""
@@ -14,7 +15,7 @@ brandLogo: "ozz.jpg"
 
 
 ---
-El Limpiador Desincrustante Ácido Ozz® está formulado a partir de ácidos, ideal  para eliminar todo tipo de suciedades inorgánicas, depósitos de minerales y limpieza de superficies tales como: acero inoxidable, cerámica, pisos de baldosa, aluminio y otras superficies resistentes al ácido. 
+El Limpiador Desincrustante Ácido Ozz® está formulado a partir de ácidos, ideal  para eliminar todo tipo de suciedades inorgánicas, depósitos de minerales y limpieza de superficies tales como: acero inoxidable, cerámica, pisos de baldosa, aluminio y otras superficies resistentes al ácido.
 De baja espuma; ayuda a reducir los tiempos de enjuague y evita la obstrucción de algunos equipos incluyendo los sistemas de recirculación.
 
 
@@ -38,15 +39,10 @@ De baja espuma; ayuda a reducir los tiempos de enjuague y evita la obstrucción 
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               3785 ml
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
         <br>
 
- <a href="../../../files/FT-limpiador-desincrustante-acido.pdf" target="_blank" rel="noopener">Ficha Técnica</a> | 
+ <a href="../../../files/FT-limpiador-desincrustante-acido.pdf" target="_blank" rel="noopener">Ficha Técnica</a> |
  <a href="../../../files/MSDS-limpiador-desincrustante-acido.pdf" target="_blank" rel="noopener">Hoja de Seguridad</a>
-
-
-
-        
-

@@ -6,6 +6,7 @@ title:  "Suavizante de Ropa Ozz"
 subtitle: "suavizante de fibras textiles"
 date: "2020-04-02"
 slug:  "suavizante-de-ropa"
+featuredImage: "../../../images/suavizante-de-ropa.jpg"
 
 
 ---
@@ -31,9 +32,6 @@ Suavizante de Ropa Ozz posee un agradable perfume que deja un rastro de frescura
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0099
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
-
-
-

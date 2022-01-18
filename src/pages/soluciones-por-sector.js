@@ -1,12 +1,13 @@
 
 
 import React from 'react';
+import { StaticImage } from "gatsby-plugin-image"
 import Button from '../components/Button';
 import Layout from '../components/layout/Layout';
 
 
 import { Link } from 'gatsby';
-import PictureWebp from "../components/PictureWebp";
+
 
 
 
@@ -28,7 +29,17 @@ const Soluciones = ({location}) => (
   <Layout location={location} crumbLabel="Soluciones por Sector"
   title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
 
-    <PictureWebp className="object-contain" filename="segmentos" description="soluciones por industria"/>
+
+
+    <StaticImage src="../images/segmentos.jpg"
+                className="object-contain"
+                alt="Soluciones de productos diseñadas para industrias con necesidades específicas, las soluciones de Unilimpio se componen de un portafolio especializado y de servicios complementarios que le brindarán una solucion integral"
+                placeholder="blurred"
+                layout="fullWidth"
+                imgClassName=""
+                 />
+
+
 
 <section className="bg-white">
   <div className="max-w-7xl mx-10 py-16 px-4 sm:px-6 lg:py-24 lg:px-8">

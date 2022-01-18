@@ -6,6 +6,7 @@ title:  "Cera Autobrillante Ozz"
 subtitle: "Abrillantador de pisos perfumada"
 date: "2020-04-02"
 slug:  "cera-liquida"
+featuredImage: "../../../images/cera-liquida.jpg"
 
 
 
@@ -31,15 +32,10 @@ Cera Autobrillante Ozz es un abrillantador de pisos que proporciona brillo durab
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0090
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
         <br>
 
- <a href="../../../files/FT-cera-liquida.pdf" target="_blank" rel="noopener">Ficha Técnica</a> | 
+ <a href="../../../files/FT-cera-liquida.pdf" target="_blank" rel="noopener">Ficha Técnica</a> |
  <a href="../../../files/MSDS-cera-liquida.pdf" target="_blank" rel="noopener">Hoja de Seguridad</a>
-
-
-
-        
-

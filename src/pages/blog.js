@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 import Layout from '../components/layout/Layout';
 
@@ -16,7 +17,6 @@ const seo={
 }
 
 export default function Blog ({location, data}) {
-
 
 
     return(
@@ -45,7 +45,10 @@ export default function Blog ({location, data}) {
             {data.allMarkdownRemark.edges.map(({ node }) => (
 
               <div key={node.id} className="flex flex-col sm:flex-row my-8">
-                    <div className=""><PictureWebp className="w-48 sm:w-40" filename={node.frontmatter.slug} description={node.excerpt}/></div>
+                    <div className="md:w-48">
+                      <GatsbyImage image={node.frontmatter.featuredImage.childImageSharp.gatsbyImageData} alt={node.excerpt} />
+
+                    </div>
                     <div className="px-8">
 
                       <Link className="" to={node.frontmatter.path}>
@@ -57,7 +60,6 @@ export default function Blog ({location, data}) {
                       </h3>
                       </Link>
                       <p className="text-left">
-
                         {node.excerpt}
                       </p>
                     </div>
@@ -86,6 +88,11 @@ query {
           title
           path
           slug
+          featuredImage {
+          childImageSharp {
+            gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED)
+          }
+        }
         }
       }
     }

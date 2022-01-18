@@ -6,6 +6,7 @@ title:  "Sanitizante de Superficies Bacterac Ozz"
 subtitle: "de grado alimenticio"
 date: "2020-04-02"
 slug:  "amonio-cuaternario"
+featuredImage:  "../../../images/amonio-cuaternario.jpg"
 sku: "QUI0102"
 gtin13: "7861051508777"
 price: "9.99"
@@ -37,15 +38,10 @@ Sanitizante de superficies Bacterac Ozz® de grado alimenticio es un sanitizante
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               3785 ml
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
         <br>
 
- <a href="../../../files/FT-amonio-cuaternario.pdf" target="_blank" rel="noopener">Ficha Técnica</a> | 
+ <a href="../../../files/FT-amonio-cuaternario.pdf" target="_blank" rel="noopener">Ficha Técnica</a> |
  <a href="../../../files/MSDS-amonio-cuaternario.pdf" target="_blank" rel="noopener">Hoja de Seguridad</a>
-
-
-
-        
-

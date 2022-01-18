@@ -6,6 +6,7 @@ title:  "Limpiador de Pisos Flotantes Ozz"
 subtitle: "Abrillantador y restaurador de pisos flotantes"
 date: "2020-04-02"
 slug:  "limpiador-de-piso-flotante"
+featuredImage:  "../../../images/limpiador-de-piso-flotante.jpg"
 
 
 
@@ -32,15 +33,10 @@ Limpiador de Pisos Flotantes Ozz es un producto diseñado específicamente para 
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0142
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
         <br>
 
- <a href="../../../files/FT-limpiador-de-piso-flotante.pdf" target="_blank" rel="noopener">Ficha Técnica</a> | 
+ <a href="../../../files/FT-limpiador-de-piso-flotante.pdf" target="_blank" rel="noopener">Ficha Técnica</a> |
  <a href="../../../files/MSDS-limpiador-de-piso-flotante.pdf" target="_blank" rel="noopener">Hoja de Seguridad</a>
-
-
-
-        
-

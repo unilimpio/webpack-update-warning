@@ -22,7 +22,7 @@ const WhatsappBubble =({contactNum}) => {
 
   return(
 
-      <div className="z-2 fixed bottom-40 right-2 w-12">
+      <div className="z-10 fixed bottom-40 right-2 w-12">
 
         <a href={`https://wa.me/${contactNum}`} target="_blank" rel="noopener noreferrer">
 

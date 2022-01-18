@@ -6,6 +6,7 @@ title:  "Dispensador para Toalla Center Pull de Lujo"
 subtitle: "Color negro translúcido"
 date: "2020-04-02"
 slug:  "dispensador-toalla-center-pull-lujo"
+featuredImage: "../../../images/dispensador-toalla-center-pull-lujo.jpg"
 
 
 ---
@@ -26,9 +27,6 @@ Nuestro dispensador de toalla para center pull cuenta con un diseño elegante y 
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               DIS0332
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
-
-
-

@@ -6,6 +6,7 @@ title:  "Escurridor para Vidrio: Caucho"
 subtitle: "con soporte de acero inoxidable y caucho"
 date: "2020-04-02"
 slug:  "escurridor-para-vidrio"
+featuredImage: "../../../images/escurridor-para-vidrio.jpg"
 
 
 ---
@@ -24,11 +25,8 @@ Escurridor de vidrio que l permite al operador limpiar perfectamente la superfic
           <tbody>
             <tr class="bg-gray-400">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
-              TTS0104 
+              TTS0104
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
-
-
-

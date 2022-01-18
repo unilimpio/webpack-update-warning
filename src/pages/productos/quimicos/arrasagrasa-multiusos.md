@@ -6,6 +6,7 @@ title:  "Arrasagrasa Multiusos Ozz"
 subtitle: "Desengrasante biodegradable con acción sanitizante"
 date: "2020-04-02"
 slug:  "arrasagrasa-multiusos-ozz"
+featuredImage:  "../../../images/arrasagrasa-multiusos-ozz.jpg"
 
 
 
@@ -32,15 +33,10 @@ Arrasagrasa Multiusos Ozz® es un desengrasante para cocina de aplicación direc
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0368
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
         <br>
 
- <a href="../../../files/FT-arrasagrasa-multiusos.pdf" target="_blank" rel="noopener">Ficha Técnica</a> | 
+ <a href="../../../files/FT-arrasagrasa-multiusos.pdf" target="_blank" rel="noopener">Ficha Técnica</a> |
  <a href="../../../files/MSDS-arrasagrasa-multiusos.pdf" target="_blank" rel="noopener">Hoja de Seguridad</a>
-
-
-
-        
-

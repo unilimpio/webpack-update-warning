@@ -2,14 +2,12 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 
+import { StaticImage } from "gatsby-plugin-image"
+
+
 import Layout from '../components/layout/Layout';
-import FeatureCard from '../components/FeatureCard';
 
-
-
-import featuresData from '../data/features-data';
-
-import PictureWebp from "../components/PictureWebp";
+import Features from "../components/Features";
 import Button from '../components/Button';
 
 import SplitSection from '../components/SplitSection';
@@ -18,63 +16,23 @@ import NewsletterSub from "../components/NewsletterSub";
 import Testimonials from "../components/Testimonials";
 
 import LogoDump from "../components/ClientesLogos";
+import HeroBanner from "../components/HeroBanner"
 
 
 
 
+const IndexPage = ({  location }) => {
 
-const IndexPage = ({ location }) => (
+
+
+
+  return(
 
 <Layout location={location} crumbLabel="Inicio" >
 
-<section id="hero-banner" className="bg-hero-banner-5 bg-fill bg-right-bottom bg-no-repeat m-0 p-0">
-      <div className="container mt-0 mx-auto ">
-        <div className="bg-gradient-to-r from-white">
-          <div className="">
+<HeroBanner />
 
-            <div className="bg-white bg-opacity-50 text-center pt-12 p-8 md:text-left md:w-2/5 md:pr-12">
-              <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none text-center">
-              Mucho más en higiene Institucional
-              </h1>
-              <p className="text-lg lg:text-xl mt-6 font-normal text-justify text-gray-500">
-                Somos su aliado en higiene institucional, con nosotros podrá mejorar la satisfacción de sus usuarios, clientes y colaboradores a través de soluciones adecuadas de higiene.
-              </p>
-              <div className="flex flex-wrap mx-auto justify-center mt-8 md:mt-12 mb-20">
-              
-              <Link to="/soluciones-por-sector">
-                <Button className=" bg-primary-default text-white hover:bg-primary-lighter rounded-lg active:bg-primary-darker focus:outline-none" size="lg">Soluciones para su negocio</Button>
-              </Link>
-              </div>
-             
-              <p className="mt-4 text-gray-600"></p>
-            </div>
-          </div>
-        </div>
-      </div>
-</section>
-
-<section id="features" className="py-10 md:py-20 bg-gradient-to-br from-gray-200 via-white to-gray-200 ">
-      <div className="container mx-auto">
-        <div className="w-full bg-fill bg-no-repeat bg-products">
-          <h2 className="text-4xl font-semibold text-center text-primary-normal">Nuestra propuesta de valor</h2>
-          <p className="md:w-2/3 mx-auto text-2xl font-light text-center my-4 pr-10 pl-10 mb-10 text-gray-700">
-            Mucho más que un proveedor de productos de limpieza, nos motiva ser aliados estratégicos de nuestros clientes.<br/>
-            Al elegirnos, usted recibe los siguientes beneficios:
-          </p>
-        </div>
-
-        <div className="flex flex-wrap justify-center">
-
-            {featuresData.map((feature,index) =>
-            <div key={index} className="w-full p-4 lg:w-1/3">
-              <FeatureCard feature={feature} />
-            </div>
-            )}
-
-
-        </div>
-      </div>
-</section>
+<Features />
 
 <section id="productos" className="pt-20 mb-20  ">
   <div className="container mx-auto bg-white bg-opacity-50">
@@ -90,11 +48,16 @@ const IndexPage = ({ location }) => (
         <Button className="flex mx-auto mt-16 text-white  border-0 py-2 px-8 bg-primary-lighter shadow-md hover:bg-primary-xlighter rounded text-lg">Descubra nuestros productos  </Button>
       </Link>
   </div>
-  
+
 
         }
         secondarySlot={
-          <PictureWebp className="float-right" path="" filename="productos" description="Productos de limpieza"/>
+          <StaticImage src="../images/productos.jpg"
+                      className="float-right"
+                      alt="Productos de limpieza"
+                      placeholder="blurred"
+                      layout="constrained"
+                       />
         }/>
 
   </div>
@@ -106,12 +69,12 @@ const IndexPage = ({ location }) => (
       primarySlot={
         <div className="pl-8 pr-6 pt-8 pb-6 bg-white bg-opacity-50 rounded-lg ">
           <h2 className="mt-2  text-3xl  sm:text-4xl  text-center text-2xl font-semibold leading-tight ">
-           Marca Blanca 
+           Marca Blanca
           </h2>
           <p className="mt-3 text-lg text-gray-700 text-center">
-          Fabricamos productos de la más alta calidad con su marca. 
+          Fabricamos productos de la más alta calidad con su marca.
           </p>
-          <div className="flex flex-wrap mx-auto justify-center">  
+          <div className="flex flex-wrap mx-auto justify-center">
            <Link to="/contactenos" className="mt-4 text-primary-lighter inline-flex items-center text-lg">Más información
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
             <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -120,7 +83,12 @@ const IndexPage = ({ location }) => (
       </div>
         </div>
       }
-      secondarySlot={<PictureWebp className="" filename="marca-blanca" description="realizamos linea blanca"/>}
+      secondarySlot={<StaticImage src="../images/marca-blanca.jpg"
+                  className=""
+                  alt="Marca BLanca: Somos su aliado ideal para la realización de su producto con su marca."
+                  placeholder="blurred"
+                  layout="constrained"
+                   />}
 />
 
 
@@ -142,7 +110,14 @@ const IndexPage = ({ location }) => (
         </div>
         </div>
       }
-      secondarySlot={<PictureWebp className="" filename="servicio-cazabacterias" description="Técnicos cazabacterias realizando una desinfección profunda de lugares con aglomeración de personas y poca ventilación natural y exposición a la luz solar, como medida de prevención de la transmisión indirecta del COVID-19."/>}
+      secondarySlot={
+        <StaticImage src="../images/servicio-cazabacterias.jpg"
+                    className=""
+                    alt="Técnicos cazabacterias realizando una desinfección profunda de lugares con aglomeración de personas y poca ventilación natural y exposición a la luz solar, como medida de prevención de la transmisión indirecta del COVID-19."
+                    placeholder="blurred"
+                    layout="constrained"
+        />
+      }
 />
 
 <SplitSection id="rse"
@@ -164,21 +139,29 @@ const IndexPage = ({ location }) => (
         </div>
         </div>
       }
-      secondarySlot={<PictureWebp className="" filename="responsabilidad-social-banner" description="Unilimpio es una empresa con responsabilidad social empresarial"/>}
+      secondarySlot={
+        <StaticImage src="../images/responsabilidad-social-banner.jpg"
+                    className=""
+                    alt="Unilimpio es una empresa con responsabilidad social empresarial."
+                    placeholder="blurred"
+                    layout="constrained"
+        />
+
+}
 />
 
 <LogoDump className="mt-20 "/>
-
 <Testimonials className="mt-20 mb-20 "/>
-
-
 <LeadForm/>
 <NewsletterSub/>
-
-
 
   </Layout>
 
 )
 
-  export default IndexPage
+}
+
+
+
+
+export default IndexPage

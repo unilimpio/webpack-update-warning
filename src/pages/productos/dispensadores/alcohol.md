@@ -6,10 +6,11 @@ title:  "Dispensador de Alcohol Spray "
 subtitle: "Elegante y resistente"
 date: "2020-04-02"
 slug:  "dispensador-de-alcohol"
+featuredImage: "../../../images/dispensador-de-alcohol.jpg"
 
 
 ---
-Dispensador de alcohol spray  le permite ahorrar el producto  gracias a su sistema de dosificación, cada push arroja un ml del producto. Rellene el dispensador con un  sachet de alcohol spray de 800 ml. Ideal para todo tipo de decoraciones en el sector de salud, hoteles, restaurantes y planteles educativos. Elaborado con polipropileno impermeable contra el moho. Posee un visor de consumo, cuatro tacos, cuatro tornillos, y una llave de seguridad. 
+Dispensador de alcohol spray  le permite ahorrar el producto  gracias a su sistema de dosificación, cada push arroja un ml del producto. Rellene el dispensador con un  sachet de alcohol spray de 800 ml. Ideal para todo tipo de decoraciones en el sector de salud, hoteles, restaurantes y planteles educativos. Elaborado con polipropileno impermeable contra el moho. Posee un visor de consumo, cuatro tacos, cuatro tornillos, y una llave de seguridad.
 
 
 <br>
@@ -27,7 +28,7 @@ Dispensador de alcohol spray  le permite ahorrar el producto  gracias a su siste
           <tbody>
             <tr class="bg-gray-400">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
-              Blanco 
+              Blanco
               </td>
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
                DIS0376
@@ -35,6 +36,3 @@ Dispensador de alcohol spray  le permite ahorrar el producto  gracias a su siste
             </tr>  
           </tbody>
         </table>
-
-
-

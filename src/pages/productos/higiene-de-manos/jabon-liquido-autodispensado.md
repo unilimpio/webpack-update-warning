@@ -6,7 +6,7 @@ title:  "Jabón Líquido con válvula Dr.Clean"
 subtitle: "Para una adecuada higiene de manos"
 date: "2020-04-02"
 slug:  "jabon-autodispensado"
-
+featuredImage:  "../../../images/jabon-autodispensado.jpg"
 
 
 ---
@@ -32,7 +32,7 @@ Jabón Líquido Antibacterial con válvula Dr. Clean® remueve suavemente la suc
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0263
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-200">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Durazno 400 ml
@@ -40,7 +40,7 @@ Jabón Líquido Antibacterial con válvula Dr. Clean® remueve suavemente la suc
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0264
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-400">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Manzana 400 ml
@@ -48,7 +48,7 @@ Jabón Líquido Antibacterial con válvula Dr. Clean® remueve suavemente la suc
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0265
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-200">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Almendra 1000 ml
@@ -56,7 +56,7 @@ Jabón Líquido Antibacterial con válvula Dr. Clean® remueve suavemente la suc
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0156
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-400">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Durazno 1000 ml
@@ -64,7 +64,7 @@ Jabón Líquido Antibacterial con válvula Dr. Clean® remueve suavemente la suc
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0158
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-200">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Manzana 1000 ml
@@ -72,15 +72,10 @@ Jabón Líquido Antibacterial con válvula Dr. Clean® remueve suavemente la suc
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0160
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
         <br>
 
- <a href="../../../files/FT-jabon-liquido-antibacterial.pdf" target="_blank" rel="noopener">Ficha Técnica</a> | 
+ <a href="../../../files/FT-jabon-liquido-antibacterial.pdf" target="_blank" rel="noopener">Ficha Técnica</a> |
  <a href="../../../files/MSDS-jabon-liquido-antibacterial.pdf" target="_blank" rel="noopener">Hoja de Seguridad</a>
-
-
-
-        
-

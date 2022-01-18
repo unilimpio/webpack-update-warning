@@ -6,7 +6,7 @@ title:  "Toalla Center Pull"
 subtitle: "Toalla de manos de papel color blanco"
 date: "2020-04-02"
 slug:  "toalla-de-manos-center-pull"
-
+featuredImage: "../../../images/toalla-de-manos-center-pull.jpg"
 
 ---
 Toalla de alto rendimiento. Posee una textura suave, resistente y un exclusivo pre corte que lo hacen ideal para disminuir el desperdicio innecesario.
@@ -25,12 +25,12 @@ Toalla de alto rendimiento. Posee una textura suave, resistente y un exclusivo p
           <tbody>
             <tr class="bg-gray-400">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
-              x4 Unidades 
+              x4 Unidades
               </td>
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               ABS0076
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-200">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               305 metros
@@ -38,9 +38,6 @@ Toalla de alto rendimiento. Posee una textura suave, resistente y un exclusivo p
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               ABS0338
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
-
-
-

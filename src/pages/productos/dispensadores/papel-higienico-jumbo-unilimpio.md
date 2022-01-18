@@ -6,6 +6,7 @@ title:  "Dispensador para Papel Higiénico Unilimpio"
 subtitle: "para papel higiénico Jumbo"
 date: "2020-04-02"
 slug:  "dispensador-ph-unilimpio"
+featuredImage: "../../../images/dispensador-ph-unilimpio.jpg"
 
 
 ---
@@ -27,12 +28,12 @@ Dispensador para papel higiénico jumbo ideal para cualquier tipo de ambiente. L
           <tbody>
             <tr class="bg-gray-400">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
-              Blanco 
+              Blanco
               </td>
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
                DIS0003
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-200">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Gris
@@ -40,9 +41,6 @@ Dispensador para papel higiénico jumbo ideal para cualquier tipo de ambiente. L
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               DIS0142
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
-
-
-

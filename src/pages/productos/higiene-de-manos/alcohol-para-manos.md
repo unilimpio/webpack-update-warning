@@ -6,6 +6,7 @@ title:  "Alcohol Antimicrobiano Dr.Clean"
 subtitle: "Con etanol concentrado al 69.9%"
 date: "2020-04-02"
 slug:  "alcohol-para-manos"
+featuredImage: "../../../images/alcohol-para-manos.jpg"
 
 
 
@@ -32,7 +33,7 @@ El alcohol antimicrobiano con etanol concentrado al 69.9% está formulado con el
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0868
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-200">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               800 ml
@@ -40,15 +41,10 @@ El alcohol antimicrobiano con etanol concentrado al 69.9% está formulado con el
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0911
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
         <br>
 
- <a href="../../../files/FT-alcohol-para-manos.pdf" target="_blank" rel="noopener">Ficha Técnica</a> | 
+ <a href="../../../files/FT-alcohol-para-manos.pdf" target="_blank" rel="noopener">Ficha Técnica</a> |
  <a href="../../../files/MSDS-alcohol-para-manos.pdf" target="_blank" rel="noopener">Hoja de Seguridad</a>
-
-
-
-        
-

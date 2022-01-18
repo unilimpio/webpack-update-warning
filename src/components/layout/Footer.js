@@ -36,7 +36,7 @@ const Footer = () => (
           Lun - Vie, 8:30 - 17:00 GMT -5:00.
           </li>
           <li className="text-white">
-            Consultas, información, sugerencias: <Link to="/contact">escríbanos</Link>.
+            Consultas, información, sugerencias: <Link to="/contact" className="text-white underline hover:no-underline">escríbanos</Link>.
           </li>
         </nav>
       </div>

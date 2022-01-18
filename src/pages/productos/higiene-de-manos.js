@@ -77,7 +77,7 @@ export default function Named  ({location})  {
             Gel Antibacterial Dr.Clean
           </h3>
           <Link  to="/productos/higiene-de-manos/gel-antibacterial-con-valvula" className="text-primary-lighter inline-flex items-center text-left">
-              Gel Antibacterial con Válvula 
+              Gel Antibacterial con Válvula
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
@@ -101,7 +101,7 @@ export default function Named  ({location})  {
             Alcohol Antimicrobiano
           </h3>
           <Link  to="/productos/higiene-de-manos/alcohol-antimicrobiano" className="text-primary-lighter inline-flex items-center text-left">
-              Alcohol Antimicrobiano 
+              Alcohol Antimicrobiano
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>

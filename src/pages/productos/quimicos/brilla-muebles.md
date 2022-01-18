@@ -6,6 +6,7 @@ title:  "Brilla Muebles Ozz"
 subtitle: "Abrillantador de muebles de hogar y oficina"
 date: "2020-04-02"
 slug:  "brilla-muebles"
+featuredImage: "../../../images/brilla-muebles.jpg"
 
 
 
@@ -32,15 +33,10 @@ Brilla Muebles Ozz es un producto que limpia, abrillanta y protege las superfici
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0288
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
         <br>
 
- <a href="../../../files/FT-brilla-muebles.pdf" target="_blank" rel="noopener">Ficha Técnica</a> | 
+ <a href="../../../files/FT-brilla-muebles.pdf" target="_blank" rel="noopener">Ficha Técnica</a> |
  <a href="../../../files/MSDS-brilla-muebles.pdf" target="_blank" rel="noopener">Hoja de Seguridad</a>
-
-
-
-        
-

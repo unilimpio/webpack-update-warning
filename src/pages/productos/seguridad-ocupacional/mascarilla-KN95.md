@@ -6,6 +6,7 @@ title:  "Mascarilla KN95"
 subtitle: "de uso desechable"
 date: "2020-04-02"
 slug:  "mascarilla-n95"
+featuredImage:  "../../../images/mascarilla-n95.jpg"
 
 
 ---
@@ -27,14 +28,11 @@ Las mascarillas KN95 o también conocidos como respiradores KN95, son un tipo de
           <tbody>
             <tr class="bg-gray-400">
             <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
-              x5 Unidades 
+              x5 Unidades
               </td>
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               SAF0028
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
-
-
-

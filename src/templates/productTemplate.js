@@ -1,9 +1,10 @@
 import React from "react"
 import { graphql } from "gatsby"
+import { GatsbyImage, getImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout/Layout"
 
-import PictureWebp from "../components/PictureWebp"
+
 import { Link } from 'gatsby'
 import LeadForm from "../components/LeadForm"
 import NewsletterSub from '../components/NewsletterSub'
@@ -47,7 +48,7 @@ export default function productTemplate({
                 </div>
                 <div className="md:w-1/3 mx-auto mt-4">
 
-                    <PictureWebp path="../../" className="shadow-md" filename={frontmatter.slug} description={excerpt}/>
+                  <GatsbyImage image={frontmatter.featuredImage.childImageSharp.gatsbyImageData} className="float-left" alt={excerpt} />
                 </div>
             </div>
             <div className="mt-10 ml-4">
@@ -65,25 +66,28 @@ export default function productTemplate({
 
 export const pageQuery = graphql`
   query($path: String!) {
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
-      html
-      frontmatter {
-        date(formatString: "DD/MM/YYYY")
-        path
-        category
-        categorySlug
-        title
-        subtitle
-        slug
-        sku
-        gtin13
-        price
-        brandName
-        brandLogo
-
-
+    markdownRemark(frontmatter: {path: {eq: $path}}) {
+    frontmatter {
+      date(formatString: "DD/MM/YYYY")
+      slug
+      path
+      featuredImage {
+        childImageSharp {
+          gatsbyImageData(width: 800, placeholder: BLURRED, layout: CONSTRAINED)
+        }
       }
-      excerpt
+      category
+      title
+      subtitle
+      sku
+      price
+      gtin13
+      brandName
+      brandLogo
+      categorySlug
     }
+    excerpt
+    html
+  }
   }
   `

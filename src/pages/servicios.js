@@ -1,8 +1,8 @@
 import React from 'react';
 
-
+import { StaticImage } from "gatsby-plugin-image"
 import Layout from '../components/layout/Layout';
-import PictureWebp from "../components/PictureWebp";
+
 import LeadForm from "../components/LeadForm";
 import NewsletterSub from "../components/NewsletterSub";
 
@@ -18,13 +18,13 @@ const seo={
 
   <Layout location={location} crumbLabel="Servicios" title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
 
-    <PictureWebp className="object-contain" filename="servicios" description="servicios especializados de Unilimpio"/>
 
-
-
-
-
-
+  <StaticImage src="../images/servicios.jpg"
+              className="object-contain"
+              alt="Servicios especializados de Unilimpio"
+              placeholder="blurred"
+              layout="fullWidth"
+               />
 
 <section class="bg-white">
   <div class="max-w-7xl mx-10 py-16 px-4 sm:px-6 lg:py-24 lg:px-8">

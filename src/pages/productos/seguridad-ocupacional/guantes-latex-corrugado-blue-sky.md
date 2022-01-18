@@ -6,6 +6,7 @@ title:  "Guantes Latex Recubierto Corrugado Blue Sky"
 subtitle: "cumple con la normativa EN388 (4121)"
 date: "2020-04-02"
 slug:  "guantes-latex-corrugado-blue-sky"
+featuredImage:  "../../../images/guantes-latex-corrugado-blue-sky.jpg"
 
 
 ---
@@ -32,7 +33,7 @@ Los guantes latex recubierto corrugado Blue Sky son recubiertos de doble nitrilo
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               SAF0013
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-200">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Large
@@ -40,9 +41,6 @@ Los guantes latex recubierto corrugado Blue Sky son recubiertos de doble nitrilo
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               SAF0012
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
-
-
-

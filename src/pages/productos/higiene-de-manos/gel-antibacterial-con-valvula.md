@@ -3,9 +3,10 @@ path: "/productos/higiene-de-manos/gel-antibacterial-con-valvula"
 category: "Higiene de Manos"
 categorySlug: "higiene-de-manos"
 title:  "Gel Antibacterial con válvula Dr.Clean"
-subtitle: "Con etanol concentrado al 69.9%"
+subtitle: "Con etanol al 69.9% v/v"
 date: "2020-04-02"
-slug:  "gel-autodispensado"
+slug:  "gel-antibacterial-con-valvula"
+featuredImage: "../../../images/gel-antibacterial-con-valvula.png"
 
 
 
@@ -32,7 +33,7 @@ Gel Antibacterial con válvula Dr. Clean® es un sanitizante de manos de uso ext
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0885
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-200">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Bambú 350 ml
@@ -40,7 +41,7 @@ Gel Antibacterial con válvula Dr. Clean® es un sanitizante de manos de uso ext
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0261
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-400">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Bambú 1000 ml
@@ -48,7 +49,7 @@ Gel Antibacterial con válvula Dr. Clean® es un sanitizante de manos de uso ext
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0161
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-200">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Bambú 2000 ml
@@ -56,15 +57,10 @@ Gel Antibacterial con válvula Dr. Clean® es un sanitizante de manos de uso ext
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0256
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
         <br>
 
- <a href="../../../files/FT-gel-antibacterial.pdf" target="_blank" rel="noopener">Ficha Técnica</a> | 
+ <a href="../../../files/FT-gel-antibacterial.pdf" target="_blank" rel="noopener">Ficha Técnica</a> |
  <a href="../../../files/MSDS-gel-antibacterial.pdf" target="_blank" rel="noopener">Hoja de Seguridad</a>
-
-
-
-        
-

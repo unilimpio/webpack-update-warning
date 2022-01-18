@@ -10,7 +10,7 @@ const sizes = {
 
 
 
-const Button = ({ children, className = "", size, type = "button", formaction = "", onClick=""}) => {
+const Button = ({ children, className = "", size, type = "button", formaction = "", onClick = ""}) => {
 
   return (
     <button

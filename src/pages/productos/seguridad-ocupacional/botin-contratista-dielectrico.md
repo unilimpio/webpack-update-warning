@@ -6,6 +6,8 @@ title:  "Bot√≠n Contratista Diel√©ctrico Punta de Acero"
 subtitle: "color negro"
 date: "2020-04-02"
 slug:  "botin-contratista-dielectrico-punta-de-acero"
+featuredImage:  "../../../images/botin-contratista-dielectrico-punta-de-acero.jpg"
+
 
 
 ---
@@ -32,7 +34,7 @@ Bot√≠n de seguridad con puntera de acero recubierto, destinado para la protecci√
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               SAF0029
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-200">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               37
@@ -40,7 +42,7 @@ Bot√≠n de seguridad con puntera de acero recubierto, destinado para la protecci√
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               SAF0030
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-400">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               38
@@ -48,7 +50,7 @@ Bot√≠n de seguridad con puntera de acero recubierto, destinado para la protecci√
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               SAF031
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-200">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               39
@@ -56,7 +58,7 @@ Bot√≠n de seguridad con puntera de acero recubierto, destinado para la protecci√
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               SAF0032
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-400">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               40
@@ -64,7 +66,7 @@ Bot√≠n de seguridad con puntera de acero recubierto, destinado para la protecci√
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               SAF0033
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-200">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               41
@@ -72,7 +74,7 @@ Bot√≠n de seguridad con puntera de acero recubierto, destinado para la protecci√
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               SAF0034
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-400">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               42
@@ -80,7 +82,7 @@ Bot√≠n de seguridad con puntera de acero recubierto, destinado para la protecci√
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               SAF0035
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-200">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               43
@@ -88,7 +90,7 @@ Bot√≠n de seguridad con puntera de acero recubierto, destinado para la protecci√
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               SAF0036
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-400">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               44
@@ -96,7 +98,7 @@ Bot√≠n de seguridad con puntera de acero recubierto, destinado para la protecci√
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               SAF0037
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-200">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               45
@@ -104,9 +106,6 @@ Bot√≠n de seguridad con puntera de acero recubierto, destinado para la protecci√
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               SAF0038
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
-
-
-

@@ -6,6 +6,7 @@ title:  "Mopa Húmeda Microfibra Velcro"
 subtitle: "producto ergonómico de fácil manejo"
 date: "2020-04-02"
 slug:  "mopa-humeda-microfibra"
+featuredImage: "../../../images/mopa-humeda-microfibra.jpg"
 
 
 ---
@@ -27,12 +28,12 @@ Mopa húmeda sirve para la limpieza en los hogares y todo recinto de trabajo de 
           <tbody>
             <tr class="bg-gray-400">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
-              Azul 
+              Azul
               </td>
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               TTS0143
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-200">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Rojo
@@ -40,7 +41,7 @@ Mopa húmeda sirve para la limpieza en los hogares y todo recinto de trabajo de 
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               TTS0144
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-400">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Celeste
@@ -48,9 +49,6 @@ Mopa húmeda sirve para la limpieza en los hogares y todo recinto de trabajo de 
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               TTS0186
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
-
-
-

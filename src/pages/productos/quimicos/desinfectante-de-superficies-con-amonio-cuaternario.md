@@ -6,6 +6,7 @@ title:  "Desinfectante de Superficies Ozz con Amonio Cuaternario de 5ta Generaci
 subtitle: "listo para usar"
 date: "2020-04-02"
 slug:  "desinfectante-de-superficies-con-amonio-cuaternario"
+featuredImage:  "../../../images/desinfectante-de-superficies-con-amonio-cuaternario.jpg"
 sku: "QUI0913"
 gtin13: "7861051526801"
 price: "6.65"
@@ -37,7 +38,7 @@ Desinfectante de superficies Ozz® es un desinfectante de superficies inertes al
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0925
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-300">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               600 ml
@@ -45,7 +46,7 @@ Desinfectante de superficies Ozz® es un desinfectante de superficies inertes al
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0926
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-500">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               250 ml
@@ -53,15 +54,10 @@ Desinfectante de superficies Ozz® es un desinfectante de superficies inertes al
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0927
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
         <br>
 
- <a href="../../../files/FT-desinfectante-de-superficies-con-amonio-cuaternario.pdf" target="_blank" rel="noopener">Ficha Técnica</a> | 
+ <a href="../../../files/FT-desinfectante-de-superficies-con-amonio-cuaternario.pdf" target="_blank" rel="noopener">Ficha Técnica</a> |
  <a href="../../../files/MSDS-desinfectante-de-superficies-con-amonio-cuaternario.pdf" target="_blank" rel="noopener">Hoja de Seguridad</a>
-
-
-
-        
-

@@ -1,6 +1,6 @@
 import React from 'react';
 
-
+import { StaticImage } from "gatsby-plugin-image"
 import Layout from '../components/layout/Layout';
 
 import PictureWebp from "../components/PictureWebp";
@@ -38,8 +38,14 @@ const seo={
 
     <div class="bg-fixed" >
 
-    <PictureWebp  filename="responsabilidad-social" description="responsabilidad social unilimpio"/>
+    <StaticImage src="../images/responsabilidad-social.jpg"
+                className="object-contain"
+                alt="Unilimpio es una empresa con Resposabilidad Social"
+                placeholder="blurred"
+                layout="fullWidth"
+                 />
 
+  
     </div>
 
     <section class="bg-white">
@@ -135,12 +141,12 @@ const seo={
       <a href={ InformeCOP2020 } target="_blank"  rel="noreferrer">
         <Button className="flex mx-auto mt-16 text-white bg-primary-lighter border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">Informe COP 2020</Button>
       </a>
-    </div> 
+    </div>
     <div className="w-full mx-auto mb-0">
       <a href={ InformeCOP2021 } target="_blank"  rel="noreferrer">
         <Button className="flex mx-auto mt-16 text-white bg-primary-lighter border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">Informe COP 2021</Button>
       </a>
-    </div> 
+    </div>
 
         </div>
       }

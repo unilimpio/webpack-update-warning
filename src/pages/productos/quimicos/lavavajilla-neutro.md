@@ -6,6 +6,7 @@ title:  "Lavavajilla Neutro Ozz"
 subtitle: "Jabón líquido"
 date: "2020-04-02"
 slug:  "lavavajilla-ozz"
+featuredImage:  "../../../images/lavavajilla-ozz.jpg"
 sku: "QUI0086"
 gtin13: "7861051500405"
 price: "10.30"
@@ -36,15 +37,9 @@ Lavavajillas Ozz es un detergente líquido, formulado especialmente para el lava
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0086
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
         <br>
 
- <a href="../../../files/FT-lavavajilla-ozz.pdf" target="_blank" rel="noopener">Ficha Técnica</a> | 
- 
-
-
-
-        
-
+ <a href="../../../files/FT-lavavajilla-ozz.pdf" target="_blank" rel="noopener">Ficha Técnica</a> |
