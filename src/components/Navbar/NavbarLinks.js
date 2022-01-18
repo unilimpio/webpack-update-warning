@@ -49,7 +49,7 @@ const NavItem = styled(Link)`
 const NavbarLinks = () => {
   return (
     <>
-      <NavItem to="/" className="hover:no-underline"><HomeIcon className="h-8 w-8"/></NavItem>
+      <NavItem to="/" className="hover:no-underline"><HomeIcon className="h-6 w-6"/></NavItem>
       <NavItem to="/productos" className="hover:no-underline">Productos de Limpieza</NavItem>
       <Link to="https://shop.unilimpio.com/">
         <Button className="rounded-md px-4 text-white transition duration-300 ease-in-out bg-secondary-default shadow-md hover:bg-secondary-lighter hover:shadow-lg transform hover:-translate-y-1 hover:scale-105 focus:outline-none" size="sm" >Ecommerce</Button>

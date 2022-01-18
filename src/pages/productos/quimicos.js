@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 import Layout from '../../components/layout/Layout';
 import FeatureCard from '../../components/FeatureCard';
 import featuresData from '../../data/productos/quimicos/features-data';
-import PictureWebp from "../../components/PictureWebp";
+import { StaticImage } from "gatsby-plugin-image"
 import SplitSection from '../../components/SplitSection';
 import SplitSectionB2b from '../../components/SplitSectionB2b';
 import LeadForm from '../../components/LeadForm';
@@ -45,7 +45,12 @@ export default function Named  ({location})  {
           </div>
         }
         secondarySlot={
-          <PictureWebp className="float-right" path="" filename="productos-quimicos" description="Productos quimicos Unilimpio"/>
+          <StaticImage src="../../images/productos-quimicos.jpg"
+                      className=""
+                      alt="Productos Químicos de Unilimpio, productos biodegradables elaborados con ingredientes 100% seguros y sin crueldad animal."
+                      placeholder="blurred"
+                      layout="constrained"
+                       />
         }/>
     <div className="w-full">
       <h2 className="font-medium title-font text-center my-10 text-decoration: underline text-3xl text-primary-default">Categorías</h2>
@@ -103,19 +108,19 @@ export default function Named  ({location})  {
             </svg>
           </Link><br/>
           <Link   to="/productos/quimicos/limpiador-de-areas-frias" className="text-primary-lighter inline-flex items-center">
-              Limpiador de Áreas Frías 
+              Limpiador de Áreas Frías
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </Link><br/>
           <Link   to="/productos/quimicos/limpiador-de-hornos-y-parrillas-en-caliente" className="text-primary-lighter inline-flex items-center">
-              Limpiador de Hornos y Parrillas en Caliente 
+              Limpiador de Hornos y Parrillas en Caliente
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </Link><br/>
           <Link   to="/productos/quimicos/limpiador-desincrustante-acido-ozz" className="text-primary-lighter inline-flex items-center">
-              Limpiador Desincrustante Ácido Ozz 
+              Limpiador Desincrustante Ácido Ozz
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
@@ -127,7 +132,7 @@ export default function Named  ({location})  {
             </svg>
           </Link><br/>
           <Link   to="/productos/quimicos/sanitizante-de-superficies-bacterac-ozz" className="text-primary-lighter inline-flex items-center">
-              Sanitizante de Superficies Duras Bacterac de Grado Alimenticio 
+              Sanitizante de Superficies Duras Bacterac de Grado Alimenticio
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>

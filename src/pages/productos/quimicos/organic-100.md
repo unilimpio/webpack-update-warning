@@ -6,6 +6,7 @@ title:  "Organic 100"
 subtitle: "Sanitizante y desinfectante a base de ácidos órganicos"
 date: "2020-04-02"
 slug:  "organic-100"
+featuredImage:  "../../../images/organic-100.png"
 
 
 
@@ -32,15 +33,10 @@ ORGANIC 100 Ozz® sanitizante y desinfectante bactericida, fungicida y viricida 
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0568
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
         <br>
 
- <a href="../../../files/FT-organic-100.pdf" target="_blank" rel="noopener">Ficha Técnica</a> | 
+ <a href="../../../files/FT-organic-100.pdf" target="_blank" rel="noopener">Ficha Técnica</a> |
  <a href="../../../files/MSDS-organic-100.pdf" target="_blank" rel="noopener">Hoja de Seguridad</a>
-
-
-
-        
-

@@ -6,7 +6,7 @@ title:  "Dispensador de Lujo para Toalla Z"
 subtitle: "Color negro translúcido"
 date: "2020-04-02"
 slug:  "dispensador-toalla-z-lujo"
-
+featuredImage: "../../../images/dispensador-toalla-z-lujo.jpg"
 
 ---
 Dispensador de toalla Z de lujo posee un diseño elegante y moderno para cualquier tipo de ambiente. Elaborado con material plástico resistente y de larga duración lo cual asegura su uso para alto tráfico. Dispensador ideal para todo tipo de áreas en el sector de salud, hoteles, restaurantes y planteles educativos. Le permite ahorrar el consumo del producto, ahorrar costos, mejorar la higiene del lugar y cuidar la salud de sus clientes.
@@ -26,9 +26,6 @@ Dispensador de toalla Z de lujo posee un diseño elegante y moderno para cualqui
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               DIS0335
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
-
-
-

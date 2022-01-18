@@ -6,6 +6,7 @@ title:  "Paños Microfibra"
 subtitle: "ideal para la limpieza en los hogares y lugares de oficinas"
 date: "2020-04-02"
 slug:  "paños-microfibra"
+featuredImage: "../../../images/paños-microfibra.jpg"
 
 
 ---
@@ -32,7 +33,7 @@ El paño de limpieza de tecnología microfibra Premium permite levantar suavemen
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               TTS0229
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-200">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Amarillo
@@ -40,7 +41,7 @@ El paño de limpieza de tecnología microfibra Premium permite levantar suavemen
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               TTS0230
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-400">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Verde
@@ -48,7 +49,7 @@ El paño de limpieza de tecnología microfibra Premium permite levantar suavemen
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               TTS0231
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-200">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Celeste
@@ -56,9 +57,6 @@ El paño de limpieza de tecnología microfibra Premium permite levantar suavemen
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               TTS0232
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
-
-
-

@@ -6,6 +6,7 @@ title:  "Jabón Líquido para Relleno Dr.Clean"
 subtitle: "Para una adecuada higiene de manos"
 date: "2020-04-02"
 slug:  "jabon-para-relleno"
+featuredImage:  "../../../images/jabon-para-relleno.jpg"
 sku: "QUI0075"
 gtin13: "7861051503796"
 price: "10.40"
@@ -36,7 +37,7 @@ Jabón Líquido Antibacterial para relleno Dr. Clean® remueve suavemente la suc
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0075
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-200">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Manzana 3785 ml
@@ -44,7 +45,7 @@ Jabón Líquido Antibacterial para relleno Dr. Clean® remueve suavemente la suc
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0076
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-400">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Almendra 3785 ml
@@ -52,7 +53,7 @@ Jabón Líquido Antibacterial para relleno Dr. Clean® remueve suavemente la suc
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0074
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-200">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Frutos Rojos 3785 ml
@@ -60,7 +61,7 @@ Jabón Líquido Antibacterial para relleno Dr. Clean® remueve suavemente la suc
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0077
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-400">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Durazno Doypack 1900 ml
@@ -68,7 +69,7 @@ Jabón Líquido Antibacterial para relleno Dr. Clean® remueve suavemente la suc
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0870
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-200">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Almendra Doypack 1900 ml
@@ -76,15 +77,10 @@ Jabón Líquido Antibacterial para relleno Dr. Clean® remueve suavemente la suc
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0871
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
         <br>
 
- <a href="../../../files/FT-jabon-liquido-antibacterial.pdf" target="_blank" rel="noopener">Ficha Técnica</a> | 
+ <a href="../../../files/FT-jabon-liquido-antibacterial.pdf" target="_blank" rel="noopener">Ficha Técnica</a> |
  <a href="../../../files/MSDS-jabon-liquido-antibacterial.pdf" target="_blank" rel="noopener">Hoja de Seguridad</a>
-
-
-
-        
-

@@ -11,7 +11,7 @@ gtin13: "7861051509507"
 price: "12.50"
 brandName: "Ozz"
 brandLogo: "ozz.jpg"
-
+featuredImage:  "../../../images/alcohol-antiseptico.jpg"
 
 ---
 Alcohol Multipropositos Ozz es un desinfectante de superficies lisas y duras, desinfecta todo tipo de superficies sin dejar residuos ya que se evapora inmediatamente, ideal para disminuir el riesgo de contaminación indirecta de enfermedades por contacto de superficies contaminadas. Usado correctamente, permite eliminar el 99,9 % de microorganismos**, incluyendo virus envueltos como el SARS-CoV2 causante del Covid-19+.
@@ -36,7 +36,7 @@ Alcohol Multipropositos Ozz es un desinfectante de superficies lisas y duras, de
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0080
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-300">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               1000 ml con válvula
@@ -44,7 +44,7 @@ Alcohol Multipropositos Ozz es un desinfectante de superficies lisas y duras, de
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0869
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-500">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               1000 ml con tapa
@@ -52,15 +52,10 @@ Alcohol Multipropositos Ozz es un desinfectante de superficies lisas y duras, de
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0878
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
         <br>
 
- <a href="../../../files/FT-alcohol-multipropositos.pdf" target="_blank" rel="noopener">Ficha Técnica</a> | 
+ <a href="../../../files/FT-alcohol-multipropositos.pdf" target="_blank" rel="noopener">Ficha Técnica</a> |
  <a href="../../../files/MSDS-alcohol-multipropositos.pdf" target="_blank" rel="noopener">Hoja de Seguridad</a>
-
-
-
-        
-

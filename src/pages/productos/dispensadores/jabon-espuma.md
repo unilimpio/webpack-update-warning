@@ -6,6 +6,7 @@ title:  "Dispensador de Jabón Espuma "
 subtitle: "Elegante y resistente"
 date: "2020-04-02"
 slug:  "dispensador-jabon-espuma"
+featuredImage: "../../../images/dispensador-jabon-espuma.jpg"
 
 
 ---
@@ -27,12 +28,12 @@ Dispensador de jabón espuma ideal para todo tipo de decoraciones en el sector d
           <tbody>
             <tr class="bg-gray-400">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
-              Blanco 
+              Blanco
               </td>
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
                DIS0105
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-200">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Gris
@@ -40,9 +41,6 @@ Dispensador de jabón espuma ideal para todo tipo de decoraciones en el sector d
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               DIS0150
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
-
-
-

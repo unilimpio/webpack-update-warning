@@ -6,6 +6,7 @@ title:  "Guantes Latex Recubierto Corrugado Wave"
 subtitle: "cumple con la normativa EN388 (4121)"
 date: "2020-04-02"
 slug:  "guantes-latex-corrugado-wave"
+featuredImage:  "../../../images/guantes-latex-corrugado-wave.jpg"
 
 
 ---
@@ -26,12 +27,12 @@ Los guantes latex recubierto corrugado Wave son recubiertos de Nitrilo 45% y de 
           <tbody>
             <tr class="bg-gray-400">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
-              Small 
+              Small
               </td>
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               SAF0009
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-200">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Medium
@@ -39,7 +40,7 @@ Los guantes latex recubierto corrugado Wave son recubiertos de Nitrilo 45% y de 
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               SAF0010
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-400">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Large
@@ -47,9 +48,6 @@ Los guantes latex recubierto corrugado Wave son recubiertos de Nitrilo 45% y de 
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               SAF0011
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
-
-
-

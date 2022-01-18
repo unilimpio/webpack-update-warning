@@ -40,15 +40,20 @@ const toggleVisibility = () => {
 
       return (
 
-        <div className="z-2 fixed bottom-2 right-2">
+        <div className="z-10 fixed bottom-2 right-2 w-11 h-10">
         {isVisible &&
           <div role="button" tabIndex="0" onClick={handleClick} onKeyPress={handleKeyPress}
-                  className=
-    "w-auto rounded-full shadow-md text-white py-2 px-2 cursor-pointer bg-gradient-to-br from-primary-lighter to-primary-darker hover:bg-gradient-to-tl"
+                  className={`w-auto rounded-full shadow-md
+                              text-white text-center
+                              py-2 px-2
+                              cursor-pointer
+                              bg-gradient-to-br from-primary-lighter to-primary-darker hover:bg-gradient-to-tl
+                              transition duration-100 ease-in-out transform -translate-y-6 delay-100                            `}
+
 
                   aria-label="to top">
 
-            <ChevronUpIcon className="h5 w-5"/>
+            <ChevronUpIcon className="h-7 w-7"/>
           </div>}
         </div>
 

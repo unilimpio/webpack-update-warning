@@ -6,6 +6,7 @@ title:  "Gel Antibacterial en Sachet para dispensador Dr.Clean"
 subtitle: "Con etanol concentrado al 69.9%"
 date: "2020-04-02"
 slug:  "gel-sistema-cerrado"
+featuredImage: "../../../images/gel-sistema-cerrado.jpg"
 
 
 
@@ -32,15 +33,10 @@ Gel Antibacterial Dr. Clean® es un sanitizante de manos de uso externo enriquec
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0550
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
         <br>
 
- <a href="../../../files/FT-gel-antibacterial.pdf" target="_blank" rel="noopener">Ficha Técnica</a> | 
+ <a href="../../../files/FT-gel-antibacterial.pdf" target="_blank" rel="noopener">Ficha Técnica</a> |
  <a href="../../../files/MSDS-gel-antibacterial.pdf" target="_blank" rel="noopener">Hoja de Seguridad</a>
-
-
-
-        
-

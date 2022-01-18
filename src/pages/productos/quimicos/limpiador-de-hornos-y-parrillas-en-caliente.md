@@ -6,6 +6,7 @@ title:  "Limpiador de Hornos y Parrillas en Caliente"
 subtitle: ""
 date: "2020-04-02"
 slug:  "limpiador-de-hornos-y-parrillas-en-caliente"
+featuredImage:  "../../../images/limpiador-de-hornos-y-parrillas-en-caliente.jpg"
 sku: "QUI0080"
 gtin13: "7861051509507"
 price: ""
@@ -37,14 +38,7 @@ El limpiador de hornos y parrillas en caliente es un poderoso líquido limpiador
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               3785 ml
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
         <br>
-
-
-
-
-
-        
-

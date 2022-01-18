@@ -6,7 +6,7 @@ title:  "Toalla de Manos en Z Biosolutions"
 subtitle: "Interfoliada"
 date: "2020-04-02"
 slug:  "toalla-z"
-
+featuredImage: "../../../images/toalla-z.jpg"
 
 ---
 Toalla de manos ideal para el secado e higiene de manos. Puede utilizar en baños, cocinas, salones, restaurants o establecimientos comerciales. Cuenta con máximo poder de absorción y retención de líquidos. Elaborado con procesos ecológicos y socialmente responsables.
@@ -25,12 +25,12 @@ Toalla de manos ideal para el secado e higiene de manos. Puede utilizar en baño
           <tbody>
             <tr class="bg-gray-400">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
-              Blanca 
+              Blanca
               </td>
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               ABS0033
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-200">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Natural
@@ -38,9 +38,6 @@ Toalla de manos ideal para el secado e higiene de manos. Puede utilizar en baño
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               ABS0270
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
-
-
-

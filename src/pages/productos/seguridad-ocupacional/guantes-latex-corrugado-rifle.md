@@ -6,6 +6,7 @@ title:  "Guantes Latex Recubierto Corrugado Rifle"
 subtitle: "cumple con la normativa EN 388 (3243)"
 date: "2020-04-02"
 slug:  "guantes-latex-corrugado-rifle"
+featuredImage:  "../../../images/guantes-latex-corrugado-rifle.jpg"
 
 
 ---
@@ -24,7 +25,7 @@ Los guantes latex recubierto corrugado Rifle son recubiertos de Poliéster 30%, 
               </th>
             </tr>
           </thead>
-          <tbody> 
+          <tbody>
             <tr class="bg-gray-400">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Medium
@@ -32,7 +33,7 @@ Los guantes latex recubierto corrugado Rifle son recubiertos de Poliéster 30%, 
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               SAF0007
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-200">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Large
@@ -40,9 +41,6 @@ Los guantes latex recubierto corrugado Rifle son recubiertos de Poliéster 30%, 
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               SAF0008
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
-
-
-

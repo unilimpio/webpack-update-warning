@@ -11,6 +11,7 @@ gtin13: "7861051508777"
 price: "9.99"
 brandName: "Ozz"
 brandLogo: "ozz.jpg"
+featuredImage:  "../../../images/amonio-cuaternario.jpg"
 
 
 
@@ -37,15 +38,10 @@ Desinfectante de superficies Bacterac Ozz® es un sanitizante y desinfectante ne
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               3785 ml
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
         <br>
 
- <a href="../../../files/FT-amonio-cuaternario.pdf" target="_blank" rel="noopener">Ficha Técnica</a> | 
+ <a href="../../../files/FT-amonio-cuaternario.pdf" target="_blank" rel="noopener">Ficha Técnica</a> |
  <a href="../../../files/MSDS-amonio-cuaternario.pdf" target="_blank" rel="noopener">Hoja de Seguridad</a>
-
-
-
-        
-

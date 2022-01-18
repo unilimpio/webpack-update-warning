@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
-
+import { StaticImage } from "gatsby-plugin-image"
 import Layout from '../components/layout/Layout';
 
 
@@ -23,8 +23,13 @@ const QuienesSomos = ({ location }) => (
 
 
   <Layout location={location} crumbLabel="Quienes Somos" title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
-    <PictureWebp className="object-contain" filename="grupo-unilimpio" description="responsabilidad social unilimpio"/>
 
+    <StaticImage src="../images/grupo-unilimpio.jpg"
+                className="object-contain"
+                alt="Acerca de Unilimpio: en la imagen todos los colaboradores de Unilimpio oficina Matriz."
+                placeholder="blurred"
+                layout="fullWidth"
+                 />
 
     <section id="presentacion" class="bg-white">
   <div class="max-w-7xl mx-10 py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
@@ -73,7 +78,7 @@ Nos diferenciamos de la competencia por tener el más amplio portafolio de produ
   <div class="max-w-7xl mx-10 py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
     <div class="max-w-3xl mx-auto text-center">
       <h1 class="text-3xl font-bold mt-0 text-center text-primary-lighter  underline ">GRUPO EMPRESARIAL UNILIMPIO</h1>
-      <p class="mt-4 text-xl text-gray-700 ">Tras 34 años en el mercado, nos hemos convertido en un Grupo Empresarial constituido por empresas especializadas en diferentes campos de la higiene: 
+      <p class="mt-4 text-xl text-gray-700 ">Tras 34 años en el mercado, nos hemos convertido en un Grupo Empresarial constituido por empresas especializadas en diferentes campos de la higiene:
   </p>
     </div>
     </div>
@@ -89,12 +94,12 @@ Nos diferenciamos de la competencia por tener el más amplio portafolio de produ
         <dd class="text-gray-700 text-base text-center  ">Empresa con las mejores y más rentables soluciones de higiene institucional para su negocio.</dd>
         <dt class="sr-only">Role</dt>
         <dd class="mt-3">
-          
+
         </dd>
       </dl>
     </div>
   </li>
- 
+
   <li class="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
     <div class="flex-1 flex flex-col p-8">
     <PictureWebp className="object-contain" filename="grupo-empresarial-tecnoclean" description="Empresa de lavado profesional Tecno clean"/>
@@ -104,12 +109,12 @@ Nos diferenciamos de la competencia por tener el más amplio portafolio de produ
         <dd class="text-gray-700 text-base text-center">Empresa que ofrece productos especializados de limpieza e higiene textil.</dd>
         <dt class="sr-only">Role</dt>
         <dd class="mt-3">
-          
+
         </dd>
       </dl>
     </div>
-   
-  </li> 
+
+  </li>
 </section>
 
 
@@ -196,7 +201,7 @@ Nos diferenciamos de la competencia por tener el más amplio portafolio de produ
   <li class="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
     <div class="flex-1 flex flex-col p-8">
     <PictureWebp className="object-contain" filename="niña-con-gel" description="responsabilidad social unilimpio"/>
-      <h3 class="mt-6 text-secondary  text-lg font-bold ">Nuestro Propósito</h3> 
+      <h3 class="mt-6 text-secondary  text-lg font-bold ">Nuestro Propósito</h3>
       <dl class="mt-1 flex-grow flex flex-col justify-between">
         <dt class="sr-only">Title</dt>
         <dd class="text-gray-700 text-base text-center">El bienestar de las personas a través de la higiene.</dd>
@@ -375,12 +380,12 @@ Nos diferenciamos de la competencia por tener el más amplio portafolio de produ
       primarySlot={
         <div className="pl-8 pr-6 pt-8 pb-6 bg-white bg-opacity-50 rounded-lg ">
           <h2 className="mt-2  text-3xl  sm:text-4xl  text-center text-2xl font-semibold leading-tight ">
-           Marca Blanca 
+           Marca Blanca
           </h2>
           <p className="mt-3 text-lg text-gray-700 text-center">
-          Fabricamos productos de la más alta calidad con su marca. 
+          Fabricamos productos de la más alta calidad con su marca.
           </p>
-          <div className="flex flex-wrap mx-auto justify-center">  
+          <div className="flex flex-wrap mx-auto justify-center">
       <Link to="/contactenos" className="mt-4 text-primary-lighter inline-flex items-center text-lg">Más información
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>

@@ -11,6 +11,7 @@ gtin13: "7861051509507"
 price: ""
 brandName: "Ozz"
 brandLogo: "ozz.jpg"
+featuredImage:  "../../../images/arrasagrasa-ecolimpio.jpg"
 
 
 ---
@@ -36,15 +37,10 @@ Arrasagrasa Biosoutions Institucional es un potente desengrasante, formulado esp
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               3785 ml
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
         <br>
 
- <a href="../../../files/FT-arrasagrasa-ecolimpio.pdf" target="_blank" rel="noopener">Ficha Técnica</a> | 
+ <a href="../../../files/FT-arrasagrasa-ecolimpio.pdf" target="_blank" rel="noopener">Ficha Técnica</a> |
  <a href="../../../files/MSDS-arrasagrasa-ecolimpio.pdf" target="_blank" rel="noopener">Hoja de Seguridad</a>
-
-
-
-        
-

@@ -6,6 +6,7 @@ title:  "Mopa Polvo Acrílica"
 subtitle: "máximo absorción de polvo"
 date: "2020-04-02"
 slug:  "mopa-polvo-acrilica"
+featuredImage: "../../../images/mopa-polvo-acrilica.jpg"
 
 
 ---
@@ -27,12 +28,12 @@ Nuestra mopa de polvo acrílica es ideal para la limpieza en los hogares y todo 
           <tbody>
             <tr class="bg-gray-400">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
-              40 cm 
+              40 cm
               </td>
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               TTS0001
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-200">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               6o cm
@@ -40,9 +41,6 @@ Nuestra mopa de polvo acrílica es ideal para la limpieza en los hogares y todo 
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               TTS0002
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
-
-
-

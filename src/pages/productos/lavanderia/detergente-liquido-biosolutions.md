@@ -6,6 +6,7 @@ title:  "Detergente Líquido Biosolutions"
 subtitle: "con poder antibacterial"
 date: "2020-04-02"
 slug:  "detergente-liquido-bio"
+featuredImage: "../../../images/detergente-liquido-bio.jpg"
 
 
 ---
@@ -31,7 +32,7 @@ Detergente líquido biosolution es un detergente concentrado altamente biodegrad
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0305
               </td>
-            </tr> 
+            </tr>
              <tr class="bg-gray-200">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Cascada Cítrica
@@ -39,9 +40,6 @@ Detergente líquido biosolution es un detergente concentrado altamente biodegrad
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0307
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
-
-
-

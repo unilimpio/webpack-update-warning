@@ -64,16 +64,16 @@ module.exports = {
       },
 
       backgroundImage: theme => ({
-        'hero-productos': "url('/images/hero-productos.jpg')",
-        'hero-banner-2': "url('/images/hero-banner-2.jpg')",
-        'hero-banner-3': "url('/images/hero-banner-3.jpg')",
-        'call-center': "url('/images/call-center.jpg')",
+
+        'hero-banner-2': "url('/images/hero/hero-banner-2.jpg')",
+        'hero-banner-3': "url('/images/hero/hero-banner-3.jpg')",
+
         'imagen-call-center': "url('/images/imagen-call-center.jpg')",
-        'hero-banner-4': "url('/images/hero-banner-4.jpg')",
-        'hero-banner-5': "url('/images/hero-banner-5.jpg')",
+        'hero-banner-4': "url('/images/hero/hero-banner-4.jpg')",
+        'hero-banner-5': "url('/images/hero/hero-banner-5.jpg')",
         'logouni' : "url('/images/logo-unilimpio.svg')",
-        'banner-blog': "url('/images/banner-blog.jpg')",
-        'blog-banner': "url('/images/blog-banner.jpg')",
+
+        'blog-banner': "url('/images/hero/blog-banner.jpg')",
 
 
        })

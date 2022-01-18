@@ -11,6 +11,7 @@ gtin13: "7861051501860"
 price: "4.80"
 brandName: "Ozz"
 brandLogo: "ozz.jpg"
+featuredImage:  "../../../images/desinfectantes-ozz.jpg"
 
 
 ---
@@ -36,7 +37,7 @@ Limpiador con Acción Desinfectante Ozz es un poderoso bactericida de amplio esp
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0147
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-200">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Eucalipto 1000 ml
@@ -44,7 +45,7 @@ Limpiador con Acción Desinfectante Ozz es un poderoso bactericida de amplio esp
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0146
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-400">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Floral 1000 ml
@@ -52,7 +53,7 @@ Limpiador con Acción Desinfectante Ozz es un poderoso bactericida de amplio esp
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0144
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-200">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Floral 3785 ml
@@ -60,7 +61,7 @@ Limpiador con Acción Desinfectante Ozz es un poderoso bactericida de amplio esp
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0053
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-400">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Neutro 3785 ml
@@ -68,7 +69,7 @@ Limpiador con Acción Desinfectante Ozz es un poderoso bactericida de amplio esp
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0059
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-200">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Lavanda 3785 ml
@@ -76,7 +77,7 @@ Limpiador con Acción Desinfectante Ozz es un poderoso bactericida de amplio esp
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0057
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-400">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Eucalipto 3785 ml
@@ -91,7 +92,7 @@ Limpiador con Acción Desinfectante Ozz es un poderoso bactericida de amplio esp
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0064
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-400">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Menta 3785 ml
@@ -99,7 +100,7 @@ Limpiador con Acción Desinfectante Ozz es un poderoso bactericida de amplio esp
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0065
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-200">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Vainilla Campestre 3785 ml
@@ -107,15 +108,10 @@ Limpiador con Acción Desinfectante Ozz es un poderoso bactericida de amplio esp
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0066
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
         <br>
 
- <a href="../../../files/FT-desinfectante-liquido.pdf" target="_blank" rel="noopener">Ficha Técnica</a> | 
+ <a href="../../../files/FT-desinfectante-liquido.pdf" target="_blank" rel="noopener">Ficha Técnica</a> |
  <a href="../../../files/MSDS-desinfectante-liquido.pdf" target="_blank" rel="noopener">Hoja de Seguridad</a>
-
-
-
-        
-

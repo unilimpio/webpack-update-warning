@@ -6,6 +6,7 @@ title:  "Limpiador de Áreas Frías con Acción Sanitizante"
 subtitle: "limpia, desengrasa y sanitiza sin apagar el equipo"
 date: "2020-04-02"
 slug:  "limpiador-de-areas-frias"
+featuredImage:  "../../../images/limpiador-de-areas-frias.jpg"
 sku: "QUI0080"
 gtin13: "7861051509507"
 price: ""
@@ -14,7 +15,7 @@ brandLogo: "ozz.jpg"
 
 
 ---
-Limpiador de Áreas Frías es un líquido de alto desempeño, hecho para lavar sin necesidad de descongelar o apagar los equipos de enfriamiento. Puede ser usado con equipos de limpieza automáticos o manualmente, con estropajo o equipo de aspersión. No produce mal olor, es seguro de usar sobre cualquier superficie. No deja películas jabonosas. No contiene perfume ni pigmentos. Ideal para áreas de almacenamiento de alimentos y bebidas. Elimina el 99.9% de los microorganismos como: Escherichia coli, Staphylococcus aureus, Candida albicans, Aspergillus niger, Listeria 
+Limpiador de Áreas Frías es un líquido de alto desempeño, hecho para lavar sin necesidad de descongelar o apagar los equipos de enfriamiento. Puede ser usado con equipos de limpieza automáticos o manualmente, con estropajo o equipo de aspersión. No produce mal olor, es seguro de usar sobre cualquier superficie. No deja películas jabonosas. No contiene perfume ni pigmentos. Ideal para áreas de almacenamiento de alimentos y bebidas. Elimina el 99.9% de los microorganismos como: Escherichia coli, Staphylococcus aureus, Candida albicans, Aspergillus niger, Listeria
 monocytogenes, Clostridium perfringens.
 
 
@@ -38,7 +39,7 @@ monocytogenes, Clostridium perfringens.
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               3785 ml
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-300">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0546
@@ -46,15 +47,10 @@ monocytogenes, Clostridium perfringens.
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               1000 ml
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
         <br>
 
- <a href="../../../files/FT-limpiador-de-areas-frias.pdf" target="_blank" rel="noopener">Ficha Técnica</a> | 
+ <a href="../../../files/FT-limpiador-de-areas-frias.pdf" target="_blank" rel="noopener">Ficha Técnica</a> |
  <a href="../../../files/MSDS-limpiador-de-areas-frias.pdf" target="_blank" rel="noopener">Hoja de Seguridad</a>
-
-
-
-        
-

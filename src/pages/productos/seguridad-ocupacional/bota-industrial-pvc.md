@@ -6,6 +6,7 @@ title:  "Bota Industrial de Pvc Punta de Acero"
 subtitle: "color amarillo"
 date: "2020-04-02"
 slug:  "bota-industrial-punta-de-acero"
+featuredImage:  "../../../images/bota-industrial-punta-de-acero.jpg"
 
 
 ---
@@ -32,7 +33,7 @@ Bota industrial de PVC con punta de acero e impermeable es fabricado con excelen
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               SAF0039
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-200">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               37
@@ -40,7 +41,7 @@ Bota industrial de PVC con punta de acero e impermeable es fabricado con excelen
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               SAF0040
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-400">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               38
@@ -48,7 +49,7 @@ Bota industrial de PVC con punta de acero e impermeable es fabricado con excelen
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               SAF0041
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-200">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               39
@@ -56,7 +57,7 @@ Bota industrial de PVC con punta de acero e impermeable es fabricado con excelen
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               SAF0042
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-400">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               40
@@ -64,7 +65,7 @@ Bota industrial de PVC con punta de acero e impermeable es fabricado con excelen
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               SAF0043
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-200">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               41
@@ -72,7 +73,7 @@ Bota industrial de PVC con punta de acero e impermeable es fabricado con excelen
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               SAF0044
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-400">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               42
@@ -80,7 +81,7 @@ Bota industrial de PVC con punta de acero e impermeable es fabricado con excelen
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               SAF0045
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-200">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               43
@@ -88,7 +89,7 @@ Bota industrial de PVC con punta de acero e impermeable es fabricado con excelen
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               SAF0046
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-400">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               44
@@ -96,7 +97,7 @@ Bota industrial de PVC con punta de acero e impermeable es fabricado con excelen
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               SAF0047
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-200">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               45
@@ -104,9 +105,6 @@ Bota industrial de PVC con punta de acero e impermeable es fabricado con excelen
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               SAF0048
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
-
-
-

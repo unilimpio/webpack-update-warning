@@ -6,6 +6,7 @@ title:  "Guantes de Nitrilo"
 subtitle: "cómodos y flexibles"
 date: "2020-04-02"
 slug:  "guantes-de-nitrilo"
+featuredImage:  "../../../images/guantes-de-nitrilo.jpg"
 
 
 ---
@@ -25,22 +26,16 @@ Los guantes de nitrilo son altamente resistentes a productos químicos durante u
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Small
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-400">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Medium
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-200">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Large
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
-
-
-
-
-
-

@@ -6,10 +6,11 @@ title:  "Secador de Manos Expair Automático"
 subtitle: ""
 date: "2020-04-02"
 slug:  "secador-de-manos-expair-automatico"
+featuredImage:  "../../../images/secador-de-manos-expair-automatico.jpg"
 
 
 ---
-Secador de manos EXPAIR automático blanco viene con aire forzado. Posee una  carcasa de aluminio antivandalismo para evitar cualquier acto de agresión. Es un secador de manos 35% más económico que modelos similares, 50% más silencioso y, por su diseño, es 100% adecuado para personas con movilidad reducida y niños pequeños. Ideal para evitar el contacto con otras superficies y contaminación de manos entre secado y lavado. 
+Secador de manos EXPAIR automático blanco viene con aire forzado. Posee una  carcasa de aluminio antivandalismo para evitar cualquier acto de agresión. Es un secador de manos 35% más económico que modelos similares, 50% más silencioso y, por su diseño, es 100% adecuado para personas con movilidad reducida y niños pequeños. Ideal para evitar el contacto con otras superficies y contaminación de manos entre secado y lavado.
 
 
 <br>
@@ -26,9 +27,6 @@ Secador de manos EXPAIR automático blanco viene con aire forzado. Posee una  ca
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               DIS0288
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
-
-
-

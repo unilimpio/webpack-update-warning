@@ -6,7 +6,7 @@ title:  "Papel Higiénico Jumbo Biosolutions"
 subtitle: "Extra blanco"
 date: "2020-04-02"
 slug:  "papel-higienico-jumbo-bio"
-
+featuredImage: "../../../images/papel-higienico-jumbo-bio.jpg"
 
 ---
 Papel higiénico jumbo Bio es un producto 100% biodegradable, con soluciones ecológicas de higiene en suavidad y textura para mayor bienestar en cuidado personal. Elaborado con procesos ecológicos y socialmente responsables. Su materia prima es 80% reciclada de celulosa. Varias presentaciones.
@@ -25,12 +25,12 @@ Papel higiénico jumbo Bio es un producto 100% biodegradable, con soluciones eco
           <tbody>
             <tr class="bg-gray-400">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
-              120 metros 
+              120 metros
               </td>
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               ABS0260
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-200">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               200 metros
@@ -38,7 +38,7 @@ Papel higiénico jumbo Bio es un producto 100% biodegradable, con soluciones eco
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               ABS0004
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-400">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               250 metros
@@ -46,7 +46,7 @@ Papel higiénico jumbo Bio es un producto 100% biodegradable, con soluciones eco
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               ABS0001
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-200">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               500 metros
@@ -54,9 +54,6 @@ Papel higiénico jumbo Bio es un producto 100% biodegradable, con soluciones eco
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               ABS0329
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
-
-
-

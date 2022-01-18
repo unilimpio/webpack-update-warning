@@ -6,6 +6,7 @@ title:  "Limpiador Removedor Cáustico Ozz"
 subtitle: "decapante y removedor en un solo paso"
 date: "2020-04-02"
 slug:  "limpiador-removedor-caustico"
+featuredImage:  "../../../images/limpiador-removedor-caustico.jpg"
 sku: "QUI0080"
 gtin13: "7861051509507"
 price: ""
@@ -37,15 +38,10 @@ Su contenido de agentes alcalinos le confieren gran poder para saponificar grasa
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               3785 ml
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
         <br>
 
- <a href="../../../files/FT-limpiador-removedor-caustico.pdf" target="_blank" rel="noopener">Ficha Técnica</a> | 
+ <a href="../../../files/FT-limpiador-removedor-caustico.pdf" target="_blank" rel="noopener">Ficha Técnica</a> |
  <a href="../../../files/MSDS-limpiador-removedor-caustico.pdf" target="_blank" rel="noopener">Hoja de Seguridad</a>
-
-
-
-        
-

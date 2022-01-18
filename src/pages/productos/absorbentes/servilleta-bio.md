@@ -6,6 +6,7 @@ title:  "Servilleta Biosolutions"
 subtitle: "24x24 cm color blanca"
 date: "2020-04-02"
 slug:  "servilleta-bio"
+featuredImage: "../../../images/servilleta-bio.jpg"
 
 
 ---
@@ -25,14 +26,11 @@ Servilleta Bio le permite limpiar sus manos y labios durante la comida. Es un pr
           <tbody>
             <tr class="bg-gray-400">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
-              x100 Unidades 
+              x100 Unidades
               </td>
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               ABS0112
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
-
-
-

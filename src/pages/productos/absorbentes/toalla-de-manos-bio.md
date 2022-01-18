@@ -6,6 +6,7 @@ title:  "Toalla de Manos Biosolutions"
 subtitle: "Interfoleada, dispensación 1 a 1"
 date: "2020-04-02"
 slug:  "toalla-de-manos-bio"
+featuredImage: "../../../images/toalla-de-manos-bio.jpg"
 
 
 ---
@@ -25,12 +26,12 @@ Producto 100% Biodegradable, con soluciones ecológicas de higiene en suavidad y
           <tbody>
             <tr class="bg-gray-400">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
-              100 metros 
+              100 metros
               </td>
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               ABS0337
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-200">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               305 metros
@@ -38,9 +39,6 @@ Producto 100% Biodegradable, con soluciones ecológicas de higiene en suavidad y
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               ABS0338
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
-
-
-

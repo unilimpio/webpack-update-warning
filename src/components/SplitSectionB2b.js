@@ -1,5 +1,6 @@
 import React from 'react';
-import PictureWebp from '../components/PictureWebp'
+
+import { StaticImage } from "gatsby-plugin-image"
 
 const SplitSectionB2b = ({className}) => (
   <section id="b2b" className={`bg-gradient-to-br from-white via-gray-400 to-white   ${className}`}>
@@ -21,7 +22,15 @@ const SplitSectionB2b = ({className}) => (
               </div>
       </div>
       <div className="mt-10 lg:mt-0 w-full lg:w-1/2 order-last lg:order-first">
-              <PictureWebp className="" path="" filename="b2b" description="Técnicos cazabacterias realizando una desinfección profunda de lugares con aglomeración de personas y poca ventilación natural y exposición a la luz solar, como medida de prevención de la transmisión indirecta del COVID-19."/>
+
+      <StaticImage src="../images/b2b.jpg"
+                  className=""
+                  alt="ealice sus pedidos f{acilmente a cualquier hora desde nuestro portal B2B dispomnible para clientes corporativos."
+                  placeholder="blurred"
+                  layout="fullWidth"
+                   />
+            
+
       </div>
     </div>
   </section>

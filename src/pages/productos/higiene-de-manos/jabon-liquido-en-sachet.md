@@ -6,7 +6,7 @@ title:  "Jabón Líquido en Sachet para dispensador Dr.Clean"
 subtitle: "Para una adecuada higiene de manos"
 date: "2020-04-02"
 slug:  "jabon-sistema-cerrado"
-
+featuredImage:  "../../../images/jabon-sistema-cerrado.jpg"
 
 
 ---
@@ -32,7 +32,7 @@ Jabón Líquido Antibacterial en sachet para dispensador Dr. Clean® remueve sua
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0212
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-200">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Floral 800 ml
@@ -40,7 +40,7 @@ Jabón Líquido Antibacterial en sachet para dispensador Dr. Clean® remueve sua
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0204
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-400">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Crema 500 ml
@@ -48,7 +48,7 @@ Jabón Líquido Antibacterial en sachet para dispensador Dr. Clean® remueve sua
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0207
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-200">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Neutro 500 ml
@@ -56,7 +56,7 @@ Jabón Líquido Antibacterial en sachet para dispensador Dr. Clean® remueve sua
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0210
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-400">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Neutro 800 ml
@@ -64,15 +64,10 @@ Jabón Líquido Antibacterial en sachet para dispensador Dr. Clean® remueve sua
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               QUI0206
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
         <br>
 
- <a href="../../../files/FT-jabon-liquido-antibacterial.pdf" target="_blank" rel="noopener">Ficha Técnica</a> | 
+ <a href="../../../files/FT-jabon-liquido-antibacterial.pdf" target="_blank" rel="noopener">Ficha Técnica</a> |
  <a href="../../../files/MSDS-jabon-liquido-antibacterial.pdf" target="_blank" rel="noopener">Hoja de Seguridad</a>
-
-
-
-        
-

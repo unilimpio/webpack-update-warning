@@ -6,6 +6,7 @@ title:  "Servilleta Dispensada"
 subtitle: "en Z color blanca"
 date: "2020-04-02"
 slug:  "servilleta-dispensada"
+featuredImage: "../../../images/servilleta-dispensada.jpg"
 
 
 ---
@@ -25,14 +26,11 @@ Servilleta dispensada le permite limpiar sus labios y manos después de comer. E
           <tbody>
             <tr class="bg-gray-400">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
-              x125 Unidades 
+              x125 Unidades
               </td>
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               ABS0326
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
-
-
-

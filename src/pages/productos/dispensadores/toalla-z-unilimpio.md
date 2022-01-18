@@ -6,6 +6,7 @@ title:  "Dispensador para Toalla Z"
 subtitle: "Color gris y blanco"
 date: "2020-04-02"
 slug:  "dispensador-toalla-z-unilimpio"
+featuredImage: "../../../images/dispensador-toalla-z-unilimpio.jpg"
 
 
 ---
@@ -27,12 +28,12 @@ Dispensa una a una la toalla abierta y deja la siguiente lista para ser usada. S
           <tbody>
             <tr class="bg-gray-400">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
-              Blanco 
+              Blanco
               </td>
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
                DIS0019
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-200">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               Gris
@@ -40,9 +41,6 @@ Dispensa una a una la toalla abierta y deja la siguiente lista para ser usada. S
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               DIS0143
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
-
-
-

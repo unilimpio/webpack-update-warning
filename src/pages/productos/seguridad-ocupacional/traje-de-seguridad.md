@@ -6,10 +6,11 @@ title:  "Traje de Seguridad Completo"
 subtitle: "color blanco"
 date: "2020-04-02"
 slug:  "traje-de-seguridad"
+featuredImage:  "../../../images/traje-de-seguridad.jpg"
 
 
 ---
-El traje de seguridad permite una excelente protección frente a particulas sólidas y sapicaduras de químicos o solventes. El material se ajusta a su cuerpo para una mayor seguridad y libertad de movimientos. Fabricado con material de gran resistencia y duración, libre de pelusas. Cuenta con capucha por lo que recibe protección de pies a cabeza. Ideal para utilizar como protección en el trabajo. 
+El traje de seguridad permite una excelente protección frente a particulas sólidas y sapicaduras de químicos o solventes. El material se ajusta a su cuerpo para una mayor seguridad y libertad de movimientos. Fabricado con material de gran resistencia y duración, libre de pelusas. Cuenta con capucha por lo que recibe protección de pies a cabeza. Ideal para utilizar como protección en el trabajo.
 
 
 <br> <br>
@@ -27,12 +28,12 @@ El traje de seguridad permite una excelente protección frente a particulas sól
           <tbody>
             <tr class="bg-gray-400">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
-              M 
+              M
               </td>
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               SAF0051
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-200">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               L
@@ -40,7 +41,7 @@ El traje de seguridad permite una excelente protección frente a particulas sól
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               SAF0050
               </td>
-            </tr> 
+            </tr>
             <tr class="bg-gray-400">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               XL
@@ -48,9 +49,6 @@ El traje de seguridad permite una excelente protección frente a particulas sól
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
               SAF0049
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
-
-
-

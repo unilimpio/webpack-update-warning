@@ -6,6 +6,7 @@ title:  "Mopa Vertical de Secado"
 subtitle: "de algodón punta doblada"
 date: "2020-04-02"
 slug:  "mopa-vertical-secado"
+featuredImage: "../../../images/mopa-vertical-secado.jpg"
 
 
 ---
@@ -24,11 +25,8 @@ Nuestra mopa vertical de secado presenta un excelente nivel de absorción de agu
           <tbody>
             <tr class="bg-gray-400">
               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
-              TTS0028 
+              TTS0028
               </td>
-            </tr> 
+            </tr>
           </tbody>
         </table>
-
-
-
