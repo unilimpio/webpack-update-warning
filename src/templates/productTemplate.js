@@ -31,7 +31,7 @@ export default function productTemplate({
 
               <div className="text-center mt-2 mb-4">
                 <h1 className="font-bold text-xl sm:text-3xl lg:text-4xl text-center">{frontmatter.title}</h1>
-                <h2 className="font-semibold text-xl sm:text-2xl lg:text-3xl text-secondary text-center">{frontmatter.subtitle}</h2>
+                <h2 className="font-semibold text-xl sm:text-2xl lg:text-3xl text-secondary-lighter text-center">{frontmatter.subtitle}</h2>
 
               </div>
 
@@ -52,7 +52,7 @@ export default function productTemplate({
                 </div>
             </div>
             <div className="mt-10 ml-4">
-              <Link to={'/productos/'+frontmatter.categorySlug} className="bg-gray-600 p-2 rounded-lg text-white hover:no-underline hover:text-white hover:bg-blue-400">
+              <Link to={'/productos/'+frontmatter.categorySlug} className="bg-secondary-lighter p-2 rounded-lg text-white hover:no-underline hover:text-white hover:bg-primary-lighter">
                 Ver más productos
               </Link>
             </div>

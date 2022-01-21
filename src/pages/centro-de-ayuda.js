@@ -34,7 +34,7 @@ export default function Named  ({location}) {
         </h1>
 
           <p className="text-lg text-gray-700 mt-3 mb-10 text-center">
-          Si usted es cliente de Unilimpio y necesita ayuda por favor contacte nuestro <Link to="#call-center" className="">call center</Link>, nuestros asesores estarán gustosos de brindarle asistencia.<br/>
+          Si usted es cliente de Unilimpio y necesita ayuda por favor contacte nuestro <Link to="#call-center" className="text-primary-lighter inline-flex">call center</Link>, nuestros asesores estarán gustosos de brindarle asistencia.<br/>
           También le invitamos a consultar la sección de Preguntas Frecuentes debajo, puede que la respuesta que necesita se encuentre ahí.
           </p>
 
@@ -73,7 +73,7 @@ export default function Named  ({location}) {
           <div>
             <div className="flex">
 
-            <div className="flex-row"><WhatsappIcon/></div>
+            <div className="flex-row text-secondary-lighter"><WhatsappIcon/></div>
             <div className="flex-row"><h3 className="text-lg leading-6 font-medium text-secondary">
               WhatsApp
             </h3></div>

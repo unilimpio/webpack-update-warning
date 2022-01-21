@@ -2,11 +2,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import Layout from '../../components/layout/Layout';
-
-
-
-
-import PictureWebp from "../../components/PictureWebp";
+import { StaticImage } from "gatsby-plugin-image"
 import SplitSection from '../../components/SplitSection';
 
 import LeadForm from '../../components/LeadForm';
@@ -42,7 +38,12 @@ export default function Named ({location}) {
           </div>
         }
         secondarySlot={
-          <PictureWebp className="float-left" path="" filename="soluciones-servicios-de-limpieza" description="soluciones para sector servicios de limpieza"/>
+          <StaticImage src="../../images/soluciones-servicios-de-limpieza.jpg"
+          className=""
+          alt="soluciones de limpieza para el sector servicios de limpieza"
+          placeholder="blurred"
+          layout="constrained"
+           />
         }/>
         
         <div className="w-full">

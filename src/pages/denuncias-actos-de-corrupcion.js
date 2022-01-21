@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../components/layout/Layout';
-import PictureWebp from "../components/PictureWebp";
+import { StaticImage } from "gatsby-plugin-image"
 
 import NewsletterSub from '../components/NewsletterSub';
 
@@ -20,15 +20,20 @@ export default function Named  ({location}) {
       title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
 
 
-
-
 <div class="bg-fixed" >
-          
-          <PictureWebp  filename="denuncia-actos-de-corrupcion" description="Unilimpio ha declarado y formalizado su compromiso de luchar contra la corrupción en cada uno de los encadenamientos productivos a los que pertenecemos. "/>
-          
-          </div>
+
+<StaticImage src="../images/denuncia-actos-de-corrupcion.jpg"
+            className="object-contain"
+            alt="Unilimpio ha declarado y formalizado su compromiso de luchar contra la corrupción en cada uno de los encadenamientos productivos a los que pertenecemos."
+            placeholder="blurred"
+            layout="fullWidth"
+             />
+
+
+</div>
+
       
-          <section class="bg-white ">
+          <section class="bg-white flex justify-center ">
            <div class="max-w-7xl mx-10 px-4 sm:px-6 lg:py-24 lg:px-8">
             <div class="max-w-3xl mx-auto text-center">
              <h1 class="text-5xl font-semibold text-primary-default ">Denuncia Actos de Corrupción </h1><br/>

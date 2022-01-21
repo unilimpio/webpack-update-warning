@@ -34,13 +34,13 @@ const IndexPage = ({  location }) => {
 
 <Features />
 
-<section id="productos" className="pt-20 mb-20  ">
+<section id="productos" className="pt-20 mb-20 ">
   <div className="container mx-auto bg-white bg-opacity-50">
-    <h2 className="text-center sm:text-3xl text-2xl font-medium title-font mt-3 mb-10 pr-8 pl-8">Un portafolio completo y especializado de productos de limpieza</h2>
+    <h2 className="text-center sm:text-3xl text-2xl font-medium title-font mt-3 mb-10 pr-8 pl-8">Un portafolio completo y especializado de productos de limpieza</h2>  <br/>
     <SplitSection
         primarySlot={
-          <div className="">
-          <p className="md:w-full text-left leading-relaxed text-lg text-gray-700 text-justify pr-10 pl-10">
+          <div className=" my-10  px-6 py-6 mx-6">
+          <p className="md:w-full text-left leading-relaxed text-lg text-gray-700 text-justify ">
           Fabricamos y comercializamos productos líderes del mercado, reconocidos por su calidad, innovación, y excelente costo en uso.
           Adaptamos nuestra oferta de productos a las necesidades específicas de cada cliente, a través de un asesoramiento profesional, seguimiento y entrenamiento permanentes.
           </p>
@@ -53,7 +53,7 @@ const IndexPage = ({  location }) => {
         }
         secondarySlot={
           <StaticImage src="../images/productos.jpg"
-                      className="float-right"
+                      className=""
                       alt="Productos de limpieza"
                       placeholder="blurred"
                       layout="constrained"
@@ -67,11 +67,11 @@ const IndexPage = ({  location }) => {
 <SplitSection id="rse"
       reverseOrder className="bg-gradient-to-br from-primary-default via-white to-primary-default  py-4 my-20"
       primarySlot={
-        <div className="pl-8 pr-6 pt-8 pb-6 bg-white bg-opacity-50 rounded-lg ">
+        <div className=" bg-white bg-opacity-50 rounded-lg my-10  px-6 py-6 mx-6">
           <h2 className="mt-2  text-3xl  sm:text-4xl  text-center text-2xl font-semibold leading-tight ">
            Marca Blanca
           </h2>
-          <p className="mt-3 text-lg text-gray-700 text-center">
+          <p className="mt-3 text-lg text-gray-700 text-center py-8">
           Fabricamos productos de la más alta calidad con su marca.
           </p>
           <div className="flex flex-wrap mx-auto justify-center">
@@ -84,7 +84,7 @@ const IndexPage = ({  location }) => {
         </div>
       }
       secondarySlot={<StaticImage src="../images/marca-blanca.jpg"
-                  className=""
+                  className="flex justify-center"
                   alt="Marca BLanca: Somos su aliado ideal para la realización de su producto con su marca."
                   placeholder="blurred"
                   layout="constrained"
@@ -96,7 +96,7 @@ const IndexPage = ({  location }) => {
 <SplitSection id="services"
        className="bg-gradient-to-br from-blue-200 via-white to-blue-200 mb-0 py-4 my-20 "
       primarySlot={
-        <div className="bg-white bg-opacity-50 rounded-lg   px-6 pt-8 pb-6 ml-25">
+        <div className="bg-white bg-opacity-50 rounded-lg my-4  px-6 py-6 mx-6 ">
           <h3 className="text-3xl font-semibold leading-tight mb-10 text-center">Servicios de limpieza y desinfección Especializados</h3>
           <p className="mt-8 text-xl font-light leading-relaxed text-justify">
             Brindamos servicios especializados para ayudarle a resolver hasta sus necesidades más complejas en higiene institucional, todo esto con un solo proveedor.
@@ -112,7 +112,7 @@ const IndexPage = ({  location }) => {
       }
       secondarySlot={
         <StaticImage src="../images/servicio-cazabacterias.jpg"
-                    className=""
+                    className="flex justify-center my-4"
                     alt="Técnicos cazabacterias realizando una desinfección profunda de lugares con aglomeración de personas y poca ventilación natural y exposición a la luz solar, como medida de prevención de la transmisión indirecta del COVID-19."
                     placeholder="blurred"
                     layout="constrained"
@@ -123,7 +123,7 @@ const IndexPage = ({  location }) => {
 <SplitSection id="rse"
       reverseOrder className="bg-gradient-to-r from-green-200 via-white to-green-100 py-4 my-20 mt-4"
       primarySlot={
-        <div className="pl-8 pr-6 pt-8 pb-6 bg-white bg-opacity-50 rounded-lg">
+        <div className="bg-white bg-opacity-50 rounded-lg my-4  px-6 py-6 mx-6">
           <h3 className="text-3xl font-semibold leading-tight text-center">
             Somos una empresa socialmente responsable
           </h3>
@@ -141,7 +141,7 @@ const IndexPage = ({  location }) => {
       }
       secondarySlot={
         <StaticImage src="../images/responsabilidad-social-banner.jpg"
-                    className=""
+                    className="flex justify-center my-4"
                     alt="Unilimpio es una empresa con responsabilidad social empresarial."
                     placeholder="blurred"
                     layout="constrained"

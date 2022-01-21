@@ -1,9 +1,9 @@
 ---
 path: "/blog/bioseguridad-en-tu-trabajo"
-title:  "Bioseguridad en tu trabajo"
+title:  "Bioseguridad en tu trabajo" 
 date: "2021-09-16"
 slug:  "bioseguridad-en-el-trabajo"
-featuredImage:  "../../images/bioseguridad-en-el-trabajo.jpg"
+featuredImage: "../../images/bioseguridad-en-el-trabajo.jpg"
 ---
 A mediados de marzo 2020, cuando la pandemia empezaba a atacar fuertemente a Ecuador, muchas empresas optaron por implementar la modalidad de teletrabajo por seguridad y protección de todos sus colaboradores. Fue una etapa de aprendizaje para muchos, el aprender a separar trabajo y casa fue un tema complicado, pero con el pasar de los meses muchos se han acostumbrado y prefieren el trabajo desde casa. <br/><br/>
 A casi dos años del inicio de la pandemia, gracias a las cifras positivas de la vacunación, muchas empresas han decidido sumarse al retorno presencial y seguro de todos sus colaboradores. Según una entrevista dada a Diario El Comercio, el presidente Guillermo Lasso aseguró que “se han vacunado a 9,6 millones de personas, con el esquema completo contra covid-19”. <br/>
@@ -32,7 +32,7 @@ Limpiar y desinfectar todo tipo de superficies de uso constante es otro punto im
 
 Es crucial que como empleadores dispongamos de todos los recursos necesarios para el cumplimiento de las normas de bioseguridad y, como colaboradores, sigamos correctamente el protocolo de bioseguridad de nuestras empresas para que así, colaboremos con la reactivación del nuestro país. <br/><br/><br/>
 
-
+ 
 <div class= " italic font-semibold text-center  text-blue-500 text-xl">
 <p className=" italic font-semibold text-center  text-xl ">“¡Mantén la guardia, cuida tu bienestar!”  </p> </div>
  <br/> <br/>
@@ -43,3 +43,4 @@ Fuentes: <ol>
 <li> 3. <a href= "  https://espanol.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/prevention.html"> CDC </a>  </li>
 <li> 4. <a href= "https://www.who.int/es"> OMS </a>  </li>
 </0l>
+

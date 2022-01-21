@@ -26,7 +26,7 @@ const Layout = ({location, crumbLabel, title, desc, banner, pathname, article, a
           </div>
 
 
-        <WhastappBubble contactNum="593997345385" />
+        <WhastappBubble contactNum="593987759301" />
         <Scroll showPoint={800} />
           {children}
         </main>

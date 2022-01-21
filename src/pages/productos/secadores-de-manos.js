@@ -6,8 +6,7 @@ import Layout from '../../components/layout/Layout';
 import FeatureCard from '../../components/FeatureCard';
 
 import featuresData from '../../data/productos/secadores-de-manos/features-data';
-
-import PictureWebp from "../../components/PictureWebp";
+import { StaticImage } from "gatsby-plugin-image"
 import SplitSection from '../../components/SplitSection';
 import SplitSectionB2b from '../../components/SplitSectionB2b';
 import LeadForm from '../../components/LeadForm';
@@ -42,7 +41,12 @@ export default function Named  ({location})  {
           </div>
         }
         secondarySlot={
-          <PictureWebp className="float-right" path="" filename="banner-secadores-de-manos" description="secadores de manos "/>
+          <StaticImage src="../../images/banner-secadores-de-manos.jpg"
+                      className=""
+                      alt="secadores de manos de alta calidad Unilimpio"
+                      placeholder="blurred"
+                      layout="constrained"
+                       />
         }/>
     <div className="w-full">
       <h2 className="font-medium title-font text-center my-10 text-decoration: underline text-3xl">Categorías</h2>        

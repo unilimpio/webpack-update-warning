@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 import Layout from '../../components/layout/Layout';
 import FeatureCard from '../../components/FeatureCard';
 import featuresData from '../../data/productos/seguridad-ocupacional/features-data';
-import PictureWebp from "../../components/PictureWebp";
+import { StaticImage } from "gatsby-plugin-image"
 import SplitSection from '../../components/SplitSection';
 import SplitSectionB2b from '../../components/SplitSectionB2b';
 
@@ -39,7 +39,12 @@ export default function Named  ({location})  {
           </div>
         }
         secondarySlot={
-          <PictureWebp className="float-right" path="" filename="seguridad-ocupacional" description="Equipos de seguridad ocupacional "/>
+          <StaticImage src="../../images/seguridad-ocupacional.jpg"
+          className=""
+          alt="Equipos de seguridad ocupacional "
+          placeholder="blurred"
+          layout="constrained"
+           />
         }/>
     <div className="w-full">
       <h2 className="font-medium title-font text-center mt-10 mb-4 text-decoration: underline text-3xl">Categorías</h2>

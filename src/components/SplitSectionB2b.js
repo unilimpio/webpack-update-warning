@@ -7,7 +7,7 @@ const SplitSectionB2b = ({className}) => (
     <div className="container mx-auto items-center flex flex-col lg:flex-row">
       <div className="lg:w-1/2">
 
-              <div className="bg-white bg-opacity-50 rounded-lg   px-6 pt-8 pb-6 ml-25">
+              <div className="bg-white bg-opacity-50 rounded-lg   px-6 pt-8 pb-6 ml-25 mx-4 my-6 ">
                 <h3 className="text-3xl font-semibold leading-tight text-center">Plataforma e-commerce B2B para realizar sus pedidos</h3>
                 <p className="mt-8 text-lg font-light leading-relaxed text-justify">
                   Realice sus pedidos de forma rápida y fácil, al alcance de un clic, gracias a nuestra plataforma B2B, disponible 24/7 durante los 365 días del año.

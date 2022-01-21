@@ -26,7 +26,7 @@ const seo={
               layout="fullWidth"
                />
 
-<section class="bg-white">
+<section class="bg-white flex justify-center">
   <div class="max-w-7xl mx-10 py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
     <div class="max-w-3xl mx-auto text-center">
       <h1 class="text-2xl md:text-5xl font-semibold sm:text-center">Servicios Especializados</h1>

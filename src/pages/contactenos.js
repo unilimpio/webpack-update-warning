@@ -1,10 +1,7 @@
 import React from 'react';
 import Layout from '../components/layout/Layout';
 import { Link } from 'gatsby';
-
-
-
-import PictureWebp from '../components/PictureWebp';
+import { StaticImage } from "gatsby-plugin-image"
 import NewsletterSub from "../components/NewsletterSub";
 import Button from "../components/Button";
 
@@ -102,7 +99,7 @@ const Contactenos = ({location}) => (
             </div>
             <div className="sm:col-span-2">
             <p className="my-auto mr-4 text-sm text-gray-700 text-justify">
-             *Este formulario no es para enviar hojas de vida. Si deseas conocer nuestras oportunidades laborables visíta nuestra sección <Link to="/trabaja-con-nosotros">Trabaja con nosotros</Link>. Si envías tu hoja de vida por este medio NO será tomada en cuenta.
+             *Este formulario no es para enviar hojas de vida. Si deseas conocer nuestras oportunidades laborables visíta nuestra sección <Link to="/trabaja-con-nosotros" className="text-primary-lighter inline-flex">Trabaja con nosotros</Link>. Si envías tu hoja de vida por este medio NO será tomada en cuenta.
           </p>
           </div>
             <div className="text-right sm:col-span-2">
@@ -118,7 +115,12 @@ const Contactenos = ({location}) => (
 
     <div className="flex-col-reverse sm:flex-row inset-0 w-full md:w-1/2">
       <div className="inset-y-0 right-0">
-        <PictureWebp path="../../" className="" filename="call-center" description="servicio al cliente unilimpio, nuestros operadores están listos para atenderlo."/>
+      <StaticImage src="../images/call-center.jpg"
+                    className="flex justify-center"
+                    alt="servicio al cliente unilimpio, nuestros operadores están listos para atenderlo."
+                    placeholder="blurred"
+                    layout="constrained"
+        />
       </div>
     </div>
   </div>
@@ -128,7 +130,7 @@ const Contactenos = ({location}) => (
 <section className="bg-white">
   <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
     <div className="sm:col-span-2 text-center">
-      <h2 className="text-2xl font-bold mb-8 text-primary sm:text-3xl">
+      <h2 className="text-2xl font-bold mb-8 text-primary-default sm:text-3xl">
         ¿Es cliente de Unilimpio?
       </h2>
     </div>
@@ -153,14 +155,14 @@ const Contactenos = ({location}) => (
         </h3>
         <div className="mt-3">
           <p className="text-lg text-gray-700 mb-10">
-          Si necesita asistencia por favor visite nuestro <Link to="/centro-de-ayuda">Centro de Ayuda</Link>.
+          Si necesita asistencia por favor visite nuestro <Link to="/centro-de-ayuda" className="text-primary-lighter inline-flex">Centro de Ayuda</Link>.
           </p>
         </div>
         <div className="mt-9">
           <div className="flex">
             <div className="flex-shrink-0 mt-6">
 
-              <svg className="h-6 w-6 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <svg className="h-6 w-6 text-primary-lighter" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
               </svg>
             </div>
@@ -173,7 +175,7 @@ const Contactenos = ({location}) => (
           </div>
           <div className="flex">
             <div className="flex-shrink-0 mt-1">
-            <svg className="h-6 w-6 text-blue-500" version="1.1"  xmlns="http://www.w3.org/2000/svg"
+            <svg className="h-6 w-6 text-primary-lighter" version="1.1"  xmlns="http://www.w3.org/2000/svg"
 	              viewBox="0 0 54 54" stroke="none" fill="currentColor">
                 <g>
 	                <path  strokeLinecap="round" strokeLinejoin="round" d="M18.9,6.3c2.6-1.1,5.3-1.7,8.2-1.7c2.8,0,5.6,0.6,8.2,1.7c2.6,1.1,4.8,2.6,6.7,4.5c1.9,1.9,3.4,4.1,4.5,6.7
@@ -205,7 +207,7 @@ const Contactenos = ({location}) => (
           <div className="mt-6 flex">
             <div className="flex-shrink-0">
 
-              <svg className="h-6 w-6 text-blue-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <svg className="h-6 w-6 text-primary-lighter" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
               </svg>
             </div>
@@ -223,7 +225,7 @@ const Contactenos = ({location}) => (
   <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
     <div className="divide-y-2 divide-gray-200">
       <div className="lg:grid lg:grid-cols-3 lg:gap-8">
-        <h2 className="text-2xl font-extrabold text-primary sm:text-3xl">
+        <h2 className="text-2xl font-extrabold text-primary-default sm:text-3xl">
           Nuestras ubicaciones
         </h2>
         <h3> Contamos con 3 oficinas comerciales y centros de operación a nivel nacional para brindarle máxima disponibilidad y agilidad .</h3>
@@ -269,7 +271,7 @@ const Contactenos = ({location}) => (
         </div>
       </div>
       <div id="distribuidores" className="mt-16 pt-16 lg:grid lg:grid-cols-3 lg:gap-8">
-        <h2 className="text-2xl font-extrabold text-primary sm:text-3xl">
+        <h2 className="text-2xl font-extrabold text-primary-default sm:text-3xl">
           Distribuidores Zonales Autorizados
         </h2>
         <h3>Ampliamos nuestra cobertura y flexibilidad gracias a nuestra extensa red de Distribuidores Autorizados de productos de limpieza en Quito, Guayaquil, Cuenca y a nivel nacional.</h3>

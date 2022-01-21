@@ -25,7 +25,7 @@ export default function Named  ({location})  {
   <Layout location={location} crumbLabel="Productos Químicos"
   title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
 
-<section id="product-line" className="pt-6 bg-gradient-to-br from-gray-300 via-white to-gray-300">
+<section id="product-line" className="pt-6 bg-gradient-to-br from-gray-300 via-white to-gray-300  px-2">
   <div className="container mx-auto">
     <h1 className="text-center sm:text-4xl text-4xl font-bold title-font mb-8">Productos Químicos</h1>
     <SplitSection className=""

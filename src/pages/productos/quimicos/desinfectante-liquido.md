@@ -14,6 +14,7 @@ brandLogo: "ozz.jpg"
 featuredImage:  "../../../images/desinfectantes-ozz.webp"
 
 
+
 ---
 Limpiador con Acción Desinfectante Ozz es un poderoso bactericida de amplio espectro, siendo un producto muy versátil que permite desinfectar,limpiar, perfumar y desodorizar a la vez. Actúa como un eficaz germicida, fungicida y bactericida.Especialmente formulado para la limpieza y desinfección de pisos, paredes, sanitarios, mesones y equipos utilizados en la industria alimenticia.
 
