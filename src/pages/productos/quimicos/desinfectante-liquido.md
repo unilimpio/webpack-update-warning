@@ -11,7 +11,8 @@ gtin13: "7861051501860"
 price: "4.80"
 brandName: "Ozz"
 brandLogo: "ozz.jpg"
-featuredImage:  "../../../images/Desinfectantes-ozz.jpg"
+featuredImage:  "../../../images/desinfectantes-ozz.webp"
+
 
 
 ---
