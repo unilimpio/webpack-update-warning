@@ -57,5 +57,5 @@ Alcohol Multipropositos Ozz es un desinfectante de superficies lisas y duras, de
         </table>
         <br>
 
- <a href="../../../files/FT-alcohol-multipropositos.pdf" target="_blank" rel="noopener">Ficha Técnica</a> |
+ <a href="../../../files/FT-alcohol-multipropositos.pdf"  target="_blank" rel="noopener">Ficha Técnica</a> |
  <a href="../../../files/MSDS-alcohol-multipropositos.pdf" target="_blank" rel="noopener">Hoja de Seguridad</a>

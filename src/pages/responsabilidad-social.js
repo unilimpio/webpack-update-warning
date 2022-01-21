@@ -2,8 +2,6 @@ import React from 'react';
 
 import { StaticImage } from "gatsby-plugin-image"
 import Layout from '../components/layout/Layout';
-
-import PictureWebp from "../components/PictureWebp";
 import Button from '../components/Button';
 
 
@@ -48,10 +46,10 @@ const seo={
   
     </div>
 
-    <section class="bg-white">
+    <section class="bg-white flex justify-center">
   <div class="max-w-7xl mx-10 py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
     <div class="max-w-3xl mx-auto text-center">
-      <h1 class="text-5xl font-semibold text-blue ">Responsabilidad Social Empresarial</h1>
+      <h1 class="text-5xl font-semibold text-blue ">Responsabilidad Social Empresarial</h1><br/>
       <h1 className=" italic font-mormal text-center text-primary text-xl ">"Construyendo hoy nuestro legado para las futuras generaciones" </h1>
 
     </div>
@@ -63,9 +61,9 @@ const seo={
 
 
         <SplitSection id="rse"
-      reverseOrder className="bg-gradient-to-r from-green-100 via-white to-green-200 mt-12 "
+      reverseOrder className="bg-gradient-to-r from-green-100 via-white to-green-200 mb-0 py-4 my-8 "
       primarySlot={
-        <div className="bg-white bg-opacity-50 rounded-lg   px-6 pt-8 pb-6 ml-25">
+        <div className="bg-white bg-opacity-50 rounded-lg  my-4  px-6 py-24 mx-6">
           <h2 className="text-3xl text-center font-semibold leading-tight text-primary-lighter  ml-30">
           La Sustentabilidad como factor de éxito
           </h2>
@@ -75,14 +73,19 @@ const seo={
 
         </div>
       }
-      secondarySlot={<PictureWebp filename="siembra-de-arboles" description="Unilimpio es una empresa con responsabilidad social empresarial"/>}
+      secondarySlot={<StaticImage src="../images/siembra-de-arboles.jpg"
+      className=""
+      alt="Unilimpio es una empresa con responsabilidad social empresarial"
+      placeholder="blurred"
+      layout="fullWidth"
+       />}
 />
 
 <SplitSection id="services"
-       className="bg-gradient-to-r from-blue-200 via-white to-blue-100 mt-12"
+       className="bg-gradient-to-r from-blue-200 via-white to-blue-100 mb-0 py-4 my-8"
 
       primarySlot={
-        <div className="bg-white bg-opacity-50 rounded-lg   px-6 pt-8 pb-6 ml-25 ">
+        <div className="bg-white bg-opacity-50 rounded-lg  my-4  px-6 py-16 mx-6 ">
           <h2 className="text-3xl text-center font-semibold leading-tight text-primary-lighter  ml-30">Compromiso de lucha contra la corrupción</h2>
           <p className="mt-8 text-base font-normal text-justify leading-relaxed ">
           Unilimpio ha declarado y formalizado su compromiso de luchar contra la corrupción en cada uno de los encadenamientos productivos a los que pertenecemos. Contribuimos con la sociedad y el desarrollo económico haciendo negocios de forma ética y transparente, sin ceder ante solicitud de coimas para ganar licitaciones o contratos. Así mismo pertenecemos a una alianza de empresas, tanto de Ecuador como de la región, entre las cuales compartimos el mismo llamado a la acción y el mismo código moral.
@@ -91,16 +94,19 @@ const seo={
 
         </div>
       }
-      secondarySlot={<PictureWebp className="" filename="corrupcion" description="compromiso de lucha contra la corrupción"/>}
+      secondarySlot={<StaticImage src="../images/corrupcion.jpg"
+      className=""
+      alt="compromiso de lucha contra la corrupción"
+      placeholder="blurred"
+      layout="fullWidth"
+       />}
 />
 
 
-
-
 <SplitSection id="rse"
-      reverseOrder className="bg-gradient-to-r from-green-100 via-white to-green-200 mt-12"
+      reverseOrder className="bg-gradient-to-r from-green-100 via-white to-green-200  mb-0 py-4 my-8"
       primarySlot={
-        <div className="bg-white bg-opacity-50 rounded-lg px-6 pt-8 pb-6 ml-25 mb-4">
+        <div className="bg-white bg-opacity-50 rounded-lg  my-4  px-6 py-2 mx-6">
           <h2 className="text-3xl text-center font-semibold leading-tight text-primary-lighter  ml-30">
             Transparencia
           </h2>
@@ -114,15 +120,20 @@ const seo={
     </div>
         </div>
       }
-      secondarySlot={<PictureWebp filename="transparencia" description="Unilimpio es una empresa con responsabilidad social empresarial"/>}
+      secondarySlot={<StaticImage src="../images/transparencia.jpg"
+      className=""
+      alt="Unilimpio es una empresa con responsabilidad social empresarial"
+      placeholder="blurred"
+      layout="fullWidth"
+       />}
 />
 
 
 <SplitSection id="services"
-       className="bg-gradient-to-r from-blue-200 via-white to-blue-100 mt-12"
+       className="bg-gradient-to-r from-blue-200 via-white to-blue-100  mb-0 py-4 my-8"
 
       primarySlot={
-        <div className="bg-white bg-opacity-50 rounded-lg   px-6 pt-8 pb-6 ml-25 ">
+        <div className="bg-white bg-opacity-50 rounded-lg  my-4  px-6 py-6 mx-6 ">
           <h2 className="text-3xl text-center font-semibold leading-tight text-primary-lighter  ml-30">Adheridos al Pacto Global</h2>
           <p className="mt-8 text-base font-normal text-justify leading-relaxed ">
           Desde 2018, Unilimpio forma parte del Pacto Global iniciativa global que cuenta con el auspicio de las Naciones Unidas y que busca que las organizaciones privadas a nivel mundial se involucren activamente en la consecución de los Objetivos de Desarrollo Sustentable (ODS) para el 2030.
@@ -150,7 +161,12 @@ const seo={
 
         </div>
       }
-      secondarySlot={<PictureWebp className="" filename="pacto-global" description="Técnicos cazabacterias realizando una desinfección profunda de lugares con aglomeración de personas y poca ventilación natural y exposición a la luz solar, como medida de prevención de la transmisión indirecta del COVID-19."/>}
+      secondarySlot={<StaticImage src="../images/pacto-global.jpg"
+      className=""
+      alt="Unilimpio es una empresa forma parte del pacto global"
+      placeholder="blurred"
+      layout="fullWidth"
+       />}
 />
 <NewsletterSub/>
   </Layout>

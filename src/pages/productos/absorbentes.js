@@ -3,12 +3,8 @@ import React from 'react';
 import { Link } from 'gatsby';
 import Layout from '../../components/layout/Layout';
 import FeatureCard from '../../components/FeatureCard';
-
-
 import featuresData from '../../data/productos/absorbentes/features-data';
-
-
-import PictureWebp from "../../components/PictureWebp";
+import { StaticImage } from "gatsby-plugin-image"
 import SplitSection from '../../components/SplitSection';
 import SplitSectionB2b from '../../components/SplitSectionB2b';
 import LeadForm from '../../components/LeadForm';
@@ -32,7 +28,7 @@ export default function Named ({location}) {
 
 <section id="product-line" className="pt-6 bg-gradient-to-br from-gray-300 via-white to-gray-300">
   <div className="container mx-auto">
-    <h1 className="text-center sm:text-4xl text-4xl font-bold title-font mb-8">Absorbentes</h1>
+    <h1 className="text-center sm:text-4xl text-4xl font-bold title-font mb-8">Absorbentes</h1><br/>
     <SplitSection className=""
         primarySlot={
           <div className="bg-white bg-opacity-50 rounded-xl p-10">
@@ -45,7 +41,13 @@ export default function Named ({location}) {
           </div>
         }
         secondarySlot={
-          <PictureWebp className="float-right" path="" filename="absorbentes" description="Absorbentes Unilimpio"/>
+           <StaticImage src="../../images/absorbentes.jpg"
+        className=""
+        alt="papel higienico jumbo, toalla z, toallas de mano, limpion industrial, center pull de la empresa Unilimpio"
+        placeholder="blurred"
+        layout="constrained"
+         />
+    
         }/>
     <div className="w-full">
       <h2 className="font-medium title-font text-center my-10 text-decoration: underline text-3xl">Categorías</h2>

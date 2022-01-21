@@ -5,8 +5,7 @@ import Layout from '../../components/layout/Layout';
 import FeatureCard from '../../components/FeatureCard';
 
 import featuresData from '../../data/productos/linea-profesional/features-data';
-
-import PictureWebp from "../../components/PictureWebp";
+import { StaticImage } from "gatsby-plugin-image"
 import SplitSection from '../../components/SplitSection';
 import SplitSectionB2b from '../../components/SplitSectionB2b';
 
@@ -41,7 +40,12 @@ export default function Named ({location}) {
           </div>
         }
         secondarySlot={
-          <PictureWebp className="float-right" path="" filename="linea-profesional" description="Implementos profesionales para la limpieza. "/>
+          <StaticImage src="../../images/linea-profesional.jpg"
+          className=""
+          alt="Implementos profesionales para la limpieza. Unilimpio"
+          placeholder="blurred"
+          layout="constrained"
+           />
         }/>
     <div className="w-full">
       <h2 className="font-medium title-font text-center my-10 text-decoration: underline text-3xl">Categorías</h2>

@@ -3,16 +3,10 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 
-
-
 import Layout from '../../components/layout/Layout';
 import FeatureCard from '../../components/FeatureCard';
-
-
 import featuresData from '../../data/productos/dispensadores/features-data';
-
-
-import PictureWebp from "../../components/PictureWebp";
+import { StaticImage } from "gatsby-plugin-image"
 import SplitSection from '../../components/SplitSection';
 import SplitSectionB2b from '../../components/SplitSectionB2b';
 import LeadForm from '../../components/LeadForm';
@@ -48,7 +42,12 @@ export default function Named ({location}) {
           </div>
         }
         secondarySlot={
-          <PictureWebp className="float-right" path="" filename="dispensadores" description="Dispensadores Unilimpio"/>
+          <StaticImage src="../../images/dispensadores.jpg"
+                      className=""
+                      alt="dispensadores de jabon, alcohol, gel, toallas de manos Unilimpio"
+                      placeholder="blurred"
+                      layout="constrained"
+                       />
         }/>
     <div className="w-full">
       <h2 className="font-medium title-font text-center my-10 text-decoration: underline text-3xl">Categorías</h2>

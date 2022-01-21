@@ -3,8 +3,7 @@ import React from 'react';
 
 import Layout from '../components/layout/Layout';
 import NewsletterSub from "../components/NewsletterSub";
-
-import PictureWebp from "../components/PictureWebp";
+import { StaticImage } from "gatsby-plugin-image"
 
 
 const seo={
@@ -53,10 +52,22 @@ export default function Named ({location})  {
 
   <Layout location={location} crumbLabel="Trabaja con Nosotros"
   title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
-    <PictureWebp className="object-contain" filename="trabaja-con-nosotros" description="trabaja en Unilimpio"/>
+
+<div class="bg-fixed" >
+
+    <StaticImage src="../images/trabaja-con-nosotros.jpg"
+                className="object-contain"
+                alt="Vacantes disponibles en Unilimpio"
+                placeholder="blurred"
+                layout="fullWidth"
+                 />
+
+  
+    </div>
 
 
-    <section id="intro" class="bg-white mt-0">
+
+    <section id="intro" class="bg-white mt-0 flex justify-center">
   <div class="max-w-7xl mx-10 py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
     <div class="max-w-3xl mx-auto text-center">
       <h1 class="text-5xl font-semibold text-blue ">Trabaja con Nosotros </h1>
