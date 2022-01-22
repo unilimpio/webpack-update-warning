@@ -43,34 +43,31 @@ const Contactenos = ({location}) => (
             Por favor complete el formulario adjunto para que un asesor se contacte con usted enseguida.
           </p>
           <form name="lead" action="/gracias" method="POST" data-netlify="true" netlify-honeypot="bot-field" className="mt-9 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
-          <p className="invisible">
-            <label htmlFor="bot-field">
-              Don’t fill this out if you’re human: <input name="bot-field" />
-            </label>
-          </p>
+
             <input type="hidden" name="form-name" value="lead" />
+
             <div>
               <label htmlFor="first_name" className="block text-sm font-medium text-gray-700">Nombre</label>
               <div className="mt-1">
-                <input type="text" name="first_name" id="first_name" autocomplete="given-name" className="block w-full shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"/>
+                <input type="text" name="first_name" id="first_name" autoComplete="given-name" className="block w-full shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"/>
               </div>
             </div>
             <div>
               <label htmlFor="last_name" className="block text-sm font-medium text-gray-700">Apellido</label>
               <div className="mt-1">
-                <input type="text" name="last_name" id="last_name" autocomplete="family-name" className="block w-full shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"/>
+                <input type="text" name="last_name" id="last_name" autoComplete="family-name" className="block w-full shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"/>
               </div>
             </div>
             <div className="sm:col-span-2">
               <label htmlFor="company" className="block text-sm font-medium text-gray-700">Empresa</label>
               <div className="mt-1">
-                <input type="text" name="company" id="company" autocomplete="organization" className="block w-full shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"/>
+                <input type="text" name="company" id="company" autoComplete="organization" className="block w-full shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"/>
               </div>
             </div>
             <div className="sm:col-span-2">
               <label htmlFor="email" className="block text-sm font-medium text-gray-700">Email</label>
               <div className="mt-1">
-                <input id="email" name="email" type="email" autocomplete="email" className="block w-full shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"/>
+                <input id="email" name="email" type="email" autoComplete="email" className="block w-full shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"/>
               </div>
             </div>
 
@@ -79,7 +76,7 @@ const Contactenos = ({location}) => (
                 <label htmlFor="mobile" className="block text-sm font-medium text-gray-700">Teléfono móvil</label>
 
               <div className="mt-1">
-                <input type="text" name="mobile" id="mobile" autocomplete="tel" aria-describedby="phone_description" className="block w-full shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"/>
+                <input type="text" name="mobile" id="mobile" autoComplete="tel" aria-describedby="phone_description" className="block w-full shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"/>
               </div>
             </div>
             <div>
@@ -90,7 +87,7 @@ const Contactenos = ({location}) => (
 
               <div className="mt-1">
 
-                <input type="text" name="phone" id="phone" autocomplete="tel" aria-describedby="phone_description" className="block w-full shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"/>
+                <input type="text" name="phone" id="phone" autoComplete="tel" aria-describedby="phone_description" className="block w-full shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"/>
               </div>
             </div>
             <div className="sm:col-span-2">
@@ -111,6 +108,11 @@ const Contactenos = ({location}) => (
               <button type="submit" className="inline-flex justify-center py-2 px-4 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-primary-default hover:bg-primary-lighter focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
                 Enviar
               </button>
+            </div>
+            <div className="invisible">
+              <label htmlFor="bot-field">
+                Don’t fill this out if you’re human: <input name="bot-field" />
+              </label>
             </div>
 
           </form>
@@ -237,7 +239,7 @@ const Contactenos = ({location}) => (
         <div className="mt-8 grid grid-cols-1 gap-12 sm:grid-cols-2 sm:gap-x-8 sm:gap-y-12 lg:mt-0 lg:col-span-2">
 
           {Ubicaciones.map(ubicacion => (
-            <div key={ubicacion.name} className="">
+            <div key={ubicacion.id} className="">
               <h3 className="text-lg leading-6 font-medium text-primary-lighter">
                 { ubicacion.name}
               </h3>
@@ -289,7 +291,7 @@ const Contactenos = ({location}) => (
           </div>
           {DzsQuito.map(dz => (
 
-            <div key={dz.name}>
+            <div key={dz.id}>
               <h3 className="text-lg leading-6 font-medium text-gray-900">
               {dz.zona}
               </h3>
@@ -318,7 +320,7 @@ const Contactenos = ({location}) => (
           </div>
           {DzsGuayaquil.map(dz => (
 
-            <div key={dz.name}>
+            <div key={dz.id}>
               <h3 className="text-lg leading-6 font-medium text-gray-900">
               {dz.zona}
               </h3>
@@ -347,7 +349,7 @@ const Contactenos = ({location}) => (
           </div>
           {DzsCuenca.map(dz => (
 
-            <div key={dz.name}>
+            <div key={dz.id}>
               <h3 className="text-lg leading-6 font-medium text-gray-900">
               {dz.zona}
               </h3>
@@ -376,7 +378,7 @@ const Contactenos = ({location}) => (
           </div>
           {DzsElOro.map(dz => (
 
-            <div key={dz.name}>
+            <div key={dz.id}>
               <h3 className="text-lg leading-6 font-medium text-gray-900">
               {dz.zona}
               </h3>
@@ -405,7 +407,7 @@ const Contactenos = ({location}) => (
           </div>
           {DzsSantoDomingo.map(dz => (
 
-            <div key={dz.name}>
+            <div key={dz.id}>
               <h3 className="text-lg leading-6 font-medium text-gray-900">
               {dz.zona}
               </h3>
@@ -434,7 +436,7 @@ const Contactenos = ({location}) => (
           </div>
           {DzsSantaElena.map(dz => (
 
-            <div key={dz.name}>
+            <div key={dz.id}>
               <h3 className="text-lg leading-6 font-medium text-gray-900">
               {dz.zona}
               </h3>

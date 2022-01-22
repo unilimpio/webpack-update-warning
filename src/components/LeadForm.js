@@ -4,7 +4,7 @@ import Button from '../components/Button';
 
 
 const LeadForm = ({className}) => (
-  <section id="leadform" className={`mt-10 bg-imagen-call-center bg-right md:bg-center bg-no-repeat bg-fill ${ className }`}>
+  <section id="leadform" className={`mt-10 bg-right md:bg-center bg-no-repeat bg-fill ${ className }`}>
   <div className="w-full mx-auto  py-8 px-2 sm:px-8 lg:px-40 bg-white bg-opacity-50 text-center">
     <div className="mx:auto bg-white bg-opacity-50 rounded-xl ">
       <h2 className="mt-4 text-2xl sm:text-3xl md:text-4xl font-semibold">¡Estamos listos para atenderlo!</h2>

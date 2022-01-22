@@ -18,7 +18,7 @@ const Layout = ({location, crumbLabel, title, desc, banner, pathname, article, a
   return (
     <>
       <Header title={title} desc={desc} banner={banner} pathname={pathname} article={article} articleDate={articleDate} product={product} category={category} categorySlug={categorySlug} productSku={productSku} productGtin13={productGtin13} offerPrice={offerPrice} brandName={brandName} brandLogo={brandLogo} />
-        <main>
+        <main id="">
           <div className="ml-2">
 
             <Breadcrumb location={location} crumbLabel={crumbLabel} crumbSeparator=">" />

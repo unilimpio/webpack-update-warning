@@ -55,27 +55,23 @@ export default function Named  ({location}) {
           </div>
           <form name="complaint" action="/gracias-denuncias" method="POST" data-netlify="true" netlify-honeypot="bot-field" className="mt-9 grid grid-cols-1 gap-y-6 sm:gap-x-8">
                   <input type="hidden" name="form-name" value="complaint" />
-                  <p className="invisible">
-                    <label htmlFor="bot-field">
-                      Don’t fill this out if you’re human: <input name="bot-field" />
-                    </label>
-                  </p>
-                  <div>                  
+
+                  <div>
                     <label htmlFor="first_name" className="block text-sm font-medium text-gray-700">Nombre</label>
                     <div className="mt-1">
-                      <input type="text" name="first_name" id="first_name" autocomplete="given-name" className="block w-full shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"/>
+                      <input type="text" name="first_name" id="first_name" autoComplete="given-name" className="block w-full shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"/>
                     </div>
                   </div>
                   <div>
                     <label htmlFor="last_name" className="block text-sm font-medium text-gray-700">Apellido</label>
                     <div className="mt-1">
-                      <input type="text" name="last_name" id="last_name" autocomplete="family-name" className="block w-full shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"/>
+                      <input type="text" name="last_name" id="last_name" autoComplete="family-name" className="block w-full shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"/>
                     </div>
                   </div>
                   <div className="sm:col-span-2">
                     <label htmlFor="email" className="block text-sm font-medium text-gray-700">Email</label>
                     <div className="mt-1">
-                      <input id="email" name="email" type="email" autocomplete="email" className="block w-full shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"/>
+                      <input id="email" name="email" type="email" autoComplete="email" className="block w-full shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"/>
                     </div>
                   </div>
 
@@ -84,7 +80,7 @@ export default function Named  ({location}) {
                       <label htmlFor="mobile" className="block text-sm font-medium text-gray-700">Teléfono móvil</label>
 
                     <div className="mt-1">
-                      <input type="text" name="mobile" id="mobile" autocomplete="tel" aria-describedby="phone_description" className="block w-full shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"/>
+                      <input type="text" name="mobile" id="mobile" autoComplete="tel" aria-describedby="phone_description" className="block w-full shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"/>
                     </div>
                   </div>
 
@@ -103,7 +99,11 @@ export default function Named  ({location}) {
                       Enviar
                     </button>
                   </div>
-
+                  <div className="invisible">
+                    <label htmlFor="bot-field">
+                      Don’t fill this out if you’re human: <input name="bot-field" />
+                    </label>
+                  </div>
                 </form>
               </div>
             </div>

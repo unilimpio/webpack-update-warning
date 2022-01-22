@@ -18,6 +18,7 @@ const Footer = () => (
       <div className="lg:w-1/4 sm:w-1/2 w-full px-4 text-center sm:text-left">
         <h3 className="text-lg font-bold tracking-widest mb-3">CONTÁCTENOS</h3>
         <nav className="list-none mb-10">
+        <ul>
           <li className="text-white">
             De los eucaliptos E1-140<br/>
             y psje. Juncos<br/>
@@ -38,11 +39,13 @@ const Footer = () => (
           <li className="text-white">
             Consultas, información, sugerencias: <Link to="/contact" className="text-white underline hover:no-underline">escríbanos</Link>.
           </li>
+          </ul>
         </nav>
       </div>
       <div className="lg:w-1/6 md:w-1/2 w-full px-4">
         <h4 className="font-bold tracking-widest text-sm mb-3">SERVICIO AL CLIENTE</h4>
         <nav className="list-none mb-10">
+        <ul>
           <li>
             <Link to="/contactenos#distribuidores" className="text-white hover:text-gray-400">Distribuidores autorizados</Link>
           </li>
@@ -63,11 +66,13 @@ const Footer = () => (
           <li>
            <a href="http://sap.unilimpio.com:1993" target="_blank"  rel="noreferrer" className="text-white hover:text-gray-400"> Facturación Electrónica</a>
           </li>
+          </ul>
         </nav>
       </div>
       <div className="lg:w-1/6 md:w-1/2 w-full px-4">
         <h4 className="title-font font-bold tracking-widest text-sm mb-3">PRODUCTOS DE LIMPIEZA</h4>
           <nav className="list-none mb-10">
+          <ul>
             <li>
               <Link to="/productos/quimicos" className="text-white hover:text-gray-400">Productos Químicos</Link>
             </li>
@@ -98,6 +103,7 @@ const Footer = () => (
             <li>
             <Link to="/productos/absorbentes/toalla-z-interfoliada-bio" className="text-white hover:text-gray-400">Toalla de manos en Z</Link>
             </li>
+            </ul>
           </nav>
 
 
@@ -105,6 +111,7 @@ const Footer = () => (
       <div className="lg:w-1/6 md:w-1/2 w-full px-4">
       <h4 className="title-font font-bold tracking-widest text-sm mb-3">ACERCA DE</h4>
         <nav className="list-none mb-10">
+        <ul>
           <li>
            <Link to="/quienes-somos" className="text-white hover:text-gray-400"> Presentación</Link>
           </li>
@@ -123,6 +130,7 @@ const Footer = () => (
           <li>
            <Link to="/blog" className="text-white hover:text-gray-400"> Blog</Link>
           </li>
+          </ul>
         </nav>
         <h4 className="title-font font-bold text-secondary tracking-widest text-sm mb-3">SÍGANOS EN REDES SOCIALES</h4>
         <SocialIcons color="#FFFFFF"/>
