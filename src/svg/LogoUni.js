@@ -1,9 +1,9 @@
 import React from 'react';
 
 const LogoUni = ({className}) => (
-  <svg viewBox="0 0 378.19 378.19"  xmlns="http://www.w3.org/2000/svg" className={`focus:ouline-none ${className}`}>
-<title>Unilimpio Mucho más en higiene institucional</title>
-<desc>Soluciones de higiene institucional. Fabricantes de productos de limpieza, DESINFECCIÓN, higiene de manos; Amonio Cuaternario, Gel antibacterial, limpión, dispensadores.</desc>
+  <svg id="logo" viewBox="0 0 378.19 378.19"  xmlns="http://www.w3.org/2000/svg" className={`focus:ouline-none ${className}`} aria-labelledby="logoTitle logoDesc" role="img">
+<title id="logoTitle">Unilimpio Mucho más en higiene institucional</title>
+<desc id="logoDesc">Soluciones de higiene institucional. Fabricantes de productos de limpieza, DESINFECCIÓN, higiene de manos; Amonio Cuaternario, Gel antibacterial, limpión, dispensadores.</desc>
   <g>
     <path fill="#FFFFFF" d="M378.19,189.1c0,104.43-84.66,189.09-189.09,189.09C84.66,378.19,0,293.53,0,189.1C0,84.66,84.66,0,189.1,0 C293.53,0,378.19,84.66,378.19,189.1z"/>
     <g>

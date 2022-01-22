@@ -24,13 +24,7 @@ const jobs = [
     requisitos: " Bachiller técnico en mecánica, electricidad, mantenimiento industrial, electromecánico. Experiencia: Mínimo un año en cargos similares. Residir en la ciudad de Quito. Competencias: Trabajo en equipo, trabajo a presión, iniciativa, proactividad, orientación al resultado. Otros conocimientos: Office, autocad, internet, básicos de electricidad, conocimientos de normas de seguridad industrial, operación de maquinaria industrial.",
   },
 
-  {
-    id: 5,
-    titulo: "Analista de Operaciones (Quito)",
-    descripcion:
-      "Realizar reportes estadísticos, indicadores de gestión, planificación, trazabilidad, entre otras.",
-      requisitos: "Tercer Nivel en: Administración de Empresas, Estadística, Ingeniería Comercial, Economía. Experiencia: Mínima de 1 año en funciones que involucre uso de herramientas estadísticas  y excel. Residir en la ciudad de Quito y de preferencia poseer movilización propia. Competencias: Comunicación, Análisis de causas y efectos, Pensamiento analítico, Planificación, organización y seguimiento. Conocimientos: Excel avanzado, Herramientas Estadísticas, Análisis y Comprensión numérica.",
-  },
+  
 
   {
     id: 7,
@@ -39,7 +33,7 @@ const jobs = [
     "Realizar una revisión general, verificando que las máquinas y equipos se encuentren trabajando en óptimas condiciones. Realizar los mantenimientos preventivos en equipos y máquinas según Cronograma de Mantenimiento. Tener los repuestos, materiales e insumos necesarios, previamente antes de realizar la actividad de mantenimiento. Realizar el cronograma de mantenimiento Preventivo. Solicitar cotizaciones de trabajos, materiales, equipos o repuestos necesarios para la realización de su trabajo.",
     requisitos: " Bachiller técnico en mecánica, electricidad, mantenimiento industrial, electromecánico. Experiencia: Mínimo un año en cargos similares. Residir en la ciudad de Quito. Competencias: Trabajo en equipo, trabajo a presión, iniciativa, proactividad, orientación al resultado. Otros conocimientos: Office, autocad, internet, básicos de electricidad, conocimientos de normas de seguridad industrial, operación de maquinaria industrial.",
 
-} 
+}
 
 
 ]
@@ -62,7 +56,7 @@ export default function Named ({location})  {
                 layout="fullWidth"
                  />
 
-  
+
     </div>
 
 

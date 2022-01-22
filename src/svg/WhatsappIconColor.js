@@ -3,7 +3,9 @@ import React from 'react';
 const WhatsappIconColor = ({className}) => (
 
   <svg xmlns="http://www.w3.org/2000/svg"
-  	 viewBox="0 0 512 512" className={`focus:ouline-none ${className}`}>
+  	 viewBox="0 0 512 512" className={`focus:ouline-none ${className}`} id="logoWs" aria-labelledby="logoWsTitle logoWsDesc" role="img">
+     <title id="logoWsTitle">Chatear por Whatsapp</title>
+     <desc id="logoWsDesc">De click aqui para chatear por Whatsapp con un asesor</desc>
   <path fill="#EDEDED" d="M0,512l35.31-128C12.359,344.276,0,300.138,0,254.234C0,114.759,114.759,0,255.117,0
   	S512,114.759,512,254.234S395.476,512,255.117,512c-44.138,0-86.51-14.124-124.469-35.31L0,512z"/>
   <path fill="#55CD6C" d="M137.71,430.786l7.945,4.414c32.662,20.303,70.621,32.662,110.345,32.662

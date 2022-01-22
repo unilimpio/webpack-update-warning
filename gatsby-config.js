@@ -164,7 +164,7 @@ module.exports = {
     siteUrl: "https://unilimpio.com",
     banner: "unilimpio.jpg",
     headline: "",
-    siteLanguage: "Español",
+    siteLanguage: "es",
     ogLanguage: "",
     author: "Unilimpio",
     twitter: "",

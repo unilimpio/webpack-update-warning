@@ -23,7 +23,7 @@ const seo={
 const Contactenos = ({location}) => (
 
 
-  
+
 
   <Layout location={location} crumbLabel="Contáctenos"
   title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
@@ -42,7 +42,12 @@ const Contactenos = ({location}) => (
             Estamos listos para atender sus inquietudes por llamada telefónica o realizar un diagnóstico sin costo.<br/>
             Por favor complete el formulario adjunto para que un asesor se contacte con usted enseguida.
           </p>
-          <form name="lead" action="/gracias" method="POST" data-netlify="true" className="mt-9 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+          <form name="lead" action="/gracias" method="POST" data-netlify="true" netlify-honeypot="bot-field" className="mt-9 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+          <p className="invisible">
+            <label htmlFor="bot-field">
+              Don’t fill this out if you’re human: <input name="bot-field" />
+            </label>
+          </p>
             <input type="hidden" name="form-name" value="lead" />
             <div>
               <label htmlFor="first_name" className="block text-sm font-medium text-gray-700">Nombre</label>
@@ -74,7 +79,7 @@ const Contactenos = ({location}) => (
                 <label htmlFor="mobile" className="block text-sm font-medium text-gray-700">Teléfono móvil</label>
 
               <div className="mt-1">
-                <input type="text" name="mobile" id="mobile" autocomplete="cel" aria-describedby="phone_description" className="block w-full shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"/>
+                <input type="text" name="mobile" id="mobile" autocomplete="tel" aria-describedby="phone_description" className="block w-full shadow-sm sm:text-sm focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md"/>
               </div>
             </div>
             <div>
