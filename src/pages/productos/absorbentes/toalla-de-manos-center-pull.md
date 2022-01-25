@@ -9,15 +9,15 @@ slug:  "toalla-de-manos-center-pull"
 featuredImage: "../../../images/toalla-de-manos-center-pull.jpg"
 
 ---
-Toalla de alto rendimiento. Posee una textura suave, resistente y un exclusivo pre corte que lo hacen ideal para disminuir el desperdicio innecesario.
+Toalla de manos center pull Biosolutions cuenta con un alto poder de rendimiento. Posee una textura delicada para su piel, resistente y un exclusivo pre corte que lo hacen ideal para disminuir el desperdicio innecesario. Cuenta con un máximo poder de absorción y mayor ahorro. Esta toalla es un reemplazo higiénico y rentable para toallas de cocina estándar. Fabricada con fibra de celulosa.
 <br> <br>
 <table class="min-w-full md:min-w-0 divide-y-0 divide-gray-200">
           <thead class=" bg-white">
             <tr>
-              <th scope="col" class="px-6 text-center text-xs font-medium text-blue-500 uppercase tracking-wider">
+              <th scope="col" class="px-6 text-center text-xs font-medium text-primary-lighter uppercase tracking-wider">
                 Presentación
               </th>
-              <th scope="col" class="px-6 py-3 text-center text-xs font-medium text-blue-500 uppercase tracking-wider">
+              <th scope="col" class="px-6 py-3 text-center text-xs font-medium text-primary-lighter uppercase tracking-wider">
                 Códigos
               </th>
             </tr>

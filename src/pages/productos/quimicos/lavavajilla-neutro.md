@@ -15,16 +15,16 @@ brandLogo: "ozz.jpg"
 
 
 ---
-Lavavajillas Ozz es un detergente líquido, formulado especialmente para el lavado y limpieza de vajillas y utensilios de cocina. Por su composición deja la vajilla y cristalería brillantes, sin grasa y libre de manchas. Es una fórmula totalmente inocua que limpia y desengrasa sin alterar el medio ambiente, dejando un toque de suavidad en sus manos.
+Lavavajillas Neutro Ozz® es un detergente líquido, formulado especialmente para el lavado y limpieza de vajillas y utensilios de cocina. Es fácil de enjuagar y no deja película residual, permitiendo el secado al ambiente. Por su composición, al entrar en contacto con la grasa la emulsifica, facilitando su desprendimiento y limpieza posterior sin desgastar la superficie. Es una fórmula totalmente inocua que limpia y desengrasa sin alterar el medio ambiente, dejando un toque de suavidad en sus manos.
 
 <br>
 <table class="min-w-full md:min-w-0 divide-y-0 divide-gray-200">
           <thead class=" bg-white">
             <tr>
-              <th scope="col" class="px-6 text-center text-xs font-medium text-blue-500 uppercase tracking-wider">
+              <th scope="col" class="px-6 text-center text-xs font-medium text-primary-lighter uppercase tracking-wider">
                 Presentación
               </th>
-              <th scope="col" class="px-6 py-3 text-center text-xs font-medium text-blue-500 uppercase tracking-wider">
+              <th scope="col" class="px-6 py-3 text-center text-xs font-medium text-primary-lighter uppercase tracking-wider">
                 Códigos
               </th>
             </tr>

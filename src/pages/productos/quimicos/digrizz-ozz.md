@@ -15,15 +15,18 @@ brandLogo: "ozz.jpg"
 
 
 ---
-Digrizz Ozz® es un desengrasante que puede ser diluido en diversas proporciones para lograr resultados sobresalientes. Su poder de limpieza se debe a la sinergia de sus agentes activos que limpian y remueven profundamente la grasa en toda la superficie de aplicación, de manera rápida y eficaz.
-<br>
+Digrizz Ozz® es un detergente concentrado que puede ser diluido en diversas proporciones para lograr resultados sobresalientes. Su poder de limpieza se debe a la sinergia de sus agentes activos que limpian y remueven profundamente la grasa en toda la superficie de aplicación, de manera rápida y eficaz. Entre las principales ventajas están: baja toxicidad cuando es usado en la dilución correcta; no corrosivo, lo cual lo hace compatible con prácticamente todos los materiales sin dañarlos; pH neutro: puede ser manipulado de forma más segura; cuidando sus manos. Ideal para ser utilizado en:<br/>
+• Limpieza de pisos y paredes en áreas de alto tráfico.<br/>
+• Limpieza en las industrias alimenticias: el aseo de pisos, maquinarias, equipos, utensilios, vajillas y cristalería de restaurantes.<br/>
+• Eliminar grasas difíciles en cocinas, pisos, parrillas, quemadores, hornos, anaqueles, mesones, fregaderos, duchas, tinas, lavabos, grifería, azulejos, máquinas, electrodomésticos, motores, paneles, entre otros.
+ <br/><br/>
 <table class="min-w-full md:min-w-0 divide-y-0 divide-gray-200">
           <thead class=" bg-white">
             <tr>
-              <th scope="col" class="px-6 text-center text-xs font-medium text-blue-500 uppercase tracking-wider">
+              <th scope="col" class="px-6 text-center text-xs font-medium text-primary-lighter uppercase tracking-wider">
                 Presentación
               </th>
-              <th scope="col" class="px-6 py-3 text-center text-xs font-medium text-blue-500 uppercase tracking-wider">
+              <th scope="col" class="px-6 py-3 text-center text-xs font-medium text-primary-lighter uppercase tracking-wider">
                 Códigos
               </th>
             </tr>

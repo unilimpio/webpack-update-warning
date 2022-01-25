@@ -9,7 +9,7 @@ import NewsletterSub from '../components/NewsletterSub';
 
 const seo={
   title: "¿Quiénes Somos?",
-  desc:  "Somos su aliado en higiene institucional, con nosotros podrá mejorar la satisfacción de sus usuarios, clientes y colaboradores a través de soluciones adecuadas de higiene y desinfección con nuestros productos de limpieza.",
+  desc:  "Unilimpio S.A. es una empresa orgullosamente ecuatoriana con más de 35 años ofreciendo soluciones de higiene, con productos de limpieza líderes del mercado. ",
   image: "grupo-unilimpio.jpg",
   pathname: "/quienes-somos",
 }

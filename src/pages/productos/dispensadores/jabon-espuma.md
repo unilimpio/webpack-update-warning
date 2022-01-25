@@ -10,7 +10,7 @@ featuredImage: "../../../images/dispensador-jabon-espuma.jpg"
 
 
 ---
-Dispensador de jabón espuma ideal para todo tipo de decoraciones en el sector de salud, hoteles, restaurantes y planteles educativos, gracias a su sistema de dosificación, cada push arroja un ml del producto. Elaborado con polipropileno impermeable contra el moho.
+Dispensador de jabón espuma ideal para todo tipo de decoraciones en el sector de salud, hoteles, restaurantes y planteles educativos, gracias a su sistema de dosificación, cada push arroja un ml del producto. Elaborado con polipropileno impermeable contra el moho. Adecuado para poder equipar en cualquier baño. Puede usarse con jabón espuma de hasta 800 ml en sachet.
 
 
 <br>

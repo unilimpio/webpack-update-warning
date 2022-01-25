@@ -10,7 +10,7 @@ featuredImage:  "../../../images/gel-para-relleno.png"
 
 
 ---
-Gel Antibacterial Dr. Clean® es un sanitizante de manos de uso externo enriquecido con glicerina, que protege e hidrata las manos. El uso correcto del producto garantiza la eliminación del 99,999 % de microorganismos de las manos, en 30 segundos. Expertos médicos a nivel mundial recomiendan el uso de un sanitizante de manos a base de etanol (superior a 62 %) como un método efectivo para prevenir el contagio de enfermedades causadas por microrganismos patógenos, incluyendo virus envueltos como el SARS-CoV2, causante de la enfermedad Covid-19.
+Gel Antibacterial para relleno Dr. Clean® es un sanitizante de manos de uso externo enriquecido con glicerina, que protege e hidrata las manos. El uso correcto del producto garantiza la eliminación del 99,999 % de microorganismos de las manos, en 30 segundos. Expertos médicos a nivel mundial recomiendan el uso de un sanitizante de manos a base de etanol (superior a 62 %) como un método efectivo para prevenir el contagio de enfermedades causadas por microrganismos patógenos, incluyendo virus envueltos como el SARS-CoV2, causante de la enfermedad Covid-19.
 
 <br>
 <table class="min-w-full md:min-w-0 divide-y-0 divide-gray-200">

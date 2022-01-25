@@ -135,7 +135,7 @@ const Soluciones = ({location}) => (
 
 <div className="w-full mx-auto mb-10 mt-8">
       <Link to="/productos">
-        <Button className="flex mx-auto mt-16 text-white bg-primary-lighter border-0 py-2 px-8 focus:outline-none hover:bg-primary-default rounded text-lg">Descubra nuestros productos  </Button>
+        <Button className="flex mx-auto mt-16 text-white bg-primary-lighter border-0 py-2 px-8 focus:outline-none hover:bg-secondary-lighter rounded text-lg">Descubra nuestros productos  </Button>
       </Link>
     </div>
 

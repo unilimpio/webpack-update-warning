@@ -10,15 +10,15 @@ featuredImage: "../../../images/toalla-de-manos-bio.jpg"
 
 
 ---
-Producto 100% Biodegradable, con soluciones ecológicas de higiene en suavidad y textura para mayor bienestar en cuidado personal.
+Toalla de manos Biosolutions es un producto 100% biodegradable, fabricadas con soluciones ecológicas de higiene en suavidad y textura para mayor bienestar en cuidado personal. Elaborado con procesos ecológicos y socialmente responsables. Su materia prima es 100% pulpa virgen. Evite el contacto con el agua y superficies húmedas. Máximo poder de ahorro y mayor absorción. Varias presentaciones.
 <br> <br>
 <table class="min-w-full md:min-w-0 divide-y-0 divide-gray-200">
           <thead class=" bg-white">
             <tr>
-              <th scope="col" class="px-6 text-center text-xs font-medium text-blue-500 uppercase tracking-wider">
+              <th scope="col" class="px-6 text-center text-xs font-medium text-primary-lighter uppercase tracking-wider">
                 Presentación
               </th>
-              <th scope="col" class="px-6 py-3 text-center text-xs font-medium text-blue-500 uppercase tracking-wider">
+              <th scope="col" class="px-6 py-3 text-center text-xs font-medium text-primary-lighter uppercase tracking-wider">
                 Códigos
               </th>
             </tr>

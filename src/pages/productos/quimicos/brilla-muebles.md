@@ -11,16 +11,16 @@ featuredImage: "../../../images/brilla-muebles.jpg"
 
 
 ---
-Brilla Muebles Ozz es un producto que limpia, abrillanta y protege las superficies de sus muebles de madera, MDF, vinil, fórmica, plástico, cuero y caucho. Ayuda a disminuir la adherencia de polvo del medio circundante, protegiendo la superficie del mueble. Además, deja sus muebles con un agradable aroma. No es grasoso ni tóxico.
+Brilla Muebles Ozz es un producto que limpia, abrillanta y protege las superficies de sus muebles de madera, MDF, vinil, fórmica, plástico, cuero y caucho, en ambientes de hogar y oficina. Crea una poderosa barrera que ayuda a disminuir la adherencia de polvo del medio circundante, protegiendo la superficie del mueble de manchas de agua, rayos ultravioletas del sol, resequedad, decoloración y ralladuras. Además, deja sus muebles con un agradable aroma. No es grasoso ni tóxico.
 
 <br>
 <table class="min-w-full md:min-w-0 divide-y-0 divide-gray-200">
           <thead class=" bg-white">
             <tr>
-              <th scope="col" class="px-6 text-center text-xs font-medium text-blue-500 uppercase tracking-wider">
+              <th scope="col" class="px-6 text-center text-xs font-medium text-primary-lighter uppercase tracking-wider">
                 Presentación
               </th>
-              <th scope="col" class="px-6 py-3 text-center text-xs font-medium text-blue-500 uppercase tracking-wider">
+              <th scope="col" class="px-6 py-3 text-center text-xs font-medium text-primary-lighter uppercase tracking-wider">
                 Códigos
               </th>
             </tr>

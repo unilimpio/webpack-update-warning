@@ -8,7 +8,7 @@ import { StaticImage } from "gatsby-plugin-image"
 
 const seo={
   title: "Trabaja con nosotros",
-  desc:  "Somos su aliado en higiene institucional, con nosotros podrá mejorar la satisfacción de sus usuarios, clientes y colaboradores a través de soluciones adecuadas de higiene y desinfección con nuestros productos de limpieza.",
+  desc:  "En esta sección encuentra todos los puestos vacantes que la empresa Unilimpio necesita",
   image: "grupo-unilimpio.jpg",
   pathname: "/trabaja-con-nosotros",
 
