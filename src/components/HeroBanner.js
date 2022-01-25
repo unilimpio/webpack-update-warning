@@ -18,7 +18,7 @@ const HeroBanner = () => (
                 <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none text-center">
                 Mucho más en higiene Institucional
                 </h1>
-                <p className="text-lg lg:text-xl mt-6 font-normal text-justify text-gray-500">
+                <p className="text-lg lg:text-xl mt-6 font-normal text-justify text-gray-700">
                   Somos su aliado en higiene institucional, con nosotros podrá mejorar la satisfacción de sus usuarios, clientes y colaboradores a través de soluciones adecuadas de higiene.
                 </p>
                 <div className="flex flex-wrap mx-auto justify-center mt-8 md:mt-12 mb-20">

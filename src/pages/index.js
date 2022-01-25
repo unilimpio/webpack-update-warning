@@ -36,12 +36,13 @@ const IndexPage = ({  location }) => {
 
 <section id="productos" className="pt-20 mb-20 ">
   <div className="container mx-auto bg-white bg-opacity-50">
-    <h2 className="text-center sm:text-3xl text-2xl font-medium title-font mt-3 mb-10 pr-8 pl-8">Un portafolio completo y especializado de productos de limpieza</h2>  <br/>
+    <h2 className="text-4xl font-semibold text-center text-primary-normal">Productos de Limpieza</h2> 
+    <h3 className="md:w-2/3 mx-auto text-2xl font-semilight text-center my-4 pr-10 pl-10 mb-10 text-primary-default">Un portafolio completo y especializado de productos de limpieza</h3> 
     <SplitSection
         primarySlot={
-          <div className=" my-10  px-6 py-6 mx-6">
+          <div className=" my-4  px-6 py-6 mx-6">
           <p className="md:w-full text-left leading-relaxed text-lg text-gray-700 text-justify ">
-          Fabricamos y comercializamos productos líderes del mercado, reconocidos por su calidad, innovación, y excelente costo en uso.
+          Fabricamos y comercializamos productos de limpieza líderes del mercado, reconocidos por su calidad, innovación, y excelente costo en uso.
           Adaptamos nuestra oferta de productos a las necesidades específicas de cada cliente, a través de un asesoramiento profesional, seguimiento y entrenamiento permanentes.
           </p>
           <Link to="/productos">

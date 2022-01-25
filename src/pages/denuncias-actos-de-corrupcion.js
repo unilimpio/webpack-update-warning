@@ -50,7 +50,7 @@ export default function Named  ({location}) {
             <h2 className="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
             </h2>
             <p className="mt-4 text-xl leading-6 text-primary-lighter ">
-              Ayúdanos denunciando cualquier tipo de corrupción o actos en contra de nuestros principios, de los cuales hayas sido testigo.
+              Ayúdanos denunciando cualquier tipo de corrupción o actos en contra de nuestros principios, de los cuales hayas sido testigo. Por favor llena la siguiente información para darle seguimiento a tu denuncia.
             </p><br/><br/>
           </div>
           <form name="complaint" action="/gracias-denuncias" method="POST" data-netlify="true" netlify-honeypot="bot-field" className="mt-9 grid grid-cols-1 gap-y-6 sm:gap-x-8">

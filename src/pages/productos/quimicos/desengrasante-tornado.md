@@ -10,15 +10,15 @@ featuredImage:  "../../../images/tornado-ozz.png"
 
 
 ---
-Tornado Ozz® es un detergente desengrasante concentrado multiuso, de un alto poder limpiador y desincrustante; ideal para la limpieza de talleres, baños, cocinas, oficinas, pisos, motores y talleres de mecánica automotriz. Está diseñado para diversas superficies que acumulan costras duras provenientes de materia orgánica.
-<br>
+Tornado Ozz® es un detergente desengrasante concentrado multiuso, de un alto poder limpiador y desincrustante; ideal para la limpieza de talleres, baños, cocinas, oficinas, pisos, motores y talleres de mecánica automotriz. Está diseñado para diversas superficies que acumulan costras duras provenientes de materia orgánica. Su poder de limpieza se debe a la sinergia de sus agentes activos limpiadores y desengrasantes, que limpian y remueven profundamente en toda la superficie de aplicación, arrasando con la suciedad de manera rápida y eficaz.
+<br/><br/>
 <table class="min-w-full md:min-w-0 divide-y-0 divide-gray-200">
           <thead class=" bg-white">
             <tr>
-              <th scope="col" class="px-6 text-center text-xs font-medium text-blue-500 uppercase tracking-wider">
+              <th scope="col" class="px-6 text-center text-xs font-medium text-primary-lighter uppercase tracking-wider">
                 Presentación
               </th>
-              <th scope="col" class="px-6 py-3 text-center text-xs font-medium text-blue-500 uppercase tracking-wider">
+              <th scope="col" class="px-6 py-3 text-center text-xs font-medium text-primary-lighter uppercase tracking-wider">
                 Códigos
               </th>
             </tr>

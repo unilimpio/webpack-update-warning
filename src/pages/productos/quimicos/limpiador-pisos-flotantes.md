@@ -11,16 +11,16 @@ featuredImage:  "../../../images/limpiador-de-piso-flotante.jpg"
 
 
 ---
-Limpiador de Pisos Flotantes Ozz es un producto diseñado específicamente para la limpieza y restauración de todo tipo de pisos flotantes, devolviéndole su color original. Deja las superficies libres de suciedades sin ralladuras y con un agradable aroma.
+Limpiador de Pisos Flotantes Ozz es un producto diseñado específicamente para la limpieza y restauración de todo tipo de pisos flotantes, maderas vitrificadas y laminadas, devolviéndole su color original. Deja las superficies libres de suciedades sin ralladuras y con un agradable aroma. Tiene incorporados agentes abrillantadores que ayudan al piso a retomar su color original con un ligero brillo, sin dañar la película plástica laminada de este tipo de superficies.
 
 <br>
 <table class="min-w-full md:min-w-0 divide-y-0 divide-gray-200">
           <thead class=" bg-white">
             <tr>
-              <th scope="col" class="px-6 text-center text-xs font-medium text-blue-500 uppercase tracking-wider">
+              <th scope="col" class="px-6 text-center text-xs font-medium text-primary-lighter uppercase tracking-wider">
                 Presentación
               </th>
-              <th scope="col" class="px-6 py-3 text-center text-xs font-medium text-blue-500 uppercase tracking-wider">
+              <th scope="col" class="px-6 py-3 text-center text-xs font-medium text-primary-lighter uppercase tracking-wider">
                 Códigos
               </th>
             </tr>
