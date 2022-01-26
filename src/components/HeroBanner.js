@@ -9,7 +9,7 @@ import Button from './Button';
 const HeroBanner = () => (
 
 
-<section id="hero-banner" className={`bg-hero-banner-5 bg-fill bg-right-bottom bg-no-repeat m-0 p-0`}>
+<section id="hero-banner" className={`bg-hero-banner-8 bg-fill bg-right-bottom bg-no-repeat m-0 p-0`}>
         <div className="container mt-0 mx-auto ">
           <div className="bg-gradient-to-r from-white">
             <div className="">

@@ -25,7 +25,7 @@ const databits = [
   },
   {
     
-    name: 'Centro de distribución Austro',
+    name: 'Sucursal Austro',
     direccion:
       'Octavio Chacon 3100',
     sector: 'Parque Industrial',

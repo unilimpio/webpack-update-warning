@@ -32,7 +32,7 @@ export default function Named ({location}) {
           <div className="bg-white bg-opacity-50 rounded-xl p-10">
             <h2 className="text-xl text-primary-lighter mb-5">Las mejores soluciones pensadas para el bienestar de sus visitantes. </h2>
             <p className="md:w-full text-left leading-relaxed text-base text-gray-700 text-justify ">
-            Contamos con un amplio portafolio de productos de limpieza para que pueda encontrar todas las soluciones a sus problemas de limpieza. Le asesoramos en los procedimientos adecuados para garantizar la higiene y desinfección de áreas y superficies, brindando así seguridad a sus visitantes a través de productos de alta calidad y soluciones de higiene. <br/>
+            Contamos con un amplio portafolio de productos de limpieza para que pueda encontrar todas las soluciones a sus problemas de limpieza. Le asesoramos en los procedimientos adecuados para garantizar la higiene y desinfección de áreas y superficies, brindando así seguridad a sus visitantes a través de productos de limpieza de la más alta calidad y soluciones de higiene adecuadas. <br/>
           
               
             </p>

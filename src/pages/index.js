@@ -41,12 +41,12 @@ const IndexPage = ({  location }) => {
     <SplitSection
         primarySlot={
           <div className=" my-4  px-6 py-6 mx-6">
-          <p className="md:w-full text-left leading-relaxed text-lg text-gray-700 text-justify ">
+          <p className="md:w-full text-left leading-relaxed text-lg text-gray-700 text-center ">
           Fabricamos y comercializamos productos de limpieza líderes del mercado, reconocidos por su calidad, innovación, y excelente costo en uso.
           Adaptamos nuestra oferta de productos a las necesidades específicas de cada cliente, a través de un asesoramiento profesional, seguimiento y entrenamiento permanentes.
           </p>
           <Link to="/productos">
-        <Button className="flex mx-auto mt-16 text-white  border-0 py-2 px-8 bg-primary-lighter shadow-md hover:bg-primary-xlighter rounded text-lg">Descubra nuestros productos  </Button>
+        <Button className="flex mx-auto mt-16 text-white  border-0 py-2 px-8 bg-primary-default shadow-md hover:bg-primary-lighter rounded text-lg">Descubra nuestros productos  </Button>
       </Link>
   </div>
 
@@ -69,10 +69,10 @@ const IndexPage = ({  location }) => {
       reverseOrder className="bg-gradient-to-br from-primary-default via-white to-primary-default  py-4 my-20"
       primarySlot={
         <div className=" bg-white bg-opacity-50 rounded-lg my-10  px-6 py-6 mx-6">
-          <h2 className="mt-2  text-3xl  sm:text-4xl  text-center text-2xl font-semibold leading-tight ">
+          <h2 className="mt-2  text-3xl  sm:text-4xl  text-center text-2xl font-semibold leading-tight text-primary-default ">
            Marca Blanca
           </h2>
-          <p className="mt-3 text-lg text-gray-700 text-center py-8">
+          <p className="mt-3 text-lg text-gray-900 text-center py-8">
           Fabricamos productos de la más alta calidad con su marca.
           </p>
           <div className="flex flex-wrap mx-auto justify-center">
@@ -99,7 +99,7 @@ const IndexPage = ({  location }) => {
       primarySlot={
         <div className="bg-white bg-opacity-50 rounded-lg my-4  px-6 py-6 mx-6 ">
           <h3 className="text-3xl font-semibold leading-tight mb-10 text-center">Servicios de limpieza y desinfección Especializados</h3>
-          <p className="mt-8 text-xl font-light leading-relaxed text-justify">
+          <p className="mt-8 text-xl font-light leading-relaxed text-center">
             Brindamos servicios especializados para ayudarle a resolver hasta sus necesidades más complejas en higiene institucional, todo esto con un solo proveedor.
           </p>
           <div className="flex flex-wrap mx-auto justify-center">
@@ -128,7 +128,7 @@ const IndexPage = ({  location }) => {
           <h3 className="text-3xl font-semibold leading-tight text-center">
             Somos una empresa socialmente responsable
           </h3>
-          <p className="mt-8 text-xl font-light leading-relaxed text-justify">
+          <p className="mt-8 text-xl font-light leading-relaxed text-center">
           Somos una empresa responsable, transparente y solidaria. Nuestra empresa ha sido reconocida a nivel local por su gestión en responsabilidad social empresarial. Formamos parte del UN Global Compact y nos adherimos al Global Reporting Initiative.
           </p>
           <div className="flex flex-wrap mx-auto justify-center">

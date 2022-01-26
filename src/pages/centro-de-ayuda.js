@@ -106,22 +106,7 @@ export default function Named  ({location}) {
 
             </dl>
           </div>
-          <div>
-            <h3 className="text-lg leading-6 font-medium text-secondary">
-              Chat en línea
-            </h3>
-            <dl className="mt-2 text-base text-gray-500">
-
-              <div className="mt-1">
-                <dt className="sr-only">
-                  LiveChat
-                </dt>
-                <dd>
-                  Chatee con un asesor
-                </dd>
-              </div>
-            </dl>
-          </div>
+          
         </div>
       </div>
 

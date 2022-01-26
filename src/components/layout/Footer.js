@@ -37,7 +37,7 @@ const Footer = () => (
           Lun - Vie, 8:30 - 17:00 GMT -5:00.
           </li>
           <li className="text-white">
-            Consultas, información, sugerencias: <Link to="/contact" className="text-white underline hover:no-underline">escríbanos</Link>.
+            Consultas, información, sugerencias: <Link to="/contactenos" className="text-white underline hover:no-underline">escríbanos</Link>.
           </li>
           </ul>
         </nav>
@@ -154,7 +154,7 @@ const Footer = () => (
       <span className="flex pl-4 text-gray-100 text-sm text-center sm:text-left">
         <Link className="flex-col sm:flex-row" to="/legal/terminos-y-condiciones">Términos y condiciones de uso</Link>
           &nbsp;&nbsp;|&nbsp;&nbsp;
-        <Link className="flex-col sm:flex-row" to="/legal/privacy-policy">Política de privacidad</Link>
+        <Link className="flex-col sm:flex-row" to="/legal/politica-de-privacidad">Política de privacidad</Link>
       </span>
       <span className="sm:ml-auto sm:mt-0 mt-2 sm:w-auto w-full sm:text-left text-center text-gray-500 text-sm">UNILIMPIO - Mucho más en higiene Institucional</span>
     </div>
