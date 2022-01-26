@@ -29,7 +29,7 @@ const QuienesSomos = ({ location }) => (
     <section id="presentacion" className="bg-white flex justify-center">
   <div className="max-w-7xl mx-10 py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
     <div className="max-w-3xl mx-auto text-center">
-      <h1 className="text-5xl font-semibold text-blue ">Somos Salud y Bienestar</h1>
+      <h1 className="text-5xl font-semibold text-primary-default ">Somos Salud y Bienestar</h1>
       <p className="mt-4 text-xl text-gray-700 mb-6">Somos una empresa orgullosamente Ecuatoriana, que desde hace más de 3 décadas brindamos salud y bienestar a las personas a través de limpieza e higiene.
   </p>
     </div>
@@ -49,7 +49,18 @@ const QuienesSomos = ({ location }) => (
 
         </div>
       }
-      secondarySlot={<iframe className="pl-14 w-2/3" title="youtube video" width="100%" height="100%" src="https://www.youtube.com/embed/B412e9m5H2g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" description="video responsabilidad social unilimpio float-right" allowfullscreen ></iframe>}
+      secondarySlot={
+        <div class="video-responsive flex justify-center " >
+        <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/B412e9m5H2g" 
+            title="YouTube video player " 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+    </div>
+      
+}
 />
 
 
@@ -83,7 +94,7 @@ Nos diferenciamos de la competencia por tener el más amplio portafolio de produ
 <section className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 mx-20 mb-24  ">
   <li className="col-span-1 flex flex-col  text-center bg-white rounded-lg shadow divide-y divide-gray-200">
     <div className="flex-1 flex flex-col p-8 ">
-    <StaticImage src="../images/logo-unilimpio.svg"
+    <StaticImage src="../images/unilimpio.jpg"
                 className="mx-auto"
                 alt="Acerca de Unilimpio:imagen del logo de la empresa Unilimpio SA"
                 placeholder="blurred"
@@ -106,12 +117,12 @@ Nos diferenciamos de la competencia por tener el más amplio portafolio de produ
   <li className="col-span-1 flex flex-col  text-center bg-white rounded-lg shadow divide-y divide-gray-200">
     <div className="flex-1 flex flex-col p-8">
 
-    <StaticImage src="../images/grupo-empresarial-tecnoclean.jpg"
+    <StaticImage src="../images/logo-tecnoclean.jpg"
                 className="mx-auto"
                 alt="Empresa de lavado profesional Tecno clean"
                 placeholder="blurred"
                 layout="fixed"
-                width={400}
+                width={200}
                  />
    
       <h3 className="mt-6 text-white bg-primary-default  text-lg font-bold">TECNO CLEAN</h3>
@@ -201,7 +212,7 @@ Nos diferenciamos de la competencia por tener el más amplio portafolio de produ
 </section>
 
 <section id="grupo empresarial Unilimpio" className="bg-white flex justify-center mt-2">
-  <div className="max-w-7xl mx-10 py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
+  <div className="max-w-7xl mx-10 py-2 px-4 sm:px-6 lg:py-24 lg:px-8">
     <div className="max-w-3xl mx-auto text-center flex justify-center">
       <h1 className="text-3xl font-bold mt-0 text-center text-primary-lighter  underline ">NUESTRA FILOSOFÍA</h1>
     </div>
@@ -209,7 +220,7 @@ Nos diferenciamos de la competencia por tener el más amplio portafolio de produ
 </section>
 
 
-<section className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 mx-20">
+<section className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3  mx-6 mt-0">
   <li className="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
     <div className="flex-1 flex flex-col p-8">
     <StaticImage src="../images/nuestro-proposito.jpg"
@@ -241,7 +252,7 @@ Nos diferenciamos de la competencia por tener el más amplio portafolio de produ
       <h3 className="mt-6 text-secondary  text-lg font-bold">Nuestro Futuro</h3><br/>
       <dl className="mt-1 flex-grow flex flex-col justify-between">
         <dt className="sr-only">Title</dt>
-        <dd className="text-gray-700 text-base text-justify">Ser la primera opción de higiene institucional reconocida por su oferta de valor y su Responsabilidad Social. </dd>
+        <dd className="text-gray-700 text-base text-center">Ser la primera opción de higiene institucional reconocida por su oferta de valor y su Responsabilidad Social. </dd>
         <dt className="sr-only">Role</dt>
         <dd className="mt-3">
 
@@ -262,7 +273,7 @@ Nos diferenciamos de la competencia por tener el más amplio portafolio de produ
       <h3 className="mt-6 text-secondary  text-lg font-bold">Nuestros Valores Corporativos</h3><br/>
       <dl className="mt-1 flex-grow flex flex-col justify-between">
         <dt className="sr-only">Title</dt>
-        <dd className="text-gray-700 text-base text-justify"><li>Enfoque en el cliente</li><li>Mejora permanente e innovación</li> <li>trabajo en equipo para conseguir resultados</li> <li>Transparencia, honestidad, coraje y fé</li> <li>Sustentables (Pacto Global y ODS)</li> </dd>
+        <dd className="text-gray-700 text-base text-justify"><li>Enfoque en el cliente</li><li>Mejora permanente e innovación</li> <li>trabajo en equipo para conseguir resultados</li> <li>Transparencia, honestidad, coraje y fe</li> <li>Sustentables (Pacto Global y ODS)</li> </dd>
         <dt className="sr-only">Role</dt>
         <dd className="mt-3">
         </dd>
@@ -436,10 +447,10 @@ Nos diferenciamos de la competencia por tener el más amplio portafolio de produ
       reverseOrder className="bg-gradient-to-br from-primary-default via-white to-primary-default  py-4 my-20"
       primarySlot={
         <div className="bg-white bg-opacity-50 rounded-lg my-10  px-6 py-6 mx-6">
-          <h2 className="mt-2  text-3xl  sm:text-4xl  text-center text-2xl font-semibold leading-tight ">
+          <h2 className="mt-2  text-3xl  sm:text-4xl  text-center text-2xl font-semibold leading-tight text-primary-default ">
            Marca Blanca
           </h2>
-          <p className="mt-3 text-lg text-gray-700 text-center py-8">
+          <p className="mt-3 text-lg text-gray-900 text-center py-8">
           Fabricamos productos de la más alta calidad con su marca.
           </p>
           <div className="flex flex-wrap mx-auto justify-center">

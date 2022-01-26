@@ -9,7 +9,7 @@ import NewsletterSub from '../components/NewsletterSub';
 
 const seo={
   title: "Unilimpio ha declarado y formalizado su compromiso de luchar contra la corrupción en cada uno de los encadenamientos productivos a los que pertenecemos.",
-  image: "",
+  image: "denuncia-actos-de-corrupcion.jpg",
   pathname: "/denuncias-actos-de-corrupcion",
 }
 

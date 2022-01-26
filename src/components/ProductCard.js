@@ -9,7 +9,7 @@ const ProductCard = ({ id, product }) => (
     </Link>
     </div>
 
-    <p className="text-justify mt-4 bg-white leading-relaxed text-base mb-4">{ product.content }</p>
+    <p className="text-center mt-4 bg-white leading-relaxed text-base mb-4">{ product.content }</p>
     <div className="flex flex-wrap mx-auto justify-center">
     <Link to={ product.path } className="text-primary-lighter inline-flex items-center">Conocer más
       <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">

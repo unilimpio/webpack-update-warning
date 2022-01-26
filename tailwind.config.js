@@ -71,6 +71,7 @@ module.exports = {
         
         'hero-banner-4': "url('/images/hero/hero-banner-4.jpg')",
         'hero-banner-5': "url('/images/hero/hero-banner-5.jpg')",
+        'hero-banner-8': "url('/images/hero/hero-banner-8.jpg')",
         'logouni' : "url('/images/logo-unilimpio.svg')",
 
         'blog-banner': "url('/images/hero/blog-banner.jpg')",

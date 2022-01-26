@@ -5,6 +5,13 @@ import Layout from '../../components/layout/Layout';
 import PageData from "../../data/terminos-y-condiciones";
 
 
+const seo={
+    title: "Conozca nuestros términos y condiciones de uso",
+    desc:  "En nuestra sección términos y condiciones de uso puede revisar todos los elementos que regulan la información que recibe a través de nuestra página web.",
+    image: "",
+    pathname: "/terminos-y-condiciones",
+  }
+
 export default function Named  ({location})  {
 
   return(

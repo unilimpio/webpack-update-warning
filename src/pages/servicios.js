@@ -29,7 +29,7 @@ const seo={
 <section className="bg-white flex justify-center">
   <div className="max-w-7xl mx-10 py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
     <div className="max-w-3xl mx-auto text-center">
-      <h1 className="text-2xl md:text-5xl font-semibold sm:text-center">Servicios Especializados</h1>
+      <h1 className="text-2xl md:text-5xl font-semibold sm:text-center text-primary-default">Servicios Especializados</h1>
       <p className="mt-4 text-lg md:text-xl text-gray-700 mb-10 ">
         Nuestros servicios especializados son un complemento ideal a nuestra oferta de productos para clientes institucionales con mayores exigencias y buscando tener un solo aliado que resuelva todas sus necesidaes de higiene institucional.
 
@@ -115,7 +115,7 @@ const seo={
               <svg className="flex-shrink-0 h-5 w-5 text-secondary-default" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                 <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
               </svg>
-              <span className="text-sm text-gray-700 ">Reducción de carga viral/microbiana utilizando sistemas de aspersión/nebulización y desinfectante a bse de amonio cuanternario de quinta generación.</span>
+              <span className="text-sm text-gray-700 ">Reducción de carga viral/microbiana utilizando sistemas de aspersión/nebulización y desinfectante a base de amonio cuanternario de quinta generación.</span>
             </li>
 
             <li className="flex space-x-3">
@@ -192,7 +192,7 @@ const seo={
       <div className="border border-gray-200 rounded-lg shadow-sm divide-y divide-gray-200">
         <div className="p-6">
           <h2 className="text-lg leading-6 font-medium text-primary-lighter text-center">Programa de Aromatización de Ambientes y Marketing Olfativo</h2>
-          <p className="mt-4 text-base text-gray-700 ">Mejore considerablemente la imagen de su organización brindando areas siempre fragantes. Posibilidad de personalizar fragancias para reforzar e posicionamiento de su marca.</p>
+          <p className="mt-4 text-base text-gray-700 ">Mejore considerablemente la imagen de su organización brindando áreas siempre fragantes. Posibilidad de personalizar fragancias para reforzar el posicionamiento de su marca.</p>
           <p className="mt-8">
             <span className="text-4xl font-extrabold text-gray-900"></span>
             <span className="text-base font-medium text-gray-500"></span>

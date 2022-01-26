@@ -5,7 +5,12 @@ import Layout from '../../components/layout/Layout';
 import PageData from "../../data/privacy-policy-data";
 
 
-
+const seo={
+    title: "Conozca nuestra política de privacidad",
+    desc:  "En nuestra sección política de privacidad se explica cómo nuestra empresa maneja toda información y datos personales que usted, como cliente, haya ingresado en nuestra plataforma. ",
+    image: "",
+    pathname: "/politica-de-privacidad",
+  }
 
 
 export default function Named  ({location})  {

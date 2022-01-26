@@ -44,7 +44,7 @@ const Soluciones = ({location}) => (
 <section className="bg-white flex justify-center">
   <div className="max-w-7xl mx-10 py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
     <div className="max-w-3xl mx-auto text-center">
-      <h1 className="text-5xl font-semibold text-blue ">Soluciones por Industria</h1>
+      <h1 className="text-5xl font-semibold text-primary-default ">Soluciones por Industria</h1>
       <p className="mt-4 text-xl text-gray-700 mb-20">En Unilimpio estamos listos para atender cualquier necesidad que requiera su industria, contamos con asesores profesionales especializados en cada sector y con el más amplio portafolio de limpieza para brindarle la solución más adecuada.   </p>
     </div>
     <dl className="mt-12 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-4 lg:gap-x-8">

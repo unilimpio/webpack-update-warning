@@ -100,7 +100,7 @@ const Contactenos = ({location}) => (
               </div>
             </div>
             <div className="sm:col-span-2">
-            <p className="my-auto mr-4 text-sm text-gray-700 text-justify">
+            <p className="my-auto mr-4 text-sm text-gray-700 text-left">
              *Este formulario no es para enviar hojas de vida. Si deseas conocer nuestras oportunidades laborables visíta nuestra sección <Link to="/trabaja-con-nosotros" className="text-primary-lighter inline-flex">Trabaja con nosotros</Link>. Si envías tu hoja de vida por este medio NO será tomada en cuenta.
           </p>
           </div>
@@ -147,7 +147,7 @@ const Contactenos = ({location}) => (
         <div className="mt-3">
           <h3 className="text-lg font-bold text-primary-lighter sm:text-2xl text-center">Para realizar sus pedidos </h3>
           <p className="mt-3 text-lg text-gray-700">
-           ingrese a nuestra plataforma B2B de forma rápida y sencilla.
+           Ingrese a nuestra plataforma B2B de forma rápida y sencilla.
           </p>
         </div>
         <div className="mt-9">
