@@ -30,14 +30,17 @@ const IndexPage = ({  location }) => {
 
 <Layout location={location} crumbLabel="Inicio" >
 
+
+
+
 <HeroBanner />
 
 <Features />
 
 <section id="productos" className="pt-20 mb-20 ">
   <div className="container mx-auto bg-white bg-opacity-50">
-    <h2 className="text-4xl font-semibold text-center text-primary-normal">Productos de Limpieza</h2> 
-    <h3 className="md:w-2/3 mx-auto text-2xl font-semilight text-center my-4 pr-10 pl-10 mb-10 text-primary-default">Un portafolio completo y especializado de productos de limpieza</h3> 
+    <h2 className="text-4xl font-semibold text-center text-primary-normal">Productos de Limpieza</h2>
+    <h3 className="md:w-2/3 mx-auto text-2xl font-semilight text-center my-4 pr-10 pl-10 mb-10 text-primary-default">Un portafolio completo y especializado de productos de limpieza</h3>
     <SplitSection
         primarySlot={
           <div className=" my-4  px-6 py-6 mx-6">
