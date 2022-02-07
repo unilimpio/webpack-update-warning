@@ -2,7 +2,7 @@
 path: "/productos/quimicos/cloro-liquido-ozz"
 category: "Químicos"
 categorySlug: "quimicos"
-title:  "Cloro al 5.5% Ozz"
+title:  "Cloro Líquido al 5.5% Ozz"
 subtitle: "Líquido altamente concentrado"
 date: "2020-04-02"
 slug:  "cloro-ozz"

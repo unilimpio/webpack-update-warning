@@ -53,7 +53,7 @@ export default function Named ({location}) {
           <h3 className="text-lg sm:text-xl font-medium title-font mb-2 text-center">
             Productos Químicos
           </h3>
-          <Link   to="/productos/quimicos/amonio-cuaternario-de-quinta-generacion-ozz" className="text-blue-500 inline-flex items-center">Amonio Cuaternario al 10%
+          <Link   to="/productos/quimicos/amonio-cuaternario-de-quinta-generacion-ozz" className="text-primary-lighter inline-flex items-center">Amonio Cuaternario al 10%
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>

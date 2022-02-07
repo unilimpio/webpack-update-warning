@@ -24,7 +24,7 @@ export default function Named  ({location}) {
 
 <StaticImage src="../images/denuncia-actos-de-corrupcion.jpg"
             className="object-contain"
-            alt="Unilimpio ha declarado y formalizado su compromiso de luchar contra la corrupción en cada uno de los encadenamientos productivos a los que pertenecemos."
+            alt="Actos de Corrupción"
             placeholder="blurred"
             layout="fullWidth"
              />

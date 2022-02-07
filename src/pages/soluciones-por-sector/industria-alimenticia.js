@@ -88,7 +88,7 @@ export default function Named ({location}) {
           <h3 className="text-lg sm:text-xl font-medium title-font mb-3 text-center">
             Línea Ailmenticia
           </h3>
-          <Link   to="/productos/quimicos/detergente-digrizz-ozz" className="text-primary-lighter inline-flex items-center">
+          <Link   to="/productos/quimicos/digrizz-ozz" className="text-primary-lighter inline-flex items-center">
               Detergente Concentrado Multiusos Digrizz Ozz
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -136,8 +136,8 @@ export default function Named ({location}) {
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </Link><br/>
-          <Link   to="/productos/quimicos/organic-100" className="text-primary-lighter inline-flex items-center">
-              Organic 100 
+          <Link   to="/productos/quimicos/sanitizante-y-desinfectante-organic-100" className="text-primary-lighter inline-flex items-center">
+              Sanitizante y Desinfectante Organic 100 
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>

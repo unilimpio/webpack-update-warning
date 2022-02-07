@@ -16,7 +16,7 @@ import InformeCOP2020 from "../files/informe-cop-unilimpio-2020.pdf";
 import InformeCOP2021 from "../files/informe-cop-unilimpio-2021.pdf";
 
 const seo={
-  title: "Responsabilidad Social ",
+  title: "Responsabilidad Social Empresarial ",
   desc:  "Somos una empresa responsable, transparente y solidaria. Nuestra empresa ha sido reconocida a nivel local por su gestión en responsabilidad social empresarial. Formamos parte del UN Global Compact y nos adherimos al Global Reporting Initiative.",
   image: "resppnsabilidad-social-banner.jpg",
   pathname: "/responsabilidad-social",
