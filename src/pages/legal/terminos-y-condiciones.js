@@ -6,7 +6,7 @@ import PageData from "../../data/terminos-y-condiciones";
 
 
 const seo={
-    title: "Conozca nuestros términos y condiciones de uso",
+    title: "Términos y Condiciones de uso",
     desc:  "En nuestra sección términos y condiciones de uso puede revisar todos los elementos que regulan la información que recibe a través de nuestra página web.",
     image: "",
     pathname: "/terminos-y-condiciones",

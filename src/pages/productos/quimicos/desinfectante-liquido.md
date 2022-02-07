@@ -2,7 +2,7 @@
 path: "/productos/quimicos/desinfectante-liquido"
 category: "Químicos"
 categorySlug: "quimicos"
-title:  "Desinfectante Líquido Ozz"
+title:  "Desinfectante Líquido Concentrado Ozz"
 subtitle: "Limpiador concentrado"
 date: "2020-04-02"
 slug:  "desinfectantes-ozz"

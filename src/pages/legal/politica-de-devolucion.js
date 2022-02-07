@@ -6,7 +6,7 @@ import PageData from "../../data/politica-de-devolucion";
 
 
 const seo={
-    title: "Conozca nuestra política de devolución",
+    title: "Política de Devolución",
     desc:  "En nuestra sección política de devolución se describe nuestros términos y condiciones bajo los que usted puede devolver un producto adquirido.",
     image: "",
     pathname: "/politica-de-devolucion",

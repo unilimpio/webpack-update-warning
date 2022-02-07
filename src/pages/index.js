@@ -30,15 +30,6 @@ const IndexPage = ({  location }) => {
 
 <Layout location={location} crumbLabel="Inicio" >
 
-<section id="wilmer">
-  <div className="w-full mx-auto bg-black">
-    <div className="px-8 py-2 text-white">
-      <span className="text-lg md:text-2xl">Aluvión en Quito</span><br/>
-      <span className="text-md md:text-lg">En este momento de mucho dolor, nos solidarizamos con las familias de las víctimas y damnificados que ha dejado el terrible aluvión del pasado Lunes 31 de enero en Quito. </span><br/>
-      <span className="text-sm md:text-md">Estaremos recibiendo donaciones de víveres y frazadas en nuestras oficina Matriz hasta el miércoles 2 de febrero medio día, mismas que serán movilizadas a los albergues dispuestos para los damnificados.</span>
-    </div>
-  </div>
-</section>
 
 
 <HeroBanner />

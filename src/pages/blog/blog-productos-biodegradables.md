@@ -1,6 +1,6 @@
 ---
 path: "/blog/utiliza-productos-biodegradables"
-title:  "Contribuye con el medio ambiente utilizando productos Biodegradables" 
+title:  "Utiliza productos Biodegradables" 
 date: "2021-05-11"
 slug:  "blog-productos-biodegradables"
 featuredImage: "../../images/blog-productos-biodegradables.jpg"
