@@ -32,7 +32,7 @@ const databits = [
     codigoPostal: '',
     ciudad: 'Cuenca, Ecuador',
     email: 'jpdavila@unilimpio.com',
-    telefonos: '0994476780'
+    telefonos: '0981658917'
 
   }
 
