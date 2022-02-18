@@ -19,8 +19,8 @@ const databits = [
   },
   {
     zona: 'Centro - Norte',
-    name: 'MOREIRA MENDOZA WILMER HOMERO',
-    contacto: 'Wilmer Moreira',
+    name: '',
+    contacto: 'Irma Tacuri',
     email: 'wmoreira@unilimpio.com',
     movil: '0979708017',
     convencional: '023210455'

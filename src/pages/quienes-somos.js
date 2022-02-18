@@ -81,71 +81,47 @@ Nos diferenciamos de la competencia por tener el más amplio portafolio de produ
     </div>
 </section>
 
-<section id="grupo empresarial Unilimpio" className="bg-white flex justify-center">
-  <div className="max-w-7xl mx-10 py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
-    <div className="max-w-3xl mx-auto text-center">
-      <h1 className="text-3xl font-bold mt-0 text-center text-primary-lighter  underline ">GRUPO EMPRESARIAL UNILIMPIO</h1>
-      <p className="mt-4 text-xl text-gray-700 ">Tras 34 años en el mercado, nos hemos convertido en un Grupo Empresarial constituido por empresas especializadas en diferentes campos de la higiene:
-  </p>
-    </div>
-    </div>
-</section>
-
-<section className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 mx-20 mb-24  ">
-  <li className="col-span-1 flex flex-col  text-center bg-white rounded-lg shadow divide-y divide-gray-200">
-    <div className="flex-1 flex flex-col p-8 ">
-    <StaticImage src="../images/unilimpio.jpg"
+<section id="grupo empresarial Unilimpio" className="">
+<div class="bg-white">
+  <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+    <div class="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
+      <div>
+        <h2 class="text-3xl font-bold  text-primary-lighter sm:text-4xl text-center">Grupo Empresarial Unilimpio</h2>
+        <p class="mt-3 max-w-3xl text-xl text-gray-700">Tras 34 años en el mercado, nos hemos convertido en un Grupo Empresarial constituido por empresas especializadas en diferentes campos de la higiene:</p>
+      </div>
+      <div class="mt-8 grid grid-cols-2 gap-2 md:grid-cols-3 lg:mt-0 lg:grid-cols-2">
+        <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-100">
+        <StaticImage src="../images/unilimpio.jpg"
                 className="mx-auto"
                 alt="Acerca de Unilimpio:imagen del logo de la empresa Unilimpio SA"
                 placeholder="blurred"
-                layout="fixed"
-                width={200}
+                layout="constrained"
                  />
-
-      <h3 className="mt-6 text-white  text-lg font-bold bg-primary-default ">UNILIMPIO</h3>
-      <dl className="mt-1 flex-grow flex flex-col justify-between ">
-        <dt className="sr-only">Title</dt>
-        <dd className="text-gray-700 text-base text-center  ">Empresa con las mejores y más rentables soluciones de higiene institucional para su negocio.</dd>
-        <dt className="sr-only">Role</dt>
-        <dd className="mt-3">
-
-        </dd>
-      </dl>
-    </div>
-  </li>
-
-  <li className="col-span-1 flex flex-col  text-center bg-white rounded-lg shadow divide-y divide-gray-200">
-    <div className="flex-1 flex flex-col p-8">
-
-    <StaticImage src="../images/logo-tecnoclean.jpg"
+        </div>
+        <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-100">
+        <StaticImage src="../images/tecno-clean.jpg"
                 className="mx-auto"
-                alt="Empresa de lavado profesional Tecno clean"
+                alt="Acerca de Unilimpio:imagen del logo de la empresa Unilimpio SA"
                 placeholder="blurred"
-                layout="fixed"
-                width={200}
+                layout="constrained"
                  />
-   
-      <h3 className="mt-6 text-white bg-primary-default  text-lg font-bold">TECNO CLEAN</h3>
-      <dl className="mt-1 flex-grow flex flex-col justify-between">
-        <dt className="sr-only">Title</dt>
-        <dd className="text-gray-700 text-base text-center">Empresa que ofrece productos especializados de limpieza e higiene textil.</dd>
-        <dt className="sr-only">Role</dt>
-        <dd className="mt-3">
-
-        </dd>
-      </dl>
+        </div>
+      </div>
     </div>
-
-  </li>
-  
+  </div>
+</div>
 </section>
+
+
+
+
 
 
 
 <section className="bg-gray-200 pt-12 sm:pt-16 mb-20">
   <div className="max-w-7xl  mx-auto px-4 sm:px-6 lg:px-8 ">
     <div className="max-w-4xl mx-auto text-center ">
-      <h2 className="text-3xl font-bold mt-0 text-center text-primary-lighter mb-12 underline ">
+      <h2 className="text-3xl font-bold mt-0 text-center text-primary-lighter mb-12  ">
         MEJORA CONSTANTE
       </h2>
     </div>
@@ -214,7 +190,7 @@ Nos diferenciamos de la competencia por tener el más amplio portafolio de produ
 <section id="grupo empresarial Unilimpio" className="bg-white flex justify-center mt-2">
   <div className="max-w-7xl mx-10 py-2 px-4 sm:px-6 lg:py-24 lg:px-8">
     <div className="max-w-3xl mx-auto text-center flex justify-center">
-      <h1 className="text-3xl font-bold mt-0 text-center text-primary-lighter  underline ">NUESTRA FILOSOFÍA</h1>
+      <h1 className="text-3xl font-bold mt-0 text-center text-primary-lighter  ">NUESTRA FILOSOFÍA</h1>
     </div>
     </div>
 </section>
