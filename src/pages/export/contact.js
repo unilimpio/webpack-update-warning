@@ -1,27 +1,20 @@
 import React from 'react';
-import Layout from '../components/layout/Layout';
+import Layout from '../../components/layout/Layoutexport';
 import { Link } from 'gatsby';
 import { StaticImage } from "gatsby-plugin-image"
-import NewsletterSub from "../components/NewsletterSub";
-import Button from "../components/Button";
+import NewsletterSub from "../../components/NewsletterSub";
+import Button from "../../components/Button";
 
-import Ubicaciones from '../data/contact/ubicaciones';
-import DzsQuito from '../data/contact/dzs-quito'
-import DzsGuayaquil from '../data/contact/dzs-guayaquil'
-import DzsCuenca from '../data/contact/dzs-cuenca'
-import DzsElOro from '../data/contact/dzs-el-oro'
-import DzsSantoDomingo from '../data/contact/dzs-santo-domingo'
-import DzsSantaElena from '../data/contact/dzs-santa-elena'
 
 
 const seo={
-  title: "Contáctenos",
-  desc:  "Canales de contacto. Estamos listos para atendelro directamente o a través nuestra extensa red de Distribuidores de productos de limpieza en QUito, Guayaquil y Cuenca y a nivel nacional.",
+  title: "Contact Us",
+  desc:  "Contactenos hoy.",
   image: "productos.jpg",
-  pathname: "/contactenos",
+  pathname: "/export/contact",
 }
 
-const Contactenos = ({location}) => (
+const Contact = ({location}) => (
 
 
 
@@ -123,7 +116,7 @@ const Contactenos = ({location}) => (
 
     <div className="flex-col-reverse sm:flex-row inset-0 w-full md:w-1/2">
       <div className="inset-y-0 right-0">
-      <StaticImage src="../images/call-center.jpg"
+      <StaticImage src="../../images/call-center.jpg"
                     className="flex justify-center"
                     alt="servicio al cliente unilimpio, nuestros operadores están listos para atenderlo."
                     placeholder="blurred"
@@ -229,241 +222,8 @@ const Contactenos = ({location}) => (
   </div>
 </section>
 
-<section className="bg-gray-100">
-  <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
-    <div className="divide-y-2 divide-gray-200">
-      <div className="lg:grid lg:grid-cols-3 lg:gap-8">
-        <h2 className="text-2xl font-extrabold text-primary-default sm:text-3xl">
-          Nuestras ubicaciones
-        </h2>
-        <h3> Contamos con 3 oficinas comerciales y centros de operación a nivel nacional para brindarle máxima disponibilidad y agilidad .</h3>
-        <div className="mt-8 grid grid-cols-1 gap-12 sm:grid-cols-2 sm:gap-x-8 sm:gap-y-12 lg:mt-0 lg:col-span-2">
 
-          {Ubicaciones.map(ubicacion => (
-            <div key={ubicacion.id} className="">
-              <h3 className="text-lg leading-6 font-medium text-primary-lighter">
-                { ubicacion.name}
-              </h3>
-              <dl className="mt-2 text-base text-gray-700">
-                <div>
-                  <dt className="sr-only">
-                    Dirección
-                  </dt>
-                  <dd>
-                    { ubicacion.direccion }<br/>
-                    { ubicacion.sector }<br/>
-                    { ubicacion.codigoPostal }<br/>
-                    { ubicacion.ciudad }
-                  </dd>
-                </div>
-                <div>
-                  <dt className="sr-only">
-                    Email
-                  </dt>
-                  <dd>
-                    <a href={`mailto:${ ubicacion.email }`}>email</a>
-                  </dd>
-                </div>
-                <div className="mt-1">
-                  <dt className="sr-only">
-                    Teléfono(s)
-                  </dt>
-                  <dd>
-                    { ubicacion.telefonos }
-                  </dd>
-                </div>
-              </dl>
-            </div>
-          ))}
 
-        </div>
-      </div>
-      <div id="distribuidores" className="mt-16 pt-16 lg:grid lg:grid-cols-3 lg:gap-8">
-        <h2 className="text-2xl font-extrabold text-primary-default sm:text-3xl">
-          Distribuidores Zonales Autorizados
-        </h2>
-        <h3>Ampliamos nuestra cobertura y flexibilidad gracias a nuestra extensa red de Distribuidores Autorizados de productos de limpieza en Quito, Guayaquil, Cuenca y a nivel nacional.</h3>
-
-        <div className="mt-8 grid grid-cols-1 gap-12 sm:grid-cols-2 sm:gap-x-8 sm:gap-y-12 lg:mt-0 lg:col-span-2">
-          <div className="sm:col-span-2">
-            <h3 className="text-2xl leading-6 font-medium">
-              Quito
-            </h3>
-          </div>
-          {DzsQuito.map(dz => (
-
-            <div key={dz.id}>
-              <h3 className="text-lg leading-6 font-medium text-gray-900">
-              {dz.zona}
-              </h3>
-              <h4>{dz.name}</h4>
-              <div className="mt-2 text-base text-gray-700">
-                <p>
-                  {dz.contacto}
-                </p>
-                <p className="mt-1">
-                  {dz.movil}
-                </p>
-                <p className="mt-1">
-                  {dz.convencional}
-                </p>
-                <p className="mt-1">
-                  <a href={`mailto:${dz.email}`}>email</a>
-                </p>
-
-              </div>
-            </div>
-          ))}
-            <div className="sm:col-span-2">
-            <h3 className="text-2xl leading-6 font-medium">
-              Guayaquil
-            </h3>
-          </div>
-          {DzsGuayaquil.map(dz => (
-
-            <div key={dz.id}>
-              <h3 className="text-lg leading-6 font-medium text-gray-900">
-              {dz.zona}
-              </h3>
-              <h4>{dz.name}</h4>
-              <div className="mt-2 text-base text-gray-700">
-                <p>
-                  {dz.contacto}
-                </p>
-                <p className="mt-1">
-                  {dz.movil}
-                </p>
-                <p className="mt-1">
-                  {dz.convencional}
-                </p>
-                <p className="mt-1">
-                  <a href={`mailto:${dz.email}`}>email</a>
-                </p>
-
-              </div>
-            </div>
-          ))}
-           <div className="sm:col-span-2">
-            <h3 className="text-2xl leading-6 font-medium">
-              Cuenca
-            </h3>
-          </div>
-          {DzsCuenca.map(dz => (
-
-            <div key={dz.id}>
-              <h3 className="text-lg leading-6 font-medium text-gray-900">
-              {dz.zona}
-              </h3>
-              <h4>{dz.name}</h4>
-              <div className="mt-2 text-base text-gray-700">
-                <p>
-                  {dz.contacto}
-                </p>
-                <p className="mt-1">
-                  {dz.movil}
-                </p>
-                <p className="mt-1">
-                  {dz.convencional}
-                </p>
-                <p className="mt-1">
-                  <a href={`mailto:${dz.email}`}>email</a>
-                </p>
-
-              </div>
-            </div>
-          ))}
-           <div className="sm:col-span-2">
-            <h3 className="text-2xl leading-6 font-medium">
-              El Oro
-            </h3>
-          </div>
-          {DzsElOro.map(dz => (
-
-            <div key={dz.id}>
-              <h3 className="text-lg leading-6 font-medium text-gray-900">
-              {dz.zona}
-              </h3>
-              <h4>{dz.name}</h4>
-              <div className="mt-2 text-base text-gray-700">
-                <p>
-                  {dz.contacto}
-                </p>
-                <p className="mt-1">
-                  {dz.movil}
-                </p>
-                <p className="mt-1">
-                  {dz.convencional}
-                </p>
-                <p className="mt-1">
-                  <a href={`mailto:${dz.email}`}>email</a>
-                </p>
-
-              </div>
-            </div>
-          ))}
-          <div className="sm:col-span-2">
-            <h3 className="text-2xl leading-6 font-medium">
-              Santo Domingo / Quevedo
-            </h3>
-          </div>
-          {DzsSantoDomingo.map(dz => (
-
-            <div key={dz.id}>
-              <h3 className="text-lg leading-6 font-medium text-gray-900">
-              {dz.zona}
-              </h3>
-              <h4>{dz.name}</h4>
-              <div className="mt-2 text-base text-gray-700">
-                <p>
-                  {dz.contacto}
-                </p>
-                <p className="mt-1">
-                  {dz.movil}
-                </p>
-                <p className="mt-1">
-                  {dz.convencional}
-                </p>
-                <p className="mt-1">
-                  <a href={`mailto:${dz.email}`}>email</a>
-                </p>
-
-              </div>
-            </div>
-          ))}
-          <div className="sm:col-span-2">
-            <h3 className="text-2xl leading-6 font-medium">
-              Santa Elena
-            </h3>
-          </div>
-          {DzsSantaElena.map(dz => (
-
-            <div key={dz.id}>
-              <h3 className="text-lg leading-6 font-medium text-gray-900">
-              {dz.zona}
-              </h3>
-              <h4>{dz.name}</h4>
-              <div className="mt-2 text-base text-gray-700">
-                <p>
-                  {dz.contacto}
-                </p>
-                <p className="mt-1">
-                  {dz.movil}
-                </p>
-                <p className="mt-1">
-                  {dz.convencional}
-                </p>
-                <p className="mt-1">
-                  <a href={`mailto:${dz.email}`}>email</a>
-                </p>
-
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
 <NewsletterSub/>
 
@@ -473,4 +233,4 @@ const Contactenos = ({location}) => (
 
   );
 
-  export default Contactenos;
+  export default Contact;
