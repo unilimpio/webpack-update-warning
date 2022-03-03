@@ -7,6 +7,7 @@ subtitle: "24x24 cm color blanca"
 date: "2020-04-02"
 slug:  "servilleta-bio"
 featuredImage: "../../../images/servilleta-bio.jpg"
+lang: "es-EC"
 
 
 ---

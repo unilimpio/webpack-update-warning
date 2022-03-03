@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react"
 import styled from "styled-components"
-import SiteverLinks from "./SiteverLinksexport"
-import NavbarLinks from "./NavbarLinksexport"
+import SiteverLinks from "./SiteverLinksexport-en"
+import NavbarLinks from "./NavbarLinksexport-en"
 import Logo from "./Logo"
 
 
@@ -142,7 +142,7 @@ const Navbar = ({siteVerOpts, langOpts}) => {
         <Navbox className="bg-gradient-to-br from-neutral-300 via-white to-neutral-300">
 
             <div className="">
-              <SiteverLinks siteVerOpts={siteVerOpts} langOpts={langOpts}/>
+              <SiteverLinks  siteVerOpts={siteVerOpts} langOpts={langOpts}/>
             </div>
 
               <NavbarLinks />
@@ -153,7 +153,7 @@ const Navbar = ({siteVerOpts, langOpts}) => {
         <Navboxgrow open>
         <div className="flex-col">
           <div className="absolute right-0 -top-2">
-            <SiteverLinks siteVerOpts={siteVerOpts} langOpts={langOpts}/>
+            <SiteverLinks  siteVerOpts={siteVerOpts} langOpts={langOpts}/>
           </div>
           <div className="">
             <NavbarLinks />

@@ -7,6 +7,7 @@ subtitle: "en Z color blanca"
 date: "2020-04-02"
 slug:  "servilleta-dispensada"
 featuredImage: "../../../images/servilleta-dispensada.jpg"
+lang: "es-EC"
 
 
 ---

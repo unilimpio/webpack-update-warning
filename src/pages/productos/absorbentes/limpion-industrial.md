@@ -7,6 +7,7 @@ subtitle: "Color natural"
 date: "2020-04-02"
 slug:  "limpion-industrial"
 featuredImage: "../../../images/limpion-industrial.jpg"
+lang: "es-EC"
 ---
 Limpión industrial Biosolutions de papel en rollo ideal para limpiar y secar. Es un producto 100% biodegradable, con soluciones ecológicas de higiene en suavidad y textura para mayor bienestar en la limpieza. Elaborado con procesos ecológicos y socialmente responsables. Limpión industrial natural más resistente y absorbente, le permite economizar producto y ahorrar. Contamos con varios tamaños disponibles según su necesidad.
 

@@ -6,6 +6,7 @@ module.exports = {
     {
     resolve: `gatsby-plugin-breadcrumb`,
     options: {
+/*
       defaultCrumb: {
         // location: required and must include the pathname property
         location: {
@@ -14,9 +15,9 @@ module.exports = {
         // crumbLabel: required label for the default crumb
         crumbLabel: "Inicio",
         // all other properties optional
-        crumbSeparator: ">",
+        //crumbSeparator: ">",
 
-      },
+      },*/
     },
   },
     'gatsby-plugin-styled-components',
@@ -50,6 +51,14 @@ module.exports = {
       options: {
         name: `products-export`,
         path: `${__dirname}/src/pages/export`,
+
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `products-export-en`,
+        path: `${__dirname}/src/pages/export/en`,
 
       },
     },

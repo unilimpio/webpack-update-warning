@@ -5,35 +5,70 @@ import { Link } from 'gatsby';
 import { StaticImage } from "gatsby-plugin-image"
 
 
-import Layout from '../../components/layout/Layoutexport';
+import Layout from '../components/layout/Layoutexport-en';
 
-import Features from "../../components/Features";
-import Button from '../../components/Button';
+import Features from "../components/Features";
+import Button from '../components/Button';
 
-import SplitSection from '../../components/SplitSection';
-import LeadForm from "../../components/LeadForm";
-import NewsletterSub from "../../components/NewsletterSub";
-import Testimonials from "../../components/Testimonials";
+import SplitSection from '../components/SplitSection';
+import LeadForm from "../components/LeadForm";
+import NewsletterSub from "../components/NewsletterSub";
+import Testimonials from "../components/Testimonials";
 
-import LogoDump from "../../components/ClientesLogos";
-import HeroBanner from "../../components/HeroBanner"
+import LogoDump from "../components/ClientesLogos";
+import HeroBanner from "../components/HeroExport-en"
 
 const seo={
   title: "Exportamos productos para la higiene de manos e higiene industrial para el ambito profesional FOR EXPORT",
   desc:  "Fabricamos y comercializamos productos para la region y el mundo",
   image: "productos.jpg",
-  pathname: "/export/for-export",
+  pathname: "/export-en",
 }
 
+const siteVerOpts = [
 
-const Forexport = ({  location }) => {
+  {
+    label: 'International',
+    value: null,
+
+  },
+
+
+  {
+    label: 'Ecuador',
+    value: '/',
+
+  },
+
+
+];
+
+const langOpts = [
+
+  {
+    label: 'EN',
+    value: null,
+
+  },
+
+
+  {
+    label: 'ES',
+    value: '/export/',
+
+  },
+
+
+];
+
+const Export = ({  location }) => {
 
 
 
 
   return(
 
-<Layout location={location} crumbLabel="Export Home" >
+<Layout location={location} crumbLabel="Export Home" siteVerOpts={siteVerOpts} langOpts={langOpts}>
 
 
 
@@ -43,14 +78,12 @@ const Forexport = ({  location }) => {
 
 <section id="productos" className="pt-20 mb-20 ">
   <div className="container mx-auto bg-white bg-opacity-50">
-    <h2 className="text-4xl font-semibold text-center text-primary-normal">Productos de Limpieza</h2>
-    <h3 className="md:w-2/3 mx-auto text-2xl font-semilight text-center my-4 pr-10 pl-10 mb-10 text-primary-default">Un portafolio completo y especializado de productos de limpieza</h3>
+    <h2 className="text-4xl font-semibold text-center text-primary-normal">Our products</h2>
+    <h3 className="md:w-2/3 mx-auto text-2xl font-semilight text-center my-4 pr-10 pl-10 mb-10 text-primary-default"></h3>
     <SplitSection
         primarySlot={
           <div className=" my-4  px-6 py-6 mx-6">
           <p className="md:w-full text-left leading-relaxed text-lg text-gray-700 text-center ">
-          Fabricamos y comercializamos productos de limpieza líderes del mercado, reconocidos por su calidad, innovación, y excelente costo en uso.
-          Adaptamos nuestra oferta de productos a las necesidades específicas de cada cliente, a través de un asesoramiento profesional, seguimiento y entrenamiento permanentes.
           </p>
           <Link to="/export/products">
         <Button className="flex mx-auto mt-16 text-white  border-0 py-2 px-8 bg-primary-default shadow-md hover:bg-primary-lighter rounded text-lg">Descubra nuestros productos  </Button>
@@ -60,7 +93,7 @@ const Forexport = ({  location }) => {
 
         }
         secondarySlot={
-          <StaticImage src="../../images/productos.jpg"
+          <StaticImage src="../images/productos.jpg"
                       className=""
                       alt="Productos de limpieza"
                       placeholder="blurred"
@@ -72,7 +105,7 @@ const Forexport = ({  location }) => {
 </section>
 
 
-<SplitSection id="rse"
+<SplitSection id="Maquila"
       reverseOrder className="bg-gradient-to-br from-primary-default via-white to-primary-default  py-4 my-20"
       primarySlot={
         <div className=" bg-white bg-opacity-50 rounded-lg my-10  px-6 py-6 mx-6">
@@ -91,7 +124,7 @@ const Forexport = ({  location }) => {
       </div>
         </div>
       }
-      secondarySlot={<StaticImage src="../../images/marca-blanca.jpg"
+      secondarySlot={<StaticImage src="../images/marca-blanca.jpg"
                   className="flex justify-center"
                   alt="Marca BLanca: Somos su aliado ideal para la realización de su producto con su marca."
                   placeholder="blurred"
@@ -123,7 +156,7 @@ const Forexport = ({  location }) => {
         </div>
       }
       secondarySlot={
-        <StaticImage src="../../images/responsabilidad-social-banner.jpg"
+        <StaticImage src="../images/responsabilidad-social-banner.jpg"
                     className="flex justify-center my-4"
                     alt="Unilimpio es una empresa con responsabilidad social empresarial."
                     placeholder="blurred"
@@ -147,4 +180,4 @@ const Forexport = ({  location }) => {
 
 
 
-export default Forexport
+export default Export

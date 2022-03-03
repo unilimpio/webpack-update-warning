@@ -7,6 +7,7 @@ subtitle: "Toalla de manos de papel color blanco"
 date: "2020-04-02"
 slug:  "toalla-de-manos-center-pull"
 featuredImage: "../../../images/toalla-de-manos-center-pull.jpg"
+lang: "es-EC"
 
 ---
 Toalla de manos center pull Biosolutions cuenta con un alto poder de rendimiento. Posee una textura delicada para su piel, resistente y un exclusivo pre corte que lo hacen ideal para disminuir el desperdicio innecesario. Cuenta con un máximo poder de absorción y mayor ahorro. Esta toalla es un reemplazo higiénico y rentable para toallas de cocina estándar. Fabricada con fibra de celulosa.

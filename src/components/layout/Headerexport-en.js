@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from "../Navbar/Navbarexport";
+import Navbar from "../Navbar/Navbarexport-en";
 import Seo from "../SEO/seo";
 
 
@@ -10,7 +10,7 @@ export default function Header({siteVerOpts, langOpts, title, desc, banner, path
       <div className="shadow-md">
         <Seo title={title} desc={desc} banner={banner} pathname={pathname} article={article} articleDate={articleDate} product={product} category={category} categorySlug={categorySlug} productSku={productSku} productGtin13={productGtin13} offerPrice={offerPrice} brandName={brandName} brandLogo={brandLogo}/>
 
-        <Navbar siteVerOpts={siteVerOpts} langOpts={langOpts}/>
+        <Navbar  siteVerOpts={siteVerOpts} langOpts={langOpts}/>
       </div>
 
 
