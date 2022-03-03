@@ -7,6 +7,7 @@ subtitle: "Elegante y resistente"
 date: "2020-04-02"
 slug:  "dispensador-de-alcohol"
 featuredImage: "../../../images/dispensador-de-alcohol.jpg"
+lang: "es-EC"
 
 
 ---

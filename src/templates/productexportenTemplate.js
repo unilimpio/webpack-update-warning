@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
 
-import Layout from "../components/layout/Layoutexport"
+import Layout from "../components/layout/LayoutexportProduct-en"
 
 
 import { Link } from 'gatsby'
@@ -20,49 +20,55 @@ export default function productTemplate({
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html, excerpt } = markdownRemark
 
+
   const siteVerOpts = [
 
-    {
-      label: 'Internacional',
-      value: null,
+      {
+        label: "International",
+        value: null,
 
 
-    },
+      },
 
-    {
-      label: 'Ecuador',
-      value: '/',
+      {
+        label: "Ecuador",
+        value: "/",
 
 
-    },
-];
+      }
+
+
+  ];
 
   const langOpts = [
 
 
-    {
-      label: 'ES',
-      value: null,
+      {
+        label: 'EN',
+        value: null,
 
-    },
+      },
 
 
-    {
-      label: 'EN',
-      value: `/export/en/products`,
+      {
+        label: 'ES',
+        value: `/export/productos`,
 
-    },
+      }
 
 
   ];
+
+
+
+
 
 
   return (
 
 
 
-    <Layout location={location} crumbLabel={frontmatter.title}
-    siteVerOpts={siteVerOpts} langOpts={langOpts}
+    <Layout location={location} crumbLabel={frontmatter.title} siteVerOpts={siteVerOpts} langOpts={langOpts}
     title={frontmatter.title} desc={excerpt} banner={`${frontmatter.slug}.jpg`} pathname={frontmatter.path} product category={frontmatter.category} categorySlug={frontmatter.categorySlug} productSku={frontmatter.sku} productGtin13={frontmatter.gtin13} offerPrice={frontmatter.price} brandName={frontmatter.brandName} brandLogo={frontmatter.brandLogo}>
 
         <section id="product-detail" className="bg-gradient-to-br from-white via-blue-200 to-white py-20">
@@ -108,7 +114,7 @@ export const pageQuery = graphql`
     frontmatter {
       date(formatString: "DD/MM/YYYY")
       slug
-
+      alternate
       path
       featuredImage {
         childImageSharp {

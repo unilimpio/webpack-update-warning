@@ -7,6 +7,7 @@ subtitle: "Extra blanco"
 date: "2020-04-02"
 slug:  "papel-higienico-jumbo-bio"
 featuredImage: "../../../images/papel-higienico-jumbo-bio.jpg"
+lang: "es-EC"
 
 ---
 Papel higiénico jumbo Biosolutions es un producto 100% biodegradable, cuenta con soluciones ecológicas de higiene en suavidad y textura para mayor bienestar en cuidado personal. Elaborado con procesos ecológicos y socialmente responsables. Su materia prima es 80% reciclada de celulosa. Ideal para sectores de alto tráfico. Contamos con varias presentaciones que se acomodan a sus necesidades.

@@ -1,9 +1,9 @@
 import React from 'react';
-import Layout from '../../components/layout/Layoutexport';
+import Layout from '../../../components/layout/Layoutexport-en';
 import { Link } from 'gatsby';
 import { StaticImage } from "gatsby-plugin-image"
-import NewsletterSub from "../../components/NewsletterSub";
-import Button from "../../components/Button";
+import NewsletterSub from "../../../components/NewsletterSub";
+import Button from "../../../components/Button";
 
 
 
@@ -11,16 +11,53 @@ const seo={
   title: "Contact Us",
   desc:  "Contactenos hoy.",
   image: "productos.jpg",
-  pathname: "/export/contact",
+  pathname: "/export/en/contact",
 }
+
+const siteVerOpts = [
+
+  {
+    label: 'International',
+    value: null,
+
+  },
+
+
+  {
+    label: 'Ecuador',
+    value: '/contactenos',
+
+  },
+
+
+];
+
+const langOpts = [
+
+  {
+    label: 'EN',
+    value: null,
+
+  },
+
+
+  {
+    label: 'ES',
+    value: '/export/contacto',
+
+  },
+
+
+];
 
 const Contact = ({location}) => (
 
 
 
 
-  <Layout location={location} crumbLabel="Contáctenos"
-  title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
+  <Layout location={location} crumbLabel="Contacto"
+          siteVerOpts={siteVerOpts} langOpts={langOpts}
+          title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
 
 
 <section id="leadform" className="container mx-auto bg-white">
@@ -116,7 +153,7 @@ const Contact = ({location}) => (
 
     <div className="flex-col-reverse sm:flex-row inset-0 w-full md:w-1/2">
       <div className="inset-y-0 right-0">
-      <StaticImage src="../../images/call-center.jpg"
+      <StaticImage src="../../../images/call-center.jpg"
                     className="flex justify-center"
                     alt="servicio al cliente unilimpio, nuestros operadores están listos para atenderlo."
                     placeholder="blurred"

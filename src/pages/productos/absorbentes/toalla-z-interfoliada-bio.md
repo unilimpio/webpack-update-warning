@@ -7,6 +7,7 @@ subtitle: "Interfoliada"
 date: "2020-04-02"
 slug:  "toalla-z"
 featuredImage: "../../../images/toalla-z.jpg"
+lang: "es-EC"
 
 ---
 Toalla de manos en Z ideal para el secado e higiene de manos. Puede utilizar en baños, cocinas, salones, restaurants o establecimientos comerciales. Cuenta con máximo poder de absorción y retención de líquidos. Elaborado con procesos ecológicos y socialmente responsables. Mantener en un lugar fresco y seco a 25°C, evitar el contacto con el agua y superficies húmedas. No almacenar con productos inflamables, granos o productos con fuerte olor.

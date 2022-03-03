@@ -7,6 +7,7 @@ subtitle: "Interfoleada, dispensación 1 a 1"
 date: "2020-04-02"
 slug:  "toalla-de-manos-bio"
 featuredImage: "../../../images/toalla-de-manos-bio.jpg"
+lang: "es-EC"
 
 
 ---

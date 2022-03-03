@@ -23,23 +23,61 @@ const seo={
   title: "Productos de exportacion",
   desc:  "Fabricamos y comercializamos productos para la region y el mundo",
   image: "productos.jpg",
-  pathname: "/export/products",
+  pathname: "/export/productos",
 }
+
+const siteVerOpts = [
+
+  {
+    label: 'Internacional',
+    value: null,
+
+  },
+
+
+  {
+    label: 'Ecuador',
+    value: '/productos',
+
+  },
+
+
+];
+
+const langOpts = [
+
+  {
+    label: 'ES',
+    value: null,
+
+  },
+
+
+  {
+    label: 'EN',
+    value: '/export/en/products',
+
+  },
+
+
+];
 
 const Products = ({location}) => (
 
-          <Layout location={location} crumbLabel="Productos" title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
+          <Layout location={location} crumbLabel="Productos"
+            siteVerOpts={siteVerOpts} langOpts={langOpts}
+            title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
 
             <section id="productos" className="">
               <div className="">
-                <h1 className="text-5xl font-semibold text-center mb-6">Productos  de calidad internacional para la higiene profesional.</h1><br/>
+                <h1 className="text-5xl font-semibold text-center mb-6">Productos de higiene profesional para la región</h1><br/>
                 <SplitSection
                     primarySlot={
                       <div className="bg-gray-200 rounded-xl  my-10  px-6 py-6 mx-6">
-                        <h2 className="text-xl font-semibold text-center mb-4 my-10">Disponemos de un portafolio completo de productos de limpieza para resolver todas sus necesidades de higiene institucional.</h2>
+                        <h2 className="text-xl font-semibold text-center mb-4 my-10">Fabricamos y exportamos a toda la región centro y sudamericana productos higiénicos</h2>
                         <p className="md:w-full text-left leading-relaxed text-base text-gray-700 text-justify pr-10 pl-10">
-                          Fabricamos y comercializamos productos líderes del mercado, reconocidos por su calidad, innovación, y excelente costo en uso.
-                          Adaptamos nuestra oferta de productos a las necesidades específicas de cada cliente, a través de un asesoramiento profesional, seguimiento y entrenamiento permanentes.
+                          Fabricamos productos de la más alta calidad para los mercados y las industrias más exigentes. Nuestra innovación constante nos ha permitido entrar en mercados de la región.
+                          Nuestra planta ubicada en QUito, Ecuador, cuenta con todas las certificaciones y reconocimientos requeridos para acceder a los mercados más exigentes, ocmo son BPM, BPA, ISO 9001:!400.
                         </p>
                       </div>
                     }
@@ -56,7 +94,7 @@ const Products = ({location}) => (
                   <h2 className="text-primary-lighter font-medium title-font text-center my-10 text-decoration: underline text-3xl ">Portafolio de Productos de Limpieza</h2>
                   <div className="flex flex-wrap">
 
-                    <Link to='../export/jabon-liquido-recarga'>Jabon Liquido Recarga</Link>
+                    <Link className="mx-auto" to='../jabon-liquido-recarga'>Jabon Liquido Recarga</Link>
 
                   </div>
 
@@ -71,9 +109,7 @@ const Products = ({location}) => (
               </div>
             </section>
 
-            <SplitSectionB2b/>
 
-            <LeadForm/>
             <NewsletterSub/>
 
           </Layout>

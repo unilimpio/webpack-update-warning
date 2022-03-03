@@ -3,7 +3,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   const blogPostTemplate = require.resolve(`./src/templates/blogTemplate.js`)
   const productDetailTemplate = require.resolve(`./src/templates/productTemplate.js`)
   const productexportDetailTemplate = require.resolve(`./src/templates/productexportTemplate.js`)
-
+  const productexportenDetailTemplate = require.resolve(`./src/templates/productexportenTemplate.js`)
 
 	const result = await graphql(`
 		{
@@ -21,6 +21,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
           node {
             frontmatter {
               path
+
             }
           }
         }
@@ -30,6 +31,8 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
           node {
             frontmatter {
               path
+              lang
+              alternate
             }
           }
         }
@@ -65,14 +68,27 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   })
 
   result.data.prodsexport.edges.forEach(({ node }) => {
-    createPage({
-      path: node.frontmatter.path,
-      component: productexportDetailTemplate,
-      context: {
-        // additional data can be passed via context
-        slug: node.frontmatter.slug,
-      },
-    })
+    if (node.frontmatter.lang == "en"){
+      createPage({
+        path: node.frontmatter.path,
+        component: productexportenDetailTemplate,
+        context: {
+          // additional data can be passed via context
+          slug: node.frontmatter.slug,
+          alternate: node.frontmatter.alternate,
+        },
+      })
+    } else if (node.frontmatter.lang == "es"){
+      createPage({
+        path: node.frontmatter.path,
+        component: productexportDetailTemplate,
+        context: {
+          // additional data can be passed via context
+          slug: node.frontmatter.slug,
+          alternate: node.frontmatter.alternate,
+        },
+      })
+    }
   })
 
 

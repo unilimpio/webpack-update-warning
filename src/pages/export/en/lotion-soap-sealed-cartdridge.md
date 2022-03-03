@@ -1,18 +1,20 @@
 ---
-path: "/export/jabon-liquido-recarga"
-category: "Higiene de Manos"
-categorySlug: "higiene-de-manos"
-title:  "Jabón Líquido Recarga para dispensador"
-subtitle: "Para una adecuada higiene de manos"
+path: "/export/en/lotion-soap-sealed-cartdridge"
+category: "Hand Hygiene"
+categorySlug: "hand-Hygiene"
+title:  "Lotion Soap Sealed Cartdridge for Dispenser"
+subtitle: "For an adequate hand hygiene"
 date: "2020-04-02"
-slug:  "jabon-liquido-recarga"
-featuredImage:  "../../images/jabon-sistema-cerrado.jpg"
-lang: "es"
-alternate: "lotion-soap-sealed-cartdridge"
+slug:  "lotion-soap-sealed-cartdridge"
+featuredImage:  "../../../images/jabon-sistema-cerrado.jpg"
+lang: "en"
+alternate: "jabon-liquido-recarga"
+
+
 
 
 ---
-Jabón Líquido Antibacterial en sachet para dispensador Dr. Clean® remueve suavemente la suciedad de las manos. Enriquecido con glicerina que protege las manos de la resequedad por el lavado frecuente. Su ingrediente antimicrobiano de última generación elimina el 99,9% de gérmenes causantes de enfermedades en 30 seg. Expertos médicos a nivel mundial recomiendan el lavado frecuente de las manos como el método más efectivo para prevenir el contagio de enfermedades causadas por microrganismos patógenos, incluyendo virus envueltos como el SARS-CoV2.
+Lotion Soap Sealed Cartdridge, for gentle cleansing of the hands, with antibacterial action that has been tested on numerous pathogens such as E.Coli, and even Sars-Cov2.
 
 <br>
 <table class="min-w-full md:min-w-0 divide-y-0 divide-gray-200">
