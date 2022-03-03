@@ -50,7 +50,7 @@ const Footer = () => (
             <Link to="/contactenos#distribuidores" className="text-white hover:text-gray-400">Distribuidores autorizados</Link>
           </li>
           <li>
-            <a href="https://unilimpio.app/ecommerce" target="_blank"  rel="noreferrer" className="text-white hover:text-gray-400">Portal B2B</a>
+            <a href="https://store.unilimpio.com" target="_blank"  rel="noreferrer" className="text-white hover:text-gray-400">Portal B2B</a>
           </li>
 
 
