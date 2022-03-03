@@ -13,7 +13,7 @@ const SplitSectionB2b = ({className}) => (
                   Realice sus pedidos de forma rápida y fácil, al alcance de un clic, gracias a nuestra plataforma B2B, disponible 24/7 durante los 365 días del año.
                 </p>
                 <div className="flex flex-wrap mx-auto justify-center">
-                <a href="https://unilimpio.app/ecommerce/" className="mt-4 text-primary-lighter inline-flex items-center">Conozca más
+                <a href="https://store.unilimpio.com" target="_blank"  rel="noreferrer" className="mt-4 text-primary-lighter inline-flex items-center">Conozca más
                   <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                   </svg>
