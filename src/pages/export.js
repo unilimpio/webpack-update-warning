@@ -22,7 +22,7 @@ const seo={
   title: "Exportamos productos para la higiene de manos e higiene industrial para el ambito profesional FOR EXPORT",
   desc:  "Fabricamos y comercializamos productos para la region y el mundo",
   image: "productos.jpg",
-  pathname: "/export",
+  pathname: "/export/",
 }
 
 const siteVerOpts = [
@@ -99,7 +99,7 @@ const Export = ({  location }) => {
         secondarySlot={
           <StaticImage src="../images/productos.jpg"
                       className=""
-                      alt="Productos de limpieza"
+                      alt="Productos de higiene Profesional"
                       placeholder="blurred"
                       layout="constrained"
                        />

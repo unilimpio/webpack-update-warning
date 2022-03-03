@@ -22,7 +22,7 @@ const seo={
   title: "Exportamos productos para la higiene de manos e higiene industrial para el ambito profesional FOR EXPORT",
   desc:  "Fabricamos y comercializamos productos para la region y el mundo",
   image: "productos.jpg",
-  pathname: "/export-en",
+  pathname: "/export-en/",
 }
 
 const siteVerOpts = [
@@ -85,7 +85,7 @@ const Export = ({  location }) => {
           <div className=" my-4  px-6 py-6 mx-6">
           <p className="md:w-full text-left leading-relaxed text-lg text-gray-700 text-center ">
           </p>
-          <Link to="/export/products">
+          <Link to="/export/products/">
         <Button className="flex mx-auto mt-16 text-white  border-0 py-2 px-8 bg-primary-default shadow-md hover:bg-primary-lighter rounded text-lg">Descubra nuestros productos  </Button>
       </Link>
   </div>
@@ -147,7 +147,7 @@ const Export = ({  location }) => {
           Somos una empresa responsable, transparente y solidaria. Nuestra empresa ha sido reconocida a nivel local por su gestión en responsabilidad social empresarial. Formamos parte del UN Global Compact y nos adherimos al Global Reporting Initiative.
           </p>
           <div className="flex flex-wrap mx-auto justify-center">
-          <Link to="/responsabilidad-social" className="mt-4 text-primary-lighter inline-flex items-center text-lg">Conocer más
+          <Link to="/responsabilidad-social/" className="mt-4 text-primary-lighter inline-flex items-center text-lg">Conocer más
             <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
