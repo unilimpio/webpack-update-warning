@@ -11,6 +11,43 @@ import SplitSection from '../../components/SplitSection';
 import SplitSectionB2b from '../../components/SplitSectionB2b';
 import NewsletterSub from '../../components/NewsletterSub'
 
+const siteVerOpts = [
+
+  {
+    label: 'Ecuador',
+    value: null,
+
+
+  },
+
+  {
+    label: 'Internacional',
+    value: '/',
+
+
+  },
+];
+
+const langOpts = [
+
+
+  {
+    label: 'ES',
+    value: null,
+
+  },
+
+
+  {
+    label: 'EN',
+    value: `/export/en/products`,
+
+  },
+
+
+];
+
+
 const seo={
   title: "Higiene de Manos",
   desc:  "Productos de alta calidad para el lavado y desinfección de manos para uso doméstico e institucional.",
@@ -22,6 +59,7 @@ export default function Named  ({location})  {
 
   return(
   <Layout location={location} crumbLabel="Higiene de Manos"
+  siteVerOpts={siteVerOpts} langOpts={langOpts}
   title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
 
 

@@ -8,7 +8,7 @@ const databits = [
 
       featureName: 'Calidad de clase mundial',
 
-    featureImage: '../../images/IconeAhorro.svg'
+    featureImage: '../../images/IconeConfiabilidad.svg'
   },
   {
     title: 'Cercanía',
@@ -17,7 +17,7 @@ const databits = [
 
       featureName: 'Menor lead time',
 
-    featureImage: '../../images/IconeConfiabilidad.svg'
+    featureImage: '../../images/IconeDisponibilidad.svg'
   },
   {
     title: 'Crédito',
@@ -26,7 +26,7 @@ const databits = [
 
     featureName: 'Crédito desde la primera compra',
 
-    featureImage: '../../images/IconeDisponibilidad.svg'
+    featureImage: '../../images/IconeAhorro.svg'
   },
   {
     title: 'Soporte y acompanamiento',

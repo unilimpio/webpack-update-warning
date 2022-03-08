@@ -5,7 +5,41 @@ import { StaticImage } from "gatsby-plugin-image"
 import NewsletterSub from '../components/NewsletterSub';
 
 
+const siteVerOpts = [
 
+  {
+    label: 'Ecuador',
+    value: null,
+
+
+  },
+
+  {
+    label: 'Internacional',
+    value: '/',
+
+
+  },
+];
+
+const langOpts = [
+
+
+  {
+    label: 'ES',
+    value: null,
+
+  },
+
+
+  {
+    label: 'EN',
+    value: `/export/en/products`,
+
+  },
+
+
+];
 
 const seo={
   title: "Unilimpio ha declarado y formalizado su compromiso de luchar contra la corrupción en cada uno de los encadenamientos productivos a los que pertenecemos.",
@@ -17,6 +51,7 @@ export default function Named  ({location}) {
 
   return(
     <Layout location={location} crumbLabel="Denuncia actos de corrupción"
+    siteVerOpts={siteVerOpts} langOpts={langOpts}
       title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
 
 

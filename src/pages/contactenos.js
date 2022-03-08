@@ -13,6 +13,41 @@ import DzsElOro from '../data/contact/dzs-el-oro'
 import DzsSantoDomingo from '../data/contact/dzs-santo-domingo'
 import DzsSantaElena from '../data/contact/dzs-santa-elena'
 
+const siteVerOpts = [
+
+  {
+    label: 'Ecuador',
+    value: null,
+
+
+  },
+
+  {
+    label: 'Internacional',
+    value: '/',
+
+
+  },
+];
+
+const langOpts = [
+
+
+  {
+    label: 'ES',
+    value: null,
+
+  },
+
+
+  {
+    label: 'EN',
+    value: `/export/en/products`,
+
+  },
+
+
+];
 
 const seo={
   title: "Contáctenos",
@@ -27,6 +62,7 @@ const Contactenos = ({location}) => (
 
 
   <Layout location={location} crumbLabel="Contáctenos"
+  siteVerOpts={siteVerOpts} langOpts={langOpts}
   title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
 
 

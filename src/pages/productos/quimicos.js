@@ -11,6 +11,41 @@ import LeadForm from '../../components/LeadForm';
 
 import NewsletterSub from '../../components/NewsletterSub';
 
+const siteVerOpts = [
+
+  {
+    label: 'Ecuador',
+    value: null,
+
+
+  },
+
+  {
+    label: 'Internacional',
+    value: '/',
+
+
+  },
+];
+
+const langOpts = [
+
+
+  {
+    label: 'ES',
+    value: null,
+
+  },
+
+
+  {
+    label: 'EN',
+    value: `/export/en/products`,
+
+  },
+
+
+];
 
 const seo={
   title: "Químicos",
@@ -23,6 +58,7 @@ export default function Named  ({location})  {
 
   return(
   <Layout location={location} crumbLabel="Productos Químicos"
+  siteVerOpts={siteVerOpts} langOpts={langOpts}
   title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
 
 <section id="product-line" className="pt-6 bg-gradient-to-br from-gray-300 via-white to-gray-300  px-2">

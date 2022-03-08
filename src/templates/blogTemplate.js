@@ -14,7 +14,41 @@ export default function blogTemplate({
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html, excerpt } = markdownRemark
 
+  const siteVerOpts = [
 
+    {
+      label: 'Ecuador',
+      value: null,
+
+
+    },
+
+    {
+      label: 'Internacional',
+      value: '/',
+
+
+    },
+];
+
+  const langOpts = [
+
+
+    {
+      label: 'ES',
+      value: null,
+
+    },
+
+
+    {
+      label: 'EN',
+      value: `/export/en/products`,
+
+    },
+
+
+  ];
 
 
   return (
@@ -22,6 +56,7 @@ export default function blogTemplate({
 
 
     <Layout location={location} crumbLabel={frontmatter.title}
+    siteVerOpts={siteVerOpts} langOpts={langOpts}
     title={frontmatter.title} desc={excerpt} banner={`${frontmatter.slug}.jpg`} pathname={frontmatter.path} article articleDate={frontmatter.date}>
 
         <div className="w-full mx-auto mb-0">

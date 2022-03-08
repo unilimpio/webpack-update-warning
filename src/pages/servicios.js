@@ -6,6 +6,42 @@ import Layout from '../components/layout/Layout';
 import LeadForm from "../components/LeadForm";
 import NewsletterSub from "../components/NewsletterSub";
 
+const siteVerOpts = [
+
+  {
+    label: 'Ecuador',
+    value: null,
+
+
+  },
+
+  {
+    label: 'Internacional',
+    value: '/',
+
+
+  },
+];
+
+const langOpts = [
+
+
+  {
+    label: 'ES',
+    value: null,
+
+  },
+
+
+  {
+    label: 'EN',
+    value: `/export/en/products`,
+
+  },
+
+
+];
+
 const seo={
   title: "Servicios especializados",
   desc:  "Nuestros servicios especializados son un complemento ideal a nuestra oferta de productos de limpieza para clientes institucionales con mayores exigencias y buscando tener un solo aliado que resuelva todas sus necesidaes de higiene institucional.",
@@ -15,8 +51,11 @@ const seo={
 
  const Servicios = ({location}) =>  (
 
+  <Layout location={location} crumbLabel="Servicios"
+  siteVerOpts={siteVerOpts} langOpts={langOpts}
+  title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
 
-  <Layout location={location} crumbLabel="Servicios" title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
+
 
 
   <StaticImage src="../images/servicios.jpg"

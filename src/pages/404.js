@@ -2,6 +2,42 @@ import React from 'react';
 import Layout from '../components/layout/Layout';
 import { Link } from 'gatsby';
 
+
+const siteVerOpts = [
+
+  {
+    label: 'Ecuador',
+    value: null,
+
+
+  },
+
+  {
+    label: 'Internacional',
+    value: '/',
+
+
+  },
+];
+
+const langOpts = [
+
+
+  {
+    label: 'ES',
+    value: null,
+
+  },
+
+
+  {
+    label: 'EN',
+    value: `/export/en/products`,
+
+  },
+
+
+];
 const seo={
     title: "Unilimpio",
     desc:  "Somos su aliado en higiene institucional, con nosotros podrá mejorar la satisfacción de sus usuarios, clientes y colaboradores a través de soluciones adecuadas de higiene y desinfección con nuestros productos de limpieza.",
@@ -13,6 +49,7 @@ export default function Named  ({location})  {
 
   return(
     <Layout location={location} crumbLabel=""
+    siteVerOpts={siteVerOpts} langOpts={langOpts}
     title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
 
         <section id="" className="p-10">

@@ -15,6 +15,42 @@ import InformeCOP2019 from "../files/informe-cop-unilimpio-2019.pdf";
 import InformeCOP2020 from "../files/informe-cop-unilimpio-2020.pdf";
 import InformeCOP2021 from "../files/informe-cop-unilimpio-2021.pdf";
 
+const siteVerOpts = [
+
+  {
+    label: 'Ecuador',
+    value: null,
+
+
+  },
+
+  {
+    label: 'Internacional',
+    value: '/',
+
+
+  },
+];
+
+const langOpts = [
+
+
+  {
+    label: 'ES',
+    value: null,
+
+  },
+
+
+  {
+    label: 'EN',
+    value: `/export/en/products`,
+
+  },
+
+
+];
+
 const seo={
   title: "Responsabilidad Social Empresarial ",
   desc:  "Somos una empresa responsable, transparente y solidaria. Nuestra empresa ha sido reconocida a nivel local por su gestión en responsabilidad social empresarial. Formamos parte del UN Global Compact y nos adherimos al Global Reporting Initiative.",
@@ -30,6 +66,7 @@ const seo={
 
 
   <Layout location={location} crumbLabel="Responsabilidad Social Empresarial"
+  siteVerOpts={siteVerOpts} langOpts={langOpts}
           title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
 
 

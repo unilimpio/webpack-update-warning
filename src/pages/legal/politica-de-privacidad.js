@@ -4,6 +4,41 @@ import Layout from '../../components/layout/Layout';
 
 import PageData from "../../data/privacy-policy-data";
 
+const siteVerOpts = [
+
+  {
+    label: 'Ecuador',
+    value: null,
+
+
+  },
+
+  {
+    label: 'Internacional',
+    value: '/',
+
+
+  },
+];
+
+const langOpts = [
+
+
+  {
+    label: 'ES',
+    value: null,
+
+  },
+
+
+  {
+    label: 'EN',
+    value: `/export/en/products`,
+
+  },
+
+
+];
 
 const seo={
     title: "Política de Privacidad",
@@ -16,7 +51,9 @@ const seo={
 export default function Named  ({location})  {
 
   return(
-    <Layout location={location} crumbLabel="Política de privacidad">
+    <Layout location={location} crumbLabel="Politica de Privacidad"
+    siteVerOpts={siteVerOpts} langOpts={langOpts}
+    >
       
         <section id="" className="p-10">
 

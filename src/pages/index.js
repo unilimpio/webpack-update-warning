@@ -19,7 +19,39 @@ import LogoDump from "../components/ClientesLogos";
 import HeroBanner from "../components/HeroBanner"
 
 
+const siteVerOpts = [
 
+  {
+    label: 'Ecuador',
+    value: null,
+
+  },
+  {
+    label: 'Internacional',
+    value: "/export",
+
+  },
+
+
+];
+
+const langOpts = [
+
+  {
+    label: 'ES',
+    value: null,
+
+  },
+
+
+  {
+    label: 'EN',
+    value: '/index/',
+
+  },
+
+
+];
 
 const IndexPage = ({  location }) => {
 
@@ -28,7 +60,8 @@ const IndexPage = ({  location }) => {
 
   return(
 
-<Layout location={location} crumbLabel="Inicio" >
+<Layout location={location} crumbLabel="Inicio"
+        siteVerOpts={siteVerOpts} langOpts={langOpts} >
 
 
 

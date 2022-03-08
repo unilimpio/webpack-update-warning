@@ -4,12 +4,48 @@ import Layout from '../../components/layout/Layout';
 
 import PageData from "../../data/terminos-y-condiciones";
 
+const siteVerOpts = [
 
+    {
+      label: 'Ecuador',
+      value: null,
+  
+  
+    },
+  
+    {
+      label: 'Internacional',
+      value: '/',
+  
+  
+    },
+  ];
+  
+  const langOpts = [
+  
+  
+    {
+      label: 'ES',
+      value: null,
+  
+    },
+  
+  
+    {
+      label: 'EN',
+      value: `/export/en/products`,
+  
+    },
+  
+  
+  ];
 
 export default function Named  ({location})  {
 
   return(
-    <Layout location={location} crumbLabel="Términos y condiciones" >
+    <Layout location={location} crumbLabel="Terminos y Condiciones"
+    siteVerOpts={siteVerOpts} langOpts={langOpts}
+    >
 
         <section id="" className="p-10">
 
