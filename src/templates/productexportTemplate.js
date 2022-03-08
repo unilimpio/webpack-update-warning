@@ -3,10 +3,10 @@ import { graphql } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout/Layoutexport"
-
+import { StaticImage } from "gatsby-plugin-image"
 
 import { Link } from 'gatsby'
-import LeadForm from "../components/LeadForm"
+
 import NewsletterSub from '../components/NewsletterSub'
 import Features from '../components/Featuresexport'
 
@@ -95,8 +95,112 @@ export default function productTemplate({
               </Link>
             </div>
         </section>
+
+        <section id="sellos de calidad" className="bg-primary-default mt-20">
+  <div className="container mx-auto sm:flex ">
+    <div className=" w-full sm:flex-1 ">
+      <h2 className=" pl-5 mx-auto text-2xl font-semibold text-center text-white sm:text-center mb-0 p-px pt-10 ">
+      Cumplimos con certificaciones nacionales e internacionales que avalan la calidad de nuestros productos:
+      </h2>
+   </div>
+    <div className="w-full sm:flex-1 ">
+     <div className="grid grid-cols-4 gap-4 pt-10 pb-10 pl-10 pr-10">
+       <div class="flex flex-grow flex-shrink justify-center">
+          <StaticImage src="../images/logo-issa.jpg"
+                    className="flex justify-center my-4"
+                    alt="Unilimpio es una empresa con responsabilidad social empresarial."
+                    placeholder="blurred"
+                    layout="constrained"/>
+      </div>
+        <div class="flex flex-grow flex-shrink justify-center">
+          <StaticImage src="../images/logo-iso.jpg"
+                    className="flex justify-center my-4"
+                    alt="Unilimpio es una empresa con responsabilidad social empresarial."
+                    placeholder="blurred"
+                    layout="constrained"/>
+        </div> 
+        <div class="flex flex-grow flex-shrink justify-center">
+          <StaticImage src="../images/sello-bpm.jpg"
+                    className="flex justify-center my-4"
+                    alt="Unilimpio es una empresa con responsabilidad social empresarial."
+                    placeholder="blurred"
+                    layout="constrained"/>
+        </div> 
+        <div class="flex flex-grow flex-shrink justify-center">
+          <StaticImage src="../images/sello-mucho-mejor-ecuador.jpg"
+                    className="flex justify-center my-4"
+                    alt="Unilimpio es una empresa con responsabilidad social empresarial."
+                    placeholder="blurred"
+                    layout="constrained"/>
+        </div> 
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
         <Features />
-        <LeadForm />
+
+
+
+        <section id="contactenos" className="relative bg-white mt-20">
+<div class="relative bg-white">
+  <div class="absolute inset-0">
+    <div class="absolute inset-y-0 left-0 w-1/2 bg-gray-200"></div>
+  </div>
+  <div class="relative max-w-7xl mx-auto lg:grid lg:grid-cols-5">
+    <div class="bg-gray-200 py-16 px-4 sm:px-6 lg:col-span-2 lg:px-8 lg:py-24 xl:pr-12">
+      <div class="max-w-lg mx-auto">
+        <h2 class="text-4xl font-bold  text-primary-default sm:text-2xl">
+        ¡ESTAMOS LISTOS PARA ATENDERLO!
+        </h2>
+        <dl class="mt-8 text-xl text-primary-default">
+          <div>
+            <dd>
+              <p>Nuestros asesores están gustosos de ponerse en contacto con usted para brindarle mayor información y agendar una cita.</p>
+            </dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+    <div class="bg-white py-16 px-4 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
+      <div class="max-w-lg mx-auto lg:max-w-none">
+        <form name="lead" action="/gracias" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="grid grid-cols-1 gap-y-6">
+          <div>
+            <label for="full-name" class="sr-only">Nombre</label>
+            <input type="text" name="nombre" id="nombre" autocomplete="name" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" placeholder="Nombre"/>
+          </div>
+          <div>
+            <label for="phone" class="sr-only">Teléfono</label>
+            <input type="text" name="phone" id="país" autocomplete="tel" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" placeholder="País"/>
+          </div>
+          <div>
+            <label for="email" class="sr-only">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" placeholder="Correo"/>
+          </div>
+          <div>
+            <label for="phone" class="sr-only">Teléfono</label>
+            <input type="text" name="phone" id="phone" autocomplete="tel" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" placeholder="Teléfono"/>
+          </div>
+         
+          <div>
+            <label for="mensaje" class="sr-only">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="4" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md" placeholder="Mensaje"></textarea>
+          </div>
+          <div>
+            <button type="submit" class="inline-flex justify-center py-3 px-6 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-primary-default hover:bg-primary-lighter focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+              Enviar
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
         <NewsletterSub />
     </Layout>
   )

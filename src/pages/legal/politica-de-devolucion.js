@@ -4,6 +4,41 @@ import Layout from '../../components/layout/Layout';
 
 import PageData from "../../data/politica-de-devolucion";
 
+const siteVerOpts = [
+
+  {
+    label: 'Ecuador',
+    value: null,
+
+
+  },
+
+  {
+    label: 'Internacional',
+    value: '/',
+
+
+  },
+];
+
+const langOpts = [
+
+
+  {
+    label: 'ES',
+    value: null,
+
+  },
+
+
+  {
+    label: 'EN',
+    value: `/export/en/products`,
+
+  },
+
+
+];
 
 const seo={
     title: "Política de Devolución",
@@ -15,7 +50,9 @@ const seo={
 export default function  Named  ({location}) {
 
   return(
-    <Layout location={location} crumbLabel="Politica de devolución">
+    <Layout location={location} crumbLabel="Politica de Devolucion"
+    siteVerOpts={siteVerOpts} langOpts={langOpts}
+   >
 
         <section id="" className="p-10">
 

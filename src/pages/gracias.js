@@ -5,6 +5,44 @@ import NewsletterSub from '../components/NewsletterSub';
 
 
 import PageData from "../data/gracias";
+
+const siteVerOpts = [
+
+    {
+      label: 'Ecuador',
+      value: null,
+  
+  
+    },
+  
+    {
+      label: 'Internacional',
+      value: '/',
+  
+  
+    },
+  ];
+  
+  const langOpts = [
+  
+  
+    {
+      label: 'ES',
+      value: null,
+  
+    },
+  
+  
+    {
+      label: 'EN',
+      value: `/export/en/products`,
+  
+    },
+  
+  
+  ];
+
+
 const seo={
     title: "Gracias por su interés en nosotros",
     desc:  "",
@@ -17,6 +55,7 @@ const seo={
 
    return(
     <Layout location={location} crumbLabel="Gracias"
+    siteVerOpts={siteVerOpts} langOpts={langOpts}
     title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
 
         <section id="" className="p-10">

@@ -1,21 +1,23 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import styled from "styled-components"
 import NavbarLinks from "./NavbarLinks"
+import SiteverLinks from "./SiteverLinks"
 import Logo from "./Logo"
 
 
 const Navigation = styled.nav`
   height: 12vh;
   display: flex;
+  justify-content: flex-start;
   background-color: #fff;
   position: relative;
-  justify-content: space-between;
-  text-transform: uppercase;
+
+
   font-size: 0.8em;
   font-weight: lighter;
   border-bottom: 2px solid #33333320;
   margin: 0 auto;
-  padding: 0 1vw;
+  padding: 0 2vw ;
   z-index: 2;
   align-self: center;
 
@@ -90,13 +92,23 @@ const Hamburger = styled.div`
     top: 10px;
   }
 `
-const Navbar = () => {
+const Navbar = ({siteVerOpts, langOpts}) => {
   const [navbarOpen, setNavbarOpen] = useState(false)
+
+  const toggleVisibility = () => {
+
+    setNavbarOpen(false);
+
+};
+
+useEffect(() => {
+  window.addEventListener("resize", toggleVisibility);
+});
 
   return (
     <Navigation>
       <Logo />
-      <Toggle
+      <Toggle className="absolute right-2"
         navbarOpen={navbarOpen}
         onClick={() => setNavbarOpen(!navbarOpen)}
       >
@@ -104,11 +116,27 @@ const Navbar = () => {
       </Toggle>
       {navbarOpen ? (
         <Navbox className="bg-gradient-to-br from-neutral-300 via-white to-neutral-300">
+          
+          <div className="">
+              <SiteverLinks siteVerOpts={siteVerOpts} langOpts={langOpts}/>
+            </div>
+          
           <NavbarLinks />
+
+
+       
+       
         </Navbox>
       ) : (
         <Navbox open>
+          <div className="flex-col">
+          <div className="absolute right-0 -top-2">
+            <SiteverLinks siteVerOpts={siteVerOpts} langOpts={langOpts}/>
+          </div>
+          <div className="">
           <NavbarLinks />
+          </div>
+          </div>
         </Navbox>
       )}
     </Navigation>

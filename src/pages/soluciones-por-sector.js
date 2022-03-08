@@ -14,6 +14,41 @@ import { Link } from 'gatsby';
 import LeadForm from '../components/LeadForm';
 import NewsletterSub from '../components/NewsletterSub';
 
+const siteVerOpts = [
+
+  {
+    label: 'Ecuador',
+    value: null,
+
+
+  },
+
+  {
+    label: 'Internacional',
+    value: '/',
+
+
+  },
+];
+
+const langOpts = [
+
+
+  {
+    label: 'ES',
+    value: null,
+
+  },
+
+
+  {
+    label: 'EN',
+    value: `/export/en/products`,
+
+  },
+
+
+];
 
 const seo={
   title: "Soluciones por industria",
@@ -27,6 +62,7 @@ const Soluciones = ({location}) => (
 
 
   <Layout location={location} crumbLabel="Soluciones por Sector"
+  siteVerOpts={siteVerOpts} langOpts={langOpts}
   title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
 
 

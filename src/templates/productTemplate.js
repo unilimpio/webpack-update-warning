@@ -19,12 +19,48 @@ export default function productTemplate({
   const { markdownRemark } = data // data.markdownRemark holds your post data
   const { frontmatter, html, excerpt } = markdownRemark
 
+  const siteVerOpts = [
+
+    {
+      label: 'Ecuador',
+      value: null,
+
+
+    },
+
+    {
+      label: 'Internacional',
+      value: '/productos',
+
+
+    },
+];
+
+  const langOpts = [
+
+
+    {
+      label: 'ES',
+      value: null,
+
+    },
+
+
+    {
+      label: 'EN',
+      value: `/export/en/products`,
+
+    },
+
+
+  ];
 
   return (
 
 
 
     <Layout location={location} crumbLabel={frontmatter.title}
+    siteVerOpts={siteVerOpts} langOpts={langOpts}
     title={frontmatter.title} desc={excerpt} banner={`${frontmatter.slug}.jpg`} pathname={frontmatter.path} product category={frontmatter.category} categorySlug={frontmatter.categorySlug} productSku={frontmatter.sku} productGtin13={frontmatter.gtin13} offerPrice={frontmatter.price} brandName={frontmatter.brandName} brandLogo={frontmatter.brandLogo}>
 
         <section id="product-detail" className="bg-gradient-to-br from-white via-blue-200 to-white py-20">

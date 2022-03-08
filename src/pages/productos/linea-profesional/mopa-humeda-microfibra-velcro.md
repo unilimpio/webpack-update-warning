@@ -5,7 +5,7 @@ categorySlug: "linea-profesional"
 title:  "Mopa Húmeda Microfibra Velcro"
 subtitle: "producto ergonómico de fácil manejo"
 date: "2020-04-02"
-slug:  "mopa-humeda-microfibra"
+slug:  "mopa-humeda-microfibra-velcro"
 featuredImage: "../../../images/mopa-humeda-microfibra.jpg"
 
 

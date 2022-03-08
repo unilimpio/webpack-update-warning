@@ -6,6 +6,42 @@ import Layout from '../components/layout/Layout';
 import SplitSection from '../components/SplitSection';
 import NewsletterSub from '../components/NewsletterSub';
 
+const siteVerOpts = [
+
+  {
+    label: 'Ecuador',
+    value: null,
+
+
+  },
+
+  {
+    label: 'Internacional',
+    value: '/',
+
+
+  },
+];
+
+const langOpts = [
+
+
+  {
+    label: 'ES',
+    value: null,
+
+  },
+
+
+  {
+    label: 'EN',
+    value: `/export/en/products`,
+
+  },
+
+
+];
+
 
 const seo={
   title: "¿Quiénes Somos?",
@@ -17,7 +53,9 @@ const seo={
 const QuienesSomos = ({ location }) => (
 
 
-  <Layout location={location} crumbLabel="Quienes Somos" title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
+  <Layout location={location} crumbLabel="Quienes Somos"
+  siteVerOpts={siteVerOpts} langOpts={langOpts}
+  title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
 
     <StaticImage src="../images/grupo-unilimpio.jpg"
                 className="object-contain"

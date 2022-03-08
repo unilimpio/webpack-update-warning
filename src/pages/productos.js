@@ -15,7 +15,41 @@ import SplitSection from '../components/SplitSection';
 import NewsletterSub from "../components/NewsletterSub";
 
 
+const siteVerOpts = [
 
+  {
+    label: 'Ecuador',
+    value: null,
+
+
+  },
+
+  {
+    label: 'Internacional',
+    value: '/',
+
+
+  },
+];
+
+const langOpts = [
+
+
+  {
+    label: 'ES',
+    value: null,
+
+  },
+
+
+  {
+    label: 'EN',
+    value: `/export/en/products`,
+
+  },
+
+
+];
 
 
 
@@ -28,7 +62,9 @@ const seo={
 
 const Productos = ({location}) => (
 
-          <Layout location={location} crumbLabel="Productos" title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
+  <Layout location={location} crumbLabel="Productos"
+  siteVerOpts={siteVerOpts} langOpts={langOpts}
+  title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
 
             <section id="productos" className="">
               <div className="">

@@ -9,6 +9,41 @@ import NewsletterSub from '../components/NewsletterSub';
 
 import WhatsappIcon from '../svg/WhatsappIcon';
 
+const siteVerOpts = [
+
+  {
+    label: 'Ecuador',
+    value: null,
+
+
+  },
+
+  {
+    label: 'Internacional',
+    value: '/',
+
+
+  },
+];
+
+const langOpts = [
+
+
+  {
+    label: 'ES',
+    value: null,
+
+  },
+
+
+  {
+    label: 'EN',
+    value: `/export/en/products`,
+
+  },
+
+
+];
 
 const seo={
   title: "Centro de Ayuda",
@@ -21,6 +56,7 @@ export default function Named  ({location}) {
 
   return(
     <Layout location={location} crumbLabel="Centro de Ayuda"
+    siteVerOpts={siteVerOpts} langOpts={langOpts}
       title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
 
 

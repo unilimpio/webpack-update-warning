@@ -7,7 +7,41 @@ import Layout from '../components/layout/Layout';
 
 import NewsletterSub from '../components/NewsletterSub';
 
+const siteVerOpts = [
 
+  {
+    label: 'Ecuador',
+    value: null,
+
+
+  },
+
+  {
+    label: 'Internacional',
+    value: '/',
+
+
+  },
+];
+
+const langOpts = [
+
+
+  {
+    label: 'ES',
+    value: null,
+
+  },
+
+
+  {
+    label: 'EN',
+    value: `/export/en/products`,
+
+  },
+
+
+];
 
 const seo={
   title: "Blog de Unilimpio",
@@ -22,6 +56,7 @@ export default function Blog ({location, data}) {
     return(
 
       <Layout location={location} crumbLabel="Blog"
+      siteVerOpts={siteVerOpts} langOpts={langOpts}
       title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
 
 

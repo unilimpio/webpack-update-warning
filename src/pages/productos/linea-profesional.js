@@ -12,6 +12,42 @@ import SplitSectionB2b from '../../components/SplitSectionB2b';
 import LeadForm from '../../components/LeadForm';
 import NewsletterSub from '../../components/NewsletterSub'
 
+const siteVerOpts = [
+
+  {
+    label: 'Ecuador',
+    value: null,
+
+
+  },
+
+  {
+    label: 'Internacional',
+    value: '/',
+
+
+  },
+];
+
+const langOpts = [
+
+
+  {
+    label: 'ES',
+    value: null,
+
+  },
+
+
+  {
+    label: 'EN',
+    value: `/export/en/products`,
+
+  },
+
+
+];
+
 const seo={
   title: "Línea Profesional",
   desc:  "Accesorios para la limpieza de pisos, vidrios, paredes en grandes superficies para eliminar el polvo y la suciedad provocada por el tránsito continuo de gente.",
@@ -23,6 +59,7 @@ export default function Named ({location}) {
 
   return(
   <Layout location={location} crumbLabel="Equipos y accesorios profesionales"
+  siteVerOpts={siteVerOpts} langOpts={langOpts}
   title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
 
 

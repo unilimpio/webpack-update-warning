@@ -7,6 +7,41 @@ import SplitSection from '../../components/SplitSection';
 
 import LeadForm from '../../components/LeadForm';
 
+const siteVerOpts = [
+
+  {
+    label: 'Ecuador',
+    value: null,
+
+
+  },
+
+  {
+    label: 'Internacional',
+    value: '/',
+
+
+  },
+];
+
+const langOpts = [
+
+
+  {
+    label: 'ES',
+    value: null,
+
+  },
+
+
+  {
+    label: 'EN',
+    value: `/export/en/products`,
+
+  },
+
+
+];
 
 const seo={
   title: "Soluciones Sector Servicios de Limpieza",
@@ -20,6 +55,7 @@ export default function Named ({location}) {
 
   return(
   <Layout location={location} crumbLabel="Servicios de limpieza"
+  siteVerOpts={siteVerOpts} langOpts={langOpts}
   title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
 
     

@@ -12,6 +12,43 @@ import SplitSectionB2b from '../../components/SplitSectionB2b';
 import LeadForm from '../../components/LeadForm';
 import NewsletterSub from '../../components/NewsletterSub';
 
+const siteVerOpts = [
+
+  {
+    label: 'Ecuador',
+    value: null,
+
+
+  },
+
+  {
+    label: 'Internacional',
+    value: '/',
+
+
+  },
+];
+
+const langOpts = [
+
+
+  {
+    label: 'ES',
+    value: null,
+
+  },
+
+
+  {
+    label: 'EN',
+    value: `/export/en/products`,
+
+  },
+
+
+];
+
+
 const seo={
   title: "Lavandería",
   desc:  "Productos químicos para el lavado de prendas seguros y amigables con el medio ambiente.",
@@ -24,6 +61,7 @@ export default function Named  ({location})  {
 
   return(
   <Layout location={location} crumbLabel="Lavanderia"
+  siteVerOpts={siteVerOpts} langOpts={langOpts}
   title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
 
 

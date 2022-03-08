@@ -5,6 +5,41 @@ import Layout from '../components/layout/Layout';
 import NewsletterSub from "../components/NewsletterSub";
 import { StaticImage } from "gatsby-plugin-image"
 
+const siteVerOpts = [
+
+  {
+    label: 'Ecuador',
+    value: null,
+
+
+  },
+
+  {
+    label: 'Internacional',
+    value: '/',
+
+
+  },
+];
+
+const langOpts = [
+
+
+  {
+    label: 'ES',
+    value: null,
+
+  },
+
+
+  {
+    label: 'EN',
+    value: `/export/en/products`,
+
+  },
+
+
+];
 
 const seo={
   title: "Trabaja con nosotros",
@@ -45,6 +80,7 @@ export default function Named ({location})  {
 
 
   <Layout location={location} crumbLabel="Trabaja con Nosotros"
+  siteVerOpts={siteVerOpts} langOpts={langOpts}
   title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
 
 <div class="bg-fixed" >
