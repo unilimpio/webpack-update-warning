@@ -1,9 +1,9 @@
 import React from 'react';
 import Layout from '../../components/layout/Layoutexport';
-import { Link } from 'gatsby';
+
 import { StaticImage } from "gatsby-plugin-image"
 import NewsletterSub from "../../components/NewsletterSub";
-import Button from "../../components/Button";
+
 
 
 
@@ -132,7 +132,7 @@ Nos diferenciamos de la competencia por tener el más amplio portafolio de produ
             </div>
             <div className="flex flex-col border-t border-gray-100 p-6 text-center sm:border-0 sm:border-l">
               <dt className="order-2 mt-2 text-lg leading-6 font-normal text-gray-700">
-              Certificación ISO 4500 e ISO 14000
+              Adopción de Estándares ISO 4500 e ISO 14000
               </dt>
               <dd className="order-1 text-4xl font-semibold text-secondary-lighter">
                 2012

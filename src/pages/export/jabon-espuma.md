@@ -21,46 +21,46 @@ Encuentre nuestro jabón espuma en varias presentaciones:
 <table class="min-w-full md:min-w-0 divide-y-0 divide-gray-200">
           <thead class=" bg-white">
             <tr>
-              <th scope="col" class="px-6 text-center text-xs font-medium text-white bg-primary-default uppercase tracking-wider">
+              <th scope="col" class="px-2 py-2 text-center text-xs font-medium text-white bg-primary-default tracking-wider">
                 Código
               </th>
-              <th scope="col" class="px-6 py-3 text-center text-xs font-medium text-white bg-primary-lighter uppercase tracking-wider">
+              <th scope="col" class="px-2 py-2 text-center text-xs font-medium text-white bg-primary-lighter  tracking-wider">
                 Presentación
               </th>
-              <th scope="col" class="px-6 text-center text-xs font-medium text-white bg-primary-default uppercase tracking-wider">
+              <th scope="col" class="px-2 py-2 text-center text-xs font-medium text-white bg-primary-default  tracking-wider">
                 Tipo
               </th>
-              <th scope="col" class="px-6 py-3 text-center text-xs font-medium text-white bg-primary-default uppercase tracking-wider">
+              <th scope="col" class="px-2 py-2 text-center text-xs font-medium text-white bg-primary-default  tracking-wider">
                 Aroma
               </th>
             </tr>
           </thead>
           <tbody>
             <tr class="bg-gray-100">
-              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
+              <td class="px-2 py-2 whitespace-nowrap text-xs  text-gray-700 text-center">
               QUI0070
               </td>
-              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
+              <td class="px-2 py-2 whitespace-nowrap text-xs  text-gray-700 text-center">
               3785 ml
               </td>
-              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
+              <td class="px-2 py-2 whitespace-nowrap text-xs  text-gray-700 text-center">
               Sin antibacterial
               </td>
-              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
+              <td class="px-2 py-2 whitespace-nowrap text-xs  text-gray-700 text-center">
               Brisa
               </td>
             </tr>
             <tr class="bg-gray-300">
-              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
+              <td class="px-2 py-2 whitespace-nowrap text-xs  text-gray-700 text-center">
               QUI0538
               </td>
-              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
+              <td class="px-2 py-2 whitespace-nowrap text-xs  text-gray-700 text-center">
               3785 ml
               </td>
-              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
+              <td class="px-2 py-2 whitespace-nowrap text-xs  text-gray-700 text-center">
               Con antibacterial
               </td>
-              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
+              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
               Brisa
               </td>
             </tr>

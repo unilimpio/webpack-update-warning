@@ -11,7 +11,7 @@ const Features = ({ feature }) => (
           <div className="w-full bg-fill bg-no-repeat bg-products">
             <h2 className="text-4xl font-semibold text-center text-primary-normal">Our value proposition</h2>
             <p className="md:w-2/3 mx-auto text-2xl font-light text-center my-4 pr-10 pl-10 mb-10 text-gray-700">
-            Much more than a supplier of cleaning products, we are motivated to be strategic allies of our customers.<br/>
+            Much more than a supplier of professional hygiene products, we are motivated to be your strategic partner.<br/>
             By choosing us, you receive the following benefits:
             </p>
           </div>

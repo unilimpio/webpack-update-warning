@@ -3,13 +3,8 @@ import React from 'react';
 import { StaticImage } from "gatsby-plugin-image"
 import Button from '../../components/Button';
 
-import ProductCard from '../../components/ProductCard';
 import Layout from '../../components/layout/Layoutexport';
 
-
-
-import LeadForm from "../../components/LeadForm";
-import SplitSectionB2b from '../../components/SplitSectionB2b';
 import SplitSection from '../../components/SplitSection';
 import NewsletterSub from "../../components/NewsletterSub";
 import { Link } from 'gatsby';
@@ -116,22 +111,22 @@ const Products = ({location}) => (
           <div class="flex-1">
               <p class="text-lg font-semibold text-secondary-lighter text-center">Higiene de Manos
              </p>
-             <div className="flex flex-wrap">
+             <div className="flex flex-wrap ">
                 <Link className="mx-auto text-primary-default inline-flex items-center" to='../sistema-dispensado-para-lavado-de-manos'>Sistema Dispensado para Lavado de Manos 
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                     </svg>
                 </Link>
               </div>
-              <div className="flex flex-wrap ">
+              <div className="flex flex-wrap  ">
                 <Link className="mx-auto text-primary-default inline-flex items-center" to='../sistema-dispensado-para-desinfeccion-de-manos'>Sistema Dispensado para Desinfección de Manos 
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                     </svg>
                 </Link>
               </div>
-              <div className="flex flex-wrap">
-                <Link className="mx-auto text-primary-default inline-flex items-center" to='../jabon-liquido-antibacterial'>Jabón Líquido Antibacterial  
+              <div className="flex flex-wrap ">
+                <Link className="mx-auto text-primary-default inline-flex items-center " to='../jabon-liquido-antibacterial'>Jabón Líquido Antibacterial  
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                     </svg>
@@ -195,7 +190,7 @@ const Products = ({location}) => (
                 </Link>
               </div>
               <div className="flex flex-wrap">
-                <Link className="mx-auto text-primary-default inline-flex items-center" to='../paños-reutilizables-workpro'>Paños de Limpieza Workpro 
+                <Link className="mx-auto text-primary-default inline-flex items-center" to='../panos-reutilizables-workpro'>Paños de Limpieza Workpro 
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                     </svg>
@@ -247,7 +242,7 @@ const Products = ({location}) => (
 
             <section id="boton descargar catalogo" className="">
                 <div className="w-full mx-auto mb-10">
-                  <a href="../../files/catalogo-de-exportacion.pdf" target="_blank" rel="noopener" className="">
+                  <a href="../../files/catalogo-exportacion-unilimpio.pdf" target="_blank" rel="noopener" className="">
                     <Button className="flex mx-auto mt-16 text-white bg-primary-default border-0 py-2 px-8 focus:outline-none hover:bg-primary-lighter rounded text-lg"  >Descargar Catálogo </Button>
                     </a>
                 </div>

@@ -7,7 +7,6 @@ import Layout from "../components/layout/Layoutexport-en"
 
 
 import { Link } from 'gatsby'
-import LeadForm from "../components/LeadForm"
 import NewsletterSub from '../components/NewsletterSub'
 import Features from '../components/Featuresexport-en'
 

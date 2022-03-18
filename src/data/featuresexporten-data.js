@@ -13,7 +13,7 @@ const databits = [
   {
     title: 'Proximity',
     content:
-      'We are located in the center of the world, Quito-Ecuador, and with the capacity to supply our products to the whole region, with a lead time up to 3 times less than the time required to bring goods from Asia. ',
+      'We are located in the center of the world, and have the capacity to supply our products to the entire region, with a lead time up to 3 times less than that required to bring goods from Asia. ',
 
       featureName: 'Menor lead time',
 
