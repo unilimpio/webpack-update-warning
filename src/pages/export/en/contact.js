@@ -1,9 +1,8 @@
 import React from 'react';
 import Layout from '../../../components/layout/Layoutexport-en';
-import { Link } from 'gatsby';
 import { StaticImage } from "gatsby-plugin-image"
 import NewsletterSub from "../../../components/NewsletterSub";
-import Button from "../../../components/Button";
+
 
 
 
@@ -58,6 +57,19 @@ const Contact = ({location}) => (
   <Layout location={location} crumbLabel="Contacto"
           siteVerOpts={siteVerOpts} langOpts={langOpts}
           title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
+
+
+<div class="bg-fixed" >
+
+<StaticImage src="../../images/banner-contactenos.jpg"
+            className="object-contain"
+            alt="Solicite una cotización con Unilimpio"
+            placeholder="blurred"
+            layout="fullWidth"
+             />
+
+
+</div>
 
 <section className="bg-white flex justify-center">
   <div className="max-w-7xl mx-10 py-16 px-4 sm:px-6 lg:py-24 lg:px-8">

@@ -20,28 +20,28 @@ alternate: "sistema-dispensado-para-desinfeccion-de-manos"
 <table class="min-w-full md:min-w-0 divide-y-0 divide-gray-200">
           <thead class=" bg-white">
             <tr>
-              <th scope="col" class="px-6 text-center text-xs font-medium text-white bg-primary-default uppercase tracking-wider">
+              <th scope="col" class="px-2 py-2 text-center text-xs font-medium text-white bg-primary-default tracking-wider">
                 Code
               </th>
-               <th scope="col" class="px-6 py-3 text-center text-xs font-medium text-white bg-primary-lighter uppercase tracking-wider">
+               <th scope="col" class="px-2 py-2 text-center text-xs font-medium text-white bg-primary-lighter  tracking-wider">
                 Color
               </th>
             </tr>
           </thead>
           <tbody>
             <tr class="bg-gray-100">
-              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
+              <td class="px-2 py-2 whitespace-nowrap text-sm text-gray-700 text-center">
               DIS0036
               </td>
-              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
+              <td class="px-2 py-2 whitespace-nowrap text-sm text-gray-700 text-center">
                White
               </td>
             </tr>
             <tr class="bg-gray-300">
-              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
+              <td class="px-2 py-2 whitespace-nowrap text-sm text-gray-700 text-center">
               DIS0149
               </td>
-              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
+              <td class="px-2 py-2 whitespace-nowrap text-sm text-gray-700 text-center">
                Silver
               </td>
             </tr>
@@ -54,55 +54,55 @@ COMPATIBLE WITH THE FOLLOWING SEALED SACHET REFILLS:
 <table class="min-w-full md:min-w-0 divide-y-0 divide-gray-200">
           <thead class=" bg-white">
             <tr>
-              <th scope="col" class="px-6 text-center text-xs font-medium text-white bg-primary-default uppercase tracking-wider">
+              <th scope="col" class="px-2 py-2 text-center text-xs font-medium text-white bg-primary-default tracking-wider">
                 Code
               </th>
-               <th scope="col" class="px-6 py-3 text-center text-xs font-medium text-white bg-primary-default uppercase tracking-wider">
+               <th scope="col" class="px-2 py-2 text-center text-xs font-medium text-white bg-primary-default tracking-wider">
                 Type
               </th>
-              <th scope="col" class="px-6 py-3 text-center text-xs font-medium  text-white bg-primary-lighter uppercase tracking-wider">
+              <th scope="col" class="px-2 py-2 text-center text-xs font-medium  text-white bg-primary-lighter tracking-wider">
                 Presentation
               </th>
-              <th scope="col" class="px-6 py-3 text-center text-xs font-medium text-white bg-primary-default uppercase tracking-wider">
+              <th scope="col" class="px-2 py-2 text-center text-xs font-medium text-white bg-primary-default  tracking-wider">
                 Fragrance
               </th>
-              <th scope="col" class="px-6 py-3 text-center text-xs font-medium text-white bg-primary-lighter uppercase tracking-wider">
+              <th scope="col" class="px-2 py-2 text-center text-xs font-medium text-white bg-primary-lighter tracking-wider">
                 Uses
               </th>
             </tr>
           </thead>
           <tbody>
             <tr class="bg-gray-100">
-              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
+              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
               QUI0550
               </td>
-              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
+              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
                Antibacterial Gel 
               </td>
-              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
+              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
                500 ml
               </td>
-              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
+              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
                Neutral
               </td>
-              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
+              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
                500
               </td>
             </tr>
             <tr class="bg-gray-300">
-              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
+              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
               QUI0911
               </td>
-               <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
+               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
                Antimicrobial Alcohol
               </td>
-              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
+              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
                800 ml
               </td>
-              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
+              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
                Característico
               </td>
-              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
+              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
                4.000
               </td>
             </tr>

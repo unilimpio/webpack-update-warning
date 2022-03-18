@@ -11,7 +11,7 @@ const Features = ({ feature }) => (
           <div className="w-full bg-fill bg-no-repeat bg-products">
             <h2 className="text-4xl font-semibold text-center text-primary-normal">Nuestra propuesta de valor</h2>
             <p className="md:w-2/3 mx-auto text-2xl font-light text-center my-4 pr-10 pl-10 mb-10 text-gray-700">
-              Mucho más que un proveedor de productos de limpieza, nos motiva ser aliados estratégicos de nuestros clientes.<br/>
+              Mucho más que un proveedor de productos de higiene profesional, nos motiva ser su aliado estratégico.<br/>
               Al elegirnos, usted recibe los siguientes beneficios:
             </p>
           </div>

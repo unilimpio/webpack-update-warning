@@ -13,7 +13,7 @@ const databits = [
   {
     title: 'Cercanía',
     content:
-      'Estamos ubicados en el centro del mundo, y con capacidad para suministrar nuestros productos a toda la region, con  un lead time has 3 veces menor al requerido para traer mercancias desde asia. ',
+      'Estamos ubicados en el centro del mundo, y con capacidad para suministrar nuestros productos a toda la región, con  un lead time hasta 3 veces menor al requerido para traer mercancías desde Asia. ',
 
       featureName: 'Menor lead time',
 
@@ -22,7 +22,7 @@ const databits = [
   {
     title: 'Crédito',
     content:
-      'Contamos con mecanismos de financiamiento para otorgar credito a nuestros clientes internacionales desde su primera compra.',
+      'Contamos con mecanismos de financiamiento para otorgar crédito a nuestros clientes internacionales desde su primera compra.',
 
     featureName: 'Crédito desde la primera compra',
 
@@ -31,7 +31,7 @@ const databits = [
   {
     title: 'Soporte y acompanamiento',
     content:
-      'Damos soporte a nuestros clientes mediante capacitacion de su fuerza de ventas, asesoramiento y acompanamiento en la definicion e implementacion de estrategias',
+      'Damos soporte a nuestros clientes mediante capacitación de su fuerza de ventas, asesoramiento y acompañamiento en la definición e implementación de estrategias',
 
       featureName: 'Soporte y acompanamiento',
 

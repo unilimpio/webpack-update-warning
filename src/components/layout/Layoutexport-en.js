@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Scroll from '../Scroll';
-import WhastappBubble from '../WhatsappBubble'
+
 
 
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb';

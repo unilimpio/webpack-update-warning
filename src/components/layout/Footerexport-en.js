@@ -46,7 +46,7 @@ const Footer = () => (
               <Link to="/export/en/bacterac-surface-sanitizer-and-disinfectant" className="text-white hover:text-gray-400"> Quaternary Ammonium Disinfectant</Link>
             </li>
             <li>
-            <Link to="/export/en/dispensador-toalla-z-unilimpio" className="text-white hover:text-gray-400">Z Towel Dispenser</Link>
+            <Link to="/export/en/z-towel-dispenser" className="text-white hover:text-gray-400">Z Towel Dispenser</Link>
             </li>
             </ul>
           </nav>
@@ -61,10 +61,10 @@ const Footer = () => (
            <Link to="/export/en/about-us/" className="text-white hover:text-gray-400"> About us </Link>
           </li>
           <li>
-           <Link to="/responsabilidad-social" className="text-white hover:text-gray-400"> Social Responsibility</Link>
+           <Link to="/export/en/social-responsability" className="text-white hover:text-gray-400"> Social Responsibility</Link>
           </li>
           <li>
-            <Link to="/denuncias-actos-de-corrupcion#complaintform" className="text-white hover:text-gray-400">Denounces acts of corruption</Link>
+            <Link to="/export/en/denounces-acts-of-corruption" className="text-white hover:text-gray-400">Denounces acts of corruption</Link>
           </li>
           </ul>
         </nav>

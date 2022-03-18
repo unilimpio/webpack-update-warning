@@ -130,7 +130,7 @@ const Export = ({  location }) => {
           <p className="md:w-full text-left leading-relaxed text-lg text-gray-700 text-center ">
           Fabricamos y exportamos a toda la región centro y sudamericana productos higiénicos de la más alta calidad para los mercados y las industrias más exigentes. Nuestra innovación constante nos ha permitido entrar en mercados de la región.
           </p>
-          <Link to="/export/en/productos">
+          <Link to="/export/productos">
         <Button className="flex mx-auto mt-16 text-white  border-0 py-2 px-8 bg-primary-default shadow-md hover:bg-primary-lighter rounded text-lg">Descubra nuestros productos  </Button>
       </Link>
   </div>
@@ -153,7 +153,7 @@ const Export = ({  location }) => {
 
 
 <SplitSection id="rse"
-      reverseOrder className="bg-gradient-to-r from-green-200 via-white to-green-100 py-4 my-20 mt-4"
+      reverseOrder className="bg-gradient-to-r from-secondary-lighter via-white to-secondary-lighter  py-4 my-20 mt-4"
       primarySlot={
         <div className="bg-white bg-opacity-50 rounded-lg my-4  px-6 py-6 mx-6">
           <h3 className="text-3xl font-semibold leading-tight text-center">
@@ -162,6 +162,13 @@ const Export = ({  location }) => {
           <p className="mt-8 text-xl font-light leading-relaxed text-center">
           Somos una empresa responsable, transparente y solidaria. Nuestra empresa ha sido reconocida a nivel local por su gestión en responsabilidad social empresarial. Formamos parte del UN Global Compact y nos adherimos al Global Reporting Initiative.
           </p>
+          <div className="flex flex-wrap mx-auto justify-center">
+          <Link to="/export/responsabilidad-social" className="mt-4 text-primary-default inline-flex items-center text-lg">Conocer más
+            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </Link>
+        </div>
         </div>
       }
       secondarySlot={

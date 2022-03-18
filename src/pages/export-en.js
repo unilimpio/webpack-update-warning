@@ -165,8 +165,15 @@ const Export = ({  location }) => {
           <p className="mt-8 text-xl font-light leading-relaxed text-center">
           We are a responsible, transparent and supportive company. Our company has been recognized locally for its corporate social responsibility management. We are part of the UN Global Compact and adhere to the Global Reporting Initiative.
           </p>
-          
+          <div className="flex flex-wrap mx-auto justify-center">
+          <Link to="/export/en/social-responsability" className="mt-4 text-primary-default inline-flex items-center text-lg">Learn more
+            <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </Link>
         </div>
+        </div>
+        
       }
       secondarySlot={
         <StaticImage src="../images/responsabilidad-social-banner.jpg"

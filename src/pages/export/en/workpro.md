@@ -6,7 +6,7 @@ title:  "Workpro Cleaning Cloths"
 subtitle: "reusable and disposable"
 date: "2020-04-02"
 slug:  "workpro-cleaning-cloths"
-featuredImage:  "../../../images/workpro.jpg"
+featuredImage:  "../../../images/panos-de-limpieza-workpro.jpg"
 lang: "es"
 
 
@@ -18,28 +18,28 @@ lang: "es"
 <table class="min-w-full md:min-w-0 divide-y-2 divide-white">
           <thead class=" bg-white">
             <tr>
-              <th scope="col" class="px-6 text-center text-xs font-medium text-white bg-primary-default uppercase tracking-wider">
+              <th scope="col" class="px-2 py-2 text-center text-xs font-medium text-white bg-primary-default  tracking-wider">
                 Code
               </th>
-              <th scope="col" class="px-6 py-3 text-center text-xs font-medium text-white bg-primary-lighter uppercase tracking-wider">
+              <th scope="col" class="px-2 py-2 text-center text-xs font-medium text-white bg-primary-lighter  tracking-wider">
                 Presentation
               </th>
             </tr>
           </thead>
           <tbody>
             <tr class="bg-gray-100">
-              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
+              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
               WYP0009
               </td>
-              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
+              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
               x10 units
               </td>
             </tr>
             <tr class="bg-gray-300">
-              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
+              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
               WYP0015
               </td>
-              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
+              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
               x30 units
               </td>
             </tr>

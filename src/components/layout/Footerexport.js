@@ -61,10 +61,10 @@ const Footer = () => (
            <Link to="/export/acerca-de/" className="text-white hover:text-gray-400"> Sobre Nosotros </Link>
           </li>
           <li>
-           <Link to="/responsabilidad-social" className="text-white hover:text-gray-400"> Responsabilidad Social</Link>
+           <Link to="/export/responsabilidad-social" className="text-white hover:text-gray-400"> Responsabilidad Social</Link>
           </li>
           <li>
-            <Link to="/denuncias-actos-de-corrupcion#complaintform" className="text-white hover:text-gray-400">Denuncia actos de corrupción</Link>
+            <Link to="/export/denuncias-actos-de-corrupcion" className="text-white hover:text-gray-400">Denuncia actos de corrupción</Link>
           </li>
           </ul>
         </nav>

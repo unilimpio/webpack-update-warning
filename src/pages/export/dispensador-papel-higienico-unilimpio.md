@@ -19,28 +19,28 @@ Encuentre diferentes modelos y colores:
 <table class="table-auto  divide-y-0 divide-gray-200">
           <thead class=" bg-white">
             <tr>
-              <th scope="col" class="px-6 text-center text-xs font-medium text-white bg-primary-default uppercase tracking-wider">
+              <th scope="col" class="px-2 py-2 text-center text-xs font-medium text-white bg-primary-default  tracking-wider">
                 Código
               </th>
-              <th scope="col" class="px-6 py-3 text-center text-xs font-medium text-white bg-primary-lighter uppercase tracking-wider">
+              <th scope="col" class="px-2 py-2 text-center text-xs font-medium text-white bg-primary-lighter tracking-wider">
                 Color
               </th>
             </tr>
           </thead>
           <tbody>
             <tr class="bg-gray-100">
-              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
+              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
               DIS0003
               </td>
-              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
+              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
                Blanco
               </td>
             </tr>
             <tr class="bg-gray-300">
-              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
+              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
               DIS0142
               </td>
-              <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-700 text-center">
+              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
               Silver
               </td>
             </tr>

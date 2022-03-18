@@ -3,13 +3,8 @@ import React from 'react';
 import { StaticImage } from "gatsby-plugin-image"
 import Button from '../../../components/Button';
 
-import ProductCard from '../../../components/ProductCard';
 import Layout from '../../../components/layout/Layoutexport-en';
 
-
-
-import LeadForm from "../../../components/LeadForm";
-import SplitSectionB2b from '../../../components/SplitSectionB2b';
 import SplitSection from '../../../components/SplitSection';
 import NewsletterSub from "../../../components/NewsletterSub";
 import { Link } from 'gatsby';
@@ -222,7 +217,7 @@ const Products = ({location}) => (
                 </Link>
               </div>
               <div className="flex flex-wrap">
-                <Link className="mx-auto text-primary-default inline-flex items-center" to='../towel-dispenser'>Z Towel Dispenser 
+                <Link className="mx-auto text-primary-default inline-flex items-center" to='../z-towel-dispenser'>Z Towel Dispenser 
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                     </svg>
@@ -246,7 +241,7 @@ const Products = ({location}) => (
 
             <section id="boton descargar catalogo" className="">
                 <div className="w-full mx-auto mb-10">
-                  <a href="../../../files/catalogo-de-exportacion.pdf" target="_blank" rel="noopener" className="">
+                  <a href="../../../files/catalogo-exportacion-unilimpio.pdf" target="_blank" rel="noopener" className="">
                     <Button className="flex mx-auto mt-16 text-white bg-primary-default border-0 py-2 px-8 focus:outline-none hover:bg-primary-lighter rounded text-lg"  >Download Catalog </Button>
                     </a>
                 </div>

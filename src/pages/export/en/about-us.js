@@ -1,9 +1,9 @@
 import React from 'react';
 import Layout from '../../../components/layout/Layoutexport-en';
-import { Link } from 'gatsby';
+
 import { StaticImage } from "gatsby-plugin-image"
 import NewsletterSub from "../../../components/NewsletterSub";
-import Button from "../../../components/Button";
+
 
 
 

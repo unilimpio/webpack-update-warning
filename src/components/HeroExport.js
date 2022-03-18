@@ -19,7 +19,7 @@ const HeroBanner = () => (
                 Productos para la higiene profesional
                 </h1>
                 <p className="text-lg lg:text-xl mt-6 font-normal text-justify text-gray-700">
-                  Fabricamos y exportamos productos de higiene profesional de la más alta calidad, a costos competitivos, para toda la region latinoamericana.
+                  Fabricamos y exportamos productos de higiene profesional de la más alta calidad, a costos competitivos, para toda la región latinoamericana.
                 </p>
                 <div className="flex flex-wrap mx-auto justify-center mt-8 md:mt-12 mb-20">
 
