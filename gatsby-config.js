@@ -77,7 +77,7 @@ module.exports = {
     `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-netlify`,
+    //`gatsby-plugin-netlify`,
 
     `gatsby-plugin-postcss`,
     {
