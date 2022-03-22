@@ -26,7 +26,7 @@ const siteVerOpts = [
 
   {
     label: 'Internacional',
-    value: '/',
+    value: '/export/productos/',
 
 
   },
@@ -103,7 +103,7 @@ const Productos = ({location}) => (
                 </div>
                 <div className="w-full mx-auto mb-20">
 
-                
+
                   <a href="../files/catalogo-institucional.pdf" className="">
                     <Button className="flex mx-auto mt-16 text-white bg-secondary-lighter border-0 py-2 px-8 focus:outline-none hover:bg-primary-lighter rounded text-lg">Descargue el Catálogo Institucional </Button>
                     </a>

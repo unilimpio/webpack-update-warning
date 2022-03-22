@@ -24,7 +24,7 @@ const siteVerOpts = [
 
   {
     label: 'Internacional',
-    value: '/',
+    value: '/export/contacto',
 
 
   },
@@ -42,7 +42,7 @@ const langOpts = [
 
   {
     label: 'EN',
-    value: `/export/en/products`,
+    value: `/export-en`,
 
   },
 

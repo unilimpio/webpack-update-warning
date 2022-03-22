@@ -18,7 +18,7 @@ const seo={
   title: "Social Responsability",
   desc:  "",
   image: "",
-  pathname: "/export/en/denounces-acts-of-corrupcion",
+  pathname: "/export/en/report-corruption/",
 }
 
 const siteVerOpts = [

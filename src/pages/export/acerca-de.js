@@ -26,7 +26,7 @@ const siteVerOpts = [
 
   {
     label: 'Ecuador',
-    value: '/acerca-de',
+    value: '/quienes-somos/',
 
   },
 
@@ -44,7 +44,7 @@ const langOpts = [
 
   {
     label: 'EN',
-    value: '/export/en/about-us',
+    value: '/export/en/about-us/',
 
   },
 

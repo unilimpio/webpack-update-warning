@@ -49,7 +49,7 @@ export default function productTemplate({
 
     {
       label: 'EN',
-      value: `/export/en/products`,
+      value: `/export/en/products/`,
 
     },
 
@@ -118,21 +118,21 @@ export default function productTemplate({
                     alt="Unilimpio es una empresa con responsabilidad social empresarial."
                     placeholder="blurred"
                     layout="constrained"/>
-        </div> 
+        </div>
         <div class="flex flex-grow flex-shrink justify-center">
           <StaticImage src="../images/sello-bpm.jpg"
                     className="flex justify-center my-4"
                     alt="Unilimpio es una empresa con responsabilidad social empresarial."
                     placeholder="blurred"
                     layout="constrained"/>
-        </div> 
+        </div>
         <div class="flex flex-grow flex-shrink justify-center">
           <StaticImage src="../images/sello-mucho-mejor-ecuador.jpg"
                     className="flex justify-center my-4"
                     alt="Unilimpio es una empresa con responsabilidad social empresarial."
                     placeholder="blurred"
                     layout="constrained"/>
-        </div> 
+        </div>
       </div>
     </div>
   </div>
@@ -184,7 +184,7 @@ export default function productTemplate({
             <label for="phone" class="sr-only">Teléfono</label>
             <input type="text" name="phone" id="phone" autocomplete="tel" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" placeholder="Teléfono"/>
           </div>
-         
+
           <div>
             <label for="mensaje" class="sr-only">Mensaje</label>
             <textarea id="mensaje" name="mensaje" rows="4" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md" placeholder="Mensaje"></textarea>

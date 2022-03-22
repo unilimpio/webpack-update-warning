@@ -30,7 +30,7 @@ export default function productTemplate({
 
     {
       label: 'Internacional',
-      value: '/productos',
+      value: '/export/productos/',
 
 
     },
@@ -48,7 +48,7 @@ export default function productTemplate({
 
     {
       label: 'EN',
-      value: `/export/en/products`,
+      value: `/export/en/products/`,
 
     },
 

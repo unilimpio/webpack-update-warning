@@ -11,13 +11,13 @@ const seo={
   title: "About Us",
   desc:  "Descubra nuestra historia",
   image: "productos.jpg",
-  pathname: "/export/en/about-us",
+  pathname: "/export/en/about-us/",
 }
 
 const siteVerOpts = [
 
   {
-    label: 'Internacional',
+    label: 'International',
     value: null,
 
   },
@@ -25,7 +25,7 @@ const siteVerOpts = [
 
   {
     label: 'Ecuador',
-    value: '/acerca-de',
+    value: '/quienes-somos/',
 
   },
 
@@ -35,15 +35,15 @@ const siteVerOpts = [
 const langOpts = [
 
   {
-    label: 'ES',
-    value: null,
+    label: 'EN',
+    value: '/export/en/about-us/',
 
   },
 
 
   {
-    label: 'EN',
-    value: '/export/en/about-us',
+    label: 'ES',
+    value: '/export/acerca-de/',
 
   },
 

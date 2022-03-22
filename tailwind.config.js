@@ -60,6 +60,11 @@ module.exports = {
           lighter: '#CBD5E1',
           default: '#B9CBE6',
           darker: '#64748B',
+        },
+
+        ukraine: {
+            blue: '#0159BA',
+            yellow: '#FFD600',
         }
       },
 
@@ -68,7 +73,7 @@ module.exports = {
         'hero-banner-2': "url('/images/hero/hero-banner-2.jpg')",
         'hero-banner-3': "url('/images/hero/hero-banner-3.jpg')",
 
-        
+
         'hero-banner-4': "url('/images/hero/hero-banner-4.jpg')",
         'hero-banner-5': "url('/images/hero/hero-banner-5.jpg')",
         'hero-banner-8': "url('/images/hero/hero-banner-8.jpg')",

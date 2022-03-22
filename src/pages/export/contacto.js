@@ -10,7 +10,7 @@ const seo={
   title: "Contact Us",
   desc:  "Contactenos hoy.",
   image: "productos.jpg",
-  pathname: "/export/contacto",
+  pathname: "/export/contacto/",
 }
 
 const siteVerOpts = [
@@ -42,7 +42,7 @@ const langOpts = [
 
   {
     label: 'EN',
-    value: '/export/en/contact',
+    value: '/export/en/contact/',
 
   },
 
@@ -68,7 +68,7 @@ const Contact = ({location}) => (
                 layout="fullWidth"
                  />
 
-  
+
     </div>
 
 
@@ -76,8 +76,8 @@ const Contact = ({location}) => (
   <div className="max-w-7xl mx-10 py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
     <div className="max-w-3xl mx-auto text-center">
       <h1 className="text-4xl font-semibold text-primary-default ">¡Solicite una cotización AHORA!</h1>
-    </div> 
-    </div> 
+    </div>
+    </div>
 </section>
 
 <section id="contactenos" className="relative bg-white mt-2">
@@ -88,7 +88,7 @@ const Contact = ({location}) => (
   <div class="relative max-w-7xl mx-auto lg:grid lg:grid-cols-5">
     <div class="bg-gray-200 py-16 px-4 sm:px-6 lg:col-span-2 lg:px-8 lg:py-24 xl:pr-12">
       <div class="max-w-lg mx-auto">
-      
+
         <dl class="mt-8 text-xl text-primary-default">
           <div>
             <dd>
@@ -117,7 +117,7 @@ const Contact = ({location}) => (
             <label for="phone" class="sr-only">Teléfono</label>
             <input type="text" name="phone" id="phone" autocomplete="tel" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" placeholder="Teléfono"/>
           </div>
-         
+
           <div>
             <label for="mensaje" class="sr-only">Mensaje</label>
             <textarea id="mensaje" name="mensaje" rows="4" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md" placeholder="Mensaje"></textarea>
@@ -185,7 +185,7 @@ const Contact = ({location}) => (
 
         </div>
       </div>
-      
+
     </div>
   </div>
 </section>

@@ -17,7 +17,7 @@ const siteVerOpts = [
 
   {
     label: 'Internacional',
-    value: '/',
+    value: '/export/',
 
 
   },

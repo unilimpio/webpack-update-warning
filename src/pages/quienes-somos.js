@@ -17,7 +17,7 @@ const siteVerOpts = [
 
   {
     label: 'Internacional',
-    value: '/',
+    value: '/export/acerca-de',
 
 
   },
@@ -89,15 +89,15 @@ const QuienesSomos = ({ location }) => (
       }
       secondarySlot={
         <div class="video-responsive flex justify-center " >
-        <iframe width="560" height="315" 
-            src="https://www.youtube.com/embed/B412e9m5H2g" 
-            title="YouTube video player " 
-            frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/B412e9m5H2g"
+            title="YouTube video player "
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen>
         </iframe>
     </div>
-      
+
 }
 />
 
@@ -314,7 +314,7 @@ Nos diferenciamos de la competencia por tener el más amplio portafolio de produ
                     placeholder="blurred"
                     layout="constrained"
         /></div>
-        
+
             <div className="space-y-2">
               <div className="text-lg leading-6 font-medium space-y-1 font-bold">
                 <h3>BIOSOLUTIONS</h3>
@@ -333,7 +333,7 @@ Nos diferenciamos de la competencia por tener el más amplio portafolio de produ
                     placeholder="blurred"
                     layout="constrained"
         /></div>
-      
+
             <div className="space-y-2">
               <div className="text-lg leading-6 font-medium space-y-1 font-bold">
                 <h3>UNILIMPIO</h3>

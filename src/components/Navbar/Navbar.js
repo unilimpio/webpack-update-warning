@@ -107,7 +107,7 @@ useEffect(() => {
 
   return (
     <Navigation>
-      <Logo />
+      <Logo target=""/>
       <Toggle className="absolute right-2"
         navbarOpen={navbarOpen}
         onClick={() => setNavbarOpen(!navbarOpen)}
@@ -116,16 +116,16 @@ useEffect(() => {
       </Toggle>
       {navbarOpen ? (
         <Navbox className="bg-gradient-to-br from-neutral-300 via-white to-neutral-300">
-          
+
           <div className="">
               <SiteverLinks siteVerOpts={siteVerOpts} langOpts={langOpts}/>
             </div>
-          
+
           <NavbarLinks />
 
 
-       
-       
+
+
         </Navbox>
       ) : (
         <Navbox open>

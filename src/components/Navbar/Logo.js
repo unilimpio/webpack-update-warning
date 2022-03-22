@@ -13,11 +13,11 @@ const LogoWrap = styled.div`
     flex: 0 1 36px;
   }
 `
-const Logo = () => {
-  
+const Logo = ({target}) => {
 
-  return (
-    <LogoWrap className ="flex-shrink" as={ Link } to="/">
+
+return (
+    <LogoWrap className ="flex-shrink" as={ Link } to={`/${target}`}>
       <LogoUni className="h-12 sm:h-16 md:h-20 xl:h-22"/>
     </LogoWrap>
   )

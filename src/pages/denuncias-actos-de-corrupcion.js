@@ -16,7 +16,7 @@ const siteVerOpts = [
 
   {
     label: 'Internacional',
-    value: '/',
+    value: '/denuncias-actos-de-corrupcion/',
 
 
   },
@@ -27,14 +27,14 @@ const langOpts = [
 
   {
     label: 'ES',
-    value: null,
+    value: '/export/denuncias-actos-de-corrupcion/',
 
   },
 
 
   {
     label: 'EN',
-    value: `/export/en/products`,
+    value: `/export/en/report-corruption/`,
 
   },
 

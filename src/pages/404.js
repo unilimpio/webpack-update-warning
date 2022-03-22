@@ -7,14 +7,14 @@ const siteVerOpts = [
 
   {
     label: 'Ecuador',
-    value: null,
+    value: '/',
 
 
   },
 
   {
     label: 'Internacional',
-    value: '/',
+    value: '/export/',
 
 
   },
@@ -25,14 +25,14 @@ const langOpts = [
 
   {
     label: 'ES',
-    value: null,
+    value: '/',
 
   },
 
 
   {
     label: 'EN',
-    value: `/export/en/products`,
+    value: `/export-en/`,
 
   },
 

@@ -28,7 +28,7 @@ const siteVerOpts = [
   },
   {
     label: 'Internacional',
-    value: "/export",
+    value: "/export/",
 
   },
 
@@ -46,7 +46,7 @@ const langOpts = [
 
   {
     label: 'EN',
-    value: '/index/',
+    value: null,
 
   },
 
@@ -60,16 +60,11 @@ const IndexPage = ({  location }) => {
 
   return(
 
-<Layout location={location} crumbLabel="Inicio"
+<Layout location={location} crumbLabel="Home Ecuador"
         siteVerOpts={siteVerOpts} langOpts={langOpts} >
 
 
-<section id="apoyo a ucrania">
-  <div className="bg-blue-200 pt-4 pb-4">
-  
-    <h2 className="text-base font-normal text-gray-700 text-center">Queremos expresar nuestro apoyo a Ucrania en estos momentos difíciles que está atravesando. En Unilimpio, defendemos la paz en todas partes del mundo.</h2> 
-    </div>
-</section>
+
 
 <HeroBanner />
 

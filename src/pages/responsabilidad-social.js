@@ -26,7 +26,7 @@ const siteVerOpts = [
 
   {
     label: 'Internacional',
-    value: '/',
+    value: '/export/responsabilidad-social',
 
 
   },
@@ -80,7 +80,7 @@ const seo={
                 layout="fullWidth"
                  />
 
-  
+
     </div>
 
     <section class="bg-white flex justify-center">

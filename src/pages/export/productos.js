@@ -32,7 +32,7 @@ const siteVerOpts = [
 
   {
     label: 'Ecuador',
-    value: '/productos',
+    value: '/productos/',
 
   },
 
@@ -50,7 +50,7 @@ const langOpts = [
 
   {
     label: 'EN',
-    value: '/export/en/products',
+    value: '/export/en/products/',
 
   },
 
@@ -59,7 +59,7 @@ const langOpts = [
 
 const Products = ({location}) => (
 
-          <Layout location={location} crumbLabel="Productos"
+          <Layout location={location} crumbLabel="Productos de Exportación"
             siteVerOpts={siteVerOpts} langOpts={langOpts}
             title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
 
@@ -91,9 +91,9 @@ const Products = ({location}) => (
             </section>
 
 
-         
 
-               
+
+
 
 <section id="categorias productos" className=" mt-0">
 <h2 className="text-primary-default font-medium title-font text-center  text-3xl mt-6 ">Oferta de Productos de Exportación </h2>
@@ -102,45 +102,45 @@ const Products = ({location}) => (
     <div class="bg-white h-1/3 sm:h-2/3"></div>
   </div>
   <div class="relative max-w-7xl mx-auto">
-    
+
     <div class=" max-w-lg mx-auto grid gap-8 lg:grid-cols-3 lg:max-w-none">
       <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
-        
-        
+
+
         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
           <div class="flex-1">
               <p class="text-lg font-semibold text-secondary-lighter text-center">Higiene de Manos
              </p>
              <div className="flex flex-wrap ">
-                <Link className="mx-auto text-primary-default inline-flex items-center" to='../sistema-dispensado-para-lavado-de-manos'>Sistema Dispensado para Lavado de Manos 
+                <Link className="mx-auto text-primary-default inline-flex items-center" to='../sistema-dispensado-para-lavado-de-manos'>Sistema Dispensado para Lavado de Manos
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                     </svg>
                 </Link>
               </div>
               <div className="flex flex-wrap  ">
-                <Link className="mx-auto text-primary-default inline-flex items-center" to='../sistema-dispensado-para-desinfeccion-de-manos'>Sistema Dispensado para Desinfección de Manos 
+                <Link className="mx-auto text-primary-default inline-flex items-center" to='../sistema-dispensado-para-desinfeccion-de-manos'>Sistema Dispensado para Desinfección de Manos
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                     </svg>
                 </Link>
               </div>
               <div className="flex flex-wrap ">
-                <Link className="mx-auto text-primary-default inline-flex items-center " to='../jabon-liquido-antibacterial'>Jabón Líquido Antibacterial  
+                <Link className="mx-auto text-primary-default inline-flex items-center " to='../jabon-liquido-antibacterial'>Jabón Líquido Antibacterial
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                     </svg>
                 </Link>
               </div>
               <div className="flex flex-wrap">
-                <Link className="mx-auto text-primary-default inline-flex items-center" to='../gel-antibacterial'>Gel Antibacterial 
+                <Link className="mx-auto text-primary-default inline-flex items-center" to='../gel-antibacterial'>Gel Antibacterial
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                     </svg>
                 </Link>
               </div>
               <div className="flex flex-wrap">
-                <Link className="mx-auto text-primary-default inline-flex items-center" to='../jabon-espuma'>Jabón Espuma 
+                <Link className="mx-auto text-primary-default inline-flex items-center" to='../jabon-espuma'>Jabón Espuma
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                     </svg>
@@ -149,14 +149,14 @@ const Products = ({location}) => (
 
           </div>
           <div class="mt-6 flex items-center">
-            <div class="flex-shrink-0"> 
+            <div class="flex-shrink-0">
             </div>
           </div>
         </div>
       </div>
 
       <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
-       
+
         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
           <div class="flex-1">
               <p class="text-lg font-semibold text-secondary-lighter text-center">Industria Alimenticia
@@ -169,28 +169,28 @@ const Products = ({location}) => (
                 </Link>
               </div>
               <div className="flex flex-wrap">
-                <Link className="mx-auto text-primary-default inline-flex items-center" to='../digrizz'>Digrizz 
+                <Link className="mx-auto text-primary-default inline-flex items-center" to='../digrizz'>Digrizz
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                     </svg>
                 </Link>
               </div>
               <div className="flex flex-wrap">
-                <Link className="mx-auto text-primary-default inline-flex items-center" to='../organic-100'>Organic 100  
+                <Link className="mx-auto text-primary-default inline-flex items-center" to='../organic-100'>Organic 100
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                     </svg>
                 </Link>
               </div>
               <div className="flex flex-wrap">
-                <Link className="mx-auto text-primary-default inline-flex items-center" to='../toallas-humedas-desinfectantes'>Toallas Húmedas Desinfectantes 
+                <Link className="mx-auto text-primary-default inline-flex items-center" to='../toallas-humedas-desinfectantes'>Toallas Húmedas Desinfectantes
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                     </svg>
                 </Link>
               </div>
               <div className="flex flex-wrap">
-                <Link className="mx-auto text-primary-default inline-flex items-center" to='../panos-reutilizables-workpro'>Paños de Limpieza Workpro 
+                <Link className="mx-auto text-primary-default inline-flex items-center" to='../panos-reutilizables-workpro'>Paños de Limpieza Workpro
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                     </svg>
@@ -199,14 +199,14 @@ const Products = ({location}) => (
           </div>
           <div class="mt-6 flex items-center">
             <div class="flex-shrink-0">
-              
+
             </div>
           </div>
         </div>
       </div>
 
       <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
-        
+
         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
           <div class="flex-1">
               <p class="text-lg font-semibold text-secondary-lighter text-center">Dispensadores</p>
@@ -218,7 +218,7 @@ const Products = ({location}) => (
                 </Link>
               </div>
               <div className="flex flex-wrap">
-                <Link className="mx-auto text-primary-default inline-flex items-center" to='../dispensador-toalla-z-unilimpio'>Dispensador de Toalla Z 
+                <Link className="mx-auto text-primary-default inline-flex items-center" to='../dispensador-toalla-z-unilimpio'>Dispensador de Toalla Z
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                     </svg>
@@ -227,13 +227,13 @@ const Products = ({location}) => (
           </div>
           <div class="mt-6 flex items-center">
             <div class="flex-shrink-0">
-              
+
             </div>
           </div>
         </div>
       </div>
 
-  
+
     </div>
   </div>
 </div>

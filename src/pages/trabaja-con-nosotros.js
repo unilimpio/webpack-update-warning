@@ -16,7 +16,7 @@ const siteVerOpts = [
 
   {
     label: 'Internacional',
-    value: '/',
+    value: '/export/',
 
 
   },
@@ -59,7 +59,7 @@ const jobs = [
     requisitos: " Bachiller técnico en mecánica, electricidad, mantenimiento industrial, electromecánico. Experiencia: Mínimo un año en cargos similares. Residir en la ciudad de Quito. Competencias: Trabajo en equipo, trabajo a presión, iniciativa, proactividad, orientación al resultado. Otros conocimientos: Office, autocad, internet, básicos de electricidad, conocimientos de normas de seguridad industrial, operación de maquinaria industrial.",
   },
 
-  
+
 
   {
     id: 7,
