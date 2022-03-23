@@ -17,6 +17,7 @@ const SEO = ({ title, desc, banner, pathname, article, articleDate, product, cat
       defaultTitle,
       defaultDescription,
       defaultBanner,
+      defaultHreflang,
       headline,
       siteLanguage,
       ogLanguage,
@@ -24,6 +25,13 @@ const SEO = ({ title, desc, banner, pathname, article, articleDate, product, cat
       twitter,
       facebook,
     },
+    hreflang: {
+      defaultEsEc,
+      defaultEs,
+      defaultEn,
+      defaultDefault,
+
+    }
   } = site
 
   const seo = {
@@ -31,6 +39,10 @@ const SEO = ({ title, desc, banner, pathname, article, articleDate, product, cat
     description: desc || defaultDescription,
     image: `${siteUrl}/images/${banner || defaultBanner}`,
     url: `${siteUrl}${pathname || ''}`,
+    alternateEsEC: `${siteUrl}${hreflang || defaultEsEc }`,
+    alternateEs: `${siteUrl}${hreflang || defaultEs }`,
+    alternateEn: `${siteUrl}${hreflang || defaultEn }`,
+    alternateDefault: `${siteUrl}${hreflang || defaultDefault }`,
   }
 
   // schema.org in JSONLD format
@@ -141,34 +153,34 @@ const SEO = ({ title, desc, banner, pathname, article, articleDate, product, cat
       },
       position: 3,
     }
-    
-    
+
+
     )
   }
 
   if(product){
 
     schemaProduct = {
-      
+
         "@context": "https://schema.org/",
         "@type": "Product",
         "name": seo.title,
         "image": [
           `${seo.image}`
-          
+
          ],
         "description": seo.description,
         "sku": productSku,
         "gtin13": productGtin13,
-        
+
         "brand": {
           "@type": "Brand",
           "name": brandName,
           "logo": `${siteUrl}/images/${brandLogo}`,
         },
-        
-        
-        
+
+
+
         "offers": {
           "@type": "Offer",
           "availability": "https://schema.org/InStock",
@@ -177,7 +189,7 @@ const SEO = ({ title, desc, banner, pathname, article, articleDate, product, cat
           "url": seo.url,
 
         }
-      
+
     }
 
 
@@ -205,9 +217,9 @@ const SEO = ({ title, desc, banner, pathname, article, articleDate, product, cat
         '@id': `${siteUrl}${pathname}`,
         name: seo.title,
       },
-      position: 4,  
+      position: 4,
     }
-    
+
     )
 
   }
@@ -227,12 +239,23 @@ const SEO = ({ title, desc, banner, pathname, article, articleDate, product, cat
         <html lang={siteLanguage} />
         <meta name="description" content={seo.description} />
         <meta name="image" content={seo.image} />
-        
+
         {/* Insert schema.org data conditionally (webpage/article) + everytime (breadcrumbs) */}
         {!article && <script type="application/ld+json">{JSON.stringify(schemaOrgWebPage)}</script>}
         {article && <script type="application/ld+json">{JSON.stringify(schemaArticle)}</script>}
         {product && <script type="application/ld+json">{JSON.stringify(schemaProduct)}</script>}
         <script type="application/ld+json">{JSON.stringify(breadcrumb)}</script>
+        <link rel="alternate" hreflang="es-ec"
+              href={seo.alternateEsEc} />
+
+        <link rel="alternate" hreflang="en"
+              href={seo.alternateEn} />
+        <link rel="alternate" hreflang="es"
+              href={seo.alternateEs} />
+        <link rel="alternate" hreflang="x-default"
+              href={seo.alternateDefault} />
+
+
       </Helmet>
       <Facebook
         desc={seo.description}
@@ -287,12 +310,22 @@ const query = graphql`
         defaultTitle: title
         defaultDescription: description
         defaultBanner: banner
+        defaultHreflangEn: hreflangEn
+        defaultHreflangEs: hreflangEs
+        defaultHreflangEsEc: hreflangEsEc
         headline
         siteLanguage
         ogLanguage
         author
         twitter
         facebook
+      }
+      hreflang {
+        defaultEs: es
+        defaultEn: en
+        defaultEsEc: esEc
+        defaultDefault: Default
+        }
       }
     }
   }

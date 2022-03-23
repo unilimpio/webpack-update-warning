@@ -18,7 +18,7 @@ const seo={
   title: "Professional Hygiene products for Export",
   desc:  "We manufacture hygienic solutions of the best quality for the whole region and the world",
   image: "productos.jpg",
-  pathname: "/export/en/products",
+  pathname: "/export/en/products/",
 }
 
 const siteVerOpts = [
