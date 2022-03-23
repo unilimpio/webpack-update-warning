@@ -6,7 +6,7 @@ title:  "Hand Washing Dispensing System "
 subtitle: "the solution for proper hand washing"
 date: "2020-04-02"
 slug:  "hand-washing-dispensing-system"
-featuredImage:  "../../../images/lavado-de-manos.jpg"
+featuredImage:  "../../../images/sistema-para-lavado-de-manos.jpg"
 lang: "en"
 alternate: "sistema-dispensado-para-lavado-de-manos"
 
@@ -209,4 +209,4 @@ COMPATIBLE WITH THE FOLLOWING SEALED SACHET REFILLS:
           </tbody>
         </table>
         <br>
- <a href="../../../files/FT-lavado-de-manos.pdf" target="_blank" rel="noopener">Technical Data</a> |
+ <a href="../../../files/FT-exportacion-sistema-dispensado-para-lavado-de-manos.pdf" target="_blank" rel="noopener">Technical Data</a> |

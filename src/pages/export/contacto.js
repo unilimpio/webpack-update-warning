@@ -54,7 +54,7 @@ const Contact = ({location}) => (
 
 
 
-  <Layout location={location} crumbLabel="Contáctenos"
+  <Layout location={location} crumbLabel="Contacto"
           siteVerOpts={siteVerOpts} langOpts={langOpts}
             title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
 

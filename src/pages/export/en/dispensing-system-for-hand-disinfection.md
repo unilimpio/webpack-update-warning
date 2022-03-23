@@ -6,7 +6,7 @@ title:  "Dispensing System for Hand Disinfection "
 subtitle: "the solution for proper hand disinfection"
 date: "2020-04-02"
 slug:  "dispensing-system-for-hand-disinfection"
-featuredImage:  "../../../images/desinfeccion-de-manos.jpg"
+featuredImage:  "../../../images/sistema-para-desinfeccion-de-manos.jpg"
 lang: "en"
 alternate: "sistema-dispensado-para-desinfeccion-de-manos"
 
@@ -109,4 +109,4 @@ COMPATIBLE WITH THE FOLLOWING SEALED SACHET REFILLS:
           </tbody>
         </table>
         <br>
- <a href="../../../files/FT-desinfeccion-de-manos.pdf" target="_blank" rel="noopener">Technical Data</a> |
+ <a href="../../../files/FT-exportacion-sistema-dispensado-para-desinfeccion-de-manos.pdf" target="_blank" rel="noopener">Technical Data</a> |

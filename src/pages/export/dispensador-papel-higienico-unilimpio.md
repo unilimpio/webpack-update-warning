@@ -8,6 +8,8 @@ date: "2020-04-02"
 slug:  "dispensador-papel-higienico-unilimpio"
 featuredImage:  "../../images/dispensador-ph-exportacion.jpg"
 lang: "es"
+alternate: "toilet-paper-dispenser"
+
 ---
 • Fabricados con plástico ABS, resistentes y con propiedades antivandalismo.<br/>
 • Personalizados.<br/>
@@ -47,3 +49,4 @@ Encuentre diferentes modelos y colores:
           </tbody>
         </table><br/>
          
+ <a href="../../../files/FT-exportacion-dispensador-papel-higienico-jumbo.pdf" target="_blank" rel="noopener">Ficha Técnica</a> 

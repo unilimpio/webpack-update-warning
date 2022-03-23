@@ -23,7 +23,7 @@ const HeroBanner = () => (
                 </p>
                 <div className="flex flex-wrap mx-auto justify-center mt-8 md:mt-12 mb-20">
 
-                <Link to="#contactenos">
+                <Link to="/export/contacto/">
                   <Button className=" bg-primary-default text-white hover:bg-primary-lighter rounded-lg active:bg-primary-darker focus:outline-none" size="lg">Solicite una cotización</Button>
                 </Link>
                 </div>

@@ -7,8 +7,8 @@ subtitle: "sanitizer and disinfectant"
 date: "2020-04-02"
 slug:  "organic-100"
 featuredImage:  "../../../images/organic-100.jpg"
-lang: "es"
-
+lang: "en"
+alternate: "organic-100"
 
 ---
 • Effective bactericidal, fungicidal and virucidal sanitizer and disinfectant formulated for application on fruits, vegetables and surfaces that may be in contact with food.<br/>

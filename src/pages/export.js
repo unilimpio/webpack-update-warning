@@ -155,7 +155,7 @@ const Export = ({  location }) => {
 <SplitSection id="rse"
       reverseOrder className="bg-gradient-to-r from-secondary-lighter via-white to-secondary-lighter  py-4 my-20 mt-4"
       primarySlot={
-        <div className="bg-white bg-opacity-50 rounded-lg my-4  px-6 py-6 mx-6">
+        <div className="bg-white bg-opacity-50 rounded-lg my-12   px-6 py-6 mx-6">
           <h3 className="text-3xl font-semibold leading-tight text-center">
             Somos una empresa socialmente responsable
           </h3>
@@ -172,8 +172,8 @@ const Export = ({  location }) => {
         </div>
       }
       secondarySlot={
-        <StaticImage src="../images/responsabilidad-social-banner.jpg"
-                    className="flex justify-center my-4"
+        <StaticImage src="../images/responsabilidad-social-banner-prueba.jpg"
+                    className="flex justify-center my-4 mx-4"
                     alt="Unilimpio es una empresa con responsabilidad social empresarial."
                     placeholder="blurred"
                     layout="constrained"
@@ -283,62 +283,25 @@ const Export = ({  location }) => {
 
 
 
-
-<section id="contactenos" className="relative bg-white mt-20">
-<div class="relative bg-white">
-  <div class="absolute inset-0">
-    <div class="absolute inset-y-0 left-0 w-1/2 bg-gray-200"></div>
-  </div>
-  <div class="relative max-w-7xl mx-auto lg:grid lg:grid-cols-5">
-    <div class="bg-gray-200 py-16 px-4 sm:px-6 lg:col-span-2 lg:px-8 lg:py-24 xl:pr-12">
-      <div class="max-w-lg mx-auto">
-        <h2 class="text-4xl font-bold  text-primary-default sm:text-2xl">
-        ¡SOLICITE UNA COTIZACIÓN AHORA!
-        </h2>
-        <dl class="mt-8 text-xl text-primary-default">
-          <div>
-            <dd>
-              <p>Nuestros asesores están gustosos de ponerse en contacto con usted para brindarle mayor información y agendar una cita.</p>
-            </dd>
-          </div>
-        </dl>
-      </div>
-    </div>
-    <div class="bg-white py-16 px-4 sm:px-6 lg:col-span-3 lg:py-24 lg:px-8 xl:pl-12">
-      <div class="max-w-lg mx-auto lg:max-w-none">
-        <form name="lead" action="/gracias" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="grid grid-cols-1 gap-y-6">
-          <div>
-            <label for="full-name" class="sr-only">Nombre</label>
-            <input type="text" name="nombre" id="nombre" autocomplete="name" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" placeholder="Nombre"/>
-          </div>
-          <div>
-            <label for="phone" class="sr-only">Teléfono</label>
-            <input type="text" name="phone" id="país" autocomplete="tel" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" placeholder="País"/>
-          </div>
-          <div>
-            <label for="email" class="sr-only">Email</label>
-            <input id="email" name="email" type="email" autocomplete="email" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" placeholder="Correo"/>
-          </div>
-          <div>
-            <label for="phone" class="sr-only">Teléfono</label>
-            <input type="text" name="phone" id="phone" autocomplete="tel" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" placeholder="Teléfono"/>
-          </div>
-         
-          <div>
-            <label for="mensaje" class="sr-only">Mensaje</label>
-            <textarea id="mensaje" name="mensaje" rows="4" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md" placeholder="Mensaje"></textarea>
-          </div>
-          <div>
-            <button type="submit" class="inline-flex justify-center py-3 px-6 border border-transparent shadow-sm text-base font-medium rounded-md text-white bg-primary-default hover:bg-primary-lighter focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-              Enviar
-            </button>
-          </div>
-        </form>
+<section id="contacto" className="my-10">
+  <div className="w-full mx-auto  py-8 px-2 sm:px-8 lg:px-40 bg-white bg-opacity-50 text-center">
+    <div className="mx:auto bg-gray-300 bg-opacity-50 rounded-xl py-4">
+      <h2 className="mt-4 text-xl sm:text-2xl md:text-3xl font-bold text-primary-default">¡SOLICITE UNA COTIZACIÓN AHORA!</h2>
+      <p className="mx-auto mt-8 mb-2 text-xl font-normal px-2 sm:px-4 md:px-40">
+       Nuestros asesores están gustosos de ponerse en contacto con usted para brindarle mayor información de nuestros productos de higiene profesional y enviarle una cotización. 
+      </p>
+      <div className="flex flex-wrap mx-auto justify-center">
+         <Link to="/export/contacto/">
+          <Button className="text-white mt-4 mb-4 rounded-xl transition duration-200 ease-in-out bg-primary-default shadow-md hover:bg-secondary-lighter hover:shadow-lg transform hover:-translate-y-1 hover:scale-105 focus:outline-none" size="lg" type="submit">Cotizar</Button>
+        </Link>
       </div>
     </div>
   </div>
-</div>
 </section>
+
+
+
+
 
 <NewsletterSub/>
 
