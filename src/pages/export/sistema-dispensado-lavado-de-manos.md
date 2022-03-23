@@ -6,8 +6,9 @@ title:  "Sistema Dispensado para Lavado de Manos"
 subtitle: "la solución para un adecuado lavado de manos"
 date: "2020-04-02"
 slug:  "lavado-de-manos"
-featuredImage:  "../../images/lavado-de-manos.jpg"
+featuredImage:  "../../images/sistema-para-lavado-de-manos.jpg"
 lang: "es"
+alternate: "hand-washing-dispensing-system"
 
 ---
 • Nuestros dispensadores son fabricados con plástico ABS, resistentes y con propiedades antivandalismo.<br/>
@@ -207,4 +208,4 @@ COMPATIBLES CON LAS SIGUIENTES RECARGAS SELLADAS EN SACHET:
           </tbody>
         </table>
         <br>
- <a href="../../../files/FT-lavado-de-manos.pdf" target="_blank" rel="noopener">Ficha Técnica</a> |
+ <a href="../../../files/FT-exportacion-sistema-dispensado-para-lavado-de-manos.pdf" target="_blank" rel="noopener">Ficha Técnica</a> |

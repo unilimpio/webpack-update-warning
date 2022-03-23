@@ -41,5 +41,5 @@ alternate: "toallas-humedas-desinfectantes"
         </table>
         <br>
 
- <a href="../../../files/FT-toallas-humedas-desinfectantes.pdf" target="_blank" rel="noopener">Technical Data</a> |
+ <a href="../../../files/FT-exportacion-toallas-humedas-desinfectantes.pdf" target="_blank" rel="noopener">Technical Data</a> |
  

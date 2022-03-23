@@ -60,7 +60,7 @@ const NavbarLinks = () => {
 
 
         <Link to="/export/en/contact/">
-          <Button className="text-white rounded-md transition duration-300 ease-in-out bg-primary-lighter shadow-md hover:bg-primary-xlighter hover:shadow-lg transform hover:-translate-y-1 hover:scale-105 focus:outline-none" size="sm" >Request a Quotation</Button>
+          <Button className="text-white rounded-md transition duration-300 ease-in-out bg-primary-default shadow-md hover:bg-primary-xlighter hover:shadow-lg transform hover:-translate-y-1 hover:scale-105 focus:outline-none" size="sm" >Request a Quotation</Button>
         </Link>
 
 

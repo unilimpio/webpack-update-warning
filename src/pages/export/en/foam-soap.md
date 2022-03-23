@@ -3,12 +3,12 @@ path: "/export/en/foam-soap"
 category: "Hand Hygiene"
 categorySlug: "hand-hygiene"
 title:  "Foam Soap"
-subtitle: "Ideal for special negotiations"
+subtitle: "*For special negotiations"
 date: "2020-04-02"
 slug:  "foam-soap"
 featuredImage:  "../../../images/jabon-espuma.jpg"
 lang: "en"
-alternate: "foam-soap"
+alternate: "jabon-espuma"
 
 ---
 • Eliminates 99.9% of microorganisms in 30 seconds.<br/>
@@ -69,6 +69,6 @@ Find our foam soap in several presentations:
         </table>
         <br>
 
- <a href="../../../files/FT-jabon-espuma-sin-antibacterial-exportacion.pdf" target="_blank" rel="noopener">Technical Data Sheet without antibacterial</a> |
- <a href="../../../files/FT-jabon-espuma-con-antibacterial-exportacion.pdf" target="_blank" rel="noopener">Technical Data Sheet with antibacterial</a> 
+ <a href="../../../files/FT-exportacion-jabon-espuma.pdf" target="_blank" rel="noopener">Technical Data Sheet without antibacterial</a> |
+ <a href="../../../files/FT-exportacion-jabon-espuma-antibacterial.pdf" target="_blank" rel="noopener">Technical Data Sheet with antibacterial</a> 
  

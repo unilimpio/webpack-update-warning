@@ -152,4 +152,4 @@ Find our quaternary ammonium disinfectants in various presentations:
         </table>
         <br>
 
- 
+  <a href="../../../files/FT-bacterac-exportacion.pdf" target="_blank" rel="noopener"> Bacterac Technical Data</a>
