@@ -1,8 +1,8 @@
 import React from 'react';
-import Layout from '../../components/layout/Layoutexport';
+import Layout from '../../../components/layout/Layoutexport';
 
 import { StaticImage } from "gatsby-plugin-image"
-import NewsletterSub from "../../components/NewsletterSub";
+import NewsletterSub from "../../../components/NewsletterSub";
 
 
 
@@ -12,7 +12,11 @@ const seo={
   title: "About Us",
   desc:  "Descubra nuestra historia",
   image: "productos.jpg",
-  pathname: "/export/acerca-de",
+  pathname: "/export/es/acerca-de/",
+  alternateEn: "/export/en/about-us/",
+  alternateEs: "/export/es/acerca-de/",
+  alternateEsec: "/quienes-somos/",
+  alternateDefault: "/export/es/acerca-de/"
 }
 
 const siteVerOpts = [
@@ -58,10 +62,11 @@ const AboutUs = ({location}) => (
 
   <Layout location={location} crumbLabel="Acerca de"
           siteVerOpts={siteVerOpts} langOpts={langOpts}
+          alternates alternateEn={seo.alternateEn} alternateEs={seo.alternateEs} alternateEsec={seo.alternateEsec} alternateDefault={seo.alternateDefault}
             title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
 
 
-    <StaticImage src="../../images/foto-dron-unilimpio.jpg"
+    <StaticImage src="../../../images/foto-dron-unilimpio.jpg"
                 className="object-contain"
                 alt="Acerca de Unilimpio: en la imagen todos los colaboradores de Unilimpio oficina Matriz."
                 placeholder="blurred"
@@ -181,7 +186,7 @@ Nos diferenciamos de la competencia por tener el más amplio portafolio de produ
 <section className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3  mx-6 mt-0">
   <li className="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
     <div className="flex-1 flex flex-col p-8">
-    <StaticImage src="../images/nuestro-proposito.jpg"
+    <StaticImage src="../../../images/nuestro-proposito.jpg"
                     className="flex justify-center mx-6"
                     alt="Misión de Unilimpio"
                     placeholder="blurred"
@@ -201,7 +206,7 @@ Nos diferenciamos de la competencia por tener el más amplio portafolio de produ
 
   <li className="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
     <div className="flex-1 flex flex-col p-8">
-    <StaticImage src="../images/nuestro-futuro.jpg"
+    <StaticImage src="../../../images/nuestro-futuro.jpg"
                     className="flex justify-center mx-6"
                     alt="Visión de Unilimpio"
                     placeholder="blurred"
@@ -222,7 +227,7 @@ Nos diferenciamos de la competencia por tener el más amplio portafolio de produ
 
   <li className="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
     <div className="flex-1 flex flex-col p-8">
-    <StaticImage src="../images/valores-corporativos.jpg"
+    <StaticImage src="../../../images/valores-corporativos.jpg"
                     className="flex justify-center mx-6"
                     alt="Valores corporativos de Unilimpio"
                     placeholder="blurred"

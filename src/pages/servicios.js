@@ -17,7 +17,7 @@ const siteVerOpts = [
 
   {
     label: 'Internacional',
-    value: '/export/',
+    value: '/export-es/',
 
 
   },
@@ -46,7 +46,7 @@ const seo={
   title: "Servicios especializados",
   desc:  "Nuestros servicios especializados son un complemento ideal a nuestra oferta de productos de limpieza para clientes institucionales con mayores exigencias y buscando tener un solo aliado que resuelva todas sus necesidaes de higiene institucional.",
   image: "servicios.jpg",
-  pathname: "/servicios",
+  pathname: "/servicios/",
 }
 
  const Servicios = ({location}) =>  (

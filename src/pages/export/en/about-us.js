@@ -12,6 +12,11 @@ const seo={
   desc:  "Descubra nuestra historia",
   image: "productos.jpg",
   pathname: "/export/en/about-us/",
+  alternateEn: "/export/en/about-us/",
+  alternateEs: "/export/es/acerca-de/",
+  alternateEsec: "/quienes-somos/",
+  alternateDefault: "/export/es/acerca-de/"
+
 }
 
 const siteVerOpts = [
@@ -43,7 +48,7 @@ const langOpts = [
 
   {
     label: 'ES',
-    value: '/export/acerca-de/',
+    value: '/export/es/acerca-de/',
 
   },
 
@@ -56,6 +61,7 @@ const AboutUs = ({location}) => (
 
 
   <Layout location={location} crumbLabel="About us"
+  alternates alternateEn={seo.alternateEn} alternateEs={seo.alternateEs} alternateEsec={seo.alternateEsec} alternateDefault={seo.alternateDefault}
           siteVerOpts={siteVerOpts} langOpts={langOpts}
             title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
 

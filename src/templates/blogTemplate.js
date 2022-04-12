@@ -43,7 +43,7 @@ export default function blogTemplate({
 
     {
       label: 'EN',
-      value: `/export/en/products`,
+      value: `/export/en/products/`,
 
     },
 
@@ -57,7 +57,8 @@ export default function blogTemplate({
 
     <Layout location={location} crumbLabel={frontmatter.title}
     siteVerOpts={siteVerOpts} langOpts={langOpts}
-    title={frontmatter.title} desc={excerpt} banner={`${frontmatter.slug}.jpg`} pathname={frontmatter.path} article articleDate={frontmatter.date}>
+    title={frontmatter.title} desc={excerpt} banner={`${frontmatter.slug}.jpg`} pathname={frontmatter.path}
+    article articleDate={frontmatter.date}>
 
         <div className="w-full mx-auto mb-0">
             <div className="max-w-7xl mx-10 py-16 px-4 sm:px-6 lg:py-24 lg:px-8">

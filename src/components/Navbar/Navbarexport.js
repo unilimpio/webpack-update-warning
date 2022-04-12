@@ -131,7 +131,7 @@ const Navbar = ({siteVerOpts, langOpts}) => {
 
   return (
     <Navigation>
-      <Logo target="export/"/>
+      <Logo target="export-es/"/>
       <Toggle className="absolute right-2"
         navbarOpen={navbarOpen}
         onClick={() => setNavbarOpen(!navbarOpen)}

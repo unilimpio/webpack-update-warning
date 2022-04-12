@@ -182,6 +182,9 @@ module.exports = {
     twitterUsername: "@unilimpio_ec",
     siteUrl: "https://unilimpio.com",
     banner: "unilimpio.jpg",
+    hreflangEs: "/export-es/",
+    hreflangEsec: "/",
+    hreflangEn: "/export-en/",
     headline: "",
     siteLanguage: "es",
     ogLanguage: "",
@@ -189,6 +192,8 @@ module.exports = {
     twitter: "",
     facebook: ""
   },
+
+
 
 
 

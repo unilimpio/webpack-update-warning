@@ -26,7 +26,7 @@ const siteVerOpts = [
 
   {
     label: 'Internacional',
-    value: '/export/productos/',
+    value: '/export/es/productos/',
 
 
   },
@@ -44,7 +44,7 @@ const langOpts = [
 
   {
     label: 'EN',
-    value: `/export/en/products`,
+    value: `/export/en/products/`,
 
   },
 
@@ -57,13 +57,18 @@ const seo={
   title: "Productos de limpieza",
   desc:  "Fabricamos y comercializamos productos líderes del mercado, reconocidos por su calidad, innovación, y excelente costo en uso. Adaptamos nuestra oferta de productos a las necesidades específicas de cada cliente, a través de un asesoramiento profesional, seguimiento y entrenamiento permanentes.",
   image: "productos.jpg",
-  pathname: "/productos",
+  pathname: "/productos/",
+  alternateEn: "/export/en/products/",
+  alternateEs: "/export/es/productos/",
+  alternateEsec: "/productos/",
+  alternateDefault: "/export/es/productos/"
 }
 
 const Productos = ({location}) => (
 
   <Layout location={location} crumbLabel="Productos"
   siteVerOpts={siteVerOpts} langOpts={langOpts}
+  alternates alternateEn={seo.alternateEn} alternateEs={seo.alternateEs} alternateEsec={seo.alternateEsec} alternateDefault={seo.alternateDefault}
   title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
 
             <section id="productos" className="">

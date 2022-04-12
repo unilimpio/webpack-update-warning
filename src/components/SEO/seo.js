@@ -7,7 +7,12 @@ import Twitter from './Twitter'
 
 // Complete tutorial: https://www.gatsbyjs.org/docs/add-seo-component/
 
-const SEO = ({ title, desc, banner, pathname, article, articleDate, product, category, categorySlug, productSku, productGtin13, offerPrice, brandName, brandLogo, node }) => {
+const SEO = ({ title, desc, banner, pathname, slug,
+  alternates, alternateEn, alternateEs, alternateEsec, alternateDefault,
+  article, articleDate,
+  product, category, categorySlug, productSku, productGtin13, offerPrice, brandName, brandLogo,
+  node }) => {
+
   const { site } = useStaticQuery(query)
 
   const {
@@ -17,20 +22,29 @@ const SEO = ({ title, desc, banner, pathname, article, articleDate, product, cat
       defaultTitle,
       defaultDescription,
       defaultBanner,
+      defaultHreflangEn,
+      defaultHreflangEs,
+      defaultHreflangEsec,
       headline,
       siteLanguage,
       ogLanguage,
       author,
       twitter,
       facebook,
-    },
+
+    }
+
   } = site
 
   const seo = {
     title: `${title || defaultTitle}`,
-    description: desc || defaultDescription,
+    description: `${desc || defaultDescription}`,
     image: `${siteUrl}/images/${banner || defaultBanner}`,
     url: `${siteUrl}${pathname || ''}`,
+    alternateEsec: `${siteUrl}${alternateEsec || defaultHreflangEsec}`,
+    alternateEs: `${siteUrl}${alternateEs || defaultHreflangEs}`,
+    alternateEn: `${siteUrl}${alternateEn || defaultHreflangEn}`,
+    alternateDefault: `${siteUrl}${alternateEs || defaultHreflangEs}`,
   }
 
   // schema.org in JSONLD format
@@ -87,6 +101,8 @@ const SEO = ({ title, desc, banner, pathname, article, articleDate, product, cat
   let schemaArticle = null
   let schemaProduct = null
 
+
+
   if (article) {
     schemaArticle = {
       '@context': 'http://schema.org',
@@ -141,34 +157,34 @@ const SEO = ({ title, desc, banner, pathname, article, articleDate, product, cat
       },
       position: 3,
     }
-    
-    
+
+
     )
   }
 
   if(product){
 
     schemaProduct = {
-      
+
         "@context": "https://schema.org/",
         "@type": "Product",
         "name": seo.title,
         "image": [
           `${seo.image}`
-          
+
          ],
         "description": seo.description,
         "sku": productSku,
         "gtin13": productGtin13,
-        
+
         "brand": {
           "@type": "Brand",
           "name": brandName,
           "logo": `${siteUrl}/images/${brandLogo}`,
         },
-        
-        
-        
+
+
+
         "offers": {
           "@type": "Offer",
           "availability": "https://schema.org/InStock",
@@ -177,7 +193,7 @@ const SEO = ({ title, desc, banner, pathname, article, articleDate, product, cat
           "url": seo.url,
 
         }
-      
+
     }
 
 
@@ -205,9 +221,9 @@ const SEO = ({ title, desc, banner, pathname, article, articleDate, product, cat
         '@id': `${siteUrl}${pathname}`,
         name: seo.title,
       },
-      position: 4,  
+      position: 4,
     }
-    
+
     )
 
   }
@@ -227,12 +243,20 @@ const SEO = ({ title, desc, banner, pathname, article, articleDate, product, cat
         <html lang={siteLanguage} />
         <meta name="description" content={seo.description} />
         <meta name="image" content={seo.image} />
-        
+
         {/* Insert schema.org data conditionally (webpage/article) + everytime (breadcrumbs) */}
         {!article && <script type="application/ld+json">{JSON.stringify(schemaOrgWebPage)}</script>}
         {article && <script type="application/ld+json">{JSON.stringify(schemaArticle)}</script>}
         {product && <script type="application/ld+json">{JSON.stringify(schemaProduct)}</script>}
         <script type="application/ld+json">{JSON.stringify(breadcrumb)}</script>
+
+        {/* Insert alternates hreflang settings conditionally */}
+        {alternates && <link rel="alternate" hreflang="es-ec" href={seo.alternateEsec} />}
+        {alternates && <link rel="alternate" hreflang="en" href={seo.alternateEn} />}
+        {alternates && <link rel="alternate" hreflang="es" href={seo.alternateEs} />}
+        {alternates && <link rel="alternate" hreflang="x-default" href={seo.alternateDefault} />}
+
+
       </Helmet>
       <Facebook
         desc={seo.description}
@@ -255,12 +279,17 @@ SEO.propTypes = {
   pathname: PropTypes.string,
   article: PropTypes.bool,
   product: PropTypes.bool,
+  alternates: PropTypes.bool,
   categorySlug: PropTypes.string,
   productSku: PropTypes.string,
   productGtin13: PropTypes.string,
   offerPrice: PropTypes.string,
   brandName: PropTypes.string,
   brandLogo: PropTypes.string,
+  alternateEn: PropTypes.string,
+  alternateEs: PropTypes.string,
+  alternateEsEc: PropTypes.string,
+  alternateDefault: PropTypes.string,
   node: PropTypes.object,
 }
 SEO.defaultProps = {
@@ -270,6 +299,11 @@ SEO.defaultProps = {
   pathname: null,
   article: false,
   product: false,
+  alternates: false,
+  alternateEn: null,
+  alternateEs: null,
+  alternateEsEc: null,
+  alternateDefault: null,
   categorySlug: null,
   productSku: null,
   productGtin13: null,
@@ -287,13 +321,19 @@ const query = graphql`
         defaultTitle: title
         defaultDescription: description
         defaultBanner: banner
+        defaultHreflangEn: hreflangEn
+        defaultHreflangEs: hreflangEs
+        defaultHreflangEsec: hreflangEsec
         headline
         siteLanguage
         ogLanguage
         author
         twitter
         facebook
+
       }
+
+
     }
   }
 `

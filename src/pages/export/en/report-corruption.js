@@ -19,6 +19,10 @@ const seo={
   desc:  "",
   image: "",
   pathname: "/export/en/report-corruption/",
+  alternateEn: "/export/en/report-corruption/",
+  alternateEs: "/export/es/denuncias-actos-de-corrupcion/",
+  alternateEsec: "/denuncias-actos-de-corrupcion/",
+  alternateDefault: "/export/es/denuncias-actos-de-corrupcion/"
 }
 
 const siteVerOpts = [
@@ -32,7 +36,7 @@ const siteVerOpts = [
 
   {
     label: 'Ecuador',
-    value: '/denuncias-actos-de-corrupcion',
+    value: '/denuncias-actos-de-corrupcion/',
 
   },
 
@@ -50,7 +54,7 @@ const langOpts = [
 
   {
     label: 'ES',
-    value: '/export/denuncias-actos-de-corrupcion',
+    value: '/export/es/denuncias-actos-de-corrupcion/',
 
   },
 
@@ -59,13 +63,14 @@ const langOpts = [
 
 const Denounces = ({location}) => (
 
-          <Layout location={location} crumbLabel="Denounces"
+          <Layout location={location} crumbLabel="Report on acts of corruption"
+          alternates alternateEn={seo.alternateEn} alternateEs={seo.alternateEs} alternateEsec={seo.alternateEsec} alternateDefault={seo.alternateDefault}
                   siteVerOpts={siteVerOpts} langOpts={langOpts}
                   title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
 
 <div className="bg-fixed" >
 
-<StaticImage src="../images/denuncia-actos-de-corrupcion.jpg"
+<StaticImage src="../../../images/denuncia-actos-de-corrupcion.jpg"
             className="object-contain"
             alt="Actos de Corrupción"
             placeholder="blurred"

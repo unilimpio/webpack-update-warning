@@ -1,12 +1,12 @@
 ---
-path: "/export/gel-antibacterial"
+path: "/export/es/gel-antibacterial"
 category: "Higiene de Manos"
 categorySlug: "higiene-de-manos"
 title:  "Gel Antibacterial"
 subtitle: "para una adecuada desinfección de manos"
 date: "2020-04-02"
 slug:  "jabon-liquido-antibacterial"
-featuredImage:  "../../images/gel-antibacterial.jpg"
+featuredImage:  "../../../images/gel-antibacterial.jpg"
 lang: "es"
 alternate: "antibacterial-gel"
 
