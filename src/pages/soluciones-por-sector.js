@@ -25,7 +25,7 @@ const siteVerOpts = [
 
   {
     label: 'Internacional',
-    value: '/export/',
+    value: '/export-es/',
 
 
   },
@@ -54,7 +54,7 @@ const seo={
   title: "Soluciones por industria",
   desc:  "En Unilimpio estamos listos para atender cualquier necesidad que requiera su industria, contamos con asesores profesionales especializados en cada sector y con el más amplio portafolio de productos de limpieza para brindarle la solución más adecuada.",
   image: "segmentos.jpg",
-  pathname: "/soluciones-por-sector",
+  pathname: "/soluciones-por-sector/",
 }
 
 const Soluciones = ({location}) => (

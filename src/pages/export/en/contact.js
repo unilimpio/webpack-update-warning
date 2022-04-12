@@ -10,7 +10,11 @@ const seo={
   title: "Contact Us",
   desc:  "Contactenos hoy.",
   image: "productos.jpg",
-  pathname: "/export/en/contact",
+  pathname: "/export/en/contact/",
+  alternateEn: "/export/en/contact/",
+  alternateEs: "/export/es/contacto/",
+  alternateEsec: "/contactenos/",
+  alternateDefault: "/export/es/contacto/"
 }
 
 const siteVerOpts = [
@@ -24,7 +28,7 @@ const siteVerOpts = [
 
   {
     label: 'Ecuador',
-    value: '/contactenos',
+    value: '/contactenos/',
 
   },
 
@@ -42,7 +46,7 @@ const langOpts = [
 
   {
     label: 'ES',
-    value: '/export/contacto',
+    value: '/export/es/contacto/',
 
   },
 
@@ -55,13 +59,14 @@ const Contact = ({location}) => (
 
 
   <Layout location={location} crumbLabel="Contacto"
+  alternates alternateEn={seo.alternateEn} alternateEs={seo.alternateEs} alternateEsec={seo.alternateEsec} alternateDefault={seo.alternateDefault}
           siteVerOpts={siteVerOpts} langOpts={langOpts}
           title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
 
 
 <div class="bg-fixed" >
 
-<StaticImage src="../../images/banner-contactenos.jpg"
+<StaticImage src="../../../images/banner-contactenos.jpg"
             className="object-contain"
             alt="Solicite una cotización con Unilimpio"
             placeholder="blurred"
@@ -75,8 +80,8 @@ const Contact = ({location}) => (
   <div className="max-w-7xl mx-10 py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
     <div className="max-w-3xl mx-auto text-center">
       <h1 className="text-4xl font-semibold text-primary-default ">¡Request a quote NOW!</h1>
-    </div> 
-    </div> 
+    </div>
+    </div>
 </section>
 
 
@@ -88,7 +93,7 @@ const Contact = ({location}) => (
   <div class="relative max-w-7xl mx-auto lg:grid lg:grid-cols-5">
     <div class="bg-gray-200 py-16 px-4 sm:px-6 lg:col-span-2 lg:px-8 lg:py-24 xl:pr-12">
       <div class="max-w-lg mx-auto">
-        
+
         <dl class="mt-8 text-xl text-primary-default">
           <div>
             <dd>
@@ -117,7 +122,7 @@ const Contact = ({location}) => (
             <label for="phone" class="sr-only">Teléfono</label>
             <input type="text" name="phone" id="phone" autocomplete="tel" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" placeholder="Phone"/>
           </div>
-         
+
           <div>
             <label for="mensaje" class="sr-only">Mensaje</label>
             <textarea id="mensaje" name="mensaje" rows="4" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md" placeholder="Message"></textarea>

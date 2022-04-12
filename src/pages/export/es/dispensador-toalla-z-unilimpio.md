@@ -1,12 +1,12 @@
 ---
-path: "/export/dispensador-toalla-z-unilimpio"
+path: "/export/es/dispensador-toalla-z-unilimpio"
 category: "Dispensadores"
 categorySlug: "dispensadores"
 title:  "Dispensador de Toalla en Z Unilimpio"
 subtitle: "controla la dispensación del producto"
 date: "2020-04-02"
 slug:  "dispensador-toalla-z-unilimpio"
-featuredImage:  "../../images/dispensador-toalla-z-unilimpio.jpg"
+featuredImage:  "../../../images/dispensador-toalla-z-unilimpio.jpg"
 lang: "es"
 ---
 • Fabricados con plástico ABS, resistentes y con propiedades antivandalismo.<br/>
@@ -48,4 +48,3 @@ Encuentre diferentes modelos y colores:
             </tr>
           </tbody>
         </table><br/>
-    

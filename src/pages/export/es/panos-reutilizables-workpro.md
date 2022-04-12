@@ -1,21 +1,20 @@
 ---
-path: "/export/toallas-humedas-desinfectantes"
+path: "/export/es/panos-reutilizables-workpro"
 category: "Industria Alimenticia"
 categorySlug: "industria-alimenticia"
-title:  "Toallas Húmedas Desinfectantes"
-subtitle: "y desengrasantes"
+title:  "Paños Reutilizables WORKPRO"
+subtitle: "de limpieza"
 date: "2020-04-02"
-slug:  "toallas-humedas-desinfectantes"
-featuredImage:  "../../images/toallas-humedas-desinfectantes-y-desengrasantes.jpg"
+slug:  "ultra absorbentes y resistentes"
+featuredImage:  "../../../images/panos-de-limpieza-workpro.jpg"
 lang: "es"
 
 
 ---
-• Formuladas para limpiar, desengrasar y desinfectar en un solo paso. <br/>
-• Ideal para todo tipo de superficies inertes, y en general toda superficie de contacto frecuente. <br/>
-• Usado correctamente permite eliminar el 99,9 % de microorganismos*.
-
- <br/>
+• Se pueden lavar y reutilizar 4 veces.<br/>
+• Máxima absorción y resistencia. <br/>
+•  Ideal para trabajos pesados.
+ <br/><br/>
 <table class="min-w-full md:min-w-0 divide-y-2 divide-white">
           <thead class=" bg-white">
             <tr>
@@ -28,17 +27,22 @@ lang: "es"
             </tr>
           </thead>
           <tbody>
-            <tr class="bg-gray-300">
+            <tr class="bg-gray-100">
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
-              QUI0912
+              WYP0009
               </td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
-              x45 unidades
+              x10 unidades
+              </td>
+            </tr>
+            <tr class="bg-gray-300">
+              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
+              WYP0015
+              </td>
+              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
+              x30 unidades
               </td>
             </tr>
           </tbody>
         </table>
         <br>
-
- <a href="../../../files/FT-toallas-humedas-desinfectantes.pdf" target="_blank" rel="noopener">Ficha Técnica</a> |
- 

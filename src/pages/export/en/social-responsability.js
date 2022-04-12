@@ -18,7 +18,11 @@ const seo={
   title: "Social Responsability",
   desc:  "",
   image: "",
-  pathname: "/export/en/social-responsability",
+  pathname: "/export/en/social-responsability/",
+  alternateEn: "/export/en/social-responsability/",
+  alternateEs: "/export/es/responsabilidad-social/",
+  alternateEsec: "/responsabilidad-social/",
+  alternateDefault: "/export/es/responsabilidad-social/"
 }
 
 const siteVerOpts = [
@@ -32,7 +36,7 @@ const siteVerOpts = [
 
   {
     label: 'Ecuador',
-    value: '/responsabilidad-social',
+    value: '/responsabilidad-social/',
 
   },
 
@@ -50,7 +54,7 @@ const langOpts = [
 
   {
     label: 'ES',
-    value: '/export/responsabilidad-social',
+    value: '/export/es/responsabilidad-social/',
 
   },
 
@@ -60,12 +64,13 @@ const langOpts = [
 const SocialResponsability = ({location}) => (
 
           <Layout location={location} crumbLabel="Social Responsability"
+          alternates alternateEn={seo.alternateEn} alternateEs={seo.alternateEs} alternateEsec={seo.alternateEsec} alternateDefault={seo.alternateDefault}
                   siteVerOpts={siteVerOpts} langOpts={langOpts}
                   title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
 
 <div class="bg-fixed" >
 
-<StaticImage src="../images/responsabilidad-social.jpg"
+<StaticImage src="../../../images/responsabilidad-social.jpg"
             className="object-contain"
             alt="We are a company with corporate social responsibility, learn more"
             placeholder="blurred"
@@ -102,7 +107,7 @@ const SocialResponsability = ({location}) => (
       <li class="sm:py-8">
         <div class="space-y-4 sm:grid sm:grid-cols-3 sm:items-start sm:gap-6 sm:space-y-0">
           <div class="aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4">
-          <StaticImage src="../../images/logo-onu-mujeres.jpg"
+          <StaticImage src="../../../images/logo-onu-mujeres.jpg"
                 className="flex justify-center mx-6"
                 alt="Misión de Unilimpio"
                 placeholder="blurred"
@@ -125,7 +130,7 @@ const SocialResponsability = ({location}) => (
       <li class="sm:py-8">
         <div class="space-y-4 sm:grid sm:grid-cols-3 sm:items-start sm:gap-6 sm:space-y-0">
           <div class="aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4">
-          <StaticImage src="../../images/pacto-global-logo.jpg"
+          <StaticImage src="../../../images/pacto-global-logo.jpg"
                 className="flex justify-center mx-6"
                 alt="Misión de Unilimpio"
                 placeholder="blurred"
@@ -148,7 +153,7 @@ const SocialResponsability = ({location}) => (
       <li class="sm:py-8">
         <div class="space-y-4 sm:grid sm:grid-cols-3 sm:items-start sm:gap-6 sm:space-y-0">
           <div class="aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4">
-          <StaticImage src="../../images/huella-de-carbono.jpg"
+          <StaticImage src="../../../images/huella-de-carbono.jpg"
                 className="flex justify-center mx-6"
                 alt="Misión de Unilimpio"
                 placeholder="blurred"
@@ -171,7 +176,7 @@ const SocialResponsability = ({location}) => (
       <li class="sm:py-8">
         <div class="space-y-4 sm:grid sm:grid-cols-3 sm:items-start sm:gap-6 sm:space-y-0">
           <div class="aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4">
-          <StaticImage src="../../images/reciclaje.jpg"
+          <StaticImage src="../../../images/reciclaje.jpg"
                 className="flex justify-center mx-6"
                 alt="Misión de Unilimpio"
                 placeholder="blurred"
@@ -194,7 +199,7 @@ const SocialResponsability = ({location}) => (
       <li class="sm:py-8">
         <div class="space-y-4 sm:grid sm:grid-cols-3 sm:items-start sm:gap-6 sm:space-y-0">
           <div class="aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4">
-          <StaticImage src="../../images/inclusivos.jpg"
+          <StaticImage src="../../../images/inclusivos.jpg"
                 className="flex justify-center mx-6"
                 alt="Misión de Unilimpio"
                 placeholder="blurred"
@@ -214,7 +219,7 @@ const SocialResponsability = ({location}) => (
           </div>
         </div>
       </li>
-     
+
     </ul>
   </div>
 </div>

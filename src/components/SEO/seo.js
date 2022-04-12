@@ -7,7 +7,12 @@ import Twitter from './Twitter'
 
 // Complete tutorial: https://www.gatsbyjs.org/docs/add-seo-component/
 
-const SEO = ({ title, desc, banner, pathname, article, articleDate, product, category, categorySlug, productSku, productGtin13, offerPrice, brandName, brandLogo, node }) => {
+const SEO = ({ title, desc, banner, pathname, slug,
+  alternates, alternateEn, alternateEs, alternateEsec, alternateDefault,
+  article, articleDate,
+  product, category, categorySlug, productSku, productGtin13, offerPrice, brandName, brandLogo,
+  node }) => {
+
   const { site } = useStaticQuery(query)
 
   const {
@@ -17,32 +22,29 @@ const SEO = ({ title, desc, banner, pathname, article, articleDate, product, cat
       defaultTitle,
       defaultDescription,
       defaultBanner,
-      defaultHreflang,
+      defaultHreflangEn,
+      defaultHreflangEs,
+      defaultHreflangEsec,
       headline,
       siteLanguage,
       ogLanguage,
       author,
       twitter,
       facebook,
-    },
-    hreflang: {
-      defaultEsEc,
-      defaultEs,
-      defaultEn,
-      defaultDefault,
 
     }
+
   } = site
 
   const seo = {
     title: `${title || defaultTitle}`,
-    description: desc || defaultDescription,
+    description: `${desc || defaultDescription}`,
     image: `${siteUrl}/images/${banner || defaultBanner}`,
     url: `${siteUrl}${pathname || ''}`,
-    alternateEsEC: `${siteUrl}${hreflang || defaultEsEc }`,
-    alternateEs: `${siteUrl}${hreflang || defaultEs }`,
-    alternateEn: `${siteUrl}${hreflang || defaultEn }`,
-    alternateDefault: `${siteUrl}${hreflang || defaultDefault }`,
+    alternateEsec: `${siteUrl}${alternateEsec || defaultHreflangEsec}`,
+    alternateEs: `${siteUrl}${alternateEs || defaultHreflangEs}`,
+    alternateEn: `${siteUrl}${alternateEn || defaultHreflangEn}`,
+    alternateDefault: `${siteUrl}${alternateEs || defaultHreflangEs}`,
   }
 
   // schema.org in JSONLD format
@@ -98,6 +100,8 @@ const SEO = ({ title, desc, banner, pathname, article, articleDate, product, cat
 
   let schemaArticle = null
   let schemaProduct = null
+
+
 
   if (article) {
     schemaArticle = {
@@ -245,15 +249,12 @@ const SEO = ({ title, desc, banner, pathname, article, articleDate, product, cat
         {article && <script type="application/ld+json">{JSON.stringify(schemaArticle)}</script>}
         {product && <script type="application/ld+json">{JSON.stringify(schemaProduct)}</script>}
         <script type="application/ld+json">{JSON.stringify(breadcrumb)}</script>
-        <link rel="alternate" hreflang="es-ec"
-              href={seo.alternateEsEc} />
 
-        <link rel="alternate" hreflang="en"
-              href={seo.alternateEn} />
-        <link rel="alternate" hreflang="es"
-              href={seo.alternateEs} />
-        <link rel="alternate" hreflang="x-default"
-              href={seo.alternateDefault} />
+        {/* Insert alternates hreflang settings conditionally */}
+        {alternates && <link rel="alternate" hreflang="es-ec" href={seo.alternateEsec} />}
+        {alternates && <link rel="alternate" hreflang="en" href={seo.alternateEn} />}
+        {alternates && <link rel="alternate" hreflang="es" href={seo.alternateEs} />}
+        {alternates && <link rel="alternate" hreflang="x-default" href={seo.alternateDefault} />}
 
 
       </Helmet>
@@ -278,12 +279,17 @@ SEO.propTypes = {
   pathname: PropTypes.string,
   article: PropTypes.bool,
   product: PropTypes.bool,
+  alternates: PropTypes.bool,
   categorySlug: PropTypes.string,
   productSku: PropTypes.string,
   productGtin13: PropTypes.string,
   offerPrice: PropTypes.string,
   brandName: PropTypes.string,
   brandLogo: PropTypes.string,
+  alternateEn: PropTypes.string,
+  alternateEs: PropTypes.string,
+  alternateEsEc: PropTypes.string,
+  alternateDefault: PropTypes.string,
   node: PropTypes.object,
 }
 SEO.defaultProps = {
@@ -293,6 +299,11 @@ SEO.defaultProps = {
   pathname: null,
   article: false,
   product: false,
+  alternates: false,
+  alternateEn: null,
+  alternateEs: null,
+  alternateEsEc: null,
+  alternateDefault: null,
   categorySlug: null,
   productSku: null,
   productGtin13: null,
@@ -312,21 +323,17 @@ const query = graphql`
         defaultBanner: banner
         defaultHreflangEn: hreflangEn
         defaultHreflangEs: hreflangEs
-        defaultHreflangEsEc: hreflangEsEc
+        defaultHreflangEsec: hreflangEsec
         headline
         siteLanguage
         ogLanguage
         author
         twitter
         facebook
+
       }
-      hreflang {
-        defaultEs: es
-        defaultEn: en
-        defaultEsEc: esEc
-        defaultDefault: Default
-        }
-      }
+
+
     }
   }
 `

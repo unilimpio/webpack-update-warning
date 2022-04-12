@@ -1,12 +1,12 @@
 ---
-path: "/export/sistema-dispensado-para-lavado-de-manos"
+path: "/export/es/sistema-dispensado-para-lavado-de-manos"
 category: "Higiene de Manos"
 categorySlug: "higiene-de-manos"
 title:  "Sistema Dispensado para Lavado de Manos"
 subtitle: "la solución para un adecuado lavado de manos"
 date: "2020-04-02"
 slug:  "lavado-de-manos"
-featuredImage:  "../../images/lavado-de-manos.jpg"
+featuredImage:  "../../../images/lavado-de-manos.jpg"
 lang: "es"
 
 ---
@@ -78,7 +78,7 @@ Encuentre diferentes modelos y colores:
           </tbody>
         </table> <br>
 
-COMPATIBLES CON LAS SIGUIENTES RECARGAS SELLADAS EN SACHET: 
+COMPATIBLES CON LAS SIGUIENTES RECARGAS SELLADAS EN SACHET:
 
 <br>
 <table class="min-w-full md:min-w-0 divide-y-0 divide-gray-200">
@@ -107,7 +107,7 @@ COMPATIBLES CON LAS SIGUIENTES RECARGAS SELLADAS EN SACHET:
               QUI0220
               </td>
               <td class=" px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
-               Jabón Espuma 
+               Jabón Espuma
               </td>
               <td class=" px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
                800 ml

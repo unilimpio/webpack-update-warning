@@ -1,16 +1,20 @@
 import React from 'react';
-import Layout from '../../components/layout/Layoutexport';
+import Layout from '../../../components/layout/Layoutexport';
 import { StaticImage } from "gatsby-plugin-image"
-import NewsletterSub from "../../components/NewsletterSub";
+import NewsletterSub from "../../../components/NewsletterSub";
 
-import Ubicaciones from '../../data/contact/ubicaciones';
+import Ubicaciones from '../../../data/contact/ubicaciones';
 
 
 const seo={
   title: "Contact Us",
   desc:  "Contactenos hoy.",
   image: "productos.jpg",
-  pathname: "/export/contacto/",
+  pathname: "/export/es/contacto/",
+  alternateEn: "/export/en/contact/",
+  alternateEs: "/export/es/contacto/",
+  alternateEsec: "/contactenos/",
+  alternateDefault: "/export/contacto"
 }
 
 const siteVerOpts = [
@@ -56,12 +60,13 @@ const Contact = ({location}) => (
 
   <Layout location={location} crumbLabel="Contáctenos"
           siteVerOpts={siteVerOpts} langOpts={langOpts}
+          alternates alternateEn={seo.alternateEn} alternateEs={seo.alternateEs} alternateEsec={seo.alternateEsec} alternateDefault={seo.alternateDefault}
             title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
 
 
 <div class="bg-fixed" >
 
-    <StaticImage src="../../images/banner-contactenos.jpg"
+    <StaticImage src="../../../images/banner-contactenos.jpg"
                 className="object-contain"
                 alt="Solicite una cotización con Unilimpio"
                 placeholder="blurred"

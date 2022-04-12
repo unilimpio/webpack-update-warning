@@ -19,6 +19,10 @@ const seo={
   desc:  "We manufacture hygienic solutions of the best quality for the whole region and the world",
   image: "productos.jpg",
   pathname: "/export/en/products/",
+  alternateEn: "/export/en/products/",
+  alternateEs: "/export/es/productos/",
+  alternateEsec: "/productos/",
+  alternateDefault: "/export/es/productos/"
 }
 
 const siteVerOpts = [
@@ -50,7 +54,7 @@ const langOpts = [
 
   {
     label: 'ES',
-    value: '/export/productos/',
+    value: '/export/es/productos/',
 
   },
 
@@ -60,6 +64,7 @@ const langOpts = [
 const Products = ({location}) => (
 
           <Layout location={location} crumbLabel="Products for export"
+          alternates alternateEn={seo.alternateEn} alternateEs={seo.alternateEs} alternateEsec={seo.alternateEsec} alternateDefault={seo.alternateDefault}
                   siteVerOpts={siteVerOpts} langOpts={langOpts}
                   title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
 
@@ -78,7 +83,7 @@ const Products = ({location}) => (
                       </div>
                     }
                     secondarySlot={
-                      <StaticImage src="../../images/productos-de-exportacion-unilimpio.jpg"
+                      <StaticImage src="../../../images/productos-de-exportacion-unilimpio.jpg"
                                   className=""
                                   alt="Productos de limpieza"
                                   placeholder="blurred"

@@ -16,7 +16,7 @@ const siteVerOpts = [
 
   {
     label: 'Internacional',
-    value: '/export/',
+    value: '/export-es/',
 
 
   },
@@ -45,7 +45,7 @@ const seo={
   title: "Trabaja con nosotros",
   desc:  "En esta sección encuentra todos los puestos vacantes que la empresa Unilimpio necesita",
   image: "grupo-unilimpio.jpg",
-  pathname: "/trabaja-con-nosotros",
+  pathname: "/trabaja-con-nosotros/",
 
 }
 

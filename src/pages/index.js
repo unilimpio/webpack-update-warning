@@ -28,7 +28,7 @@ const siteVerOpts = [
   },
   {
     label: 'Internacional',
-    value: "/export/",
+    value: "/export-es/",
 
   },
 
@@ -61,7 +61,7 @@ const IndexPage = ({  location }) => {
   return(
 
 <Layout location={location} crumbLabel="Home Ecuador"
-        siteVerOpts={siteVerOpts} langOpts={langOpts} >
+        siteVerOpts={siteVerOpts} langOpts={langOpts} alternates>
 
 
 

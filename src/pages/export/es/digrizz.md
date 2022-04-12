@@ -1,12 +1,12 @@
 ---
-path: "/export/digrizz"
+path: "/export/es/digrizz"
 category: "Industria Alimenticia"
 categorySlug: "industria-alimenticia"
 title:  "Digrizz"
 subtitle: "desengrasante multiusos"
 date: "2020-04-02"
 slug:  "digrizz"
-featuredImage:  "../../images/digrizz.jpg"
+featuredImage:  "../../../images/digrizz.jpg"
 lang: "es"
 
 

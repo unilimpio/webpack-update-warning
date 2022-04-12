@@ -54,7 +54,7 @@ const langOpts = [
 
   {
     label: 'ES',
-    value: '/export/',
+    value: '/export-es/',
 
   },
 
@@ -68,7 +68,7 @@ const Export = ({  location }) => {
 
   return(
 
-<Layout location={location} crumbLabel="Export Home" siteVerOpts={siteVerOpts} langOpts={langOpts}>
+<Layout location={location} crumbLabel="Export Home" siteVerOpts={siteVerOpts} langOpts={langOpts} alternates>
 
 
 
@@ -99,21 +99,21 @@ const Export = ({  location }) => {
                     alt="Unilimpio es una empresa con responsabilidad social empresarial."
                     placeholder="blurred"
                     layout="constrained"/>
-        </div> 
+        </div>
         <div class="flex flex-grow flex-shrink justify-center">
           <StaticImage src="../images/sello-bpm.jpg"
                     className="flex justify-center my-4"
                     alt="Unilimpio es una empresa con responsabilidad social empresarial."
                     placeholder="blurred"
                     layout="constrained"/>
-        </div> 
+        </div>
         <div class="flex flex-grow flex-shrink justify-center">
           <StaticImage src="../images/sello-mucho-mejor-ecuador.jpg"
                     className="flex justify-center my-4"
                     alt="Unilimpio es una empresa con responsabilidad social empresarial."
                     placeholder="blurred"
                     layout="constrained"/>
-        </div> 
+        </div>
       </div>
     </div>
   </div>
@@ -173,7 +173,7 @@ const Export = ({  location }) => {
           </Link>
         </div>
         </div>
-        
+
       }
       secondarySlot={
         <StaticImage src="../images/responsabilidad-social-banner.jpg"
@@ -321,7 +321,7 @@ const Export = ({  location }) => {
             <label for="phone" class="sr-only">Teléfono</label>
             <input type="text" name="phone" id="phone" autocomplete="tel" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border-gray-300 rounded-md" placeholder="Phone"/>
           </div>
-         
+
           <div>
             <label for="mensaje" class="sr-only">Mensaje</label>
             <textarea id="mensaje" name="mensaje" rows="4" class="block w-full shadow-sm py-3 px-4 placeholder-gray-500 focus:ring-indigo-500 focus:border-indigo-500 border border-gray-300 rounded-md" placeholder="Message"></textarea>

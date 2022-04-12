@@ -1,12 +1,12 @@
 ---
-path: "/export/jabon-espuma"
+path: "/export/es/jabon-espuma"
 category: "Higiene de Manos"
 categorySlug: "higiene-de-manos"
 title:  "Jabón Espuma"
 subtitle: "Ideal para negociaciones especiales"
 date: "2020-04-02"
 slug:  "jabon-espuma"
-featuredImage:  "../../images/jabon-espuma.jpg"
+featuredImage:  "../../../images/jabon-espuma.jpg"
 lang: "es"
 
 ---
@@ -69,5 +69,4 @@ Encuentre nuestro jabón espuma en varias presentaciones:
         <br>
 
  <a href="../../../files/FT-jabon-espuma-sin-antibacterial-exportacion.pdf" target="_blank" rel="noopener">Ficha Técnica sin antibacterial</a> |
- <a href="../../../files/FT-jabon-espuma-con-antibacterial-exportacion.pdf" target="_blank" rel="noopener">Ficha Técnica con antibacterial</a> 
- 
+ <a href="../../../files/FT-jabon-espuma-con-antibacterial-exportacion.pdf" target="_blank" rel="noopener">Ficha Técnica con antibacterial</a>

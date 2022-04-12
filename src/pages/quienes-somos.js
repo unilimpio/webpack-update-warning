@@ -17,7 +17,7 @@ const siteVerOpts = [
 
   {
     label: 'Internacional',
-    value: '/export/acerca-de',
+    value: '/export/es/acerca-de/',
 
 
   },
@@ -35,7 +35,7 @@ const langOpts = [
 
   {
     label: 'EN',
-    value: `/export/en/products`,
+    value: `/export/en/about-us/`,
 
   },
 
@@ -47,7 +47,11 @@ const seo={
   title: "¿Quiénes Somos?",
   desc:  "Unilimpio S.A. es una empresa orgullosamente ecuatoriana con más de 35 años ofreciendo soluciones de higiene, con productos de limpieza líderes del mercado. ",
   image: "grupo-unilimpio.jpg",
-  pathname: "/quienes-somos",
+  pathname: "/quienes-somos/",
+  alternateEs: "/export/es/acerca-de/",
+  alternateEn: "/export/en/about-us/",
+  alternateEsec: "/quienes-somos/",
+  alternateDefault: "/export/es/acerca-de/"
 }
 
 const QuienesSomos = ({ location }) => (
@@ -55,6 +59,7 @@ const QuienesSomos = ({ location }) => (
 
   <Layout location={location} crumbLabel="Quienes Somos"
   siteVerOpts={siteVerOpts} langOpts={langOpts}
+  alternates alternateEn={seo.alternateEn} alternateEs={seo.alternateEs} alternateEsec={seo.alternateEsec} alternateDefault={seo.alternateDefault}
   title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
 
     <StaticImage src="../images/grupo-unilimpio.jpg"

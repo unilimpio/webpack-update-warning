@@ -1,25 +1,23 @@
 ---
-path: "/export/bacterac-sanitizante-y-desinfectante-de-superficies"
-category: "Industria Alimenticia"
-categorySlug: "industria-alimenticia"
-title:  "Bacterac Sanitizante y Desinfectante de Superficies"
-subtitle: "con amonio cuaternario"
+path: "/export/es/jabon-liquido-antibacterial"
+category: "Higiene de Manos"
+categorySlug: "higiene-de-manos"
+title:  "Jabón Líquido Antibacterial"
+subtitle: "para una adecuada higiene de manos"
 date: "2020-04-02"
-slug:  "digrizz"
-featuredImage:  "../../images/desinfectante-con-amonio-cuaternario.jpg"
+slug:  "jabon-liquido-antibacterial"
+featuredImage:  "../../../images/jabon-liquido-antibacterial.jpg"
 lang: "es"
 
-
 ---
-• Desinfectante de superficies inertes altamente concentrado. <br/>
-• Formulado a partir de amonios cuaternarios de quinta generación como ingrediente activo.<br/>
-• Sus componentes están aprobados por FDA, para trabajar en altas diluciones.<br/>
-• Usado correctamente presenta una disminución de la carga microbiana* de 5 log (99.999%) incluyendo virus envueltos como el SARS-CoV2 causante del Covid-19+.<br/><br/>
+• Enriquecido con glicerina que protege las manos de la resequedad.<br/>
+• Elimina el 99,9% de gérmenes causantes de enfermedades en 30 seg.<br/>
+• Elimina el COVID-19.<br/><br/>
 
-Encuentre nuestros desinfectantes con amonio cuaternario en varias presentaciones:
+Encuentre nuestro jabón líquido antibacterial en varias presentaciones:
 
- <br/>
-<table class="table-auto divide-y-0 divide-gray-200">
+<br>
+<table class="min-w-full md:min-w-0 divide-y-0 divide-gray-200">
           <thead class=" bg-white">
             <tr>
               <th scope="col" class="px-2 py-2 text-center text-xs font-medium text-white bg-primary-default  tracking-wider">
@@ -28,10 +26,7 @@ Encuentre nuestros desinfectantes con amonio cuaternario en varias presentacione
               <th scope="col" class="px-2 py-2 text-center text-xs font-medium text-white bg-primary-lighter  tracking-wider">
                 Presentación
               </th>
-              <th scope="col" class="px-2 py-2 text-center text-xs font-medium text-white bg-primary-default  tracking-wider">
-                Tipo
-              </th>
-               <th scope="col" class="px-2 py-2 text-center text-xs font-medium text-white bg-primary-lighter tracking-wider">
+              <th scope="col" class="px-2 py-2 text-center text-xs font-medium text-white bg-primary-default tracking-wider">
                 Aroma
               </th>
             </tr>
@@ -39,116 +34,128 @@ Encuentre nuestros desinfectantes con amonio cuaternario en varias presentacione
           <tbody>
             <tr class="bg-gray-300">
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
-              QUI0915
+              QUI0263
               </td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
-              250 ml
+              400 ml
               </td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
-              RTU 
-              </td>
-              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
-              Lavanda 
+              Almendra
               </td>
             </tr>
-          </tbody>
-          <tbody>
             <tr class="bg-gray-100">
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
-              QUI0927
+              QUI0264
               </td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
-              250 ml
+              400 ml
               </td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
-              RTU 
-              </td>
-              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
-              Neutro 
+              Durazno
               </td>
             </tr>
-          </tbody>
-          <tbody>
             <tr class="bg-gray-300">
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
-              QUI0914
+              QUI0265
               </td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
-              600 ml
+              400 ml
               </td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
-              RTU 
-              </td>
-              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
-              Lavanda 
+              Manzana
               </td>
             </tr>
-          </tbody>
-          <tbody>
             <tr class="bg-gray-100">
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
-              QUI0926
+              QUI0156
               </td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
-              600 ml
+              1000 ml
               </td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
-              RTU 
-              </td>
-              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
-              Neutro 
+              Almendra
               </td>
             </tr>
-          </tbody>
-          <tbody>
             <tr class="bg-gray-300">
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
-              QUI0913
+              QUI0158
+              </td>
+              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
+              1000 ml
+              </td>
+              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
+              Durazno
+              </td>
+            </tr>
+            <tr class="bg-gray-100">
+              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
+              QUI0160
+              </td>
+              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
+              1000 ml
+              </td>
+              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
+              Manzana
+              </td>
+            </tr>
+             <tr class="bg-gray-300">
+              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
+              QUI0871
+              </td>
+              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
+              1900 ml
+              </td>
+              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
+              Almendra
+              </td>
+            </tr>
+             <tr class="bg-gray-100">
+              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
+              QUI0870
+              </td>
+              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
+              1900 ml
+              </td>
+              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
+              Durazno
+              </td>
+            </tr>
+             <tr class="bg-gray-300">
+              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
+              QUI0074
               </td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
               3785 ml
               </td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
-              RTU 
-              </td>
-              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
-              Lavanda 
+              Almendra
               </td>
             </tr>
-          </tbody>
-          <tbody>
-            <tr class="bg-gray-100">
+             <tr class="bg-gray-100">
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
-              QUI0925
+              QUI0075
               </td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
               3785 ml
               </td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
-              RTU 
-              </td>
-              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
-              Neutro 
+              Durazno
               </td>
             </tr>
-          </tbody>
-          <tbody>
-            <tr class="bg-gray-300">
+             <tr class="bg-gray-300">
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
-              QUI0102
+              QUI0076
               </td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
               3785 ml
               </td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
-              Concentrado 1 en 200
-              </td>
-              <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
-              Característico 
+              Manzana
               </td>
             </tr>
           </tbody>
         </table>
         <br>
 
- 
+ <a href="../../../files/FT-jabon-liquido-exportacion.pdf" target="_blank" rel="noopener">Ficha Técnica</a> |
+ <a href="../../../files/MSDS-jabon-liquido-antibacterial.pdf" target="_blank" rel="noopener">Hoja de Seguridad</a>
