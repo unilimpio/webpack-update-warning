@@ -8,7 +8,7 @@ date: "2020-04-02"
 slug:  "toallas-humedas-desinfectantes"
 featuredImage:  "../../../images/toallas-humedas-desinfectantes-y-desengrasantes.jpg"
 lang: "es"
-
+alternate: "disinfectant-wipes"
 
 ---
 • Formuladas para limpiar, desengrasar y desinfectar en un solo paso. <br/>
@@ -40,4 +40,9 @@ lang: "es"
         </table>
         <br>
 
+<<<<<<< HEAD:src/pages/export/toallas-humedas-desinfectantes.md
+ <a href="../../../files/FT-exportacion-toallas-humedas-desinfectantes.pdf" target="_blank" rel="noopener">Ficha Técnica</a> |
+ 
+=======
  <a href="../../../files/FT-toallas-humedas-desinfectantes.pdf" target="_blank" rel="noopener">Ficha Técnica</a> |
+>>>>>>> hreflang-implementation:src/pages/export/es/toallas-humedas-desinfectantes.md

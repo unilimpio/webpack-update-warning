@@ -157,5 +157,5 @@ Find our antibacterial liquid soap in several presentations:
         </table>
         <br>
 
- <a href="../../../files/FT-jabon-liquido-exportacion.pdf" target="_blank" rel="noopener">Technical data</a> |
+ <a href="../../../files/FT-exportacion-jabon-liquido-antibacterial.pdf" target="_blank" rel="noopener">Technical data</a> |
  <a href="../../../files/MSDS-jabon-liquido-antibacterial.pdf" target="_blank" rel="noopener">Material Safety Data Sheet</a>

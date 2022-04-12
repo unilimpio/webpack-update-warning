@@ -100,8 +100,8 @@ const Products = ({location}) => (
 
 
 
-<section id="categorias productos" className=" mt-0">
-<h2 className="text-primary-default font-medium title-font text-center  text-3xl mt-6 ">Oferta de Productos de Exportación </h2>
+<section id="categorias productos" className=" mt-16">
+<h2 className="text-primary-default font-medium title-font text-center  text-3xl">Oferta de Productos de Exportación </h2>
 <div class="relative bg-white px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
   <div class="absolute inset-0">
     <div class="bg-white h-1/3 sm:h-2/3"></div>
@@ -116,35 +116,35 @@ const Products = ({location}) => (
           <div class="flex-1">
               <p class="text-lg font-semibold text-secondary-lighter text-center">Higiene de Manos
              </p>
-             <div className="flex flex-wrap ">
+             <div className=" ">
                 <Link className="mx-auto text-primary-default inline-flex items-center" to='../sistema-dispensado-para-lavado-de-manos'>Sistema Dispensado para Lavado de Manos
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                     </svg>
                 </Link>
               </div>
-              <div className="flex flex-wrap  ">
+              <div className=" ">
                 <Link className="mx-auto text-primary-default inline-flex items-center" to='../sistema-dispensado-para-desinfeccion-de-manos'>Sistema Dispensado para Desinfección de Manos
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                     </svg>
                 </Link>
               </div>
-              <div className="flex flex-wrap ">
+              <div className=" ">
                 <Link className="mx-auto text-primary-default inline-flex items-center " to='../jabon-liquido-antibacterial'>Jabón Líquido Antibacterial
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                     </svg>
                 </Link>
               </div>
-              <div className="flex flex-wrap">
+              <div className="">
                 <Link className="mx-auto text-primary-default inline-flex items-center" to='../gel-antibacterial'>Gel Antibacterial
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                     </svg>
                 </Link>
               </div>
-              <div className="flex flex-wrap">
+              <div className="">
                 <Link className="mx-auto text-primary-default inline-flex items-center" to='../jabon-espuma'>Jabón Espuma
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -166,35 +166,35 @@ const Products = ({location}) => (
           <div class="flex-1">
               <p class="text-lg font-semibold text-secondary-lighter text-center">Industria Alimenticia
               </p>
-              <div className="flex flex-wrap">
+              <div className="">
                 <Link className="mx-auto text-primary-default inline-flex items-center" to='../bacterac-sanitizante-y-desinfectante-de-superficies'>Bacterac Sanitizante y Desinfectante de Superficies
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                     </svg>
                 </Link>
               </div>
-              <div className="flex flex-wrap">
+              <div className="">
                 <Link className="mx-auto text-primary-default inline-flex items-center" to='../digrizz'>Digrizz
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                     </svg>
                 </Link>
               </div>
-              <div className="flex flex-wrap">
+              <div className="">
                 <Link className="mx-auto text-primary-default inline-flex items-center" to='../organic-100'>Organic 100
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                     </svg>
                 </Link>
               </div>
-              <div className="flex flex-wrap">
+              <div className="">
                 <Link className="mx-auto text-primary-default inline-flex items-center" to='../toallas-humedas-desinfectantes'>Toallas Húmedas Desinfectantes
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                     </svg>
                 </Link>
               </div>
-              <div className="flex flex-wrap">
+              <div className="">
                 <Link className="mx-auto text-primary-default inline-flex items-center" to='../panos-reutilizables-workpro'>Paños de Limpieza Workpro
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -215,15 +215,16 @@ const Products = ({location}) => (
         <div class="flex-1 bg-white p-6 flex flex-col justify-between">
           <div class="flex-1">
               <p class="text-lg font-semibold text-secondary-lighter text-center">Dispensadores</p>
-              <div className="flex flex-wrap ">
-                <Link className="mx-auto text-primary-default inline-flex items-center" to='../dispensador-papel-higienico-unilimpio'>Dispensador de Papel Higiénico Jumbo
+              <div className=" ">
+                <Link className="mx-auto text-primary-default inline-flex items-center" to='../dispensador-papel-higienico-unilimpio'> Dispensador de Papel Higiénico Jumbo
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                     </svg>
                 </Link>
               </div>
-              <div className="flex flex-wrap">
-                <Link className="mx-auto text-primary-default inline-flex items-center" to='../dispensador-toalla-z-unilimpio'>Dispensador de Toalla Z
+              <div className="">
+                <Link className="mx-auto text-primary-default inline-flex items-center" to='../dispensador-toalla-z-unilimpio'>
+                  Dispensador de Toalla Z
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                     </svg>
@@ -246,12 +247,35 @@ const Products = ({location}) => (
 
 
             <section id="boton descargar catalogo" className="">
+<<<<<<< HEAD:src/pages/export/productos.js
+                <div className="w-full mx-auto mb-10 mt-2 ">
+                  <a href="../../files/catalogo-exportacion-unilimpio.pdf" target="_blank" rel="noopener" className="">
+                    <Button className="flex mx-auto  text-white bg-primary-default border-0 py-2 px-8 focus:outline-none hover:bg-primary-lighter rounded text-lg"  >Descargar Catálogo </Button>
+=======
                 <div className="w-full mx-auto mb-10">
                   <a href="../../../files/catalogo-exportacion-unilimpio.pdf" target="_blank" rel="noopener" className="">
                     <Button className="flex mx-auto mt-16 text-white bg-primary-default border-0 py-2 px-8 focus:outline-none hover:bg-primary-lighter rounded text-lg"  >Descargar Catálogo </Button>
+>>>>>>> hreflang-implementation:src/pages/export/es/productos.js
                     </a>
                 </div>
             </section>
+
+            
+<section id="contacto" className="my-10">
+  <div className="w-full mx-auto  py-8 px-2 sm:px-8 lg:px-40 bg-white bg-opacity-50 text-center">
+    <div className="mx:auto bg-gray-300 bg-opacity-50 rounded-xl py-4">
+      <h2 className="mt-4 text-xl sm:text-2xl md:text-3xl font-bold text-primary-default">¡SOLICITE UNA COTIZACIÓN AHORA!</h2>
+      <p className="mx-auto mt-8 mb-2 text-xl font-normal px-2 sm:px-4 md:px-40">
+       Nuestros asesores están gustosos de ponerse en contacto con usted para brindarle mayor información de nuestros productos de higiene profesional y enviarle una cotización. 
+      </p>
+      <div className="flex flex-wrap mx-auto justify-center">
+         <Link to="/export/contacto/">
+          <Button className="text-white mt-4 mb-4 rounded-xl transition duration-200 ease-in-out bg-primary-default shadow-md hover:bg-secondary-lighter hover:shadow-lg transform hover:-translate-y-1 hover:scale-105 focus:outline-none" size="lg" type="submit">Cotizar</Button>
+        </Link>
+      </div>
+    </div>
+  </div>
+</section>
 
             <NewsletterSub/>
 

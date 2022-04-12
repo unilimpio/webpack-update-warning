@@ -8,6 +8,7 @@ date: "2020-04-02"
 slug:  "digrizz"
 featuredImage:  "../../../images/desinfectante-con-amonio-cuaternario.jpg"
 lang: "es"
+alternate: "bacterac-surface-sanitizer-and-disinfectant"
 
 
 ---
@@ -150,3 +151,9 @@ Encuentre nuestros desinfectantes con amonio cuaternario en varias presentacione
           </tbody>
         </table>
         <br>
+<<<<<<< HEAD:src/pages/export/desinfectante-con-amonio-cuaternario.md
+
+ <a href="../../../files/FT-bacterac-exportacion.pdf" target="_blank" rel="noopener">Ficha Técnica Bacterac</a>
+ 
+=======
+>>>>>>> hreflang-implementation:src/pages/export/es/desinfectante-con-amonio-cuaternario.md

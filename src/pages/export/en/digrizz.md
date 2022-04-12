@@ -6,7 +6,7 @@ title:  "Digrizz"
 subtitle: "multipurpose degreaser"
 date: "2020-04-02"
 slug:  "digrizz"
-featuredImage:  "../../../images/digrizz.jpg"
+featuredImage:  "../../../images/digrizz-exportacion.jpg"
 lang: "en"
 alternate: "digrizz"
 
@@ -53,5 +53,5 @@ alternate: "digrizz"
         </table>
         <br>
 
- <a href="../../../files/FT-digrizz-exportacion.pdf" target="_blank" rel="noopener">Technical Data</a> |
+ <a href="../../../files/FT-exportacion-digrizz.pdf" target="_blank" rel="noopener">Technical Data</a> |
  <a href="../../../files/MSDS-digrizz.pdf" target="_blank" rel="noopener">Material Safety Data Sheet</a>

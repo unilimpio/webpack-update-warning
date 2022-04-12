@@ -8,6 +8,7 @@ date: "2020-04-02"
 slug:  "jabon-liquido-antibacterial"
 featuredImage:  "../../../images/jabon-liquido-antibacterial.jpg"
 lang: "es"
+alternate: "antibacterial-liquid-soap"
 
 ---
 • Enriquecido con glicerina que protege las manos de la resequedad.<br/>
@@ -157,5 +158,5 @@ Encuentre nuestro jabón líquido antibacterial en varias presentaciones:
         </table>
         <br>
 
- <a href="../../../files/FT-jabon-liquido-exportacion.pdf" target="_blank" rel="noopener">Ficha Técnica</a> |
+ <a href="../../../files/FT-exportacion-jabon-liquido-antibacterial.pdf" target="_blank" rel="noopener">Ficha Técnica</a> |
  <a href="../../../files/MSDS-jabon-liquido-antibacterial.pdf" target="_blank" rel="noopener">Hoja de Seguridad</a>

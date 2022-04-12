@@ -48,3 +48,4 @@ Find different models and colors:
           </tbody>
         </table><br/>
          
+ <a href="../../../files/FT-exportacion-dispensador-papel-higienico-jumbo.pdf" target="_blank" rel="noopener">Technical Data</a> 

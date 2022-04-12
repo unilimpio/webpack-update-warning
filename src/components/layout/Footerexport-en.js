@@ -64,7 +64,7 @@ const Footer = () => (
            <Link to="/export/en/social-responsability" className="text-white hover:text-gray-400"> Social Responsibility</Link>
           </li>
           <li>
-            <Link to="/export/en/denounces-acts-of-corruption" className="text-white hover:text-gray-400">Denounces acts of corruption</Link>
+            <Link to="/export/en/report-corruption/" className="text-white hover:text-gray-400">Reporting acts of corruption</Link>
           </li>
           </ul>
         </nav>

@@ -24,7 +24,7 @@ const HeroBanner = () => (
                 <p>We manufacture professional hygiene solutions for the whole american market.</p>
                 <div className="flex flex-wrap mx-auto justify-center mt-8 md:mt-12 mb-20">
 
-                <Link to="#contact">
+                <Link to="/export/en/contact/">
                   <Button className=" bg-primary-default text-white hover:bg-primary-lighter rounded-lg active:bg-primary-darker focus:outline-none" size="lg">Request a quotation</Button>
                 </Link>
                 </div>

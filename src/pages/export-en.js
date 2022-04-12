@@ -156,9 +156,9 @@ const Export = ({  location }) => {
 
 
 <SplitSection id="rse"
-      reverseOrder className="bg-gradient-to-r from-green-200 via-white to-green-100 py-4 my-20 mt-4"
+      reverseOrder className="bg-gradient-to-r from-secondary-lighter via-white to-secondary-lighter py-4 my-20 mt-4"
       primarySlot={
-        <div className="bg-white bg-opacity-50 rounded-lg my-4  px-6 py-6 mx-6">
+        <div className="bg-white bg-opacity-50 rounded-lg my-12  px-6 py-6 mx-6">
           <h3 className="text-3xl font-semibold leading-tight text-center">
           We are a socially responsible company
           </h3>
@@ -176,8 +176,8 @@ const Export = ({  location }) => {
 
       }
       secondarySlot={
-        <StaticImage src="../images/responsabilidad-social-banner.jpg"
-                    className="flex justify-center my-4"
+        <StaticImage src="../images/responsabilidad-social-banner-prueba.jpg"
+                    className="flex justify-center my-4 mx-4"
                     alt="Unilimpio es una empresa con responsabilidad social empresarial."
                     placeholder="blurred"
                     layout="constrained"
@@ -282,6 +282,23 @@ const Export = ({  location }) => {
 </div>
 </section>
 
+<<<<<<< HEAD
+
+
+
+
+<section id="contact" className="my-10">
+  <div className="w-full mx-auto  py-8 px-2 sm:px-8 lg:px-40 bg-white bg-opacity-50 text-center">
+    <div className="mx:auto bg-gray-300 bg-opacity-50 rounded-xl py-4">
+      <h2 className="mt-4 text-xl sm:text-2xl md:text-3xl font-bold text-primary-default">¡REQUEST A QUOTE NOW!</h2>
+      <p className="mx-auto mt-8 mb-2 text-xl font-normal px-2 sm:px-4 md:px-40">
+      Our consultants will be happy to contact you to provide you with more information about our professional hygiene products and to send you a quotation. 
+      </p>
+      <div className="flex flex-wrap mx-auto justify-center">
+         <Link to="/export/en/contact/">
+          <Button className="text-white mt-4 mb-4 rounded-xl transition duration-200 ease-in-out bg-primary-default shadow-md hover:bg-secondary-lighter hover:shadow-lg transform hover:-translate-y-1 hover:scale-105 focus:outline-none" size="lg" type="submit">Quote</Button>
+        </Link>
+=======
 <section id="contact" className="relative bg-white mt-20">
 <div class="relative bg-white">
   <div class="absolute inset-0">
@@ -332,10 +349,10 @@ const Export = ({  location }) => {
             </button>
           </div>
         </form>
+>>>>>>> hreflang-implementation
       </div>
     </div>
   </div>
-</div>
 </section>
 
 

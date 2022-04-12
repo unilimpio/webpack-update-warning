@@ -58,8 +58,12 @@ const Contact = ({location}) => (
 
 
 
+<<<<<<< HEAD
+  <Layout location={location} crumbLabel="Contact"
+=======
   <Layout location={location} crumbLabel="Contacto"
   alternates alternateEn={seo.alternateEn} alternateEs={seo.alternateEs} alternateEsec={seo.alternateEsec} alternateDefault={seo.alternateDefault}
+>>>>>>> hreflang-implementation
           siteVerOpts={siteVerOpts} langOpts={langOpts}
           title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
 

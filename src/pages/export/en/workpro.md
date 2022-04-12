@@ -7,7 +7,8 @@ subtitle: "reusable and disposable"
 date: "2020-04-02"
 slug:  "workpro-cleaning-cloths"
 featuredImage:  "../../../images/panos-de-limpieza-workpro.jpg"
-lang: "es"
+lang: "en"
+alternate: "panos-reutilizables-workpro"
 
 
 ---

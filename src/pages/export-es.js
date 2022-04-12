@@ -155,7 +155,7 @@ const Export = ({  location }) => {
 <SplitSection id="rse"
       reverseOrder className="bg-gradient-to-r from-secondary-lighter via-white to-secondary-lighter  py-4 my-20 mt-4"
       primarySlot={
-        <div className="bg-white bg-opacity-50 rounded-lg my-4  px-6 py-6 mx-6">
+        <div className="bg-white bg-opacity-50 rounded-lg my-12   px-6 py-6 mx-6">
           <h3 className="text-3xl font-semibold leading-tight text-center">
             Somos una empresa socialmente responsable
           </h3>
@@ -172,8 +172,8 @@ const Export = ({  location }) => {
         </div>
       }
       secondarySlot={
-        <StaticImage src="../images/responsabilidad-social-banner.jpg"
-                    className="flex justify-center my-4"
+        <StaticImage src="../images/responsabilidad-social-banner-prueba.jpg"
+                    className="flex justify-center my-4 mx-4"
                     alt="Unilimpio es una empresa con responsabilidad social empresarial."
                     placeholder="blurred"
                     layout="constrained"
@@ -283,6 +283,19 @@ const Export = ({  location }) => {
 
 
 
+<<<<<<< HEAD:src/pages/export.js
+<section id="contacto" className="my-10">
+  <div className="w-full mx-auto  py-8 px-2 sm:px-8 lg:px-40 bg-white bg-opacity-50 text-center">
+    <div className="mx:auto bg-gray-300 bg-opacity-50 rounded-xl py-4">
+      <h2 className="mt-4 text-xl sm:text-2xl md:text-3xl font-bold text-primary-default">¡SOLICITE UNA COTIZACIÓN AHORA!</h2>
+      <p className="mx-auto mt-8 mb-2 text-xl font-normal px-2 sm:px-4 md:px-40">
+       Nuestros asesores están gustosos de ponerse en contacto con usted para brindarle mayor información de nuestros productos de higiene profesional y enviarle una cotización. 
+      </p>
+      <div className="flex flex-wrap mx-auto justify-center">
+         <Link to="/export/contacto/">
+          <Button className="text-white mt-4 mb-4 rounded-xl transition duration-200 ease-in-out bg-primary-default shadow-md hover:bg-secondary-lighter hover:shadow-lg transform hover:-translate-y-1 hover:scale-105 focus:outline-none" size="lg" type="submit">Cotizar</Button>
+        </Link>
+=======
 
 <section id="contactenos" className="relative bg-white mt-20">
 <div class="relative bg-white">
@@ -334,11 +347,15 @@ const Export = ({  location }) => {
             </button>
           </div>
         </form>
+>>>>>>> hreflang-implementation:src/pages/export-es.js
       </div>
     </div>
   </div>
-</div>
 </section>
+
+
+
+
 
 <NewsletterSub/>
 

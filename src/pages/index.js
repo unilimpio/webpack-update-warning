@@ -158,7 +158,7 @@ const IndexPage = ({  location }) => {
 />
 
 <SplitSection id="rse"
-      reverseOrder className="bg-gradient-to-r from-green-200 via-white to-green-100 py-4 my-20 mt-4"
+      reverseOrder className="bg-gradient-to-r from-secondary-lighter via-white to-secondary-lighter py-4 my-20 mt-4"
       primarySlot={
         <div className="bg-white bg-opacity-50 rounded-lg my-4  px-6 py-6 mx-6">
           <h3 className="text-3xl font-semibold leading-tight text-center">
