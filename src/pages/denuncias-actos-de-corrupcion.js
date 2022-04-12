@@ -27,7 +27,7 @@ const langOpts = [
 
   {
     label: 'ES',
-    value: '/export/denuncias-actos-de-corrupcion/',
+    value: '/export/es/denuncias-actos-de-corrupcion/',
 
   },
 
@@ -44,7 +44,12 @@ const langOpts = [
 const seo={
   title: "Unilimpio ha declarado y formalizado su compromiso de luchar contra la corrupción en cada uno de los encadenamientos productivos a los que pertenecemos.",
   image: "denuncia-actos-de-corrupcion.jpg",
-  pathname: "/denuncias-actos-de-corrupcion",
+  pathname: "/denuncias-actos-de-corrupcion/",
+  alternateEn: "/export/en/report-corruption/",
+  alternateEs: "/export/es/denuncias-actos-de-corrupcion/",
+  alternateEsec: "/denuncias-actos-de-corrupcion/",
+  alternateDefault: "/export/es/denuncias-actos-de-corrupcion/"
+
 }
 
 export default function Named  ({location}) {

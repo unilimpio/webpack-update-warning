@@ -3,8 +3,8 @@ import React from 'react';
 import { StaticImage } from "gatsby-plugin-image"
 
 
-import Layout from '../../components/layout/Layoutexport';
-import NewsletterSub from "../../components/NewsletterSub";
+import Layout from '../../../components/layout/Layoutexport';
+import NewsletterSub from "../../../components/NewsletterSub";
 
 
 
@@ -13,7 +13,11 @@ import NewsletterSub from "../../components/NewsletterSub";
 const seo={
   title: "Unilimpio ha declarado y formalizado su compromiso de luchar contra la corrupción en cada uno de los encadenamientos productivos a los que pertenecemos.",
   image: "denuncia-actos-de-corrupcion.jpg",
-  pathname: "/export/denuncias-actos-de-corrupcion",
+  pathname: "/export/es/denuncias-actos-de-corrupcion",
+  alternateEn: "/export/en/report-corruption/",
+  alternateEs: "/export/es/denuncias-actos-de-corrupcion/",
+  alternateEsec: "/denuncias-actos-de-corrupcion/",
+  alternateDefault: "/export/es/denuncias-actos-de-corrupcion/"
 
 }
 
@@ -46,7 +50,7 @@ const langOpts = [
 
   {
     label: 'EN',
-    value: '/export/en/denounces-acts-of-corruption',
+    value: '/export/en/report-corruption',
 
   },
 
@@ -57,11 +61,12 @@ const Denuncias = ({location}) => (
 
           <Layout location={location} crumbLabel="Denuncias"
             siteVerOpts={siteVerOpts} langOpts={langOpts}
+            alternates alternateEn={seo.alternateEn} alternateEs={seo.alternateEs} alternateEsec={seo.alternateEsec} alternateDefault={seo.alternateDefault}
             title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
 
 <div className="bg-fixed" >
 
-<StaticImage src="../images/denuncia-actos-de-corrupcion.jpg"
+<StaticImage src="../../../images/denuncia-actos-de-corrupcion.jpg"
             className="object-contain"
             alt="Actos de Corrupción"
             placeholder="blurred"

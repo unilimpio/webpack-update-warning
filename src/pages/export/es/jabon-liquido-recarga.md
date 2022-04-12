@@ -1,12 +1,12 @@
 ---
-path: "/export/jabon-liquido-recarga"
+path: "/export/es/jabon-liquido-recarga"
 category: "Higiene de Manos"
 categorySlug: "higiene-de-manos"
 title:  "Jabón Líquido Recarga para dispensador"
 subtitle: "Para una adecuada higiene de manos"
 date: "2020-04-02"
 slug:  "jabon-liquido-recarga"
-featuredImage:  "../../images/jabon-sistema-cerrado.jpg"
+featuredImage:  "../../../images/jabon-sistema-cerrado.jpg"
 lang: "es"
 alternate: "lotion-soap-sealed-cartdridge"
 

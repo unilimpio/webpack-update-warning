@@ -1,32 +1,30 @@
 ---
-path: "/export/dispensador-toalla-z-unilimpio"
+path: "/export/es/dispensador-papel-higienico-unilimpio"
 category: "Dispensadores"
 categorySlug: "dispensadores"
-title:  "Dispensador de Toalla en Z Unilimpio"
-subtitle: "controla la dispensación del producto"
+title:  "Dispensador de Papel Higiénico Unilimpio"
+subtitle: "para papel higiénico Jumbo"
 date: "2020-04-02"
-slug:  "dispensador-toalla-z-unilimpio"
-featuredImage:  "../../images/dispensador-toalla-z-unilimpio-exportacion.jpg"
+slug:  "dispensador-papel-higienico-unilimpio"
+featuredImage:  "../../../images/dispensador-ph-exportacion.jpg"
 lang: "es"
-alternate: "z-towel-dispenser"
+alternate: "toilet-paper-dispenser"
 
 ---
 • Fabricados con plástico ABS, resistentes y con propiedades antivandalismo.<br/>
 • Personalizados.<br/>
 • Controla la dispensación del producto.<br/>
-• Previene la contaminación al colocar una mayor cantidad de toalla, disminuyendo así el número de recambios.<br/>
-
-<br/>
+• Previene la contaminación al colocar una mayor cantidad de papel higiénico, disminuyendo así el número de recambios.<br/><br/>
 
 Encuentre diferentes modelos y colores:
 <br><br>
-<table class="min-w-full md:min-w-0 divide-y-0 divide-gray-200">
+<table class="table-auto  divide-y-0 divide-gray-200">
           <thead class=" bg-white">
             <tr>
               <th scope="col" class="px-2 py-2 text-center text-xs font-medium text-white bg-primary-default  tracking-wider">
                 Código
               </th>
-              <th scope="col" class="px-2 py-2 text-center text-xs font-medium text-white bg-primary-lighter  tracking-wider">
+              <th scope="col" class="px-2 py-2 text-center text-xs font-medium text-white bg-primary-lighter tracking-wider">
                 Color
               </th>
             </tr>
@@ -34,7 +32,7 @@ Encuentre diferentes modelos y colores:
           <tbody>
             <tr class="bg-gray-100">
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
-              DIS0019
+              DIS0003
               </td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
                Blanco
@@ -42,7 +40,7 @@ Encuentre diferentes modelos y colores:
             </tr>
             <tr class="bg-gray-300">
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
-              DIS0143
+              DIS0142
               </td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
               Silver
@@ -50,5 +48,8 @@ Encuentre diferentes modelos y colores:
             </tr>
           </tbody>
         </table><br/>
-    
- <a href="../../../files/FT-exportacion-dispensador-toalla-z.pdf" target="_blank" rel="noopener">Ficha Técnica</a> 
+<<<<<<< HEAD:src/pages/export/dispensador-papel-higienico-unilimpio.md
+         
+ <a href="../../../files/FT-exportacion-dispensador-papel-higienico-jumbo.pdf" target="_blank" rel="noopener">Ficha Técnica</a> 
+=======
+>>>>>>> hreflang-implementation:src/pages/export/es/dispensador-papel-higienico-unilimpio.md

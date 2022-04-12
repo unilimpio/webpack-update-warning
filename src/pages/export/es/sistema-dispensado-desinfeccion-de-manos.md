@@ -1,12 +1,16 @@
 ---
-path: "/export/sistema-dispensado-para-desinfeccion-de-manos"
+path: "/export/es/sistema-dispensado-para-desinfeccion-de-manos"
 category: "Higiene de Manos"
 categorySlug: "higiene-de-manos"
 title:  "Sistema Dispensado para Desinfección de Manos"
 subtitle: "la solución para una adecuada desinfección de manos"
 date: "2020-04-02"
 slug:  "desinfeccion-de-manos"
+<<<<<<< HEAD:src/pages/export/sistema-dispensado-desinfeccion-de-manos.md
 featuredImage:  "../../images/sistema-para-desinfeccion-de-manos.jpg"
+=======
+featuredImage:  "../../../images/desinfeccion-de-manos.jpg"
+>>>>>>> hreflang-implementation:src/pages/export/es/sistema-dispensado-desinfeccion-de-manos.md
 lang: "es"
 alternate: "dispensing-system-for-hand-disinfection"
 
@@ -77,7 +81,7 @@ COMPATIBLES CON LAS SIGUIENTES RECARGAS SELLADAS EN SACHET:
               QUI0550
               </td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
-               Gel Antibacterial 
+               Gel Antibacterial
               </td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
                500 ml

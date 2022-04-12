@@ -24,7 +24,7 @@ const siteVerOpts = [
 
   {
     label: 'Internacional',
-    value: '/export/contacto',
+    value: '/export/es/contacto',
 
 
   },
@@ -42,7 +42,7 @@ const langOpts = [
 
   {
     label: 'EN',
-    value: `/export-en`,
+    value: `/export-en/`,
 
   },
 
@@ -54,6 +54,10 @@ const seo={
   desc:  "Canales de contacto. Estamos listos para atendelro directamente o a través nuestra extensa red de Distribuidores de productos de limpieza en QUito, Guayaquil y Cuenca y a nivel nacional.",
   image: "productos.jpg",
   pathname: "/contactenos",
+  alternateEn: "/export/en/contact/",
+  alternateEs: "/export/es/contacto/",
+  alternateEsec: "/contactenos/",
+  alternateDefault: "/export/es/contacto/"
 }
 
 const Contactenos = ({location}) => (
@@ -63,6 +67,7 @@ const Contactenos = ({location}) => (
 
   <Layout location={location} crumbLabel="Contáctenos"
   siteVerOpts={siteVerOpts} langOpts={langOpts}
+  alternates
   title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
 
 

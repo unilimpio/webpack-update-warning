@@ -52,14 +52,14 @@ const NavbarLinks = () => {
     <>
 
 
-        <NavItem to="/export/" className="hover:no-underline"><HomeIcon className="h-6 w-6"/></NavItem>
-        <NavItem to="/export/productos/" className="hover:no-underline">Productos</NavItem>
+        <NavItem to="/export-es/" className="hover:no-underline"><HomeIcon className="h-6 w-6"/></NavItem>
+        <NavItem to="/export/es/productos/" className="hover:no-underline">Productos</NavItem>
 
 
-        <NavItem to="/export/acerca-de/" className="hover:no-underline">Acerca de</NavItem>
+        <NavItem to="/export/es/acerca-de/" className="hover:no-underline">Acerca de</NavItem>
 
 
-        <Link to="/export/contacto/">
+        <Link to="/export/es/contacto/">
           <Button className="text-white rounded-md transition duration-300 ease-in-out bg-primary-default shadow-md hover:bg-primary-xlighter hover:shadow-lg transform hover:-translate-y-1 hover:scale-105 focus:outline-none" size="sm" >Solicite una cotización</Button>
         </Link>
 

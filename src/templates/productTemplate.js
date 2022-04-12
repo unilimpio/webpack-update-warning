@@ -30,7 +30,7 @@ export default function productTemplate({
 
     {
       label: 'Internacional',
-      value: '/export/productos/',
+      value: '/export/es/productos/',
 
 
     },
@@ -61,6 +61,7 @@ export default function productTemplate({
 
     <Layout location={location} crumbLabel={frontmatter.title}
     siteVerOpts={siteVerOpts} langOpts={langOpts}
+     alternateEn={frontmatter.alternateEn} alternateEs={frontmatter.alternateEs} alternateEsec={frontmatter.alternateEsec} alternateDefault={frontmatter.alternateDefault}
     title={frontmatter.title} desc={excerpt} banner={`${frontmatter.slug}.jpg`} pathname={frontmatter.path} product category={frontmatter.category} categorySlug={frontmatter.categorySlug} productSku={frontmatter.sku} productGtin13={frontmatter.gtin13} offerPrice={frontmatter.price} brandName={frontmatter.brandName} brandLogo={frontmatter.brandLogo}>
 
         <section id="product-detail" className="bg-gradient-to-br from-white via-blue-200 to-white py-20">

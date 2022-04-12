@@ -1,12 +1,12 @@
 
 import React from 'react';
 import { StaticImage } from "gatsby-plugin-image"
-import Button from '../../components/Button';
+import Button from '../../../components/Button';
 
-import Layout from '../../components/layout/Layoutexport';
+import Layout from '../../../components/layout/Layoutexport';
 
-import SplitSection from '../../components/SplitSection';
-import NewsletterSub from "../../components/NewsletterSub";
+import SplitSection from '../../../components/SplitSection';
+import NewsletterSub from "../../../components/NewsletterSub";
 import { Link } from 'gatsby';
 
 
@@ -18,7 +18,11 @@ const seo={
   title: "Productos de exportacion",
   desc:  "Fabricamos y comercializamos productos para la region y el mundo",
   image: "productos.jpg",
-  pathname: "/export/productos",
+  pathname: "/export/es/productos/",
+  alternateEn: "/export/en/products/",
+  alternateEs: "/export/es/productos/",
+  alternateEsec: "/productos/",
+  alternateDefault: "/export/es/productos/"
 }
 
 const siteVerOpts = [
@@ -61,6 +65,7 @@ const Products = ({location}) => (
 
           <Layout location={location} crumbLabel="Productos de Exportación"
             siteVerOpts={siteVerOpts} langOpts={langOpts}
+            alternates alternateEn={seo.alternateEn} alternateEs={seo.alternateEs} alternateEsec={seo.alternateEsec} alternateDefault={seo.alternateDefault}
             title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
 
             <section id="productos" className="">
@@ -78,7 +83,7 @@ const Products = ({location}) => (
                       </div>
                     }
                     secondarySlot={
-                      <StaticImage src="../../images/productos-de-exportacion-unilimpio.jpg"
+                      <StaticImage src="../../../images/productos-de-exportacion-unilimpio.jpg"
                                   className=""
                                   alt="Productos de limpieza"
                                   placeholder="blurred"
@@ -242,9 +247,15 @@ const Products = ({location}) => (
 
 
             <section id="boton descargar catalogo" className="">
+<<<<<<< HEAD:src/pages/export/productos.js
                 <div className="w-full mx-auto mb-10 mt-2 ">
                   <a href="../../files/catalogo-exportacion-unilimpio.pdf" target="_blank" rel="noopener" className="">
                     <Button className="flex mx-auto  text-white bg-primary-default border-0 py-2 px-8 focus:outline-none hover:bg-primary-lighter rounded text-lg"  >Descargar Catálogo </Button>
+=======
+                <div className="w-full mx-auto mb-10">
+                  <a href="../../../files/catalogo-exportacion-unilimpio.pdf" target="_blank" rel="noopener" className="">
+                    <Button className="flex mx-auto mt-16 text-white bg-primary-default border-0 py-2 px-8 focus:outline-none hover:bg-primary-lighter rounded text-lg"  >Descargar Catálogo </Button>
+>>>>>>> hreflang-implementation:src/pages/export/es/productos.js
                     </a>
                 </div>
             </section>

@@ -26,7 +26,7 @@ const siteVerOpts = [
 
   {
     label: 'Internacional',
-    value: '/export/responsabilidad-social',
+    value: '/export/es/responsabilidad-social/',
 
 
   },
@@ -44,7 +44,7 @@ const langOpts = [
 
   {
     label: 'EN',
-    value: `/export/en/products`,
+    value: `/export/en/social-responsability/`,
 
   },
 
@@ -55,7 +55,11 @@ const seo={
   title: "Responsabilidad Social Empresarial ",
   desc:  "Somos una empresa responsable, transparente y solidaria. Nuestra empresa ha sido reconocida a nivel local por su gestión en responsabilidad social empresarial. Formamos parte del UN Global Compact y nos adherimos al Global Reporting Initiative.",
   image: "resppnsabilidad-social-banner.jpg",
-  pathname: "/responsabilidad-social",
+  pathname: "/responsabilidad-social/",
+  alternateEn: "/export/en/social-responsability/",
+  alternateEs: "/export/es/responsabilidad-social/",
+  alternateEsec: "/responsabilidad-social/",
+  alternateDefault: "/export/es/responsabilidad-social/"
 }
 
 
@@ -67,6 +71,7 @@ const seo={
 
   <Layout location={location} crumbLabel="Responsabilidad Social Empresarial"
   siteVerOpts={siteVerOpts} langOpts={langOpts}
+  alternates alternateEn={seo.alternateEn} alternateEs={seo.alternateEs} alternateEsec={seo.alternateEsec} alternateDefault={seo.alternateDefault}
           title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
 
 

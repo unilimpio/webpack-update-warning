@@ -1,12 +1,12 @@
 ---
-path: "/export/organic-100"
+path: "/export/es/organic-100"
 category: "Industria Alimenticia"
 categorySlug: "industria-alimenticia"
 title:  "Organic 100"
 subtitle: "sanitizante y desinfectante"
 date: "2020-04-02"
 slug:  "organic-100"
-featuredImage:  "../../images/organic-100.jpg"
+featuredImage:  "../../../images/organic-100.jpg"
 lang: "es"
 alternate: "organic-100"
 
