@@ -71,7 +71,6 @@ export default function productTemplate({
 
     <Layout location={location} crumbLabel={frontmatter.title}
     siteVerOpts={siteVerOpts} langOpts={langOpts}
-     alternateEn={frontmatter.alternateEn} alternateEs={frontmatter.alternateEs} alternateEsec={frontmatter.alternateEsec} alternateDefault={frontmatter.alternateDefault}
     title={frontmatter.title} desc={excerpt} banner={`${frontmatter.slug}.jpg`} pathname={frontmatter.path}
     product category={frontmatter.category} categorySlug={frontmatter.categorySlug} productSku={frontmatter.sku} productGtin13={frontmatter.gtin13} offerPrice={frontmatter.price} brandName={frontmatter.brandName} brandLogo={frontmatter.brandLogo}>
 
@@ -106,13 +105,13 @@ export default function productTemplate({
             </div>
         </section>
 
-        
+
 <section id="contact" className="my-8">
   <div className="w-full mx-auto  py-8 px-2 sm:px-8 lg:px-40 bg-white bg-opacity-50 text-center">
     <div className="mx:auto bg-gray-300 bg-opacity-50 rounded-xl py-4">
       <h2 className="mt-4 text-xl sm:text-2xl md:text-3xl font-bold text-primary-default">¡REQUEST A QUOTE NOW!</h2>
       <p className="mx-auto mt-8 mb-2 text-xl font-normal px-2 sm:px-4 md:px-40">
-      Our consultants will be happy to contact you to provide you with more information about our professional hygiene products and to send you a quotation. 
+      Our consultants will be happy to contact you to provide you with more information about our professional hygiene products and to send you a quotation.
       </p>
       <div className="flex flex-wrap mx-auto justify-center">
          <Link to="/export/en/contact/">
@@ -180,7 +179,7 @@ export const pageQuery = graphql`
     frontmatter {
       date(formatString: "DD/MM/YYYY")
       slug
-      alternate
+      
       path
       featuredImage {
         childImageSharp {

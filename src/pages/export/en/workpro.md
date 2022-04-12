@@ -8,7 +8,7 @@ date: "2020-04-02"
 slug:  "workpro-cleaning-cloths"
 featuredImage:  "../../../images/panos-de-limpieza-workpro.jpg"
 lang: "en"
-alternate: "panos-reutilizables-workpro"
+
 
 
 ---
@@ -47,6 +47,3 @@ alternate: "panos-reutilizables-workpro"
           </tbody>
         </table>
         <br>
-
- 
- 

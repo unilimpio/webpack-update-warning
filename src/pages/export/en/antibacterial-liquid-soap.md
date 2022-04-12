@@ -8,7 +8,7 @@ date: "2020-04-02"
 slug:  "antibacterial-liquid-soap"
 featuredImage:  "../../../images/jabon-liquido-antibacterial.jpg"
 lang: "en"
-alternate: "jabon-liquido-antibacterial"
+
 ---
 • Enriched with glycerin that protects hands from drying out.<br/>
 • Eliminates 99.9% of disease-causing germs in 30 seconds.<br/>

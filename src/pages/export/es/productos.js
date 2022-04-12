@@ -117,14 +117,14 @@ const Products = ({location}) => (
               <p class="text-lg font-semibold text-secondary-lighter text-center">Higiene de Manos
              </p>
              <div className=" ">
-                <Link className="mx-auto text-primary-default inline-flex items-center" to='../sistema-dispensado-para-lavado-de-manos'>Sistema Dispensado para Lavado de Manos
+                <Link className="mx-auto text-primary-default inline-flex items-center" to='../sistema-dispensado-lavado-de-manos'>Sistema Dispensado para Lavado de Manos
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                     </svg>
                 </Link>
               </div>
               <div className=" ">
-                <Link className="mx-auto text-primary-default inline-flex items-center" to='../sistema-dispensado-para-desinfeccion-de-manos'>Sistema Dispensado para Desinfección de Manos
+                <Link className="mx-auto text-primary-default inline-flex items-center" to='../sistema-dispensado-desinfeccion-de-manos'>Sistema Dispensado para Desinfección de Manos
                     <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                     <path d="M5 12h14M12 5l7 7-7 7"></path>
                     </svg>
@@ -247,26 +247,22 @@ const Products = ({location}) => (
 
 
             <section id="boton descargar catalogo" className="">
-<<<<<<< HEAD:src/pages/export/productos.js
-                <div className="w-full mx-auto mb-10 mt-2 ">
-                  <a href="../../files/catalogo-exportacion-unilimpio.pdf" target="_blank" rel="noopener" className="">
-                    <Button className="flex mx-auto  text-white bg-primary-default border-0 py-2 px-8 focus:outline-none hover:bg-primary-lighter rounded text-lg"  >Descargar Catálogo </Button>
-=======
+
                 <div className="w-full mx-auto mb-10">
                   <a href="../../../files/catalogo-exportacion-unilimpio.pdf" target="_blank" rel="noopener" className="">
                     <Button className="flex mx-auto mt-16 text-white bg-primary-default border-0 py-2 px-8 focus:outline-none hover:bg-primary-lighter rounded text-lg"  >Descargar Catálogo </Button>
->>>>>>> hreflang-implementation:src/pages/export/es/productos.js
+
                     </a>
                 </div>
             </section>
 
-            
+
 <section id="contacto" className="my-10">
   <div className="w-full mx-auto  py-8 px-2 sm:px-8 lg:px-40 bg-white bg-opacity-50 text-center">
     <div className="mx:auto bg-gray-300 bg-opacity-50 rounded-xl py-4">
       <h2 className="mt-4 text-xl sm:text-2xl md:text-3xl font-bold text-primary-default">¡SOLICITE UNA COTIZACIÓN AHORA!</h2>
       <p className="mx-auto mt-8 mb-2 text-xl font-normal px-2 sm:px-4 md:px-40">
-       Nuestros asesores están gustosos de ponerse en contacto con usted para brindarle mayor información de nuestros productos de higiene profesional y enviarle una cotización. 
+       Nuestros asesores están gustosos de ponerse en contacto con usted para brindarle mayor información de nuestros productos de higiene profesional y enviarle una cotización.
       </p>
       <div className="flex flex-wrap mx-auto justify-center">
          <Link to="/export/contacto/">

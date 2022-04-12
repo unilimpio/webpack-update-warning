@@ -8,7 +8,7 @@ date: "2020-04-02"
 slug:  "antibacterial-gel"
 featuredImage:  "../../../images/gel-antibacterial.jpg"
 lang: "en"
-alternate: "gel-antibacterial"
+
 
 ---
 • Hand sanitizer for external use enriched with glycerin that protects and moisturizes your hands.<br/>

@@ -1,18 +1,13 @@
 ---
-path: "/export/es/sistema-dispensado-para-desinfeccion-de-manos"
+path: "/export/es/sistema-dispensado-desinfeccion-de-manos"
 category: "Higiene de Manos"
 categorySlug: "higiene-de-manos"
-title:  "Sistema Dispensado para Desinfección de Manos"
+title: "Sistema Dispensado para Desinfección de Manos"
 subtitle: "la solución para una adecuada desinfección de manos"
 date: "2020-04-02"
-slug:  "desinfeccion-de-manos"
-<<<<<<< HEAD:src/pages/export/sistema-dispensado-desinfeccion-de-manos.md
-featuredImage:  "../../images/sistema-para-desinfeccion-de-manos.jpg"
-=======
-featuredImage:  "../../../images/desinfeccion-de-manos.jpg"
->>>>>>> hreflang-implementation:src/pages/export/es/sistema-dispensado-desinfeccion-de-manos.md
+slug: "desinfeccion-de-manos"
+featuredImage: "../../../images/dispensador-jabon-gel-ninos.jpg"
 lang: "es"
-alternate: "dispensing-system-for-hand-disinfection"
 
 ---
 • Nuestros dispensadores son fabricados con plástico ABS, resistentes y con propiedades antivandalismo.<br/>

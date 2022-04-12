@@ -8,7 +8,6 @@ date: "2020-04-02"
 slug:  "jabon-espuma"
 featuredImage:  "../../../images/jabon-espuma.jpg"
 lang: "es"
-alternate: "foam-soap"
 
 ---
 • Elimina el 99,9 % de microorganismos en 30 segundos.<br/>
@@ -71,8 +70,8 @@ Encuentre nuestro jabón espuma en varias presentaciones:
 
 <<<<<<< HEAD:src/pages/export/jabon-espuma.md
  <a href="../../../files/FT-exportacion-jabon-espuma.pdf" target="_blank" rel="noopener">Ficha Técnica sin antibacterial</a> |
- <a href="../../../files/FT-exportacion-jabon-espuma-antibacterial.pdf" target="_blank" rel="noopener">Ficha Técnica con antibacterial</a> 
- 
+ <a href="../../../files/FT-exportacion-jabon-espuma-antibacterial.pdf" target="_blank" rel="noopener">Ficha Técnica con antibacterial</a>
+
 =======
  <a href="../../../files/FT-jabon-espuma-sin-antibacterial-exportacion.pdf" target="_blank" rel="noopener">Ficha Técnica sin antibacterial</a> |
  <a href="../../../files/FT-jabon-espuma-con-antibacterial-exportacion.pdf" target="_blank" rel="noopener">Ficha Técnica con antibacterial</a>

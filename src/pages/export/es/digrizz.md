@@ -6,13 +6,9 @@ title:  "Digrizz"
 subtitle: "desengrasante multiusos"
 date: "2020-04-02"
 slug:  "digrizz"
-<<<<<<< HEAD:src/pages/export/digrizz.md
-featuredImage:  "../../images/digrizz-exportacion.jpg"
-=======
 featuredImage:  "../../../images/digrizz.jpg"
->>>>>>> hreflang-implementation:src/pages/export/es/digrizz.md
 lang: "es"
-alternate: "digrizz"
+
 
 
 ---

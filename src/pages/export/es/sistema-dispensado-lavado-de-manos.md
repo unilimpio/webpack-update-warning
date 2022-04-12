@@ -1,19 +1,13 @@
 ---
-path: "/export/es/sistema-dispensado-para-lavado-de-manos"
+path: "/export/es/sistema-dispensado-lavado-de-manos"
 category: "Higiene de Manos"
 categorySlug: "higiene-de-manos"
 title:  "Sistema Dispensado para Lavado de Manos"
 subtitle: "la solución para un adecuado lavado de manos"
 date: "2020-04-02"
 slug:  "lavado-de-manos"
-<<<<<<< HEAD:src/pages/export/sistema-dispensado-lavado-de-manos.md
-featuredImage:  "../../images/sistema-para-lavado-de-manos.jpg"
-=======
 featuredImage:  "../../../images/lavado-de-manos.jpg"
->>>>>>> hreflang-implementation:src/pages/export/es/sistema-dispensado-lavado-de-manos.md
 lang: "es"
-alternate: "hand-washing-dispensing-system"
-
 ---
 • Nuestros dispensadores son fabricados con plástico ABS, resistentes y con propiedades antivandalismo.<br/>
 • Pueden ser personalizados.<br/><br/>
