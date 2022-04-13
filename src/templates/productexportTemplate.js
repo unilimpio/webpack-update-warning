@@ -63,7 +63,7 @@ export default function productTemplate({
 
     <Layout location={location} crumbLabel={frontmatter.title}
     siteVerOpts={siteVerOpts} langOpts={langOpts}
-     alternateEn={frontmatter.alternateEn} alternateEs={frontmatter.alternateEs} alternateEsec={frontmatter.alternateEsec} alternateDefault={frontmatter.alternateDefault}
+
     title={frontmatter.title} desc={excerpt} banner={`${frontmatter.slug}.jpg`} pathname={frontmatter.path} product category={frontmatter.category} categorySlug={frontmatter.categorySlug} productSku={frontmatter.sku} productGtin13={frontmatter.gtin13} offerPrice={frontmatter.price} brandName={frontmatter.brandName} brandLogo={frontmatter.brandLogo}>
 
         <section id="product-detail" className="bg-gradient-to-br from-white via-blue-200 to-white py-20">
@@ -91,22 +91,22 @@ export default function productTemplate({
                 </div>
             </div>
             <div className="mt-10 ml-4">
-              <Link to='/export/productos/' className="bg-secondary-lighter p-2 rounded-lg text-white hover:no-underline hover:text-white hover:bg-primary-lighter">
+              <Link to='/export/es/productos/' className="bg-secondary-lighter p-2 rounded-lg text-white hover:no-underline hover:text-white hover:bg-primary-lighter">
                 Ver más productos
               </Link>
             </div>
         </section>
 
-               
+
         <section id="contacto" className="my-8">
   <div className="w-full mx-auto  py-8 px-2 sm:px-8 lg:px-40 bg-white bg-opacity-50 text-center">
     <div className="mx:auto bg-gray-300 bg-opacity-50 rounded-xl py-4">
       <h2 className="mt-4 text-xl sm:text-2xl md:text-3xl font-bold text-primary-default">¡SOLICITE UNA COTIZACIÓN AHORA!</h2>
       <p className="mx-auto mt-8 mb-2 text-xl font-normal px-2 sm:px-4 md:px-40">
-       Nuestros asesores están gustosos de ponerse en contacto con usted para brindarle mayor información de nuestros productos de higiene profesional y enviarle una cotización. 
+       Nuestros asesores están gustosos de ponerse en contacto con usted para brindarle mayor información de nuestros productos de higiene profesional y enviarle una cotización.
       </p>
       <div className="flex flex-wrap mx-auto justify-center">
-         <Link to="/export/contacto/">
+         <Link to="/export/es/contacto/">
           <Button className="text-white mt-4 mb-4 rounded-xl transition duration-200 ease-in-out bg-primary-default shadow-md hover:bg-secondary-lighter hover:shadow-lg transform hover:-translate-y-1 hover:scale-105 focus:outline-none" size="lg" type="submit">Cotizar</Button>
         </Link>
       </div>
