@@ -68,11 +68,7 @@ Encuentre nuestro jabón espuma en varias presentaciones:
         </table>
         <br>
 
-<<<<<<< HEAD:src/pages/export/jabon-espuma.md
- <a href="../../../files/FT-exportacion-jabon-espuma.pdf" target="_blank" rel="noopener">Ficha Técnica sin antibacterial</a> |
- <a href="../../../files/FT-exportacion-jabon-espuma-antibacterial.pdf" target="_blank" rel="noopener">Ficha Técnica con antibacterial</a>
 
-=======
+
  <a href="../../../files/FT-jabon-espuma-sin-antibacterial-exportacion.pdf" target="_blank" rel="noopener">Ficha Técnica sin antibacterial</a> |
  <a href="../../../files/FT-jabon-espuma-con-antibacterial-exportacion.pdf" target="_blank" rel="noopener">Ficha Técnica con antibacterial</a>
->>>>>>> hreflang-implementation:src/pages/export/es/jabon-espuma.md

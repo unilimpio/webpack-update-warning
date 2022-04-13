@@ -49,8 +49,6 @@ Encuentre diferentes modelos y colores:
             </tr>
           </tbody>
         </table><br/>
-<<<<<<< HEAD:src/pages/export/dispensador-toalla-z-unilimpio.md
+
 
  <a href="../../../files/FT-exportacion-dispensador-toalla-z.pdf" target="_blank" rel="noopener">Ficha Técnica</a>
-=======
->>>>>>> hreflang-implementation:src/pages/export/es/dispensador-toalla-z-unilimpio.md

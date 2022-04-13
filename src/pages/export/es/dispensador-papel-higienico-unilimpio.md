@@ -47,8 +47,6 @@ Encuentre diferentes modelos y colores:
             </tr>
           </tbody>
         </table><br/>
-<<<<<<< HEAD:src/pages/export/dispensador-papel-higienico-unilimpio.md
+
 
  <a href="../../../files/FT-exportacion-dispensador-papel-higienico-jumbo.pdf" target="_blank" rel="noopener">Ficha Técnica</a>
-=======
->>>>>>> hreflang-implementation:src/pages/export/es/dispensador-papel-higienico-unilimpio.md
