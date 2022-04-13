@@ -8,7 +8,6 @@ date: "2020-04-02"
 slug:  "jabon-liquido-recarga"
 featuredImage:  "../../../images/jabon-sistema-cerrado.jpg"
 lang: "es"
-alternate: "lotion-soap-sealed-cartdridge"
 
 
 ---

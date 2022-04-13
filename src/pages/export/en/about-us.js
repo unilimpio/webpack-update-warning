@@ -186,7 +186,7 @@ We differentiate ourselves from the competition by having the broadest portfolio
 <section className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3  mx-6 mt-0">
   <li className="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
     <div className="flex-1 flex flex-col p-8">
-    <StaticImage src="../images/nuestro-proposito.jpg"
+    <StaticImage src="../../../images/nuestro-proposito.jpg"
                     className="flex justify-center mx-6"
                     alt="Misión de Unilimpio"
                     placeholder="blurred"
@@ -206,7 +206,7 @@ We differentiate ourselves from the competition by having the broadest portfolio
 
   <li className="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
     <div className="flex-1 flex flex-col p-8">
-    <StaticImage src="../images/nuestro-futuro.jpg"
+    <StaticImage src="../../../images/nuestro-futuro.jpg"
                     className="flex justify-center mx-6"
                     alt="Visión de Unilimpio"
                     placeholder="blurred"
@@ -227,7 +227,7 @@ We differentiate ourselves from the competition by having the broadest portfolio
 
   <li className="col-span-1 flex flex-col text-center bg-white rounded-lg shadow divide-y divide-gray-200">
     <div className="flex-1 flex flex-col p-8">
-    <StaticImage src="../images/valores-corporativos.jpg"
+    <StaticImage src="../../../images/valores-corporativos.jpg"
                     className="flex justify-center mx-6"
                     alt="Valores corporativos de Unilimpio"
                     placeholder="blurred"

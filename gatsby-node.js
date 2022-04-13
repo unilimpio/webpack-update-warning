@@ -32,7 +32,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
             frontmatter {
               path
               lang
-              alternate
+
             }
           }
         }
@@ -75,7 +75,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
         context: {
           // additional data can be passed via context
           slug: node.frontmatter.slug,
-          alternate: node.frontmatter.alternate,
+
         },
       })
     } else if (node.frontmatter.lang == "es"){
@@ -85,7 +85,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
         context: {
           // additional data can be passed via context
           slug: node.frontmatter.slug,
-          alternate: node.frontmatter.alternate,
+          
         },
       })
     }

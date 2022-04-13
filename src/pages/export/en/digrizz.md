@@ -8,7 +8,6 @@ date: "2020-04-02"
 slug:  "digrizz"
 featuredImage:  "../../../images/digrizz-exportacion.jpg"
 lang: "en"
-alternate: "digrizz"
 
 
 ---

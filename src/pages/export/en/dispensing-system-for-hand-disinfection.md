@@ -8,7 +8,7 @@ date: "2020-04-02"
 slug:  "dispensing-system-for-hand-disinfection"
 featuredImage:  "../../../images/sistema-para-desinfeccion-de-manos.jpg"
 lang: "en"
-alternate: "sistema-dispensado-para-desinfeccion-de-manos"
+
 
 ---
 • Our dispensers are made of ABS plastic, resistant and with anti-vandalism properties.<br/>
@@ -77,7 +77,7 @@ COMPATIBLE WITH THE FOLLOWING SEALED SACHET REFILLS:
               QUI0550
               </td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
-               Antibacterial Gel 
+               Antibacterial Gel
               </td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
                500 ml

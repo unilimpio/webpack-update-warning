@@ -8,7 +8,7 @@ date: "2020-04-02"
 slug:  "bacterac-surface-sanitizer-and-disinfectant"
 featuredImage:  "../../../images/desinfectante-con-amonio-cuaternario.jpg"
 lang: "en"
-alternate: "desinfectante-con-amonio-cuaternario"
+
 
 
 ---
@@ -46,10 +46,10 @@ Find our quaternary ammonium disinfectants in various presentations:
               250 ml
               </td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
-              RTU 
+              RTU
               </td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
-              Lavender 
+              Lavender
               </td>
             </tr>
           </tbody>
@@ -62,10 +62,10 @@ Find our quaternary ammonium disinfectants in various presentations:
               250 ml
               </td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
-              RTU 
+              RTU
               </td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
-              Neutral 
+              Neutral
               </td>
             </tr>
           </tbody>
@@ -78,10 +78,10 @@ Find our quaternary ammonium disinfectants in various presentations:
               600 ml
               </td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
-              RTU 
+              RTU
               </td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
-              Lavender 
+              Lavender
               </td>
             </tr>
           </tbody>
@@ -94,10 +94,10 @@ Find our quaternary ammonium disinfectants in various presentations:
               600 ml
               </td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
-              RTU 
+              RTU
               </td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
-              Neutral 
+              Neutral
               </td>
             </tr>
           </tbody>
@@ -110,7 +110,7 @@ Find our quaternary ammonium disinfectants in various presentations:
               3785 ml
               </td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
-              RTU 
+              RTU
               </td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
               Lavender
@@ -126,10 +126,10 @@ Find our quaternary ammonium disinfectants in various presentations:
               3785 ml
               </td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
-              RTU 
+              RTU
               </td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
-              Neutral 
+              Neutral
               </td>
             </tr>
           </tbody>
@@ -145,7 +145,7 @@ Find our quaternary ammonium disinfectants in various presentations:
               Concentrate 1 in 200
               </td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
-              Characteristic 
+              Characteristic
               </td>
             </tr>
           </tbody>

@@ -8,7 +8,6 @@ date: "2020-04-02"
 slug:  "ultra absorbentes y resistentes"
 featuredImage:  "../../../images/panos-de-limpieza-workpro.jpg"
 lang: "es"
-alternate: "workpro-cleaning-cloths"
 
 
 ---

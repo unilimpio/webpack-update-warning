@@ -8,7 +8,6 @@ date: "2020-04-02"
 slug:  "jabon-liquido-antibacterial"
 featuredImage:  "../../../images/gel-antibacterial.jpg"
 lang: "es"
-alternate: "antibacterial-gel"
 
 ---
 • Sanitizante de manos de uso externo enriquecido con glicerina que protege e hidrata sus manos.<br/>

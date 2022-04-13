@@ -8,7 +8,6 @@ date: "2020-04-02"
 slug:  "organic-100"
 featuredImage:  "../../../images/organic-100.jpg"
 lang: "es"
-alternate: "organic-100"
 
 
 ---

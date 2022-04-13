@@ -8,7 +8,6 @@ date: "2020-04-02"
 slug:  "hand-washing-dispensing-system"
 featuredImage:  "../../../images/sistema-para-lavado-de-manos.jpg"
 lang: "en"
-alternate: "sistema-dispensado-para-lavado-de-manos"
 
 
 ---
@@ -80,7 +79,7 @@ Find different models and colors:
           </tbody>
         </table> <br>
 
-COMPATIBLE WITH THE FOLLOWING SEALED SACHET REFILLS: 
+COMPATIBLE WITH THE FOLLOWING SEALED SACHET REFILLS:
 
 <br>
 <table class="min-w-full md:min-w-0 divide-y-0 divide-gray-200">
@@ -90,7 +89,7 @@ COMPATIBLE WITH THE FOLLOWING SEALED SACHET REFILLS:
                 Code
               </th>
                <th scope="col" class="px-2 py-2 text-center text-xs font-medium text-white bg-primary-default tracking-wider">
-                Type 
+                Type
               </th>
               <th scope="col" class="px-2 py-2 text-center text-xs font-medium  text-white bg-primary-lighter tracking-wider">
                 Presentation
@@ -109,7 +108,7 @@ COMPATIBLE WITH THE FOLLOWING SEALED SACHET REFILLS:
               QUI0220
               </td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
-               Foam Soap 
+               Foam Soap
               </td>
               <td class="px-2 py-2 whitespace-nowrap text-xs text-gray-700 text-center">
                800 ml

@@ -8,7 +8,6 @@ date: "2020-04-02"
 slug:  "disinfectant-wipes"
 featuredImage:  "../../../images/toallas-humedas-desinfectantes-y-desengrasantes.jpg"
 lang: "en"
-alternate: "toallas-humedas-desinfectantes"
 
 
 ---
@@ -42,4 +41,3 @@ alternate: "toallas-humedas-desinfectantes"
         <br>
 
  <a href="../../../files/FT-exportacion-toallas-humedas-desinfectantes.pdf" target="_blank" rel="noopener">Technical Data</a> |
- 

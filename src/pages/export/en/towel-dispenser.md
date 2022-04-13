@@ -8,7 +8,7 @@ date: "2020-04-02"
 slug:  "z-towel-dispenser"
 featuredImage:  "../../../images/dispensador-toalla-z-unilimpio-exportacion.jpg"
 lang: "en"
-alternate: "dispensador-toalla-z-unilimpio"
+
 
 ---
 • Made of ABS plastic, resistant and with anti-vandalism properties.<br/>
@@ -50,5 +50,5 @@ Find different models and colors:
             </tr>
           </tbody>
         </table><br/>
-    
-<a href="../../../files/FT-exportacion-dispensador-toalla-z.pdf" target="_blank" rel="noopener">Technical Data</a> 
+
+<a href="../../../files/FT-exportacion-dispensador-toalla-z.pdf" target="_blank" rel="noopener">Technical Data</a>
