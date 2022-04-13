@@ -62,14 +62,14 @@ const SiteverLinks = ({siteVerOpts, langOpts}) => {
       <div className="bg-gradient-to-b from-stone-100 to-white rounded-md pr-6 pt-3 pl-2 text-primary-lighter text-xs shadow-inner">
 
 
-        <span className="">Site version:&nbsp;&nbsp;</span>
+          <span className="">Site version:&nbsp;&nbsp;</span>
 
-        <Dropdown id={'sitever'} options={siteVerOpts}/>
+          <Dropdown id={'sitever'} options={siteVerOpts}/>
 
-        <span className="">&nbsp;&nbsp;Language:&nbsp;&nbsp;</span>
 
-        <Dropdown id={'lang'} options={langOpts}/>
+          <span className="">&nbsp;&nbsp;Language:&nbsp;&nbsp;</span>
 
+          <Dropdown id={'lang'} options={langOpts}/>
 
 
       </div>
