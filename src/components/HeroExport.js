@@ -9,7 +9,7 @@ import Button from './Button';
 const HeroBanner = () => (
 
 
-<section id="hero-banner" className={`bg-hero-banner-2 bg-fill bg-right-bottom bg-no-repeat m-0 p-0`}>
+<section id="hero-banner" className={`bg-hero-banner-3 bg-fill bg-right-bottom bg-no-repeat m-0 p-0`}>
         <div className="container mt-0 mx-auto ">
           <div className="bg-gradient-to-r from-white">
             <div className="">
@@ -23,7 +23,7 @@ const HeroBanner = () => (
                 </p>
                 <div className="flex flex-wrap mx-auto justify-center mt-8 md:mt-12 mb-20">
 
-                <Link to="/export/contacto/">
+                <Link to="/export/es/contacto/">
                   <Button className=" bg-primary-default text-white hover:bg-primary-lighter rounded-lg active:bg-primary-darker focus:outline-none" size="lg">Solicite una cotización</Button>
                 </Link>
                 </div>

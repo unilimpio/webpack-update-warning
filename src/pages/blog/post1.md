@@ -3,7 +3,7 @@ path: "/blog/los-20-segundos-que-salvan-tu-vida"
 title:  " Los 20 segundos que salvan vidas " 
 date: "2021-03-02"
 slug:  "lavado-de-manos"
-featuredImage: "../../images/lavado-de-manos.jpg"
+featuredImage: "../../images/los-20-segundos-que-salvan-vidas.jpg"
 ---
 Con el simple acto de lavarte las manos frecuentemente  puedes ayudar a salvar muchas vidas. Hacerlo correctamente garantiza que no nos contagiemos y que no seamos transmisores del virus. <br/> <br/> 
  Según el Centro para el Control de Enfermedades de los Estados Unidos (CDC) debes lavarte al menos durante 20 segundos. 
