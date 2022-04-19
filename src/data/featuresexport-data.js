@@ -20,7 +20,7 @@ const databits = [
     featureImage: '../../images/IconeDisponibilidad.svg'
   },
   {
-    title: 'Crédito',
+    title: 'Crédito directo',
     content:
       'Contamos con mecanismos de financiamiento para otorgar crédito a nuestros clientes internacionales desde su primera compra.',
 
@@ -29,7 +29,7 @@ const databits = [
     featureImage: '../../images/IconeAhorro.svg'
   },
   {
-    title: 'Soporte y acompanamiento',
+    title: 'Soporte y acompañamiento',
     content:
       'Damos soporte a nuestros clientes mediante capacitación de su fuerza de ventas, asesoramiento y acompañamiento en la definición e implementación de estrategias',
 
