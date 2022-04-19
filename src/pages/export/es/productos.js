@@ -265,7 +265,7 @@ const Products = ({location}) => (
        Nuestros asesores están gustosos de ponerse en contacto con usted para brindarle mayor información de nuestros productos de higiene profesional y enviarle una cotización.
       </p>
       <div className="flex flex-wrap mx-auto justify-center">
-         <Link to="/export/contacto/">
+         <Link to="/export/es/contacto/">
           <Button className="text-white mt-4 mb-4 rounded-xl transition duration-200 ease-in-out bg-primary-default shadow-md hover:bg-secondary-lighter hover:shadow-lg transform hover:-translate-y-1 hover:scale-105 focus:outline-none" size="lg" type="submit">Cotizar</Button>
         </Link>
       </div>

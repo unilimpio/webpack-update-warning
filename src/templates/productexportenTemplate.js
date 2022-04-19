@@ -100,7 +100,7 @@ export default function productTemplate({
             </div>
             <div className="mt-10 ml-4">
               <Link to='/export/en/products/' className="bg-secondary-lighter p-2 rounded-lg text-white hover:no-underline hover:text-white hover:bg-primary-lighter">
-                Ver más productos
+              See more products
               </Link>
             </div>
         </section>

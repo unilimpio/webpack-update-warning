@@ -20,8 +20,8 @@ const Footer = () => (
         <nav className="list-none mb-10">
         <ul>
           <li className="text-white">
-            De los eucaliptos E1-140<br/>
-            y psje. Juncos<br/>
+            De los Eucaliptos E1-140<br/>
+            y pasaje Juncos<br/>
             170307<br/>
             Quito, Ecuador
           </li>
@@ -37,16 +37,16 @@ const Footer = () => (
           <nav className="list-none mb-10">
           <ul>
             <li>
-            <Link to="/export/jabon-liquido-antibacterial" className="text-white hover:text-gray-400">Jabón Líquido antibacterial</Link>
+            <Link to="/export/es/jabon-liquido-antibacterial" className="text-white hover:text-gray-400">Jabón Líquido antibacterial</Link>
             </li>
             <li>
-            <Link to="/export/gel-antibacterial" className="text-white hover:text-gray-400">Gel Antibacterial</Link>
+            <Link to="/export/es/gel-antibacterial" className="text-white hover:text-gray-400">Gel Antibacterial</Link>
             </li>
             <li>
-              <Link to="/export/bacterac-sanitizante-y-desinfectante-de-superficies" className="text-white hover:text-gray-400"> Desinfectante con Amonio cuaternario</Link>
+              <Link to="/export/es/bacterac-sanitizante-y-desinfectante-de-superficies" className="text-white hover:text-gray-400"> Desinfectante con Amonio cuaternario</Link>
             </li>
             <li>
-            <Link to="/export/dispensador-toalla-z-unilimpio" className="text-white hover:text-gray-400">Dispensador de Toalla Z</Link>
+            <Link to="/export/es/dispensador-toalla-z-unilimpio" className="text-white hover:text-gray-400">Dispensador de Toalla Z</Link>
             </li>
             </ul>
           </nav>
@@ -58,13 +58,13 @@ const Footer = () => (
         <nav className="list-none mb-10">
         <ul>
           <li>
-           <Link to="/export/acerca-de/" className="text-white hover:text-gray-400"> Sobre Nosotros </Link>
+           <Link to="/export/es/acerca-de/" className="text-white hover:text-gray-400"> Sobre Nosotros </Link>
           </li>
           <li>
-           <Link to="/export/responsabilidad-social" className="text-white hover:text-gray-400"> Responsabilidad Social</Link>
+           <Link to="/export/es/responsabilidad-social" className="text-white hover:text-gray-400"> Responsabilidad Social</Link>
           </li>
           <li>
-            <Link to="/export/denuncias-actos-de-corrupcion" className="text-white hover:text-gray-400">Denuncia actos de corrupción</Link>
+            <Link to="/export/es/denuncias-actos-de-corrupcion" className="text-white hover:text-gray-400">Denuncia actos de corrupción</Link>
           </li>
           </ul>
         </nav>
