@@ -6,7 +6,7 @@ title: "Sistema Dispensado para Desinfección de Manos"
 subtitle: "la solución para una adecuada desinfección de manos"
 date: "2020-04-02"
 slug: "desinfeccion-de-manos"
-featuredImage: "../../../images/dispensador-jabon-gel-ninos.jpg"
+featuredImage: "../../../images/sistema-para-desinfeccion-de-manos.jpg"
 lang: "es"
 
 ---

@@ -6,7 +6,7 @@ title:  "Sistema Dispensado para Lavado de Manos"
 subtitle: "la solución para un adecuado lavado de manos"
 date: "2020-04-02"
 slug:  "lavado-de-manos"
-featuredImage:  "../../../images/lavado-de-manos.jpg"
+featuredImage:  "../../../images/sistema-para-lavado-de-manos.jpg"
 lang: "es"
 ---
 • Nuestros dispensadores son fabricados con plástico ABS, resistentes y con propiedades antivandalismo.<br/>

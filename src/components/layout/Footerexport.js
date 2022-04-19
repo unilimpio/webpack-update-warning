@@ -20,8 +20,8 @@ const Footer = () => (
         <nav className="list-none mb-10">
         <ul>
           <li className="text-white">
-            De los eucaliptos E1-140<br/>
-            y psje. Juncos<br/>
+            De los Eucaliptos E1-140<br/>
+            y pasaje Juncos<br/>
             170307<br/>
             Quito, Ecuador
           </li>

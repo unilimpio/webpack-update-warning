@@ -35,7 +35,7 @@ La fragancia de un desinfectante es un efecto sensorial que no está enlazado co
 
 
 <div class= " font-semibold text-center italic text-primary-lighter text-xl">
-<p className=" font-semibold text-center  italic text-xl ">¡Ahora que ya sabes la verdad, no te dejes engañar por mitos que escuchas a diario.!</p> </div>
+<p className=" font-semibold text-center  italic text-xl ">¡Ahora que ya sabes la verdad, no te dejes engañar por mitos que escuchas a diario!</p> </div>
  <br/> <br/>
 
  
