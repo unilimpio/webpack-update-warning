@@ -18,7 +18,7 @@ const siteVerOpts = [
 
   {
     label: 'Ecuador',
-    value: null,
+    value: '',
 
 
   },
@@ -36,7 +36,7 @@ const langOpts = [
 
   {
     label: 'ES',
-    value: null,
+    value: '',
 
   },
 

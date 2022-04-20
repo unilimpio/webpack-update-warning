@@ -19,6 +19,7 @@ const Dropdown = ({
 
 
 
+
   return (
       <select id={id}
         className={`
@@ -46,7 +47,7 @@ const Dropdown = ({
                     navigate(event.target.value)
                   }}>
         {options.map(o => (
-          <option key={o.value} value={o.value}>{o.label}</option>
+          <option key={Math.random()} value={o.value}>{o.label}</option>
         ))}
       </select>
   );

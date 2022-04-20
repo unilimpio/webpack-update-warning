@@ -29,7 +29,7 @@ const siteVerOpts = [
 
   {
     label: 'International',
-    value: null,
+    value: '',
 
   },
 
@@ -47,7 +47,7 @@ const langOpts = [
 
   {
     label: 'EN',
-    value: null,
+    value: '',
 
   },
 
@@ -257,7 +257,7 @@ const Products = ({location}) => (
     <div className="mx:auto bg-gray-300 bg-opacity-50 rounded-xl py-4">
       <h2 className="mt-4 text-xl sm:text-2xl md:text-3xl font-bold text-primary-default">¡REQUEST A QUOTE NOW!</h2>
       <p className="mx-auto mt-8 mb-2 text-xl font-normal px-2 sm:px-4 md:px-40">
-      Our consultants will be happy to contact you to provide you with more information about our professional hygiene products and to send you a quotation. 
+      Our consultants will be happy to contact you to provide you with more information about our professional hygiene products and to send you a quotation.
       </p>
       <div className="flex flex-wrap mx-auto justify-center">
          <Link to="/export/en/contact/">

@@ -23,7 +23,7 @@ const siteVerOpts = [
 
   {
     label: 'International',
-    value: null,
+    value: '',
 
   },
 

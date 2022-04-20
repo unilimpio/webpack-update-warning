@@ -9,7 +9,7 @@ const siteVerOpts = [
 
   {
     label: 'Ecuador',
-    value: null,
+    value: '',
 
 
   },

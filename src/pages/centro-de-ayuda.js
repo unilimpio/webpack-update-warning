@@ -13,7 +13,7 @@ const siteVerOpts = [
 
   {
     label: 'Ecuador',
-    value: null,
+    value: '',
 
 
   },
@@ -31,7 +31,7 @@ const langOpts = [
 
   {
     label: 'ES',
-    value: null,
+    value: '',
 
   },
 
@@ -49,7 +49,7 @@ const seo={
   title: "Centro de Ayuda",
   desc:  "Si usted es cliente de Unilimpio y necesita ayuda por favor contacte nuestro call center, nuestros asesores estarán gustosos de brindarle asistencia. También le invitamos a consultar la sección de Preguntas Frecuentes debajo, puede que la respuesta que necesita se encuentre ahí.",
   image: "",
-  pathname: "/centro-de-ayuda", 
+  pathname: "/centro-de-ayuda",
 }
 
 export default function Named  ({location}) {
@@ -142,7 +142,7 @@ export default function Named  ({location}) {
 
             </dl>
           </div>
-          
+
         </div>
       </div>
 

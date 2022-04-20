@@ -29,7 +29,7 @@ const siteVerOpts = [
 
   {
     label: 'International',
-    value: null,
+    value: '',
 
   },
 
@@ -47,7 +47,7 @@ const langOpts = [
 
   {
     label: 'EN',
-    value: null,
+    value: '',
 
   },
 

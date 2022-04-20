@@ -11,14 +11,14 @@ const siteVerOpts = [
 
   {
     label: 'Ecuador',
-    value: null,
+    value: '',
 
 
   },
 
   {
     label: 'Internacional',
-    value: '/',
+    value: '',
 
 
   },
@@ -29,7 +29,7 @@ const langOpts = [
 
   {
     label: 'ES',
-    value: null,
+    value: '',
 
   },
 

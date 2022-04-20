@@ -46,7 +46,7 @@ const [selectedOption, setSelectedOption] = useState(options[0].value);
                     navigate(event.target.value)
                   }}>
         {options.map(o => (
-          <option key={o.value} value={o.value}>{o.label}</option>
+          <option key={Math.random()} value={o.value}>{o.label}</option>
         ))}
       </select>
   );
@@ -66,9 +66,9 @@ const SiteverLinks = ({siteVerOpts, langOpts}) => {
 
         <Dropdown id={'sitever'} options={siteVerOpts}/>
 
-        
 
-      
+
+
 
 
 
