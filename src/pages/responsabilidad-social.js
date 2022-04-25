@@ -88,10 +88,10 @@ const seo={
 
     </div>
 
-    <section class="bg-white flex justify-center">
-  <div class="max-w-7xl mx-10 py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
-    <div class="max-w-3xl mx-auto text-center">
-      <h1 class="text-5xl font-semibold text-blue ">Responsabilidad Social Empresarial</h1><br/>
+    <section className="bg-white flex justify-center">
+  <div className="max-w-7xl mx-10 py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
+    <div className="max-w-3xl mx-auto text-center">
+      <h1 className="text-5xl font-semibold text-blue ">Responsabilidad Social Empresarial</h1><br/>
       <h1 className=" italic font-mormal text-center text-primary text-xl ">"Construyendo hoy nuestro legado para las futuras generaciones" </h1>
 
     </div>

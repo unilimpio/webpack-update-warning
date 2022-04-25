@@ -97,7 +97,7 @@ const QuienesSomos = ({ location }) => (
         <iframe width="560" height="315"
             src="https://www.youtube.com/embed/B412e9m5H2g"
             title="YouTube video player "
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen>
         </iframe>
@@ -125,7 +125,7 @@ Nos diferenciamos de la competencia por tener el más amplio portafolio de produ
 </section>
 
 <section id="grupo empresarial Unilimpio" className="">
-<div class="bg-white">
+<div className="bg-white">
   <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
     <div class="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
       <div>
