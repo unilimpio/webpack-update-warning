@@ -7,7 +7,7 @@ subtitle: "y desengrasantes"
 date: "2020-04-02"
 slug:  "toallas-humedas-desinfectantes"
 featuredImage:  "../../../images/toallas-humedas-desinfectantes-y-desengrasantes.jpg"
-lang: "es"
+pageLang: "es"
 ---
 • Formuladas para limpiar, desengrasar y desinfectar en un solo paso. <br/>
 • Ideal para todo tipo de superficies inertes, y en general toda superficie de contacto frecuente. <br/>

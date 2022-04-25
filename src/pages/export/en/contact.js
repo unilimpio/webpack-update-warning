@@ -11,6 +11,7 @@ const seo={
   desc:  "Contactenos hoy.",
   image: "productos.jpg",
   pathname: "/export/en/contact/",
+  pageLang: "en",
   alternateEn: "/export/en/contact/",
   alternateEs: "/export/es/contacto/",
   alternateEsec: "/contactenos/",
@@ -65,7 +66,7 @@ const Contact = ({location}) => (
   alternates alternateEn={seo.alternateEn} alternateEs={seo.alternateEs} alternateEsec={seo.alternateEsec} alternateDefault={seo.alternateDefault}
 
           siteVerOpts={siteVerOpts} langOpts={langOpts}
-          title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
+          title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname} pageLang={seo.pageLang}>
 
 
 <div class="bg-fixed" >

@@ -7,7 +7,7 @@ subtitle: "the solution for proper hand disinfection"
 date: "2020-04-02"
 slug:  "dispensing-system-for-hand-disinfection"
 featuredImage:  "../../../images/sistema-para-desinfeccion-de-manos.jpg"
-lang: "en"
+pageLang: "en"
 
 
 ---

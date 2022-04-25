@@ -7,7 +7,7 @@ subtitle: "for proper hand hygiene"
 date: "2020-04-02"
 slug:  "antibacterial-liquid-soap"
 featuredImage:  "../../../images/jabon-liquido-antibacterial.jpg"
-lang: "en"
+pageLang: "en"
 
 ---
 • Enriched with glycerin that protects hands from drying out.<br/>

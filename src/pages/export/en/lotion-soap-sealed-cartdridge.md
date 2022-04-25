@@ -7,7 +7,7 @@ subtitle: "For an adequate hand hygiene"
 date: "2020-04-02"
 slug:  "lotion-soap-sealed-cartdridge"
 featuredImage:  "../../../images/jabon-sistema-cerrado.jpg"
-lang: "en"
+pageLang: "en"
 
 
 

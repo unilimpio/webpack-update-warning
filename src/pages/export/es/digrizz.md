@@ -7,7 +7,7 @@ subtitle: "desengrasante multiusos"
 date: "2020-04-02"
 slug:  "digrizz"
 featuredImage:  "../../../images/digrizz.jpg"
-lang: "es"
+pageLang: "es"
 
 
 

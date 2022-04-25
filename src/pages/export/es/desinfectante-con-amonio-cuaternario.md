@@ -7,7 +7,7 @@ subtitle: "con amonio cuaternario"
 date: "2020-04-02"
 slug:  "digrizz"
 featuredImage:  "../../../images/desinfectante-con-amonio-cuaternario.jpg"
-lang: "es"
+pageLang: "es"
 
 
 ---

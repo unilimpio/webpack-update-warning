@@ -7,7 +7,7 @@ subtitle: "*Para negociaciones especiales"
 date: "2020-04-02"
 slug:  "jabon-espuma"
 featuredImage:  "../../../images/jabon-espuma.jpg"
-lang: "es"
+pageLang: "es"
 
 ---
 • Elimina el 99,9 % de microorganismos en 30 segundos.<br/>

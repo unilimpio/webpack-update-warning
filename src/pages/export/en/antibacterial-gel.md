@@ -7,7 +7,7 @@ subtitle: "for proper hand disinfection"
 date: "2020-04-02"
 slug:  "antibacterial-gel"
 featuredImage:  "../../../images/gel-antibacterial.jpg"
-lang: "en"
+pageLang: "en"
 
 
 ---

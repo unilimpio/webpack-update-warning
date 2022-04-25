@@ -7,7 +7,7 @@ subtitle: "controls the dispensing of the product"
 date: "2020-04-02"
 slug:  "z-towel-dispenser"
 featuredImage:  "../../../images/dispensador-toalla-z-unilimpio-exportacion.jpg"
-lang: "en"
+pageLang: "en"
 
 
 ---

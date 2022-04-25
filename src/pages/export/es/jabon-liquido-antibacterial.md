@@ -7,7 +7,7 @@ subtitle: "para una adecuada higiene de manos"
 date: "2020-04-02"
 slug:  "jabon-liquido-antibacterial"
 featuredImage:  "../../../images/jabon-liquido-antibacterial.jpg"
-lang: "es"
+pageLang: "es"
 
 ---
 • Enriquecido con glicerina que protege las manos de la resequedad.<br/>

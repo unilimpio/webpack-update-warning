@@ -7,7 +7,7 @@ subtitle: "la solución para una adecuada desinfección de manos"
 date: "2020-04-02"
 slug: "desinfeccion-de-manos"
 featuredImage: "../../../images/sistema-para-desinfeccion-de-manos.jpg"
-lang: "es"
+pageLang: "es"
 
 ---
 • Nuestros dispensadores son fabricados con plástico ABS, resistentes y con propiedades antivandalismo.<br/>
