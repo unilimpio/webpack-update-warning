@@ -26,12 +26,12 @@ const Footer = () => (
             Quito, Ecuador
           </li>
           <li className="text-white">
-            Consultas, información, sugerencias: <Link to="/export/contacto" className="text-white underline hover:no-underline">escríbanos</Link>.
+            Consultas, información, sugerencias: <Link to="/export/es/contacto/" className="text-white underline hover:no-underline">escríbanos</Link>.
           </li>
           </ul>
         </nav>
       </div>
-      
+
       <div className="lg:w-1/6 md:w-1/2 w-full px-4">
         <h4 className="title-font font-bold tracking-widest text-sm mb-3">PRODUCTOS</h4>
           <nav className="list-none mb-10">

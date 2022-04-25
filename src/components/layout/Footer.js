@@ -37,7 +37,7 @@ const Footer = () => (
           Lun - Vie, 8:30 - 17:00 GMT -5:00.
           </li>
           <li className="text-white">
-            Consultas, información, sugerencias: <Link to="/contactenos" className="text-white underline hover:no-underline">escríbanos</Link>.
+            Consultas, información, sugerencias: <Link to="/contactenos/" className="text-white underline hover:no-underline">escríbanos</Link>.
           </li>
           </ul>
         </nav>
@@ -47,7 +47,7 @@ const Footer = () => (
         <nav className="list-none mb-10">
         <ul>
           <li>
-            <Link to="/contactenos#distribuidores" className="text-white hover:text-gray-400">Distribuidores autorizados</Link>
+            <Link to="/contactenos/#distribuidores" className="text-white hover:text-gray-400">Distribuidores autorizados</Link>
           </li>
           <li>
             <a href="https://store.unilimpio.com" target="_blank"  rel="noreferrer" className="text-white hover:text-gray-400">Portal B2B</a>
@@ -55,13 +55,13 @@ const Footer = () => (
 
 
           <li>
-            <Link to="/legal/politica-de-devolucion" className="text-white hover:text-gray-400">Política de devolución</Link>
+            <Link to="/legal/politica-de-devolucion/" className="text-white hover:text-gray-400">Política de devolución</Link>
           </li>
           <li>
-            <Link to="/centro-de-ayuda#donde-esta-mi-pedido" className="text-white hover:text-gray-400">¿Donde está mi pedido?</Link>
+            <Link to="/centro-de-ayuda/#donde-esta-mi-pedido/" className="text-white hover:text-gray-400">¿Donde está mi pedido?</Link>
           </li>
           <li>
-            <Link to="/centro-de-ayuda" className="text-white hover:text-gray-400">Centro de Ayuda</Link>
+            <Link to="/centro-de-ayuda/" className="text-white hover:text-gray-400">Centro de Ayuda</Link>
           </li>
           <li>
            <a href="http://sap.unilimpio.com:1993" target="_blank"  rel="noreferrer" className="text-white hover:text-gray-400"> Facturación Electrónica</a>
@@ -74,34 +74,34 @@ const Footer = () => (
           <nav className="list-none mb-10">
           <ul>
             <li>
-              <Link to="/productos/quimicos" className="text-white hover:text-gray-400">Productos Químicos</Link>
+              <Link to="/productos/quimicos/" className="text-white hover:text-gray-400">Productos Químicos</Link>
             </li>
             <li>
-              <Link to="/productos/quimicos/alcohol-multipropositos" className="text-white hover:text-gray-400"> Alcohol Multipropósitos</Link>
+              <Link to="/productos/quimicos/alcohol-multipropositos/" className="text-white hover:text-gray-400"> Alcohol Multipropósitos</Link>
             </li>
             <li>
-              <Link to="/productos/quimicos/amonio-cuaternario-de-quinta-generacion-ozz" className="text-white hover:text-gray-400"> Amonio cuaternario</Link>
+              <Link to="/productos/quimicos/amonio-cuaternario-de-quinta-generacion-ozz/" className="text-white hover:text-gray-400"> Amonio cuaternario</Link>
             </li>
             <li>
-            <Link to="/productos/higiene-de-manos/jabon-liquido-para-relleno" className="text-white hover:text-gray-400">Jabón Líquido de manos</Link>
+            <Link to="/productos/higiene-de-manos/jabon-liquido-para-relleno/" className="text-white hover:text-gray-400">Jabón Líquido de manos</Link>
             </li>
             <li>
-            <Link to="/productos/higiene-de-manos/gel-antibacterial-con-valvula" className="text-white hover:text-gray-400">Gel Antibacterial</Link>
+            <Link to="/productos/higiene-de-manos/gel-antibacterial-con-valvula/" className="text-white hover:text-gray-400">Gel Antibacterial</Link>
             </li>
             <li>
             <Link to="/productos/higiene-de-manos/gel-antibacterial-para-relleno" className="text-white hover:text-gray-400">Alcohol en gel para Manos</Link>
             </li>
             <li>
-            <Link to="/productos/higiene-de-manos/alcohol-antimicrobiano" className="text-white hover:text-gray-400">Alcohol Antimicrobiano</Link>
+            <Link to="/productos/higiene-de-manos/alcohol-antimicrobiano/" className="text-white hover:text-gray-400">Alcohol Antimicrobiano</Link>
             </li>
             <li>
-              <Link to="/productos/lavanderia/detergente-liquido-enzimatico" className="text-white hover:text-gray-400">Detergente Enzimático</Link>
+              <Link to="/productos/lavanderia/detergente-liquido-enzimatico/" className="text-white hover:text-gray-400">Detergente Enzimático</Link>
             </li>
             <li>
-            <Link to="/productos/dispensadores" className="text-white hover:text-gray-400">Dispensadores</Link>
+            <Link to="/productos/dispensadores/" className="text-white hover:text-gray-400">Dispensadores</Link>
             </li>
             <li>
-            <Link to="/productos/absorbentes/toalla-z-interfoliada-bio" className="text-white hover:text-gray-400">Toalla de manos en Z</Link>
+            <Link to="/productos/absorbentes/toalla-z-interfoliada-bio/" className="text-white hover:text-gray-400">Toalla de manos en Z</Link>
             </li>
             </ul>
           </nav>
@@ -113,19 +113,19 @@ const Footer = () => (
         <nav className="list-none mb-10">
         <ul>
           <li>
-           <Link to="/quienes-somos" className="text-white hover:text-gray-400"> Presentación</Link>
+           <Link to="/quienes-somos/" className="text-white hover:text-gray-400"> Presentación</Link>
           </li>
           <li>
-           <Link to="/quienes-somos#historia" className="text-white hover:text-gray-400"> Historia</Link>
+           <Link to="/quienes-somos/#historia" className="text-white hover:text-gray-400"> Historia</Link>
           </li>
           <li>
-           <Link to="/responsabilidad-social" className="text-white hover:text-gray-400"> Responsabilidad Social</Link>
+           <Link to="/responsabilidad-social/" className="text-white hover:text-gray-400"> Responsabilidad Social</Link>
           </li>
           <li>
-            <Link to="/denuncias-actos-de-corrupcion#complaintform" className="text-white hover:text-gray-400">Denuncia actos de corrupción</Link>
+            <Link to="/denuncias-actos-de-corrupcion/#complaintform" className="text-white hover:text-gray-400">Denuncia actos de corrupción</Link>
           </li>
           <li>
-           <Link to="/trabaja-con-nosotros" className="text-white hover:text-gray-400"> Trabaja con nosotros</Link>
+           <Link to="/trabaja-con-nosotros/" className="text-white hover:text-gray-400"> Trabaja con nosotros</Link>
           </li>
           <li>
            <Link to="/blog" className="text-white hover:text-gray-400"> Blog</Link>
@@ -146,7 +146,7 @@ const Footer = () => (
   <div className="bg-gray-700">
     <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
       <p className="text-gray-500 text-sm text-center sm:text-left">
-          © 1999-2021 Unilimpio - Todos los derechos reservados
+          © 1999-2022 Unilimpio - Todos los derechos reservados
           <br/>
 
 
