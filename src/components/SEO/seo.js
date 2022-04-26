@@ -41,7 +41,7 @@ const SEO = ({ title, desc, banner, pathname, pageLang,
     description: `${desc || defaultDescription}`,
     image: `${siteUrl}/images/${banner || defaultBanner}`,
     url: `${siteUrl}${pathname || ''}`,
-    pageLang: `${pageLang|| defaultPageLang}`,
+    pageLang: `${pageLang || defaultPageLang}`,
     alternateEs: `${siteUrl}${alternateEs || defaultHreflangEs}`,
     alternateEn: `${siteUrl}${alternateEn || defaultHreflangEn}`,
     alternateDefault: `${siteUrl}${alternateEs || defaultHreflangEs}`,
@@ -53,10 +53,19 @@ const SEO = ({ title, desc, banner, pathname, pageLang,
 
   const schemaOrgWebPage = {
     '@context': 'http://schema.org',
-    '@type': 'WebPage',
+    '@type': 'WebSite',
     url: siteUrl,
     headline,
-    inLanguage: defaultPageLang,
+    inLanguage: [
+                {
+                        "@type": "Language",
+                        "name": "Spanish"
+                },
+                {
+                        "@type": "Language",
+                        "name": "English"
+                }
+        ],
     mainEntityOfPage: siteUrl,
     description: defaultDescription,
     name: defaultTitle,
@@ -68,7 +77,7 @@ const SEO = ({ title, desc, banner, pathname, pageLang,
       '@type': 'Organization',
       name: author,
     },
-    copyrightYear: '2021',
+    copyrightYear: '2022',
     creator: {
       '@type': 'Organization',
       name: author,
@@ -115,7 +124,7 @@ const SEO = ({ title, desc, banner, pathname, pageLang,
         '@type': 'Organization',
         name: author,
       },
-      copyrightYear: '2021',
+      copyrightYear: '2022',
       creator: {
         '@type': 'Organization',
         name: author,

@@ -64,7 +64,8 @@ export default function productTemplate({
     <Layout location={location} crumbLabel={frontmatter.title}
     siteVerOpts={siteVerOpts} langOpts={langOpts}
 
-    title={frontmatter.title} desc={excerpt} banner={`${frontmatter.slug}.jpg`} pathname={frontmatter.path} product category={frontmatter.category} categorySlug={frontmatter.categorySlug} productSku={frontmatter.sku} productGtin13={frontmatter.gtin13} offerPrice={frontmatter.price} brandName={frontmatter.brandName} brandLogo={frontmatter.brandLogo}>
+    title={frontmatter.title} desc={excerpt} banner={`${frontmatter.slug}.jpg`} pathname={frontmatter.path}
+    product category={frontmatter.category} categorySlug={frontmatter.categorySlug} productSku={frontmatter.sku} productGtin13={frontmatter.gtin13} offerPrice={frontmatter.price} brandName={frontmatter.brandName} brandLogo={frontmatter.brandLogo}>
 
         <section id="product-detail" className="bg-gradient-to-br from-white via-blue-200 to-white py-20">
 
@@ -172,8 +173,7 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: {path: {eq: $path}}) {
     frontmatter {
       date(formatString: "DD/MM/YYYY")
-      slug
-
+      slug      
       path
       featuredImage {
         childImageSharp {
@@ -183,6 +183,7 @@ export const pageQuery = graphql`
       category
       title
       subtitle
+      pageLang
       sku
       price
       gtin13
