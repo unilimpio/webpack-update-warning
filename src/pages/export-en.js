@@ -19,11 +19,14 @@ import NewsletterSub from "../components/NewsletterSub";
 import HeroBanner from "../components/HeroExport-en"
 
 const seo={
-  title: "Exportamos productos para la higiene de manos e higiene industrial para el ambito profesional FOR EXPORT",
-  desc:  "Fabricamos y comercializamos productos para la region y el mundo",
+  title: "Unilimpio - Professional Hygiene products and solutions for export.",
+  desc:  "We manufacture and export top wuality products for the latin american region and beyond.",
   image: "productos.jpg",
   pathname: "/export-en/",
   pageLang: "en",
+  alternateEs: "/export-es/",
+  alternateEsec: "/",
+  alternateDefault: "/export-es/"
 }
 
 const siteVerOpts = [
