@@ -179,7 +179,6 @@ export const pageQuery = graphql`
     frontmatter {
       date(formatString: "DD/MM/YYYY")
       slug
-
       path
       featuredImage {
         childImageSharp {

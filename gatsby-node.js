@@ -31,6 +31,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
           node {
             frontmatter {
               path
+              slug
               pageLang
 
             }
@@ -68,23 +69,25 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   })
 
   result.data.prodsexport.edges.forEach(({ node }) => {
-    if (node.frontmatter.lang == "en"){
+    if (node.frontmatter.pageLang == "en"){
       createPage({
         path: node.frontmatter.path,
         component: productexportenDetailTemplate,
         context: {
           // additional data can be passed via context
           slug: node.frontmatter.slug,
+          pageLang: node.frontmatter.pageLang,
 
         },
       })
-    } else if (node.frontmatter.lang == "es"){
+    } else if (node.frontmatter.pageLang == "es"){
       createPage({
         path: node.frontmatter.path,
         component: productexportDetailTemplate,
         context: {
           // additional data can be passed via context
           slug: node.frontmatter.slug,
+          pageLang: node.frontmatter.pageLang,
 
         },
       })
