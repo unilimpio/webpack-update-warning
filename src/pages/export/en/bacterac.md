@@ -7,7 +7,7 @@ subtitle: "with quaternary ammonium"
 date: "2020-04-02"
 slug:  "bacterac-surface-sanitizer-and-disinfectant"
 featuredImage:  "../../../images/desinfectante-con-amonio-cuaternario.jpg"
-lang: "en"
+pageLang: "en"
 
 
 

@@ -7,7 +7,7 @@ subtitle: "Para una adecuada higiene de manos"
 date: "2020-04-02"
 slug:  "jabon-liquido-recarga"
 featuredImage:  "../../../images/jabon-sistema-cerrado.jpg"
-lang: "es"
+pageLang: "es"
 
 
 ---

@@ -23,6 +23,7 @@ const seo={
   desc:  "Fabricamos y comercializamos productos para la region y el mundo",
   image: "productos.jpg",
   pathname: "/export-en/",
+  pageLang: "en",
 }
 
 const siteVerOpts = [
@@ -68,7 +69,9 @@ const Export = ({  location }) => {
 
   return(
 
-<Layout location={location} crumbLabel="Export Home" siteVerOpts={siteVerOpts} langOpts={langOpts} alternates>
+<Layout location={location} crumbLabel="Export Home"
+siteVerOpts={siteVerOpts} langOpts={langOpts} alternates
+pageLang={seo.pageLang}>
 
 
 
@@ -86,28 +89,28 @@ const Export = ({  location }) => {
    </div>
     <div className="w-full sm:flex-1 ">
      <div className="grid grid-cols-4 gap-4 pt-10 pb-10 pl-10 pr-10">
-       <div class="flex flex-grow flex-shrink justify-center">
+       <div className="flex flex-grow flex-shrink justify-center">
           <StaticImage src="../images/logo-issa.jpg"
                     className="flex justify-center my-4"
                     alt="Unilimpio es una empresa con responsabilidad social empresarial."
                     placeholder="blurred"
                     layout="constrained"/>
       </div>
-        <div class="flex flex-grow flex-shrink justify-center">
+        <div className="flex flex-grow flex-shrink justify-center">
           <StaticImage src="../images/logo-iso.jpg"
                     className="flex justify-center my-4"
                     alt="Unilimpio es una empresa con responsabilidad social empresarial."
                     placeholder="blurred"
                     layout="constrained"/>
         </div>
-        <div class="flex flex-grow flex-shrink justify-center">
+        <div className="flex flex-grow flex-shrink justify-center">
           <StaticImage src="../images/sello-bpm.jpg"
                     className="flex justify-center my-4"
                     alt="Unilimpio es una empresa con responsabilidad social empresarial."
                     placeholder="blurred"
                     layout="constrained"/>
         </div>
-        <div class="flex flex-grow flex-shrink justify-center">
+        <div className="flex flex-grow flex-shrink justify-center">
           <StaticImage src="../images/sello-mucho-mejor-ecuador.jpg"
                     className="flex justify-center my-4"
                     alt="Unilimpio es una empresa con responsabilidad social empresarial."
@@ -181,90 +184,90 @@ const Export = ({  location }) => {
 />
 
 <section id="our clients " className="bg-primary-default py-12">
-<div class="bg-primary-default">
-  <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-    <p class="text-center  text-5xl font-semibold text-white">
+<div className="bg-primary-default">
+  <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+    <p className="text-center  text-5xl font-semibold text-white">
     Our main allies in Ecuador
     </p><br/>
-    <div class="mt-6 grid grid-cols-2 gap-6 md:grid-cols-6 lg:mt-8">
-      <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+    <div className="mt-6 grid grid-cols-2 gap-6 md:grid-cols-6 lg:mt-8">
+      <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
       <StaticImage src="../images/logo-kfc.jpg"
                     className="flex justify-center my-4"
                     alt="Logo de nuestra empresa aliada KFC"
                     placeholder="blurred"
                     layout="constrained" />
       </div>
-      <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+      <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
       <StaticImage src="../images/logo-br.jpg"
                     className="flex justify-center my-4"
                     alt="Logo de nuestra empresa aliada Baskin Robbins"
                     placeholder="blurred"
                     layout="constrained" />
       </div>
-      <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+      <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
       <StaticImage src="../images/logo-cf.jpg"
                     className="flex justify-center my-4"
                     alt="Logo de nuestra empresa aliada Corporación Favorita"
                     placeholder="blurred"
                     layout="constrained" />
       </div>
-      <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+      <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
       <StaticImage src="../images/logo-kywi.jpg"
                     className="flex justify-center my-4"
                     alt="Logo de nuestra empresa aliada Kywi"
                     placeholder="blurred"
                     layout="constrained" />
       </div>
-      <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+      <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
       <StaticImage src="../images/logo-jv.jpg"
                     className="flex justify-center my-4"
                     alt="Logo de nuestra empresa aliada Juan Valdez"
                     placeholder="blurred"
                     layout="constrained" />
       </div>
-      <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+      <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
       <StaticImage src="../images/logo-hanaska.jpg"
                     className="flex justify-center my-4"
                     alt="Logo de nuestra empresa aliada Hanaska"
                     placeholder="blurred"
                     layout="constrained" />
       </div>
-      <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+      <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
       <StaticImage src="../images/logo-cn.jpg"
                     className="flex justify-center my-4"
                     alt="Logo de nuestra empresa aliada Cervecería Nacional"
                     placeholder="blurred"
                     layout="constrained" />
       </div>
-      <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+      <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
       <StaticImage src="../images/logo-ts.jpg"
                     className="flex justify-center my-4"
                     alt="Logo de nuestra empresa aliada Tesalia Spring Company"
                     placeholder="blurred"
                     layout="constrained" />
       </div>
-      <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+      <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
       <StaticImage src="../images/logo-pn.jpg"
                     className="flex justify-center my-4"
                     alt="Logo de nuestra empresa aliada Pronaca"
                     placeholder="blurred"
                     layout="constrained" />
       </div>
-      <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+      <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
       <StaticImage src="../images/logo-cb.jpg"
                     className="flex justify-center my-4"
                     alt="Logo de nuestra empresa aliada Cinnabon"
                     placeholder="blurred"
                     layout="constrained" />
       </div>
-      <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+      <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
       <StaticImage src="../images/logo-mc.jpg"
                     className="flex justify-center my-4"
                     alt="Logo de nuestra empresa Mi Comisariato"
                     placeholder="blurred"
                     layout="constrained" />
       </div>
-      <div class="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
+      <div className="col-span-1 flex justify-center py-8 px-8 bg-gray-50">
       <StaticImage src="../images/logo-bc.jpg"
                     className="flex justify-center my-4"
                     alt="Logo de nuestra empresa aliada Big Cola"

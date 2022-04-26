@@ -7,7 +7,7 @@ subtitle: "the solution for proper hand washing"
 date: "2020-04-02"
 slug:  "hand-washing-dispensing-system"
 featuredImage:  "../../../images/sistema-para-lavado-de-manos.jpg"
-lang: "en"
+pageLang: "en"
 
 
 ---

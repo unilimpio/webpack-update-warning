@@ -7,7 +7,7 @@ subtitle: "controla la dispensación del producto"
 date: "2020-04-02"
 slug:  "dispensador-toalla-z-unilimpio"
 featuredImage:  "../../../images/dispensador-toalla-z-unilimpio.jpg"
-lang: "es"
+pageLang: "es"
 
 ---
 • Fabricados con plástico ABS, resistentes y con propiedades antivandalismo.<br/>

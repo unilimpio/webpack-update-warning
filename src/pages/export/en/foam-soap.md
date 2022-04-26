@@ -7,7 +7,7 @@ subtitle: "*For special negotiations"
 date: "2020-04-02"
 slug:  "foam-soap"
 featuredImage:  "../../../images/jabon-espuma.jpg"
-lang: "en"
+pageLang: "en"
 
 
 ---

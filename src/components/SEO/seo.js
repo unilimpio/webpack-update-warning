@@ -7,7 +7,7 @@ import Twitter from './Twitter'
 
 // Complete tutorial: https://www.gatsbyjs.org/docs/add-seo-component/
 
-const SEO = ({ title, desc, banner, pathname, slug,
+const SEO = ({ title, desc, banner, pathname, pageLang,
   alternates, alternateEn, alternateEs, alternateEsec, alternateDefault,
   article, articleDate,
   product, category, categorySlug, productSku, productGtin13, offerPrice, brandName, brandLogo,
@@ -25,8 +25,8 @@ const SEO = ({ title, desc, banner, pathname, slug,
       defaultHreflangEn,
       defaultHreflangEs,
       defaultHreflangEsec,
+      defaultPageLang,
       headline,
-      siteLanguage,
       ogLanguage,
       author,
       twitter,
@@ -41,7 +41,7 @@ const SEO = ({ title, desc, banner, pathname, slug,
     description: `${desc || defaultDescription}`,
     image: `${siteUrl}/images/${banner || defaultBanner}`,
     url: `${siteUrl}${pathname || ''}`,
-    alternateEsec: `${siteUrl}${alternateEsec || defaultHreflangEsec}`,
+    pageLang: `${pageLang|| defaultPageLang}`,
     alternateEs: `${siteUrl}${alternateEs || defaultHreflangEs}`,
     alternateEn: `${siteUrl}${alternateEn || defaultHreflangEn}`,
     alternateDefault: `${siteUrl}${alternateEs || defaultHreflangEs}`,
@@ -56,7 +56,7 @@ const SEO = ({ title, desc, banner, pathname, slug,
     '@type': 'WebPage',
     url: siteUrl,
     headline,
-    inLanguage: siteLanguage,
+    inLanguage: defaultPageLang,
     mainEntityOfPage: siteUrl,
     description: defaultDescription,
     name: defaultTitle,
@@ -132,7 +132,7 @@ const SEO = ({ title, desc, banner, pathname, slug,
       dateModified: articleDate,
       description: seo.description,
       headline: seo.title,
-      inLanguage: siteLanguage,
+      inLanguage: seo.pageLang,
       url: seo.url,
       name: seo.title,
       image: {
@@ -240,7 +240,7 @@ const SEO = ({ title, desc, banner, pathname, slug,
   return (
     <>
       <Helmet title={seo.title}>
-        <html lang={siteLanguage} />
+        <html lang={seo.pageLang} />
         <meta name="description" content={seo.description} />
         <meta name="image" content={seo.image} />
 
@@ -277,6 +277,7 @@ SEO.propTypes = {
   desc: PropTypes.string,
   banner: PropTypes.string,
   pathname: PropTypes.string,
+  pageLang: PropTypes.string,
   article: PropTypes.bool,
   product: PropTypes.bool,
   alternates: PropTypes.bool,
@@ -297,6 +298,7 @@ SEO.defaultProps = {
   desc: null,
   banner: null,
   pathname: null,
+  pageLang: null,
   article: false,
   product: false,
   alternates: false,
@@ -325,7 +327,7 @@ const query = graphql`
         defaultHreflangEs: hreflangEs
         defaultHreflangEsec: hreflangEsec
         headline
-        siteLanguage
+        defaultPageLang: siteLanguage
         ogLanguage
         author
         twitter

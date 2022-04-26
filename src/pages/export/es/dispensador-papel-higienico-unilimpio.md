@@ -7,7 +7,7 @@ subtitle: "para papel higiénico Jumbo"
 date: "2020-04-02"
 slug:  "dispensador-papel-higienico-unilimpio"
 featuredImage:  "../../../images/dispensador-ph-exportacion.jpg"
-lang: "es"
+pageLang: "es"
 
 ---
 • Fabricados con plástico ABS, resistentes y con propiedades antivandalismo.<br/>

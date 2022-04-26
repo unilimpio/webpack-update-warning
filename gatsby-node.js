@@ -31,7 +31,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
           node {
             frontmatter {
               path
-              lang
+              pageLang
 
             }
           }
@@ -85,7 +85,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
         context: {
           // additional data can be passed via context
           slug: node.frontmatter.slug,
-          
+
         },
       })
     }

@@ -19,6 +19,7 @@ const seo={
   desc:  "",
   image: "",
   pathname: "/export/en/report-corruption/",
+  pageLang: "en",
   alternateEn: "/export/en/report-corruption/",
   alternateEs: "/export/es/denuncias-actos-de-corrupcion/",
   alternateEsec: "/denuncias-actos-de-corrupcion/",
@@ -66,7 +67,7 @@ const Denounces = ({location}) => (
           <Layout location={location} crumbLabel="Report on acts of corruption"
           alternates alternateEn={seo.alternateEn} alternateEs={seo.alternateEs} alternateEsec={seo.alternateEsec} alternateDefault={seo.alternateDefault}
                   siteVerOpts={siteVerOpts} langOpts={langOpts}
-                  title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
+                  title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname} pageLang={seo.pageLang}>
 
 <div className="bg-fixed" >
 

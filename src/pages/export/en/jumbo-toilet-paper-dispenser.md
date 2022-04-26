@@ -7,7 +7,7 @@ subtitle: "for Jumbo toilet paper"
 date: "2020-04-02"
 slug:  "jumbo-toilet-paper-dispenser"
 featuredImage:  "../../../images/dispensador-ph-exportacion.jpg"
-lang: "en"
+pageLang: "en"
 
 ---
 • Made of ABS plastic, resistant and with anti-vandalism properties.<br/>

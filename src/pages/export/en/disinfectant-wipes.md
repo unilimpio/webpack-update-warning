@@ -7,7 +7,7 @@ subtitle: "and degreasers"
 date: "2020-04-02"
 slug:  "disinfectant-wipes"
 featuredImage:  "../../../images/toallas-humedas-desinfectantes-y-desengrasantes.jpg"
-lang: "en"
+pageLang: "en"
 
 
 ---

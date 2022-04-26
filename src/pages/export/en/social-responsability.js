@@ -19,6 +19,7 @@ const seo={
   desc:  "",
   image: "",
   pathname: "/export/en/social-responsability/",
+  pageLang: "en",
   alternateEn: "/export/en/social-responsability/",
   alternateEs: "/export/es/responsabilidad-social/",
   alternateEsec: "/responsabilidad-social/",
@@ -66,7 +67,7 @@ const SocialResponsability = ({location}) => (
           <Layout location={location} crumbLabel="Social Responsability"
           alternates alternateEn={seo.alternateEn} alternateEs={seo.alternateEs} alternateEsec={seo.alternateEsec} alternateDefault={seo.alternateDefault}
                   siteVerOpts={siteVerOpts} langOpts={langOpts}
-                  title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname}>
+                  title={seo.title} desc={seo.desc} banner={seo.image} pathname={seo.pathname} pageLang={seo.pageLang}>
 
 <div class="bg-fixed" >
 
