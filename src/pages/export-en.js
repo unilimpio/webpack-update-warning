@@ -24,9 +24,7 @@ const seo={
   image: "productos.jpg",
   pathname: "/export-en/",
   pageLang: "en",
-  alternateEs: "/export-es/",
-  alternateEsec: "/",
-  alternateDefault: "/export-es/"
+
 }
 
 const siteVerOpts = [
@@ -74,7 +72,7 @@ const Export = ({  location }) => {
 
 <Layout location={location} crumbLabel="Export Home"
 siteVerOpts={siteVerOpts} langOpts={langOpts}
-alternates alternateEs={seo.alternateEs} alternateEsec={seo.alternateEsec} alternateDefault={seo.alternateDefault}
+alternates
 pageLang={seo.pageLang}>
 
 

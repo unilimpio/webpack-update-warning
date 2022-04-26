@@ -21,9 +21,7 @@ const seo={
   desc:  "Fabricamos y exportamos productos para la higiene profesional para america latina y el mundo.",
   image: "productos.jpg",
   pathname: "/export-es/",
-  alternateEn: "/export-en/",
-  alternateEsec: "/",
-  alternateDefault: "/export-es/"
+
 }
 
 const siteVerOpts = [
@@ -72,7 +70,7 @@ const Export = ({  location }) => {
 
 <Layout location={location} crumbLabel="Home Exportación"
         siteVerOpts={siteVerOpts} langOpts={langOpts}
-        alternates alternateEn={seo.alternateEn} alternateEsec={seo.alternateEsec} alternateDefault={seo.alternateDefault}>
+        alternates>
 
 
 
