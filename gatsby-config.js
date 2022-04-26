@@ -176,7 +176,7 @@ module.exports = {
     title: "Unilimpio - Mucho más en higiene Institucional",
     titleTemplate: "%s · Unilimpio",
     description:
-      "Unilimpio es una empresa fabricante y comercializadora de soluciones de higiene institucional, productos de limpieza, químicos, absorbentes, jabones y desinfectantes de manos, implementos profesionales de limpieza, detergentes, con más de 20 años de experiencia.",
+      "Unilimpio es una empresa fabricante y comercializadora de soluciones de higiene institucional, productos de limpieza, químicos para desinfección y sanitización, absorbentes, jabon para manos, implementos profesionales de limpieza, detergentes, con más de 20 años de experiencia.",
     url: "https://unilimpio.com", // No trailing slash allowed!
     image: "/images/unilimpio.jpg", // Path to your image you placed in the 'static' folder
     twitterUsername: "@unilimpio_ec",
