@@ -73,7 +73,8 @@ const Export = ({  location }) => {
   return(
 
 <Layout location={location} crumbLabel="Export Home"
-siteVerOpts={siteVerOpts} langOpts={langOpts} alternates
+siteVerOpts={siteVerOpts} langOpts={langOpts}
+alternates alternateEs={seo.alternateEs} alternateEsec={seo.alternateEsec} alternateDefault={seo.alternateDefault}
 pageLang={seo.pageLang}>
 
 
