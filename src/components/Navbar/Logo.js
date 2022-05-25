@@ -3,7 +3,6 @@ import React from "react"
 import styled from "styled-components"
 
 import { Link } from "gatsby"
-import LogoUni from '../../svg/LogoUni'
 
 const LogoWrap = styled.div`
   margin: auto 0;
@@ -18,7 +17,6 @@ const Logo = ({target}) => {
 
 return (
     <LogoWrap className ="flex-shrink" as={ Link } to={`/${target}`}>
-      <LogoUni className="h-12 sm:h-16 md:h-20 xl:h-22"/>
     </LogoWrap>
   )
 }

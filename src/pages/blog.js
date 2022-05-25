@@ -5,7 +5,6 @@ import { GatsbyImage } from "gatsby-plugin-image"
 import Layout from '../components/layout/Layout';
 
 
-import NewsletterSub from '../components/NewsletterSub';
 
 const siteVerOpts = [
 
@@ -44,9 +43,9 @@ const langOpts = [
 ];
 
 const seo={
-  title: "Blog de Unilimpio",
-  desc:  "En nuestro blog subimos contenido útil y actualizado como consejos, recomendaciones y tips, relacionado con la gestión de Unilimpio y en general al tema de la limpieza e higiene.",
-  image: "blog-unilimpio.jpg",
+  title: "Blog ",
+  desc:  "Our blog",
+  image: "",
   pathname: "/blog",
 }
 
@@ -103,7 +102,6 @@ export default function Blog ({location, data}) {
           </div>
            </section>
 
-           <NewsletterSub/>
     </Layout>
 
 

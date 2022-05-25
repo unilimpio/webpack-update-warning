@@ -43,11 +43,11 @@ module.exports = {
        },
       colors: {
         primary: {
-          xlighter: '#00B9FF',
-          lighter: '#00A0DD',
-          default: '#0F4B8F',
-          normal: '#0F4B8F',
-          darker: '#075985',
+          xlighter: '#00GGHH',
+          lighter: '#00AAFF',
+          default: '#0FFAAB',
+          normal: '#0G6D3F',
+          darker: '#077775',
         },
 
         secondary: {
@@ -70,17 +70,7 @@ module.exports = {
 
       backgroundImage: theme => ({
 
-        'hero-banner-2': "url('/images/hero/hero-banner-2.jpg')",
-        'hero-banner-3': "url('/images/hero/hero-banner-3.jpg')",
 
-        'hero-banner-4': "url('/images/hero/hero-banner-4.jpg')",
-        'hero-banner-5': "url('/images/hero/hero-banner-5.jpg')",
-        'hero-banner-8': "url('/images/hero/hero-banner-8.jpg')",
-        'hero-banner-9': "url('/images/hero/hero-banner-9.jpg')",
-
-        'logouni' : "url('/images/logo-unilimpio.svg')",
-        
-       
 
         'blog-banner': "url('/images/hero/blog-banner.jpg')",
 

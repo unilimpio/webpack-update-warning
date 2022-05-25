@@ -1,10 +1,8 @@
-import React, { useState, useEffect } from "react"
+import React, { useState } from "react"
 
 
 
-import { Link, navigate } from "gatsby"
-import { ChevronDownIcon } from '@heroicons/react/solid'
-import { GlobeIcon } from '@heroicons/react/solid'
+import { navigate } from "gatsby"
 
 
 

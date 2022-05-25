@@ -1,7 +1,5 @@
 import React from 'react';
 
-import Scroll from '../Scroll';
-import WhastappBubble from '../WhatsappBubble'
 
 
 import { Breadcrumb } from 'gatsby-plugin-breadcrumb';
@@ -32,8 +30,6 @@ const Layout = ({location, crumbLabel,
           </div>
 
 
-        <WhastappBubble contactNum="593987907280" />
-        <Scroll showPoint={800} />
           {children}
         </main>
       <Footer />

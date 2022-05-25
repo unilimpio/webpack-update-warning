@@ -172,71 +172,7 @@ const SEO = ({ title, desc, banner, pathname, pageLang,
     )
   }
 
-  if(product){
 
-    schemaProduct = {
-
-        "@context": "https://schema.org/",
-        "@type": "Product",
-        "name": seo.title,
-        "image": [
-          `${seo.image}`
-
-         ],
-        "description": seo.description,
-        "sku": productSku,
-        "gtin13": productGtin13,
-
-        "brand": {
-          "@type": "Brand",
-          "name": brandName,
-          "logo": `${siteUrl}/images/${brandLogo}`,
-        },
-
-
-
-        "offers": {
-          "@type": "Offer",
-          "availability": "https://schema.org/InStock",
-          "price": offerPrice,
-          "priceCurrency": "USD",
-          "url": seo.url,
-
-        }
-
-    }
-
-
-
-    // Push current product into breadcrumb list
-    itemListElement.push({
-      '@type': 'ListItem',
-      item: {
-        '@id': `${siteUrl}/productos`,
-        name: 'Productos de limpieza',
-      },
-      position: 2,
-    },
-    {
-      '@type': 'ListItem',
-      item: {
-        '@id': `${siteUrl}/productos/${categorySlug}`,
-        name: category,
-      },
-      position: 3,
-    },
-    {
-      '@type': 'ListItem',
-      item: {
-        '@id': `${siteUrl}${pathname}`,
-        name: seo.title,
-      },
-      position: 4,
-    }
-
-    )
-
-  }
 
 
   const breadcrumb = {
@@ -257,7 +193,7 @@ const SEO = ({ title, desc, banner, pathname, pageLang,
         {/* Insert schema.org data conditionally (webpage/article) + everytime (breadcrumbs) */}
         {!article && <script type="application/ld+json">{JSON.stringify(schemaOrgWebPage)}</script>}
         {article && <script type="application/ld+json">{JSON.stringify(schemaArticle)}</script>}
-        {product && <script type="application/ld+json">{JSON.stringify(schemaProduct)}</script>}
+
         <script type="application/ld+json">{JSON.stringify(breadcrumb)}</script>
 
         {/* Insert alternates hreflang settings conditionally */}

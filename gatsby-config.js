@@ -20,14 +20,7 @@ module.exports = {
       },*/
     },
   },
-    'gatsby-plugin-styled-components',
-    {
-      resolve: 'gatsby-plugin-mailchimp',
-      options: {
-          endpoint: 'https://unilimpio.us18.list-manage.com/subscribe/post?u=291181dacd668b1dad7f8c93c&amp;id=9c9708e7eb', // string; add your MC list endpoint here; see instructions below
-          timeout: 3500, // number; the amount of time, in milliseconds, that you want to allow mailchimp to respond to your request before timing out. defaults to 3500
-          },
-    },
+
 
 
     {
@@ -38,30 +31,7 @@ module.exports = {
 
       },
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `products`,
-        path: `${__dirname}/src/pages/productos`,
 
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `products-export`,
-        path: `${__dirname}/src/pages/export`,
-
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `products-export-en`,
-        path: `${__dirname}/src/pages/export/en`,
-
-      },
-    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -173,22 +143,22 @@ module.exports = {
 
 
   siteMetadata: {
-    title: "Unilimpio - Mucho más en higiene Institucional",
-    titleTemplate: "%s · Unilimpio",
+    title: "Gatsby site",
+    titleTemplate: "%s · Gatsby",
     description:
-      "Unilimpio es una empresa fabricante y comercializadora de soluciones de higiene institucional, productos de limpieza, químicos para desinfección y sanitización, absorbentes, jabon para manos, implementos profesionales de limpieza, detergentes, con más de 20 años de experiencia.",
-    url: "https://unilimpio.com", // No trailing slash allowed!
-    image: "/images/unilimpio.jpg", // Path to your image you placed in the 'static' folder
-    twitterUsername: "@unilimpio_ec",
-    siteUrl: "https://unilimpio.com",
-    banner: "unilimpio.jpg",
-    hreflangEs: "/export-es/",
+      "",
+    url: "", // No trailing slash allowed!
+    image: "", // Path to your image you placed in the 'static' folder
+    twitterUsername: "",
+    siteUrl: "http://localhost:8000",
+    banner: "",
+    hreflangEs: "",
     hreflangEsec: "/",
-    hreflangEn: "/export-en/",
+    hreflangEn: "",
     headline: "",
     siteLanguage: "es",
     ogLanguage: "",
-    author: "Unilimpio",
+    author: "",
     twitter: "",
     facebook: ""
   },

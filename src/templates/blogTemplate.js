@@ -4,7 +4,6 @@ import { GatsbyImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout/Layout"
 
-import NewsletterSub from '../components/NewsletterSub'
 
 
 export default function blogTemplate({
@@ -62,7 +61,7 @@ export default function blogTemplate({
 
         <div className="w-full mx-auto mb-0">
             <div className="max-w-7xl mx-10 py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
-                <h3 className="text-sm text-center text-primary mb-6">- Blog de Unilimpio -</h3>
+                <h3 className="text-sm text-center text-primary mb-6">- Blog -</h3>
                 <h1 className="text-3xl text-center sm:text-3x1 sm:text-center text-primary font-bold">{frontmatter.title}</h1>
                 <h2 className="text-primary-lighter text-xl mb-12 text-center sm:text-3x1 sm:text-center ">{frontmatter.date}</h2>
                 <GatsbyImage image={frontmatter.featuredImage.childImageSharp.gatsbyImageData} className="sm:w-2/4 float-left m-8" alt={excerpt} />
@@ -70,7 +69,6 @@ export default function blogTemplate({
                 <div className="text-md text-gray-800 ml-8 text-justify" dangerouslySetInnerHTML={{ __html: html }}/>
             </div>
         </div>
-<NewsletterSub/>
     </Layout>
   )
 }
