@@ -9,7 +9,6 @@ const NavItem = styled(Link)`
   display: inline-block;
   white-space: nowrap;
   margin: 0 1vw;
-  transition: all 200ms ease-in;
   position: relative;
 
   :after {
@@ -20,15 +19,13 @@ const NavItem = styled(Link)`
     width: 0%;
     content: "";
     color: transparent;
-    background: #075985;
     height: 1px;
-    transition: all 0.4s ease-in;
   }
 
   :hover {
 
     ::after {
-      width: 100%;
+
     }
   }
 

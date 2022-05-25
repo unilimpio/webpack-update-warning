@@ -51,9 +51,9 @@ module.exports = {
         },
 
         secondary: {
-          lighter: '#80CC49',
-          default: '#76BC43',
-          darker: '#68A63B',
+          lighter: '#80BBAA',
+          default: '#77CCAA',
+          darker: '#77AA33',
         },
 
         neutral: {
